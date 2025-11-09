@@ -51,6 +51,10 @@ countries = {
 				hollola lohja tavastehus janakkala forssa liljendal jamsa
 
 				valkeasaari kyyrola
+				varberg halmstad kungsbacka
+				ronneby bregne solvesborg
+				gladsax osby
+				helsingborg lund malmo
 			}
 
 
@@ -304,10 +308,6 @@ countries = {
 
 		SKE = {
 			own_control_core = {
-				varberg halmstad kungsbacka
-				ronneby bregne solvesborg
-				gladsax osby
-				helsingborg lund malmo
 			}
 			
 			our_cores_conquered_by_others = {
@@ -697,6 +697,19 @@ countries = {
 		TEU = { #Teutonic Order
 			own_control_core = {
 				 balga   ostroda  dzierzgon elblag morag
+				wolgast stralsund rugen grimmen swinousjcie miastko szadzko
+				nowoszczecin gryfia_gora bialogard slawno slupsk
+				goleniow kamien resko
+				cologne ahrweiler neuss attendorn brilon soest recklinghausen
+				bonn
+				dusseldorf remscheid siegburg solingen
+				bergheim duren monchengladbach
+				trier wittlich
+				mayen coblenz saarburg
+				daun cochem
+				kreuznach birkenfeld castellaun
+				lichtenberg_veldenz
+				meisenheim
 			}
 			own_control_integrated = {
 				ragnit tilsit mergentheim gumbinnen barten wegorzewo
@@ -1469,7 +1482,6 @@ countries = {
 
 		BRG = {	#Berg
 			own_control_core = {
-				dusseldorf remscheid siegburg solingen
 			}
 
 			starting_technology_level = 3
@@ -2983,6 +2995,19 @@ countries = {
 				#Principality of Pereyaslavl-Zalessky
 				pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
 				
+				amasra #Black Sea
+				#Volhynia
+				chelm krasnystaw liuboml ratne shatsk ugrovesk
+				kremenets dubno zbarazh tykhomel
+				lutsk chortoryisk peremyl rozhyshche stepan volodymyrets
+				rivne kostopil ostroh peresopnytsya
+				volodymyr kamin kovel melnytsya turiisk
+				novohrad_volynskyi iziaslav korets liubar polonne
+				#Halych
+				belz busk grabowiec sokal
+				brody
+				#Polesia
+				liubeshiv dubrovytsia
 
 				qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
 				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
@@ -3141,11 +3166,9 @@ countries = {
 				kielce opoczno przedborz zarnow
 				czestochowa lelow mstow
 				lublin janow_lubelski kazimierz lukow lubartow urzedow
-				nowy_sacz biecz czchow jaslo nowy_targ
-				pilzno busko_zdroj debica tarnow wislica
+				busko_zdroj wislica
 				radom ilza stezyca szydlowiec zwolen
 				sandomierz kunow opatow rudnik_poland
-				wieliczka myslenice
 				#Greater Poland
 				gniezno mogilno trzemeszno
 				kalisz ostrow_wielkopolski pleszew
@@ -3233,6 +3256,9 @@ countries = {
 				igra dondykar yakshur_bodya votkings sarapul mozhga yelabuga izhevsk vavozh_mozhga vyatskiye_polyany
 				kilmez stelty falenki uni ural_nema
 				aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa 
+				ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov
+				bakota horodok kamianets_podilskyi zalishchyky
+				terebovlia khorostkiv ternopil
 			}
 
 			own_control_conquered = {
@@ -9995,16 +10021,11 @@ countries = {
 
 		GEN = { #Genoa
 			own_control_core = {
-				albenga ventimiglia genoa lavagna sarzana savona #Liguria
-				# own_control_integrated, but culture accepted
 			}
 			own_control_integrated = {
-				samos ikaria foca #Aegean Sea
-				amasra #Black Sea
 			}
 
 			our_cores_conquered_by_others = {
-				sassari bosa macomer bitti ozieri #Giudicato of Arborea in Sardinia
 			}
 
 			starting_technology_level = 3
@@ -10617,12 +10638,6 @@ countries = {
 		#Naples
 		NAP = {
 			own_control_core = {
-				aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
-				isernia larino trivento altamura andria bari barletta monopoli bovino foggia lucera
-				manfredonia rotondo sansevero brindisi francavilla gallipoliita lecce martinafr taranto
-				acerenza lagonegro matera melfi montepeloso potenza santarcangelo catanzaro cotrone gerace
-				monteleone nicastro palmi reggiocal cassano castrovillari cosenza scalea paola rossano caserta
-				gaeta naples nola piedimonte sora venafro campagna salacon salerno vallo ariano avellino santangelo
 			}
 			our_cores_conquered_by_others = {
 				#Sicily
@@ -11377,6 +11392,8 @@ countries = {
 				ales oristano sorgono terralba bosa macomer bitti ozieri
 				alghero thiesi #Sardinia
 				castelsardo #Sardinia
+				albenga ventimiglia genoa lavagna sarzana savona #Liguria
+				# own_control_integrated, but culture accepted
 			}
 
 			starting_technology_level = 3
@@ -11548,6 +11565,12 @@ countries = {
 			own_control_core = {
 				catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
 				corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
+				aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
+				isernia larino trivento altamura andria bari barletta monopoli bovino foggia lucera
+				manfredonia rotondo sansevero brindisi francavilla gallipoliita lecce martinafr taranto
+				acerenza lagonegro matera melfi montepeloso potenza santarcangelo catanzaro cotrone gerace
+				monteleone nicastro palmi reggiocal cassano castrovillari cosenza scalea paola rossano caserta
+				gaeta naples nola piedimonte sora venafro campagna salacon salerno vallo ariano avellino santangelo
 			}
 			our_cores_conquered_by_others = {
 				ajim
@@ -11959,12 +11982,9 @@ countries = {
 		#Venice https://en.wikipedia.org/wiki/Venice
 		VEN = {
 			own_control_core = {
-				chioggia venice mestre
-				pola rovinj pag zadar split brac slano
 			}
 
 			own_control_integrated = {
-				corfu modon kythira andros mykonos amorgos karpathos
 			}
 
 			include = "expl_mediterranean"
@@ -12501,8 +12521,6 @@ countries = {
 
 		EPI = {
 			own_control_core = {
-				nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
-				argyrokastro avlonya karpenisi konitsa
 			}
 			our_cores_conquered_by_others = {
 				ballsh berat
@@ -17224,6 +17242,10 @@ countries = {
 		HOL = {
 			own_control_core = {
 				the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
+				geldern arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
+				utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
+				leeuwarden sloten harlingen stavoren groningen appingedam wedde
+				leer emden aurich wolvega
 			}
 
 			starting_technology_level = 3
@@ -17428,6 +17450,7 @@ countries = {
 			own_control_core = {
 				vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
 				klagenfurt st_veit steinfeld volkermarkt #Duchy of Carinthia
+				tesin bielsko #Duchy of Cieszyn
 				ljubljana kranj novo_mesto postojna #Duchy of Carniola
 				graz feldbach furstenfeld judenburg kapfenberg leoben liezen maribor murau murzzuschlag rottenmann schladming slovenj_gradec voitsberg weiz #Duchy of Styria
 				linz bad_ischl freistadt gmunden kirchdorf perg rohrbach st_georgen steyr wels #Duchy of Upper Austria
@@ -17513,6 +17536,21 @@ countries = {
 				bormio chiavenna tresivio vercelli arona novara domodossola varallo como
 				casalmaggiore cremona soncino bergamo cortenuova clusone zogno lodi
 				bardi fiorenzuola piacenza lugano biella
+				nowy_sacz biecz czchow jaslo nowy_targ
+				wieliczka myslenice
+				debica tarnow pilzno
+				oswiecim zywiec
+				halych bohorodchany buchach rohatyn
+				lubaczow
+				drohobych sambir stryi turka
+				kolomyia kosiv sniatyn tysmenytsia
+				lviv bereschany zhovkva yavoriv zvenyhorod
+				przemysl piskorowice rzeszow yaroslav_poland
+				sanok krosno lesko
+				zhydachiv bolekhiv dolyna
+				chioggia venice mestre
+				pola rovinj pag zadar split brac slano
+				corfu modon kythira andros mykonos amorgos karpathos
 			}
 
 			own_control_integrated = {
@@ -31130,7 +31168,6 @@ countries = {
 		#Ahiler - AHI https://en.wikipedia.org/wiki/Ahis
 		AHI = {
 			own_control_core = {
-				ankara cubuk haymana kalecik polatli karakecili
 			}
 
 			include = "expl_eastern_europe"
@@ -31233,8 +31270,6 @@ countries = {
 		#Aydinids - AYD https://en.wikipedia.org/wiki/Aydinids
 		AYD = {
 			own_control_core = {
-				smyrna ayasuluk cesme menemen urla
-				tire balat birgi guzelhisar nazilli
 			}
 
 			starting_technology_level = 3
@@ -31299,11 +31334,6 @@ countries = {
 		#Cilicia - CIL https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia
 		CIL = {
 			own_control_core = {
-				adana
-				anavarza kars_armenia
-				sis caxud hargan molevon
-				tarsus candir_cil corycus
-				ayas kapan
 			}
 
 			our_cores_conquered_by_others = {
@@ -31538,13 +31568,8 @@ countries = {
 		#Dulkadirids - DUL https://en.wikipedia.org/wiki/Dulkadirids
 		DUL = {
 			own_control_core = {
-				gerger kahta samsat
-				besni elbistan enguzud goksun afsin
-				kaysun
-				ulnia
 			}
 			own_control_integrated = {
-				marash
 			}
 
 			include = "expl_eastern_europe"
@@ -31632,8 +31657,6 @@ countries = {
 		#Hamidids - HMD https://en.wikipedia.org/wiki/Hamidids
 		HMD = {
 			own_control_core = {
-				isparta burdur dinar egirdir uluborlu yalvac
-				golhisar stefani
 			}
 
 			starting_technology_level = 3
@@ -31717,7 +31740,6 @@ countries = {
 		#Inanjids - INA https://en.wikipedia.org/wiki/Inanjids
 		INA = {
 			own_control_core = {
-				honaz lazkiye
 			}
 
 			our_cores_conquered_by_others = {
@@ -31811,9 +31833,6 @@ countries = {
 		#Karasids - KRD https://en.wikipedia.org/wiki/Karasids
 		KRD = {
 			own_control_core = {
-				balikesir balya edremit manyas mihalic susurluk
-				ayvacik bandirma bayramic can canakkale gonen lapseki
-				dursunbey harmancik
 			}
 
 			starting_technology_level = 3
@@ -31844,8 +31863,6 @@ countries = {
 		#Mentese - MEN https://en.wikipedia.org/wiki/Menteshe
 		MEN = {
 			own_control_core = {
-				milas
-				mugla bodrum cine gokabat marmaris megri yuksekkum
 			}
 
 			starting_technology_level = 3
@@ -31878,7 +31895,6 @@ countries = {
 		#Tavas - TVS
 		TVS = {
 			own_control_core = {
-				tavas
 			}
 
 			starting_technology_level = 3
@@ -31908,7 +31924,6 @@ countries = {
 		#Sahipataids - SHP https://en.wikipedia.org/wiki/Sahib_Ataids
 		SHP = {
 			own_control_core = {
-				karahisar_i_sahib sandikli suhut
 			}
 
 			include = "expl_eastern_europe"
@@ -31936,8 +31951,6 @@ countries = {
 		#Saruhanids - SRU https://en.wikipedia.org/wiki/Sarukhanids
 		SRU = {
 			own_control_core = {
-				manisa akhisar demirci gordes kula
-				bergama bigadic soma
 			}
 
 			include = "expl_eastern_europe"
@@ -32446,8 +32459,6 @@ countries = {
 		#Teke - TEK https://en.wikipedia.org/wiki/Beylik_of_Teke
 		TEK = {
 			own_control_core = {
-				antalya elmali karahisar_i_teke kas istanoz
-				manavgat finike
 			}
 
 			include = "expl_eastern_europe"
@@ -32540,6 +32551,9 @@ countries = {
 				bursa adranos iznik
 				izmit atpazari
 				domanic
+				samos ikaria foca #Aegean Sea
+				nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
+				argyrokastro avlonya karpenisi konitsa
 				sultanonu bilecik goynuk eynegol inonu nalli sogut
 				sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
 				kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
@@ -32604,6 +32618,33 @@ countries = {
 				beysehir aksehir bolvadin sarkikaraagac seydisehir
 				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
 				silifke anamur mut nigde
+				balikesir balya edremit manyas mihalic susurluk
+				ayvacik bandirma bayramic can canakkale gonen lapseki
+				dursunbey harmancik
+				manisa akhisar demirci gordes kula
+				bergama bigadic soma
+				smyrna ayasuluk cesme menemen urla
+				tire balat birgi guzelhisar nazilli
+				milas
+				mugla bodrum cine gokabat marmaris megri yuksekkum
+				isparta burdur dinar egirdir uluborlu yalvac
+				golhisar stefani
+				antalya elmali karahisar_i_teke kas istanoz
+				manavgat finike
+				honaz lazkiye
+				tavas
+				karahisar_i_sahib sandikli suhut
+				ankara cubuk haymana kalecik polatli karakecili
+				adana
+				anavarza kars_armenia
+				sis caxud hargan molevon
+				tarsus candir_cil corycus
+				ayas kapan
+				gerger kahta samsat
+				besni elbistan enguzud goksun afsin
+				kaysun
+				ulnia
+				marash
 			}
 
 			include = "expl_eastern_europe"
@@ -35115,8 +35156,6 @@ countries = {
 
 		VEL = {  # Veldenz (South Germany)
 			own_control_core = {
-				lichtenberg_veldenz
-				meisenheim
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -36989,9 +37028,6 @@ countries = {
 
 		WOL = { #Wolgast
 			own_control_core = {
-				wolgast stralsund rugen grimmen swinousjcie miastko szadzko
-				nowoszczecin gryfia_gora bialogard slawno slupsk
-				goleniow kamien resko
 			}
 
 			starting_technology_level = 3
@@ -37661,8 +37697,6 @@ countries = {
 
 		TRI = {	#Trier
 			own_control_core = {
-				trier wittlich
-				mayen coblenz saarburg
 			}
 
 			starting_technology_level = 3
@@ -37844,7 +37878,6 @@ countries = {
 
 		SPO = {	#Sponheim
 			own_control_core = {
-				kreuznach birkenfeld castellaun
 			}
 
 			starting_technology_level = 3
@@ -37906,8 +37939,6 @@ countries = {
 
 		KOL = {	#Cologne
 			own_control_core = {
-				cologne ahrweiler neuss attendorn brilon soest recklinghausen
-				bonn
 			}
 
 			starting_technology_level = 3
@@ -37929,7 +37960,6 @@ countries = {
 
 		DUN = {	#Daun
 			own_control_core = {
-				daun cochem
 			}
 
 			starting_technology_level = 3
@@ -37997,7 +38027,6 @@ countries = {
 
 		JUL = {	#Jülich
 			own_control_core = {
-				bergheim duren monchengladbach
 			}
 
 			starting_technology_level = 3
@@ -38032,7 +38061,6 @@ countries = {
 
 		GEL = {	#Guelders / Geldern / former EU4 Gelre
 			own_control_core = {
-				geldern arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
 			}
 
 			starting_technology_level = 3
@@ -39150,7 +39178,6 @@ countries = {
 
 		UTR = {	#Utrecht
 			own_control_core = {
-				utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
 			}
 
 			our_cores_conquered_by_others = {
@@ -39225,8 +39252,6 @@ countries = {
 
 		FRI = { #Frisia
 			own_control_core = {
-				leeuwarden sloten harlingen stavoren groningen appingedam wedde
-				leer emden aurich wolvega
 			}
 
 			starting_technology_level = 3
@@ -39656,7 +39681,7 @@ countries = {
 		}
 
 		TES = {	#Tesin
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				tesin bielsko #Duchy of Cieszyn
 			}
 			starting_technology_level = 3
@@ -39686,7 +39711,7 @@ countries = {
 		}
 
 		OSW = {	#Oświęcim
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				oswiecim zywiec
 			}
 			starting_technology_level = 3
@@ -40420,17 +40445,6 @@ countries = {
 		HAL = {	#Halych
 			own_control_core = {
 				#Halych
-				halych bohorodchany buchach rohatyn
-				lubaczow
-				drohobych sambir stryi turka
-				kolomyia kosiv sniatyn tysmenytsia
-				lviv bereschany zhovkva yavoriv zvenyhorod
-				przemysl piskorowice rzeszow yaroslav_poland
-				sanok krosno lesko
-				terebovlia khorostkiv ternopil
-				zhydachiv bolekhiv dolyna
-				ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov
-				bakota horodok kamianets_podilskyi zalishchyky
 			}
 
 			starting_technology_level = 3
@@ -40523,18 +40537,6 @@ countries = {
 
 		VOL = {	#Volhynia
 			own_control_core = {
-				#Volhynia
-				chelm krasnystaw liuboml ratne shatsk ugrovesk
-				kremenets dubno zbarazh tykhomel
-				lutsk chortoryisk peremyl rozhyshche stepan volodymyrets
-				rivne kostopil ostroh peresopnytsya
-				volodymyr kamin kovel melnytsya turiisk
-				novohrad_volynskyi iziaslav korets liubar polonne
-				#Halych
-				belz busk grabowiec sokal
-				brody
-				#Polesia
-				liubeshiv dubrovytsia
 			}
 
 			starting_technology_level = 3
