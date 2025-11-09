@@ -1,0 +1,11 @@
+﻿{
+	"name":	"The Grand Combination",
+	"id":	"tgc.euv",
+	"version":	"0.0.1",
+	"supported_game_version":	"1.0.1",
+	"short_description":	"silly cat",
+	"tags":	["Diplomacy", "Gameplay", "Government and Estates", "Historical", "Overhaul"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
