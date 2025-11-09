@@ -705,9 +705,12 @@ countries = {
 				elk nibork ryn_poland szczytno 
 				malbork
 				konigsberg brandenburg_prussia
-			}
-			
-			own_control_conquered = {
+				brandenburg berlin teltow potsdam freienwalde herzfelde templin
+				chojna soltyn
+				stendal osterburg salzwedel gardelegen
+				wittenberge pritzwalk treuenbrietzen
+				angermunde prenzlau
+				torzym swidwin choszczno drawsko czaplinek walcz czlopa santok gorzow
 				#Chełmno Land
 				brodnica grudziadz torun
 				#Pomerelia
@@ -715,15 +718,13 @@ countries = {
 				tuchola bialobork czluchow nowe swiecie
 
 				bytow lebork
+				stettin ueckermunde gryfow pyrzyce
+				demmin anklam
+			}
+			
+			own_control_conquered = {
 			}
 			control = {
-				#Samogitia
-				palanga rietavas silale skuodas taurage
-				mazeikiai
-				##Dobrzyń Land
-				#dobrzyn lipno rypin
-				##Kujavia
-				#wloclawek bydgoszcz inowroclaw kowal radziejow
 			}
 
 			include = "catholic_military_order"
@@ -779,12 +780,6 @@ countries = {
 			}
 			
 			own_control_integrated = {
-				parnu  valmiera viljandi kaina valjala
-				karksi poltsamaa  kandava dobele bauska sigulda cesis aluksne
-				rezekne daugavpils selpils kraslava jelgava  tukums
-				saarde suure_jaani makonkalns aizkraukle salaspils  saldus
-				paide
-				ventspils grobina kuldiga durbe
 			}
 			
 			include = "catholic_military_order"
@@ -915,83 +910,6 @@ countries = {
 			country_rank = rank_county
 			capital = fischhausen
 		}
-
-		#CTV = { # Order of Calatrava
-		#	type = building
-		#
-		#	capital = calatrava
-		#	include = "catholic_military_order_no_coast"
-		#	include = "expl_mediterranean"
-		#
-		#	government = {
-		#		ruler = ctv_juan_nunez_prado
-		#
-		#		ruler_term = { character = ctv_ruy_perez_ponce_leon start_date = 1284.1.1 end_date = 1295.1.1 regnal_number = 0 }
-		#		ruler_term = { character = ctv_juan_nunez_prado start_date = 1322.1.1 regnal_number = 0 }
-		#	}
-		#	country_rank = rank_county
-		#}
-
-		#STO = { # Order of Santiago
-		#	type = building
-		#
-		#	capital = ucles
-		#	include = "catholic_military_order_no_coast"
-		#	include = "expl_mediterranean"
-		#
-		#	government = {
-		#		ruler = sto_vasco_rodriguez_cornado
-		#
-		#		ruler_term = { character = sto_vasco_rodriguez_cornado start_date = 1327.1.1 regnal_number = 0 }
-		#	}
-		#	country_rank = rank_county
-		#}
-
-		#ACT = { # Order of Alcantara
-		#	type = building
-		#
-		#	capital = alcantara
-		#	include = "catholic_military_order_no_coast"
-		#	include = "expl_mediterranean"
-		#
-		#	government = {
-		#		ruler = act_gonzalo_martinez_oviedo
-		#
-		#		ruler_term = { character = act_gonzalo_martinez_oviedo start_date = 1337.3.31 regnal_number = 0 }
-		#	}
-		#	country_rank = rank_county
-		#}
-
-		#OPX = { # Order of Christ
-		#	type = building
-		#
-		#	capital = tomar
-		#	include = "catholic_military_order_no_coast"
-		#	include = "expl_mediterranean"
-		#
-		#	government = {
-		#		ruler = opx_estevao_goncalves_leitao
-		#
-		#		ruler_term = { character = opx_martim_goncalves_leitao start_date = 1327.1.1 end_date = 1335.1.1 regnal_number = 0 }
-		#		ruler_term = { character = opx_estevao_goncalves_leitao start_date = 1335.1.1 regnal_number = 0 }
-		#	}
-		#	country_rank = rank_county
-		#}
-
-		#MTS = { # Order of Montesa
-		#	type = building
-		#
-		#	capital = jativa
-		#	include = "catholic_military_order_no_coast"
-		#	include = "expl_mediterranean"
-		#
-		#	government = {
-		#		ruler = mts_pere_tous
-		#
-		#		ruler_term = { character = mts_pere_tous start_date = 1327.1.1 regnal_number = 0 }
-		#	}
-		#	country_rank = rank_county
-		#}
 
 		RIG = { #Riga
 			own_control_core = {
@@ -1180,15 +1098,9 @@ countries = {
 
 		BRA = {	#Brandenburg
 			own_control_core = {
-				brandenburg berlin teltow potsdam freienwalde herzfelde templin
-				chojna soltyn
-				stendal osterburg salzwedel gardelegen
-				wittenberge pritzwalk treuenbrietzen
-				angermunde prenzlau
 			}
 
 			own_control_integrated = {
-				torzym swidwin choszczno drawsko czaplinek walcz czlopa santok gorzow
 			}
 
 			include = "expl_western_europe"
@@ -1652,8 +1564,6 @@ countries = {
 
 		STE = {	#Stettin
 			own_control_core = {
-				stettin ueckermunde gryfow pyrzyce
-				demmin anklam
 			}
 
 			starting_technology_level = 3
@@ -1890,10 +1800,6 @@ countries = {
 
 		MVA = {	#Moravia
 			own_control_core = {
-				olomouc prostejov zabreh sumperk
-				brno pernstejn hodonin vyskov
-				znojmo bitov dacice jihlava
-				hradiste vizovice prerov pribor
 			}
 
 			government = {
@@ -3229,6 +3135,104 @@ countries = {
 				chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
 				#Principality of Volokolansk
 				volok
+				
+				#Lesser Poland
+				krakow chrzanow ksiaz_wielki proszowice
+				kielce opoczno przedborz zarnow
+				czestochowa lelow mstow
+				lublin janow_lubelski kazimierz lukow lubartow urzedow
+				nowy_sacz biecz czchow jaslo nowy_targ
+				pilzno busko_zdroj debica tarnow wislica
+				radom ilza stezyca szydlowiec zwolen
+				sandomierz kunow opatow rudnik_poland
+				wieliczka myslenice
+				#Greater Poland
+				gniezno mogilno trzemeszno
+				kalisz ostrow_wielkopolski pleszew
+				konin kolo lad_konin
+				koscian babimost grodzisk_wielkopolski rawicz srem
+				naklo wyrzysk zlotow
+				poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
+				pyzdry kozmin sroda_wielkopolska
+				znin chodziez szubin
+
+				# own_control_integrated, but culture accepted
+				#Wielun
+				wielun ostrzeszow wieruszow
+				
+				#Actually Occupied
+				#Dobrzyń Land
+				dobrzyn lipno rypin
+				#Kujavia
+				wloclawek kowal radziejow
+				#Lithuania
+				vilnius giedraiciai kernave medininkai_vilna
+				ashmyany halshany hieraniony kreva
+				braslaw drysvyaty ezerenai miory
+				kaunas alytus punia vilkaviskis
+				lida astrina eisiskes shchuchyn
+				suwalki lipsk veisiejai
+				trakai lazdijai onushkis merkine
+				svir dokshytsy hlybokaye myadzyel svencionys vileyka
+				upyte birzai linkava panevezys pasvalys
+				vilkmerge anyksciai maleisiai rokiskis utena
+				#Black Ruthenia
+				grodno bershty masty sokolka
+				nyasvizh
+				babruysk luchin rahachow svietlahorsk
+				#Polesia
+				brest_litowsk biala_podlaska chernyany malaryta wlodawa
+				kobryn dabuchyn hajnowka kamyenyets
+				#Samogitia
+				medininkai
+				raseiniai jurbarkas kedainiai panemune tendziogala
+				siauliai kraziai papile zagare
+				#White Ruthenia
+				barysaw klichaw krupki lukolm lyubashany
+				lahoysk begoml byerazino ilya krasnoe smalyavichy
+				minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
+				mogilev bykhaw
+				palanga rietavas silale skuodas taurage
+				grodek
+				#Podlasie
+				drohiczyn bielsk_podlaski mielnik sokolow suraz
+				mazeikiai
+				#Ukraine
+				kyiv dymer fastiv zdvizhen
+				bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
+				cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
+				chornobyl belaya_soroka brahin khoiniki kholmyech
+				olevsk kopyshche viry yemilchyne
+				ovruch bilokorovychi korosten malyn narodychi stodolichi
+				zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
+
+				poltava kremenchuk myrhorod velyki_sorochyntsi kotelva
+				lubny pyriatyn horodyshche horoshino zolotonosha
+				pereiaslav desnyanskyi_horodok boryspil oster kozelets
+				#Black Ruthenia
+				mazyr buinovichi kalinkavichy pietrykaw rudobelka
+				#Chernihiv
+				melnya 
+				ichnia pryluky chornukhy
+				lypova_dolyna romen buryn sumy okhtyrka krasnopillia hadiach
+				glushkovo putyvl khotmyzh vilshana
+
+				yaroslavka yahotyn lutava opishnya hovtva kolomak
+				
+				parnu  valmiera viljandi kaina valjala
+				karksi poltsamaa  kandava dobele bauska sigulda cesis aluksne
+				rezekne daugavpils selpils kraslava jelgava  tukums
+				saarde suure_jaani makonkalns aizkraukle salaspils  saldus
+				paide
+				ventspils grobina kuldiga durbe
+				cherdyn nyrob ust_kulom lupya chernaya troitsko_pechorsk vukyl ukhta kortkeros ust_vym zheshart
+				ust_sysola vizinga koygorodok kirs afanasyevo siva karagay nytva perm kungur 
+				beryozovka lysva kizel gubakha dobryanka solikamsk
+				usolye yusva chyormoz kudymkar kelich kosa_perm gayny 
+				ochyor okhannoye chastye debyosy stepanenki
+				igra dondykar yakshur_bodya votkings sarapul mozhga yelabuga izhevsk vavozh_mozhga vyatskiye_polyany
+				kilmez stelty falenki uni ural_nema
+				aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa 
 			}
 
 			own_control_conquered = {
@@ -3599,17 +3603,9 @@ countries = {
 
 		PRM = {
 			own_control_core = {
-				cherdyn nyrob ust_kulom lupya chernaya troitsko_pechorsk vukyl ukhta kortkeros ust_vym zheshart
-				ust_sysola vizinga koygorodok kirs afanasyevo siva karagay nytva perm kungur 
-				beryozovka lysva kizel gubakha dobryanka solikamsk
-				usolye yusva chyormoz kudymkar kelich kosa_perm gayny 
-				ochyor okhannoye chastye debyosy stepanenki
-				igra dondykar yakshur_bodya votkings sarapul mozhga yelabuga izhevsk vavozh_mozhga vyatskiye_polyany
-				kilmez stelty falenki uni ural_nema
 			}
 
 			own_control_integrated = {
-				aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa 
 			}
 
 			starting_technology_level = 3
@@ -4345,6 +4341,68 @@ countries = {
 				oban inverary cowal forfar arbroath arran selkirk scone
 				dornoch durness tongue	
 				gibraltar
+				radnor builth newport wigmore ludlow
+				lancaster blackburn liverpool preston manchester
+				chester macclesfield nantwich
+				flint
+				# Principality of Wales
+				aberystwyth anglesey cardigan carnarvon harlech conwy carmarthen penllyn
+				mann
+				inverness elgin badenoch lochaber
+				orkney shetland
+				thurso
+				uist lewis mull islay harris
+				ardtornish kintyre
+				dingwall gairloch ullapool urquhart
+				skye
+				belfast newtownards ballymena
+				killarney muskerry dunhallow kilbrittain
+				carbery
+				dublin navan fingal drogheda dundalk
+				
+				waterford wexford new_ross  
+				limerick cork
+				# lordship of meath
+				 trim kells  ballymore
+				 # kilkenny frontier
+				  carlow kilkenny
+				 mullingar
+				 wicklow
+				dungannon magherafelt strabane clogher
+				inishowen
+				raphoe
+				derry coleraine
+				iveagh
+				skreen
+				glendalough
+				ballycastle
+				ferns
+				donegal kilmacrennan
+				monaghan carrickmacross
+				armagh oriel
+				roscommon castlereagh
+				longford ardagh
+				clifden
+				cullahill
+				enniskillen belcoo
+				dromahair leitrim killeshandra
+				cavan killycolly
+				athlone kilconnell
+				moycarn # Birr
+				galway athenry tuam
+				castleconnell tipperary
+				carrickfergus downpatrick dunluce
+				castlebar erris ballaghaderreen
+				clonmel cashel roscrea nenagh
+				carrickbeg
+				kinsale youghal dungarvan
+				dingle tralee adare killmallock fermoy
+				athy kildare naas
+				burrishoole
+				ennis bunratty moyarta
+				sligo
+				daingean dunamase
+				tullamore
 			}
 			own_control_integrated = {
 				# Earldom of Chester
@@ -4523,10 +4581,8 @@ countries = {
 		MAC = { # March Marcher Lordship
 			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
 			own_control_core = {
-				radnor builth newport wigmore ludlow
 			}
 			our_cores_conquered_by_others = {
-				denbigh montgomery
 			}
 			capital = wigmore
 			government = {
@@ -4669,7 +4725,6 @@ countries = {
 
 		LAN = { #Palatinate of Lancaster
 			own_control_core = {			
-				lancaster blackburn liverpool preston manchester
 			}
 
 			own_control_conquered = {
@@ -4700,11 +4755,9 @@ countries = {
 
 		CET = { #Palatinate of Chester
 			own_control_core = {
-				chester macclesfield nantwich
 			}
 
 			own_control_conquered = {
-				flint
 			}
 
 			include = "catholic_monarchy_english_lordship"
@@ -4727,11 +4780,11 @@ countries = {
 
 		WLS = { # Wales
 			own_control_core = {
-				# Principality of Wales
-				aberystwyth anglesey cardigan carnarvon harlech conwy carmarthen penllyn
 			}
 			our_cores_conquered_by_others = {
 				# Earldom of Chester
+				# Principality of Wales
+				aberystwyth anglesey cardigan carnarvon harlech conwy carmarthen penllyn
 
 				# Marcher Lordships
 				brecknock cardiff caerphilly swansea monmouth montgomery builth denbigh llangollen ewyas kidwelly machynlleth radnor
@@ -4835,7 +4888,6 @@ countries = {
 
 		MNN = { # Isle of Man
 			own_control_core = {
-				mann
 			}
 			include = "catholic_monarchy_english_lordship"
 			include = "expl_northern_europe"
@@ -4854,7 +4906,6 @@ countries = {
 
 		MOY = { # Moray
 			own_control_core = {
-				inverness elgin badenoch lochaber
 			}
 			government = {
 				heir_selection = cognatic_primogeniture
@@ -4923,9 +4974,9 @@ countries = {
 
 		ORK = { # Orkney
 			own_control_core = {
-				orkney shetland
 			}
 			our_cores_conquered_by_others = {
+				orkney shetland
 				strathearn thurso
 			}
 			government = {
@@ -4944,7 +4995,6 @@ countries = {
 			own_control_core = {
 			}	
 			own_control_conquered = {
-				thurso
 			}
 
 			our_cores_conquered_by_others = {
@@ -5159,11 +5209,9 @@ countries = {
 		LOI = { # The Isles
 			own_control_core = {
 				# Western Isles
-				uist lewis mull islay harris
 			}
 			own_control_conquered = {
 				# Scotland
-				ardtornish kintyre
 			}
 
 			our_cores_conquered_by_others = {
@@ -5201,11 +5249,9 @@ countries = {
 
 		ROS = { # Ross
 			own_control_core = {
-				dingwall gairloch ullapool urquhart
 			}
 			own_control_conquered = {
 				# Bishop of the Isles
-				skye
 			}
 			government = {
 				type = monarchy
@@ -5223,7 +5269,6 @@ countries = {
 		}
 		CLA = {
 			own_control_core = {
-				belfast newtownards ballymena
 			}
 			our_cores_conquered_by_others = {
 				# TYR Tyrone
@@ -5246,7 +5291,6 @@ countries = {
 		}
 		MCM = { # Munster
 			own_control_core = {
-				killarney muskerry dunhallow kilbrittain
 			}
 
 			include = "gaelic_tribe"
@@ -5263,7 +5307,6 @@ countries = {
 		}
 		BEA = { # Beare
 			own_control_core = {
-				carbery
 			}
 
 			include = "gaelic_tribe"
@@ -5280,20 +5323,10 @@ countries = {
 		PLE = { # The Pale
 			own_control_core = {
 				# the pale proper
-				dublin navan fingal drogheda dundalk
-				
-				waterford wexford new_ross  
 			}
 			own_control_integrated = {
-				limerick cork
 			}
 			own_control_conquered = {
-				# lordship of meath
-				 trim kells  ballymore
-				 # kilkenny frontier
-				  carlow kilkenny
-				 mullingar
-				 wicklow
 			}
 			government = {
 				type = monarchy
@@ -5342,7 +5375,6 @@ countries = {
 		}
 		TYR = {
 			own_control_core = {
-				dungannon magherafelt strabane clogher
 			}
 			our_cores_conquered_by_others = {
 				# CLA Clandeboye
@@ -5389,7 +5421,6 @@ countries = {
 		}
 		INI = { # Inishowen
 			own_control_core = {
-				inishowen
 			}
 
 			include = "gaelic_tribe"
@@ -5402,7 +5433,6 @@ countries = {
 		}
 		AMH = { # Ardmire
 			own_control_core = {
-				raphoe
 			}
 
 			include = "gaelic_tribe_no_coast"
@@ -5415,7 +5445,6 @@ countries = {
 		}
 		KEE = {
 			own_control_core = {
-				derry coleraine
 			}
 
 			include = "gaelic_tribe"
@@ -5427,7 +5456,6 @@ countries = {
 		}
 		IVG = {
 			own_control_core = {
-				iveagh
 			}
 
 			include = "gaelic_tribe"
@@ -5439,7 +5467,6 @@ countries = {
 		}
 		TGH = {
 			own_control_core = {
-				skreen
 			}
 
 			include = "gaelic_tribe_galley_lords"
@@ -5451,7 +5478,6 @@ countries = {
 		}
 		IMA = {
 			own_control_core = {
-				glendalough
 			}
 
 			our_cores_conquered_by_others = {
@@ -5467,7 +5493,6 @@ countries = {
 		}
 		GLS = {
 			own_control_core = {
-				ballycastle
 			}
 
 			include = "catholic_monarchy_english_lordship_irish_earldom"
@@ -5481,7 +5506,6 @@ countries = {
 		}
 		LEI = { # Leinster
 			own_control_core = {
-				ferns
 			}
 
 			our_cores_conquered_by_others = {
@@ -5501,7 +5525,6 @@ countries = {
 		}
 		TRY = {
 			own_control_core = {
-				donegal kilmacrennan
 			}
 
 			include = "gaelic_tribe"
@@ -5514,7 +5537,6 @@ countries = {
 		}
 		OIL = {
 			own_control_core = {
-				monaghan carrickmacross
 			}
 
 			include = "gaelic_tribe_no_coast"
@@ -5529,7 +5551,6 @@ countries = {
 
 		AMA = { #Archbishopric of Armagh
 			own_control_core = {
-				armagh oriel
 			}
 
 			include = "catholic_bishopric"
@@ -5551,7 +5572,6 @@ countries = {
 		}
 		CNN = { # Connacht Connaught
 			own_control_core = {
-				roscommon castlereagh
 			}
 
 			include = "gaelic_tribe_no_coast"
@@ -5565,7 +5585,6 @@ countries = {
 		}
 		ANN = { # Annaly
 			own_control_core = {
-				longford ardagh
 			}
 
 			include = "gaelic_tribe_no_coast"
@@ -5589,7 +5608,6 @@ countries = {
 		}
 		CMA = { # Connemara
 			own_control_core = {
-				clifden
 			}
 
 			include = "gaelic_tribe_galley_lords"
@@ -5602,7 +5620,6 @@ countries = {
 		}
 		OSS = { # Ossory
 			own_control_core = {
-				cullahill
 			}
 
 			include = "gaelic_tribe_no_coast"
@@ -5615,7 +5632,6 @@ countries = {
 		}
 		FMA = { # Fermanagh
 			own_control_core = {
-				enniskillen belcoo
 			}
 
 			include = "gaelic_tribe_no_coast"
@@ -5628,7 +5644,6 @@ countries = {
 		}
 		BFN = { # West Breffny
 			own_control_core = {
-				dromahair leitrim killeshandra
 			}
 
 			our_cores_conquered_by_others = {
@@ -5645,7 +5660,6 @@ countries = {
 		}
 		CVN = { # East Breffny Cavan
 			own_control_core = {
-				cavan killycolly
 			}
 
 			our_cores_conquered_by_others = {
@@ -5662,7 +5676,6 @@ countries = {
 		}
 		HYM = { # Hy Many
 			own_control_core = {
-				athlone kilconnell
 			}
 
 			include = "gaelic_tribe_no_coast"
@@ -5674,7 +5687,6 @@ countries = {
 		}
 		ELY = { # Ely
 			own_control_core = {
-				moycarn # Birr
 			}
 
 			our_cores_conquered_by_others = {
@@ -5690,7 +5702,6 @@ countries = {
 		}
 		CLR = {
 			own_control_core = {
-				galway athenry tuam
 			}
 
 			government = {
@@ -5706,7 +5717,6 @@ countries = {
 		}
 		CWM = { # Clanwilliam
 			own_control_core = {
-				castleconnell tipperary
 			}
 
 			government = {
@@ -5722,7 +5732,6 @@ countries = {
 		}
 		ULS = { # Ulster
 			own_control_core = {
-				carrickfergus downpatrick dunluce
 			}
 
 
@@ -5759,7 +5768,6 @@ countries = {
 		}
 		MYO = { # Mayo
 			own_control_core = {
-				castlebar erris ballaghaderreen
 			}
 
 			government = {
@@ -5775,7 +5783,6 @@ countries = {
 		}
 		ORD = { # Ormond
 			own_control_core = {
-				clonmel cashel roscrea nenagh
 			}
 
 			government = {
@@ -5791,7 +5798,6 @@ countries = {
 		}
 		DCI = { # Decies
 			own_control_core = {
-				carrickbeg
 			}
 
 			our_cores_conquered_by_others = {
@@ -5808,10 +5814,8 @@ countries = {
 		}
 		DMS = { # Desmond
 			own_control_core = {
-				kinsale youghal dungarvan
 			}
 			own_control_conquered = {
-				dingle tralee adare killmallock fermoy
 			}
 
 			our_cores_conquered_by_others = {
@@ -5834,7 +5838,6 @@ countries = {
 		}
 		KID = { # Kildare
 			own_control_core = {
-				athy kildare naas
 			}
 
 			government = {
@@ -5856,7 +5859,6 @@ countries = {
 		}
 		UMH = { #Umhaill Owill
 			own_control_core = {
-				burrishoole
 			}
 
 			include = "gaelic_tribe_galley_lords"
@@ -5869,7 +5871,6 @@ countries = {
 		}
 		THO = { # Thomond
 			own_control_core = {
-				ennis bunratty moyarta
 			}
 
 			include = "gaelic_tribe"
@@ -5888,7 +5889,6 @@ countries = {
 		}
 		SLN = {
 			own_control_core = {
-				sligo
 			}
 
 			include = "gaelic_tribe"
@@ -5901,7 +5901,6 @@ countries = {
 		}
 		FLY = {
 			own_control_core = {
-				daingean dunamase
 			}
 
 			include = "gaelic_tribe_no_coast_no_censor"
@@ -5914,7 +5913,6 @@ countries = {
 		}
 		FCL = { # Firceall
 			own_control_core = {
-				tullamore
 			}
 
 			include = "gaelic_tribe_no_coast_no_censor"
@@ -10360,13 +10358,9 @@ countries = {
 
 		MLO = { #Milan
 			own_control_core = {
-				legnano milano rho varese lecco monza treviglio
 			}
 
 			own_control_conquered = {
-				bormio chiavenna tresivio vercelli arona novara domodossola varallo como
-				casalmaggiore cremona soncino bergamo cortenuova clusone zogno lodi
-				bardi fiorenzuola piacenza lugano biella
 			}
 
 			starting_technology_level = 3
@@ -17511,6 +17505,14 @@ countries = {
 				feltre
 				castelfranco treviso belluno
 				rovereto
+				olomouc prostejov zabreh sumperk
+				brno pernstejn hodonin vyskov
+				znojmo bitov dacice jihlava
+				hradiste vizovice prerov pribor
+				legnano milano rho varese lecco monza treviglio
+				bormio chiavenna tresivio vercelli arona novara domodossola varallo como
+				casalmaggiore cremona soncino bergamo cortenuova clusone zogno lodi
+				bardi fiorenzuola piacenza lugano biella
 			}
 
 			own_control_integrated = {
@@ -31363,14 +31365,9 @@ countries = {
 		#Candarids - CND https://en.wikipedia.org/wiki/Candar_dynasty
 		CND = {
 			own_control_core = {
-				bartin
-				kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
-				cankiri bayat cerkes kursunlu tosya
-				iskilip sabanozu ulus yenicepazari
 			}
 
 			own_control_integrated = {
-				safranbolu
 			}
 
 			include = "expl_eastern_europe"
@@ -31577,15 +31574,6 @@ countries = {
 		#Eretnids - ERE https://en.wikipedia.org/wiki/Eretnids
 		ERE = {
 			own_control_core = {
-				akdagmadeni aydincik koyulhisar sulusaray tokat zile
-				bozok baliseyh candir dinek_keskin sorgun
-				corum huseyinabad sungurlu
-				divrigi arapgir egin arguvan
-				kayseri bogazliyan comana_cil develi tomarza
-				hacibektas urgup
-				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
-				bayburt erzincan ilic kelkit kemah sebinkarahisar siran
-				yahyali malatya
 				}
 
 			our_cores_conquered_by_others = {
@@ -31619,10 +31607,6 @@ countries = {
 		#Germiyanids - GRM https://en.wikipedia.org/wiki/Germiyanids
 		GRM = {
 			own_control_core = {
-				mihaliccik sivrihisar bozan kaymaz
-				altintas emirdag seyitgazi
-				kutahya aslanapa emet simav tavsanli
-				usak banaz gediz seyhli
 			}
 
 			starting_technology_level = 3
@@ -31763,16 +31747,9 @@ countries = {
 		#Karamanids - KAR https://en.wikipedia.org/wiki/Karamanids
 		KAR = {
 			own_control_core = {
-				aksaray kochisar insuyu
-				kirsehir nevsehir sariyahsi
-				konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
-				bekarlar bor_tur ermenek
-				beysehir aksehir bolvadin sarkikaraagac seydisehir
-				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
 			}
 
 			own_control_integrated = {
-				silifke anamur mut nigde
 			}
 
 			include = "expl_eastern_europe"
@@ -32595,13 +32572,38 @@ countries = {
 				visesav kozelj svrljig pirot tsaribrod  
 				zemlungrad dupnitsa
 				burgas sozopol
- 			dospat bansko krupnik melnik nevrokop 
+ 				dospat bansko krupnik melnik nevrokop 
 				tsepina 
 				beden haskovo perperek smolyan stanimaka
 				mostar metkovic glamoc
 				vrhbosna konjic srebrenica doboj soli
 				jajce livno drijeva zenica kljuc srebrenik
 				kozara glaz teocak olovo borac nevesinje
+				akdagmadeni aydincik koyulhisar sulusaray tokat zile
+				bozok baliseyh candir dinek_keskin sorgun
+				corum huseyinabad sungurlu
+				divrigi arapgir egin arguvan
+				kayseri bogazliyan comana_cil develi tomarza
+				hacibektas urgup
+				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
+				bayburt erzincan ilic kelkit kemah sebinkarahisar siran
+				yahyali malatya
+				bartin
+				kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
+				cankiri bayat cerkes kursunlu tosya
+				iskilip sabanozu ulus yenicepazari
+				safranbolu
+				mihaliccik sivrihisar bozan kaymaz
+				altintas emirdag seyitgazi
+				kutahya aslanapa emet simav tavsanli
+				usak banaz gediz seyhli
+				aksaray kochisar insuyu
+				kirsehir nevsehir sariyahsi
+				konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
+				bekarlar bor_tur ermenek
+				beysehir aksehir bolvadin sarkikaraagac seydisehir
+				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
+				silifke anamur mut nigde
 			}
 
 			include = "expl_eastern_europe"
@@ -40006,35 +40008,6 @@ countries = {
 
 		POL = {	#Poland
 			own_control_core = {
-				#Lesser Poland
-				krakow chrzanow ksiaz_wielki proszowice
-				kielce opoczno przedborz zarnow
-				czestochowa lelow mstow
-				lublin janow_lubelski kazimierz lukow lubartow urzedow
-				nowy_sacz biecz czchow jaslo nowy_targ
-				pilzno busko_zdroj debica tarnow wislica
-				radom ilza stezyca szydlowiec zwolen
-				sandomierz kunow opatow rudnik_poland
-				wieliczka myslenice
-				#Greater Poland
-				gniezno mogilno trzemeszno
-				kalisz ostrow_wielkopolski pleszew
-				konin kolo lad_konin
-				koscian babimost grodzisk_wielkopolski rawicz srem
-				naklo wyrzysk zlotow
-				poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
-				pyzdry kozmin sroda_wielkopolska
-				znin chodziez szubin
-
-				# own_control_integrated, but culture accepted
-				#Wielun
-				wielun ostrzeszow wieruszow
-				
-				#Actually Occupied
-				#Dobrzyń Land
-				dobrzyn lipno rypin
-				#Kujavia
-				wloclawek kowal radziejow
 			}
 			our_cores_conquered_by_others = {
 				#Chełmno Land
@@ -40613,42 +40586,10 @@ countries = {
 
 		LIT = {	#Lithuania
 			own_control_core = {
-				#Lithuania
-				vilnius giedraiciai kernave medininkai_vilna
-				ashmyany halshany hieraniony kreva
-				braslaw drysvyaty ezerenai miory
-				kaunas alytus punia vilkaviskis
-				lida astrina eisiskes shchuchyn
-				suwalki lipsk veisiejai
-				trakai lazdijai onushkis merkine
-				svir dokshytsy hlybokaye myadzyel svencionys vileyka
-				upyte birzai linkava panevezys pasvalys
-				vilkmerge anyksciai maleisiai rokiskis utena
-				#Black Ruthenia
-				grodno bershty masty sokolka
-				nyasvizh
-				babruysk luchin rahachow svietlahorsk
-				#Polesia
-				brest_litowsk biala_podlaska chernyany malaryta wlodawa
-				kobryn dabuchyn hajnowka kamyenyets
-				#Samogitia
-				medininkai
-				raseiniai jurbarkas kedainiai panemune tendziogala
-				siauliai kraziai papile zagare
-				#White Ruthenia
-				barysaw klichaw krupki lukolm lyubashany
-				lahoysk begoml byerazino ilya krasnoe smalyavichy
-				minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
-				mogilev bykhaw
 			}
 			own_control_integrated = {
-				grodek
-				#Podlasie
-				drohiczyn bielsk_podlaski mielnik sokolow suraz
 			}
 			own_core = {
-				palanga rietavas silale skuodas taurage
-				mazeikiai
 			}
 
 			include = "expl_eastern_europe"
@@ -41238,27 +41179,6 @@ countries = {
 
 		KIE = {	#Kyiv - Vassal of LIT
 			own_control_core = {
-				#Ukraine
-				kyiv dymer fastiv zdvizhen
-				bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
-				cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
-				chornobyl belaya_soroka brahin khoiniki kholmyech
-				olevsk kopyshche viry yemilchyne
-				ovruch bilokorovychi korosten malyn narodychi stodolichi
-				zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
-
-				poltava kremenchuk myrhorod velyki_sorochyntsi kotelva
-				lubny pyriatyn horodyshche horoshino zolotonosha
-				pereiaslav desnyanskyi_horodok boryspil oster kozelets
-				#Black Ruthenia
-				mazyr buinovichi kalinkavichy pietrykaw rudobelka
-				#Chernihiv
-				melnya 
-				ichnia pryluky chornukhy
-				lypova_dolyna romen buryn sumy okhtyrka krasnopillia hadiach
-				glushkovo putyvl khotmyzh vilshana
-
-				yaroslavka yahotyn lutava opishnya hovtva kolomak
 			} 
 
 			include = "expl_eastern_europe"
