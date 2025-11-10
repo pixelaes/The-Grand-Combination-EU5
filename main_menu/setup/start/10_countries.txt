@@ -14,7 +14,233 @@ current_age = age_1_traditions
 
 countries = {
 	countries = {
-		
+		CPL = {
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = eng_edward_i
+
+				ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_edward = 1
+				}
+
+				reforms = {
+				}
+				privilege = {
+				}
+				laws = {
+					distribution_of_power_law = dop_law_english_parliament
+					language_of_pleading = language_of_pleading_court
+					legal_code_law = common_law_policy
+					medieval_levy_law = longbow_competitions
+					feudal_de_jure_law = by_tradition
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+				centralization_vs_decentralization = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				mercantilism_vs_free_trade = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				quality_vs_quantity = 0
+				belligerent_vs_conciliatory = 0
+
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = london
+
+			include = "expl_western_europe"
+
+			ai_advance_preference_tags = {
+				exploration = 5
+			}
+		}
+
+		EST = {
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = eng_edward_i
+
+				ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_edward = 1
+				}
+
+				reforms = {
+				}
+				privilege = {
+				}
+				laws = {
+					distribution_of_power_law = dop_law_english_parliament
+					language_of_pleading = language_of_pleading_court
+					legal_code_law = common_law_policy
+					medieval_levy_law = longbow_competitions
+					feudal_de_jure_law = by_tradition
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+				centralization_vs_decentralization = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				mercantilism_vs_free_trade = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				quality_vs_quantity = 0
+				belligerent_vs_conciliatory = 0
+
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = london
+
+			include = "expl_western_europe"
+
+			ai_advance_preference_tags = {
+				exploration = 5
+			}
+		}
+
+		LTV = {
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = eng_edward_i
+
+				ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_edward = 1
+				}
+
+				reforms = {
+				}
+				privilege = {
+				}
+				laws = {
+					distribution_of_power_law = dop_law_english_parliament
+					language_of_pleading = language_of_pleading_court
+					legal_code_law = common_law_policy
+					medieval_levy_law = longbow_competitions
+					feudal_de_jure_law = by_tradition
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+				centralization_vs_decentralization = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				mercantilism_vs_free_trade = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				quality_vs_quantity = 0
+				belligerent_vs_conciliatory = 0
+
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = london
+
+			include = "expl_western_europe"
+
+			ai_advance_preference_tags = {
+				exploration = 5
+			}
+		}
+
+		ESH = {
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = eng_edward_i
+
+				ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_edward = 1
+				}
+
+				reforms = {
+				}
+				privilege = {
+				}
+				laws = {
+					distribution_of_power_law = dop_law_english_parliament
+					language_of_pleading = language_of_pleading_court
+					legal_code_law = common_law_policy
+					medieval_levy_law = longbow_competitions
+					feudal_de_jure_law = by_tradition
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+				centralization_vs_decentralization = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				mercantilism_vs_free_trade = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				quality_vs_quantity = 0
+				belligerent_vs_conciliatory = 0
+
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = london
+
+			include = "expl_western_europe"
+
+			ai_advance_preference_tags = {
+				exploration = 5
+			}
+		}
 
 		SWE = {
 			own_control_core = {
@@ -2424,7 +2650,7 @@ countries = {
 			include = "expl_novgorod"
 		}
 
-		#Principality of Bryansk	(Брянское княжество)
+		#Principality of Bryansk	(Брѝнѝкое кнѝжеѝтво)
 		BRY = {
 			own_control_core = {
 			}
@@ -2568,7 +2794,7 @@ countries = {
 			include = "russian_principality_no_coast"
 		}
 
-		#Principality of Novosil	(Новосильское княжество)
+		#Principality of Novosil	(Новоѝильѝкое кнѝжеѝтво)
 		NSL = {
 			own_control_core = {
 			}
@@ -2597,7 +2823,7 @@ countries = {
 			include = "expl_novgorod"
 		}
 
-		#Principality of Karachev	(Карачевское княжество)
+		#Principality of Karachev	(Карачевѝкое кнѝжеѝтво)
 		KCH = {
 			own_control_core = {
 			}
@@ -7051,7 +7277,7 @@ countries = {
 			include = "expl_india_hindu"
 			include = "indian_hindu_monarchy_no_coast"
 			government = {
-				#Rāmadeva 1252 - 1273, son of Rājadeva
+				#Rĝmadeva 1252 - 1273, son of Rĝjadeva
 				#Laksmandadeva 1273 - 1286, son of a Brahmin
 				#Simhadeva 1286 - 1301, Laksmandadeva'a son
 				#Sūhadeva 1301 - 1323, the brother of Simhadeva
@@ -7345,8 +7571,8 @@ countries = {
 			include = "indian_hindu_monarchy_no_coast"
 			capital = kalinjar
 			government = {
-				#Vidyadhara (Vidyādhara)	1003–1035
-				#Vijaya-Pala (Vijayapāla)	1035–1050
+				#Vidyadhara (Vidyĝdhara)	1003–1035
+				#Vijaya-Pala (Vijayapĝla)	1035–1050
 				#Deva-Varman	1050–1060
 				#Kirtti-Varman (Kīrtivarman)	1060–1100
 				#Sallakshana-Varman (Sallakṣaṇavarman)	1100–1110
@@ -20063,7 +20289,7 @@ countries = {
 			}
 
 			currency_data = {
-				gold = 2500	#Mansa Mūsā's wealth
+				gold = 2500	#Mansa Mūsĝ's wealth
 				prestige = 50
 			}
 
@@ -26203,7 +26429,7 @@ countries = {
 			capital = shimohei
 			include = "japanese_clan"
 
-			government = { #Following the line of 閉伊花輪氏, as the main line geneaology has a lot of problems, with too many generations in between
+			government = { #Following the line of 閉伊花輪氝, as the main line geneaology has a lot of problems, with too many generations in between
 				ruler_term = { character = jap_hei_yorimoto start_date = 1190.1.1 end_date = 1220.1.1 regnal_number = 1 }
 				ruler_term = { character = jap_hei_ieasa start_date = 1220.1.1 end_date = 1250.1.1 regnal_number = 1 }
 				ruler_term = { character = jap_hei_tameyori start_date = 1250.1.1 end_date = 1270.1.1 regnal_number = 1 }
@@ -29463,7 +29689,7 @@ countries = {
 			tolerated_cultures = { shu_culture }
 		}
 
-		CTW = {	#Tiānwán
+		CTW = {	#Tiĝnwán
 			our_cores_conquered_by_others = {}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -29580,7 +29806,7 @@ countries = {
 			capital = siraya
 		}
 
-		CFN = {	#Fāng
+		CFN = {	#Fĝng
 			our_cores_conquered_by_others = {}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -29595,7 +29821,7 @@ countries = {
 			capital = yongjia
 		}
 
-		CMO = {	#Māo
+		CMO = {	#Mĝo
 			our_cores_conquered_by_others = {}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -29610,7 +29836,7 @@ countries = {
 			capital = yidu
 		}
 
-		CGU = {	#Guō
+		CGU = {	#Guŝ
 			our_cores_conquered_by_others = {}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -29640,7 +29866,7 @@ countries = {
 			capital = nanping
 		}
 
-		CDN = {	#Dōngguǎn
+		CDN = {	#Dŝngguǎn
 			our_cores_conquered_by_others = {}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -29655,7 +29881,7 @@ countries = {
 			capital = dongguan
 		}
 
-		CSI = {	#Lǐ
+		CSI = {	#Lǝ
 			our_cores_conquered_by_others = {}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -29685,7 +29911,7 @@ countries = {
 			capital = pingjin
 		}
 
-		CNA = {	#Naγaču
+		CNA = {	#Naγaĝu
 			our_cores_conquered_by_others = {}
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -29943,7 +30169,7 @@ countries = {
 			capital = yuanjiang_yuanjiang
 		}
 
-		NYZ = { #Níngyuǎnzhōu
+		NYZ = { #Níngyuǎnzhŝu
 			own_control_core = {
 				phong_tho muong_te
 			}
@@ -29977,7 +30203,7 @@ countries = {
 			capital = mengding_mengzi
 		}
 
-		YJI = { #Yánjǐng
+		YJI = { #Yánjǝng
 			own_control_core = {
 				runyan zuosuo pingchuan
 			}
@@ -30011,7 +30237,7 @@ countries = {
 			capital = ningfan
 		}
 
-		YAN = { #Yáo'ān
+		YAN = { #Yáo'ĝn
 			own_control_core = {
 				yaozhou dayao juque
 			}
@@ -30128,7 +30354,7 @@ countries = {
 			capital = jianchang_sichuan
 		}
 
-		CGZ = { #Chāngzhōu
+		CGZ = { #Chĝngzhŝu
 			own_control_core = {
 				dechang
 			}
@@ -41417,7 +41643,7 @@ countries = {
 			capital = taximaroa
 		}
 
-		#Tenōchtitlan (Aztec Empire) - TNC - Vassal of Azcapozalco
+		#Tenŝchtitlan (Aztec Empire) - TNC - Vassal of Azcapozalco
 		TNC = {
 			own_control_core = {
 				tenochtitlan
@@ -57926,35 +58152,6 @@ countries = {
 
 		}
 
-#	SKH = { #Sakher
-#		own_control_core = {
-#
-#		}
-#
-#		our_cores_conquered_by_others = {
-#
-#		}
-#
-#		include = "expl_middle_east"
-#
-#		starting_technology_level = 0
-#		government = {
-#			type = tribe
-#			heir_selection = tribal_oldest_male
-#
-#			laws = {
-#				sharia_law = hanbali_policy
-#			}
-#
-#		}
-#
-#		religious_school = hanbali_school
-#		government = { mysticism_vs_jurisprudence = 40 }
-
-#
-#	}
-
-
 		HUT = { #Hutaym
 			own_control_core = {
 				tayma ash_shamli
@@ -58043,31 +58240,7 @@ countries = {
 
 		}
 
-#	JUH = { #Juhaynah
-#		own_control_core = {
-#			an_nakhil
-#		}
-#
-#		our_cores_conquered_by_others = {
-#
-#		}
-#
-#		include = "expl_middle_east"
-#
-#		starting_technology_level = 0
-#		government = {
-#			type = tribe
-#			heir_selection = tribal_oldest_male
-#
-#			laws = {
-#				sharia_law = hanbali_policy
-#			}
-#		}
-#
-#		religious_school = hanbali_school
-#
-#		capital = an_nakhil
-#	}
+
 
 		UTB = { #Utaybah
 			own_control_core = {
@@ -59721,9 +59894,9 @@ countries = {
 			}
 		}
 
-#############################
-# Chaco
-#############################
+		#############################
+		# Chaco
+		#############################
 
 
 		#Moxo - MOX
@@ -59746,9 +59919,9 @@ countries = {
 			}
 		}
 
-#############################
-# La Plata
-#############################
+		#############################
+		# La Plata
+		#############################
 
 		#Mapuche - MPC
 		MPC = {
@@ -59791,9 +59964,9 @@ countries = {
 			}
 		}
 
-#############################
-# South Africa
-#############################
+		#############################
+		# South Africa
+		#############################
 
 		XHO = { # Xhosa
 			type = pop
@@ -60226,7 +60399,7 @@ countries = {
 				ruler = random
 			}
 		}
-		#Ngāti Porou - NPO
+		#Ngĝti Porou - NPO
 		NPO = { #https://en.wikipedia.org/wiki/Ng%C4%81ti_Porou
 			type = pop
 
@@ -60240,7 +60413,7 @@ countries = {
 				ruler = random
 			}
 		}
-		#Ngāti Kahungunu - NKH
+		#Ngĝti Kahungunu - NKH
 		NKH = { #https://en.wikipedia.org/wiki/Ng%C4%81ti_Kahungunu
 			type = pop
 
@@ -60254,7 +60427,7 @@ countries = {
 				ruler = random
 			}
 		}
-		#Ngāi Tūhoe - NTH
+		#Ngĝi Tūhoe - NTH
 		NTH = { #https://en.wikipedia.org/wiki/Ng%C4%81i_T%C5%ABhoe
 			type = pop
 
@@ -60282,7 +60455,7 @@ countries = {
 				ruler = random
 			}
 		}
-		#Ngāiwi - NGI
+		#Ngĝiwi - NGI
 		NGI = { #https://en.wikipedia.org/wiki/Ng%C4%81_Oho
 			type = pop
 
@@ -60352,7 +60525,7 @@ countries = {
 				ruler = random
 			}
 		}
-		#Ngā Puhi - PUH
+		#Ngĝ Puhi - PUH
 		PUH = { #https://en.wikipedia.org/wiki/Ng%C4%81puhi
 			type = pop
 
@@ -60366,7 +60539,7 @@ countries = {
 				ruler = random
 			}
 		}
-		#Rangitāne - RGT
+		#Rangitĝne - RGT
 		RGT = { #https://en.wikipedia.org/wiki/Rangit%C4%81ne
 			type = pop
 

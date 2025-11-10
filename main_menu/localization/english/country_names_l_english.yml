@@ -4896,3 +4896,12 @@
  BNO_ADJ: "Bornean"
  BGP: "$BUR$"
  BGP_ADJ: "$BUR_ADJ$"
+ 
+ CPL: "Congress Poland"
+ CPL_ADJ: "Congressional"
+ EST: "Estonia"
+ EST_ADJ: "Estonian"
+ LTV: "Latvia"
+ LTV_ADJ: "Latvian"
+ ESH: "Esthland Governate"
+ ESH_ADJ: "Esthonian"
