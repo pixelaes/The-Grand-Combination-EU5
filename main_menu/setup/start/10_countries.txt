@@ -399,7 +399,6 @@ countries = {
 				kolding aarhus grindsted silkeborg kalo
 				bolling ringkobing holstebro_lundenes varde
 				randers viborg aalborg ars
-				ribe tonder
 				odense navskov assens svendborg
 				roskilde ringsted kalundborg helsingor hammershus
 				kobenhavn slagelse vordingborg falster
@@ -917,7 +916,13 @@ countries = {
 
 		TEU = { #Teutonic Order
 			own_control_core = {
-				wallerfangen merzig
+				wallerfangen merzig bitburg 
+				prum
+				schleiden
+				aachen
+				heinsberg geldern
+				kleve wesel bitche
+				saarbrucken
 				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
 				cottbus guben lubben luckau calau zossen
 				zagan krosno_odrzanskie sulechow zary
@@ -1755,7 +1760,7 @@ countries = {
 
 		MAI = {	#Mainz
 			own_control_core = {
-				mainz aschaffenburg miltenberg buchen tauberbischofsheim
+				mainz aschaffenburg miltenberg  
 				hofgeismar bensheim
 			}
 			starting_technology_level = 3
@@ -1786,7 +1791,6 @@ countries = {
 
 		SAA = { #Saarbrücken
 			own_control_core = {
-				saarbrucken
 			}
 
 			starting_technology_level = 3
@@ -1916,6 +1920,7 @@ countries = {
 		SLV = { #Slesvig
 			own_control_core = {
 				eckernforde slesvig flensburg aabenraa haderslev
+				ribe tonder
 			}
 			own_control_integrated = {
 				husum
@@ -11664,10 +11669,9 @@ countries = {
 		#Savoy - SAV
 		SAV = {
 			own_control_core = {
-				bourg_en_bresse belley chambery gex saint_jean_de_maurienne
+				chambery  saint_jean_de_maurienne
 				moutiers evian
-				bage thoire
-				vienne cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania
+				cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania pragelato cuneo nice puget_theniers
 				sassari
 				ales oristano sorgono terralba bosa macomer bitti ozieri
 				alghero thiesi #Sardinia
@@ -11782,7 +11786,6 @@ countries = {
 		#Saint-Claude Abbey - SCL
 		SCL = {
 			own_control_core = {
-				saint_claude
 			}
 
 			government = {
@@ -14342,7 +14345,12 @@ countries = {
 				paris brie_comte_robert corbeil montmorency
 				amiens breteuil corbie nesle peronne
 				clermont montargis sens saint_florentin senlis nemours melun
-				cassel dunkirk
+				cassel dunkirk thionville
+				montmedy
+				mouzon
+				besancon
+				saint_claude
+				bage thoire bourg_en_bresse belley gex vienne
 				valenciennes #France
 				orange
 				rethel #C. Rethel
@@ -14448,9 +14456,8 @@ countries = {
 				
 				aix_en_provence arles brignoles marseille toulon tarascon
 				apt barcelonnette forcalquier sisteron
-				nice barjols castellane digne draguignan frejus grasse puget_theniers
-				cuneo
-				grenoble gap briancon pragelato
+				 arjols castellane digne draguignan frejus grasse 
+				grenoble gap briancon 
 				romans la_mure saint_marceilin 
 				mevouillon villars 
 				la_tour_du_pin 
@@ -14547,7 +14554,7 @@ countries = {
 			}
 
 			own_control_conquered = {
-				lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
+				lille douai #From Flanders after the Treaty of Athis-sur-Orge
 			}
 
 			our_cores_conquered_by_others = {
@@ -17400,7 +17407,7 @@ countries = {
 		#Luxembourg
 		LUX = {
 			own_control_core = {
-				luxembourg arlon bastogne bitburg la_roche orchimont neufchateau_luxembourg st_vith thionville vianden
+				luxembourg vianden
 			}
 
 			starting_technology_level = 3
@@ -17544,11 +17551,14 @@ countries = {
 		HOL = {
 			own_control_core = {
 				the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
-				geldern arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
+				arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
 				utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
 				leeuwarden sloten harlingen stavoren groningen appingedam wedde
 				leer emden aurich wolvega
 				middelburg bergen_zoom breda eindhoven hertogenbosch helmond
+				weert
+				maastricht
+				limbourg
 			}
 
 			starting_technology_level = 3
@@ -17649,7 +17659,11 @@ countries = {
 				ostend bruges hulst ghent sint_niklaas aalst kortriik
 				ath chimay enghien maubeuge mons
 				namur
-				liege dinant walcourt
+				liege dinant walcourt tournai
+				hasselt bree borgloon
+				bastogne orchimont la_roche neufchateau_luxembourg st_vith arlon
+				bouillon
+				stavelot
 			}
 
 			starting_technology_level = 3
@@ -17724,7 +17738,6 @@ countries = {
 		#Bouillon
 		BLL = {
 			own_control_core = {
-				bouillon
 			}
 
 			starting_technology_level = 3
@@ -17881,7 +17894,6 @@ countries = {
 
 			own_control_integrated = {
 				kyburg #County of Kyburg
-				bonndorf villingen waldshut #Landgraviate of Breisgau
 				krumbach gunzburg wertingen #Margraviate of Burgau
 				waldsee saulgau #Lordship of Waldsee
 			}
@@ -34818,8 +34830,9 @@ countries = {
 
 		PAL = {	#The Palatinate
 			own_control_core = {
-				heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
+			germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
 				amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+				zweibrucken pirmasens
 			}
 
 			starting_technology_level = 3
@@ -35420,7 +35433,6 @@ countries = {
 
 		MDS = {  # Manderscheid (South Germany)
 			own_control_core = {
-				schleiden
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35800,7 +35812,6 @@ countries = {
 
 		SAB = {  # Sausenberg (South Germany)
 			own_control_core = {
-				mullheim
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35891,7 +35902,7 @@ countries = {
 
 		HOH = {  # Hohenzollern (South Germany)
 			own_control_core = {
-				balingen
+				balingen sigmaringen horb
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35946,7 +35957,6 @@ countries = {
 
 		NEL = {  # Nellenburg (South Germany)
 			own_control_core = {
-				stockach
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35962,7 +35972,6 @@ countries = {
 
 		TUB = {  # Tübingen (South Germany)
 			own_control_core = {
-				tubingen
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -36082,7 +36091,6 @@ countries = {
 
 		MSB = {	#Mosbach
 			own_control_core = {
-				mosbach
 			}
 
 			starting_technology_level = 3
@@ -36188,7 +36196,6 @@ countries = {
 
 		KNZ = {	#Konstanz
 			own_control_core = {
-				konstanz
 			}
 
 			starting_technology_level = 3
@@ -36209,7 +36216,8 @@ countries = {
 
 		WUR = {	#Württemberg
 			own_control_core = {
-				stuttgart goppingen sigmaringen welzheim backnang urach nagold riedlingen oberndorf calw
+				stuttgart goppingen welzheim backnang urach nagold riedlingen oberndorf calw hohenberg
+				tubingen 
 			}
 
 			starting_technology_level = 3
@@ -36300,7 +36308,6 @@ countries = {
 
 		SPY = {	#Speyer
 			own_control_core = {
-				bruchsal
 			}
 
 			starting_technology_level = 3
@@ -36321,6 +36328,14 @@ countries = {
 		BDE = {	#Baden
 			own_control_core = {
 				baden durlach oberkirch
+				offenburg
+				freiburg
+				mullheim
+				bonndorf villingen waldshut #Landgraviate of Breisgau
+				stockach
+				konstanz
+				heidelberg
+				bruchsal sinsheim mosbach buchen tauberbischofsheim
 			}
 
 			starting_technology_level = 3
@@ -36433,7 +36448,6 @@ countries = {
 
 		HHB = {	#Hohenberg
 			own_control_core = {
-				hohenberg horb
 			}
 
 			starting_technology_level = 3
@@ -36467,7 +36481,6 @@ countries = {
 
 		FBG = {	#Freiburg
 			own_control_core = {
-				freiburg
 			}
 
 			starting_technology_level = 3
@@ -36490,7 +36503,6 @@ countries = {
 
 		OFB = { #Offenburg
 			own_control_core = {
-				offenburg
 			}
 
 			starting_technology_level = 3
@@ -36634,7 +36646,6 @@ countries = {
 
 		BSC = { #Besancon (Free City)
 			own_control_core = {
-				besancon
 			}
 
 			starting_technology_level = 3
@@ -36831,7 +36842,6 @@ countries = {
 
 		MOU = { #Mouzon
 			own_control_core = {
-				mouzon
 			}
 
 			starting_technology_level = 3
@@ -38116,7 +38126,6 @@ countries = {
 
 		ZWE = {	#Zweibrucken
 			own_control_core = {
-				zweibrucken bitche pirmasens
 			}
 
 			starting_technology_level = 3
@@ -38279,7 +38288,6 @@ countries = {
 
 		APR = {	#Prüm
 			own_control_core = {
-				prum
 			}
 
 			starting_technology_level = 3
@@ -38297,7 +38305,6 @@ countries = {
 
 		AAC = {	#Aachen
 			own_control_core = {
-				aachen
 			}
 
 			starting_technology_level = 3
@@ -38546,7 +38553,6 @@ countries = {
 
 		KLE = {	#Cleves
 			own_control_core = {
-				kleve wesel
 			}
 
 			starting_technology_level = 3
@@ -39214,7 +39220,6 @@ countries = {
 
 		CHN = {	#Chiny - union under Loon
 			own_control_core = {
-				montmedy
 			}
 
 			starting_technology_level = 3
@@ -39247,7 +39252,6 @@ countries = {
 
 		LIM = { #Limbourg - PU under Brabant
 			own_control_core = {
-				limbourg
 			}
 
 			starting_technology_level = 3
@@ -39330,7 +39334,6 @@ countries = {
 
 		LOO = { #Loon
 			own_control_core = {
-				hasselt bree borgloon
 			}
 
 			starting_technology_level = 3
@@ -39357,7 +39360,6 @@ countries = {
 
 		VBG = { #Valkenburg - PU under Loon
 			own_control_core = {
-				maastricht
 			}
 
 			starting_technology_level = 3
@@ -39383,7 +39385,6 @@ countries = {
 
 		HBG = { #Heinsberg - PU under Loon
 			own_control_core = {
-				heinsberg
 			}
 
 			starting_technology_level = 3
@@ -39409,7 +39410,6 @@ countries = {
 
 		HRN = { #Horne
 			own_control_core = {
-				weert
 			}
 
 			starting_technology_level = 3
@@ -39682,7 +39682,6 @@ countries = {
 
 		STV = { #Princely Abbey of Stavelot-Malmedy
 			own_control_core = {
-				stavelot
 			}
 
 			starting_technology_level = 3
