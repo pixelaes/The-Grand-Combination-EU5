@@ -921,7 +921,7 @@ countries = {
 				schleiden
 				aachen
 				heinsberg geldern
-				kleve wesel bitche
+				kleve wesel 
 				saarbrucken
 				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
 				cottbus guben lubben luckau calau zossen
@@ -1541,8 +1541,6 @@ countries = {
 
 		LDB = { #Landsberg
 			own_control_core = {
-				weissenfels zwickau rochlitz grimma delitzsch
-				leipzig chemnitz altenburg
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -1590,6 +1588,9 @@ countries = {
 			own_control_core = {
 				meissen sayda freiberg dresden
 				pirna annaburg
+				weissenfels zwickau rochlitz grimma delitzsch
+				leipzig chemnitz altenburg
+				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -2007,7 +2008,6 @@ countries = {
 				budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
 				bechyne jicin podebrady caslav nachod nemecky_brod
 				chrudim hradec_kralove klodzko litomysl trebon
-				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
 			}
 
 			starting_technology_level = 3
@@ -4654,6 +4654,7 @@ countries = {
 
 		ENG = { # England
 			own_control_core = {
+				swansea
 				durham darlington stockton
 				llangollen oswestry
 				denbigh
@@ -4891,7 +4892,6 @@ countries = {
 		GWR = { # Gower Marcher Lordship
 			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
 			own_control_core = {
-				swansea
 			}
 			capital = swansea
 
@@ -11811,7 +11811,6 @@ countries = {
 		#Geneve - GNV
 		GNV = {
 			own_control_core = {
-				geneve
 			}
 
 			starting_technology_level = 3
@@ -11835,7 +11834,6 @@ countries = {
 		#Vaud - VUD
 		VUD = {
 			own_control_core = {
-				yverdon_les_bains nyon montreux monthey
 			}
 
 			starting_technology_level = 3
@@ -14354,6 +14352,7 @@ countries = {
 				amiens breteuil corbie nesle peronne
 				clermont montargis sens saint_florentin senlis nemours melun
 				cassel dunkirk thionville
+				aumale
 				montmedy
 				mouzon
 				besancon
@@ -16259,7 +16258,6 @@ countries = {
 		#Aumale (Vassal, Fief Mouvant)
 		AUM = {
 			own_control_core = {
-				aumale
 			}
 
 			starting_technology_level = 3
@@ -17559,7 +17557,7 @@ countries = {
 		HOL = {
 			own_control_core = {
 				the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
-				arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
+				arnhem roermond venlo nijmegen tiel harderwijk apeldoorn wolvega
 				utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
 				leeuwarden sloten harlingen stavoren groningen appingedam wedde
 				middelburg bergen_zoom breda eindhoven hertogenbosch helmond
@@ -17776,6 +17774,7 @@ countries = {
 		HAB = {	#Austria
 			own_control_core = {
 				vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
+				bregenz immenstadt
 				dubrovnik waidhofen skofja_loka metkovic 
 				celje lasko
 				trieste
@@ -17798,7 +17797,6 @@ countries = {
 				cavalese cles trento
 				riva 
 				spittal kocevje
-				feldkirch
 				wolfsberg villach
 				klagenfurt st_veit steinfeld volkermarkt #Duchy of Carinthia
 				tesin bielsko #Duchy of Cieszyn
@@ -17901,18 +17899,11 @@ countries = {
 			}
 
 			own_control_integrated = {
-				kyburg #County of Kyburg
 				krumbach gunzburg wertingen #Margraviate of Burgau
 				waldsee saulgau #Lordship of Waldsee
 			}
 
 			own_control_conquered = {
-				aarau baden_im_aargau #County of Lenzburg
-				frauenfeld #Lordship of Thurgau
-				wolhusen #Lordship of Wolhusen
-				schaffhausen
-				fribourg
-				glarus
 			}
 
 			starting_technology_level = 3
@@ -33867,6 +33858,11 @@ countries = {
 				landshut scharding ried braunau traunstein griesbach kelheim eggenfelden
 				landau straubing bavaria_regen cham burghausen
 				erding rosenheim mallersdorf rottenburg
+				munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
+				pfaffenhofen friedberg ingolstadt neuburg_an_der_donau kitzbuhel kufstein burglengenfeld
+				germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
+				amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+				zweibrucken pirmasens bitche
 			}
 
 			starting_technology_level = 3
@@ -33929,8 +33925,6 @@ countries = {
 
 		UBV = {	#Upper Bavaria
 			own_control_core = {
-				munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
-				pfaffenhofen friedberg ingolstadt neuburg_an_der_donau kitzbuhel kufstein burglengenfeld
 			}
 
 			starting_technology_level = 3
@@ -34204,7 +34198,6 @@ countries = {
 
 		WER = {	#Werdenberg
 			own_control_core = {
-				werdenberg bludenz
 			}
 
 			starting_technology_level = 3
@@ -34230,7 +34223,6 @@ countries = {
 
 		MBZ = { #Bregenz
 			own_control_core = {
-				bregenz immenstadt
 			}
 
 			starting_technology_level = 3
@@ -34279,7 +34271,6 @@ countries = {
 
 		STG = {	#St. Gallen
 			own_control_core = {
-				st_gallen
 			}
 
 			starting_technology_level = 3
@@ -34369,7 +34360,6 @@ countries = {
 
 		BCH = {	#Bishopric of Chur
 			own_control_core = {
-				chur zuoz tarasp
 			}
 
 			starting_technology_level = 3
@@ -34398,7 +34388,6 @@ countries = {
 
 		ZUR = {	#Zurich
 			own_control_core = {
-				zurich
 			}
 
 			starting_technology_level = 3
@@ -34417,7 +34406,6 @@ countries = {
 
 		SYZ = {	#Schwyz
 			own_control_core = {
-				schwyz
 			}
 
 			starting_technology_level = 3
@@ -34451,7 +34439,6 @@ countries = {
 
 		LCA = {	# Como, last remnants in defense against Milan
 			own_control_core = {
-				bellinzona locarno
 			}
 			our_cores_conquered_by_others = {
 				como lugano
@@ -34480,7 +34467,6 @@ countries = {
 
 		URI = {	#Uri
 			own_control_core = {
-				altdorf
 			}
 
 			starting_technology_level = 3
@@ -34497,7 +34483,6 @@ countries = {
 
 		OBW = {	#Obwalden
 			own_control_core = {
-				sarnen
 			}
 
 			starting_technology_level = 3
@@ -34514,7 +34499,6 @@ countries = {
 
 		LCU = {	#Lucerne
 			own_control_core = {
-				lucerne
 			}
 
 			starting_technology_level = 3
@@ -34531,7 +34515,6 @@ countries = {
 
 		SIT = {	#Sion / Sitten
 			own_control_core = {
-				sion brig martigny
 			}
 
 			starting_technology_level = 3
@@ -34564,7 +34547,40 @@ countries = {
 		}
 
 		SWI = {
-			own_control_core = { }
+			own_control_core = {
+				ilanz
+				geneve
+				yverdon_les_bains nyon montreux monthey
+				kyburg #County of Kyburg
+				wolhusen #Lordship of Wolhusen
+				aarau baden_im_aargau #County of Lenzburg
+				frauenfeld #Lordship of Thurgau
+				schaffhausen
+				feldkirch
+				glarus
+				fribourg
+				lausanne
+				sion brig martigny
+				saanen
+				gruyere
+				bern interlaken
+				frutigen
+				basel bienne delemont
+				solothurn
+				burgdorf_emmental thun
+				zurich
+				lucerne
+				sarnen
+				schwyz
+				toggenburg davos
+				st_gallen
+				altdorf
+				disentis
+				bellinzona locarno
+				mesocco
+				chur zuoz tarasp
+				werdenberg bludenz
+			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_republic_not_present"
@@ -34581,7 +34597,6 @@ countries = {
 
 		BRN = {	#Bern
 			own_control_core = {
-				bern interlaken
 			}
 
 			starting_technology_level = 3
@@ -34598,7 +34613,6 @@ countries = {
 
 		SLT = {	#Solothurn
 			own_control_core = {
-				solothurn
 			}
 
 			starting_technology_level = 3
@@ -34648,7 +34662,6 @@ countries = {
 
 		BAS = {	#Basel
 			own_control_core = {
-				basel bienne delemont
 			}
 
 			starting_technology_level = 3
@@ -34679,7 +34692,6 @@ countries = {
 
 		LSA = {	#Lausanne
 			own_control_core = {
-				lausanne
 			}
 
 			starting_technology_level = 3
@@ -34713,7 +34725,6 @@ countries = {
 
 		KYB = {
 			own_control_core = {
-				burgdorf_emmental thun
 			}
 
 			starting_technology_level = 3
@@ -34737,7 +34748,6 @@ countries = {
 
 		TRN = {	#Turn
 			own_control_core = {
-				frutigen
 			}
 
 			starting_technology_level = 3
@@ -34837,9 +34847,6 @@ countries = {
 
 		PAL = {	#The Palatinate
 			own_control_core = {
-			germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
-				amberg eschenbach neumarkt roding sulzbach #Oberpfalz
-				zweibrucken pirmasens
 			}
 
 			starting_technology_level = 3
@@ -34995,7 +35002,6 @@ countries = {
 
 		MSO = {  # Mesocco
 			own_control_core = {
-				mesocco
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35507,8 +35513,6 @@ countries = {
 
 		GRY = {  # Gruyère (South Germany)
 			own_control_core = {
-				saanen
-				gruyere
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35540,7 +35544,6 @@ countries = {
 
 		TGG = {  # Toggenburg (South Germany)
 			own_control_core = {
-				toggenburg davos
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35686,7 +35689,6 @@ countries = {
 
 		BLM = {  # Belmont (Switzerland)
 			own_control_core = {
-				ilanz
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35702,7 +35704,6 @@ countries = {
 
 		DIS = {  # Disentis (Switzerland)
 			own_control_core = {
-				disentis
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -38789,7 +38790,6 @@ countries = {
 
 		MUN = {	#Münster
 			own_control_core = {
-				munster ahaus warendorf horstmar meppen vechta aschendorf rheine dulmen
 			}
 
 			starting_technology_level = 3
@@ -38822,7 +38822,8 @@ countries = {
 				luchow #County of Lüchow
 				uelzen #Amt of Bodenteich
 				bentheim
-				leer emden aurich wolvega
+				leer emden aurich
+				munster ahaus warendorf horstmar meppen vechta aschendorf rheine dulmen
 			}
 
 			starting_technology_level = 3
