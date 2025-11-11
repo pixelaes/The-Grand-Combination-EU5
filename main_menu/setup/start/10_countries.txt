@@ -961,6 +961,24 @@ countries = {
 				kreuznach birkenfeld castellaun
 				lichtenberg_veldenz
 				meisenheim
+				ostrow_wielkopolski pleszew
+				pyzdry kozmin sroda_wielkopolska
+				gniezno mogilno trzemeszno
+				koscian babimost grodzisk_wielkopolski rawicz srem
+				naklo wyrzysk zlotow
+				poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
+				znin chodziez szubin
+				bydgoszcz inowroclaw
+				raciborz #Duchy of Raciborz
+				lubawa chelmno
+				kwidzyn
+				lidzbark olsztyn frombork
+				fischhausen
+				koszalin bobolice kolobrzeg
+				nowogard
+				spremberg
+				lebus
+				beeskow
 			}
 			own_control_integrated = {
 				ragnit tilsit mergentheim gumbinnen barten wegorzewo
@@ -1083,7 +1101,6 @@ countries = {
 
 		ERM = { #Ermland / Warmia
 			own_control_core = {
-				lidzbark olsztyn frombork
 			}
 
 			include = "catholic_bishopric"
@@ -1105,7 +1122,6 @@ countries = {
 
 		CHL = { #Kulm / Chełmno
 			own_control_core = {
-				lubawa chelmno
 			}
 
 			include = "catholic_bishopric_no_coast"
@@ -1132,7 +1148,6 @@ countries = {
 
 		PMS = { #Pomesania
 			own_control_core = {
-				kwidzyn
 			}
 
 			include = "catholic_bishopric_no_coast"
@@ -1154,7 +1169,6 @@ countries = {
 
 		SMD = { #Samland / Samia
 			own_control_core = {
-				fischhausen
 			}
 
 			include = "catholic_bishopric"
@@ -3475,14 +3489,8 @@ countries = {
 				radom ilza stezyca szydlowiec zwolen
 				sandomierz kunow opatow rudnik_poland
 				#Greater Poland
-				gniezno mogilno trzemeszno
-				kalisz ostrow_wielkopolski pleszew
+				kalisz 
 				konin kolo lad_konin
-				koscian babimost grodzisk_wielkopolski rawicz srem
-				naklo wyrzysk zlotow
-				poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
-				pyzdry kozmin sroda_wielkopolska
-				znin chodziez szubin
 
 				# own_control_integrated, but culture accepted
 				#Wielun
@@ -14349,7 +14357,7 @@ countries = {
 				montmedy
 				mouzon
 				besancon
-				saint_claude
+				saint_claude barjols
 				bage thoire bourg_en_bresse belley gex vienne
 				valenciennes #France
 				orange
@@ -17554,11 +17562,12 @@ countries = {
 				arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
 				utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
 				leeuwarden sloten harlingen stavoren groningen appingedam wedde
-				leer emden aurich wolvega
 				middelburg bergen_zoom breda eindhoven hertogenbosch helmond
 				weert
 				maastricht
 				limbourg
+				cuijk
+				zutphen doetinchem
 			}
 
 			starting_technology_level = 3
@@ -17767,7 +17776,7 @@ countries = {
 		HAB = {	#Austria
 			own_control_core = {
 				vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
-				dubrovnik
+				dubrovnik waidhofen skofja_loka metkovic 
 				celje lasko
 				trieste
 				passau st_polten
@@ -17777,7 +17786,6 @@ countries = {
 				storozhynets putna siret campulung_moldovenesc vatra_dornei
 				krnov glubczyce #Duchy of Krnov
 				opava hlucin #Duchy of Opava
-				raciborz #Duchy of Raciborz
 				goito mantova ostiglia
 				salzburg hallein st_johann saalfelden leibnitz tamsweg friesach
 				bischofshofen zell_am_see mittersill laufen muhldorf
@@ -32916,7 +32924,7 @@ countries = {
  				dospat bansko krupnik melnik nevrokop 
 				tsepina 
 				beden haskovo perperek smolyan stanimaka
-				mostar metkovic glamoc
+				mostar glamoc
 				vrhbosna konjic srebrenica doboj soli
 				jajce livno drijeva zenica kljuc srebrenik
 				kozara glaz teocak olovo borac nevesinje
@@ -34761,7 +34769,6 @@ countries = {
 		FRE = {	#Freising
 			own_control_core = {
 				freising miesbach garmisch
-				skofja_loka waidhofen
 			}
 
 			starting_technology_level = 3
@@ -34908,7 +34915,6 @@ countries = {
 
 		BLB = {  # Bishopric of Lebus
 			own_control_core = {
-				lebus
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -34971,7 +34977,6 @@ countries = {
 
 		BSK = {  # Beeskow-Starkow
 			own_control_core = {
-				beeskow
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -36944,7 +36949,6 @@ countries = {
 
 		SPB = { #Spremberg
 			own_control_core = {
-				spremberg
 			}
 
 			starting_technology_level = 3
@@ -37361,7 +37365,6 @@ countries = {
 
 		KMM = {	#Cammin
 			own_control_core = {
-				koszalin bobolice kolobrzeg
 			}
 
 			starting_technology_level = 3
@@ -37382,7 +37385,6 @@ countries = {
 
 		NWG = {	#Nowogard
 			own_control_core = {
-				nowogard
 			}
 
 			starting_technology_level = 3
@@ -38391,7 +38393,6 @@ countries = {
 
 		ZUT = {	#Zutphen
 			own_control_core = {
-				zutphen doetinchem
 			}
 
 			starting_technology_level = 3
@@ -38753,7 +38754,6 @@ countries = {
 
 		BNT = {	#Bentheim
 			own_control_core = {
-				bentheim
 			}
 
 			starting_technology_level = 3
@@ -38821,7 +38821,8 @@ countries = {
 				dannenberg #County of Danneberg
 				luchow #County of Lüchow
 				uelzen #Amt of Bodenteich
-
+				bentheim
+				leer emden aurich wolvega
 			}
 
 			starting_technology_level = 3
@@ -39439,7 +39440,6 @@ countries = {
 
 		CJK = { #Cuijk
 			own_control_core = {
-				cuijk
 			}
 
 			starting_technology_level = 3
@@ -40674,7 +40674,6 @@ countries = {
 
 		INO = {	#Inowrocław - PU under Poland
 			own_control_core = { #Should actually be own_core
-				bydgoszcz inowroclaw
 			}
 
 			starting_technology_level = 3
