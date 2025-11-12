@@ -10147,7 +10147,7 @@ countries = {
 				cortona
 				pistoia
 				prato
-				pitigliano
+				pitigliano sansepolcro modigliana
 			}
 
 			own_control_conquered = {
@@ -11151,9 +11151,8 @@ countries = {
 				gubbio
 				pesaro
 				marsciano perugia
-				sansepolcro
 				rimini
-				cesena modigliana
+				cesena 
 				faenza
 				imola
 				ravenna
@@ -32919,7 +32918,7 @@ countries = {
 			own_control_core = {
 				berat ballsh ostrovo
 				kavaje
-				elbasan
+				elbasan prilep
 				pljevlja trgoviste_SER sjenica brvenik velbuzd medveda
 				durres
 				kruje tirana
