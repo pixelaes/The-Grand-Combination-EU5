@@ -551,7 +551,6 @@ countries = {
 			}
 		}
 
-
 		FIN = {
 			own_control_core = {
 				abo poytis sauvo nystad
@@ -932,13 +931,30 @@ countries = {
 		TEU = { #Teutonic Order
 			own_control_core = {
 				wallerfangen merzig bitburg 
+				mors
+				essen munster ahaus warendorf horstmar dulmen
+				hamm altena bochum dortmund rheine tecklenburg
+				arnsberg meschede lippstadt
+				ruppin
+				havelberg wittstock
+				paderborn buren warburg
+				siegen #Nassau Siegen
+				altenkirchen gummersbach
+				wied
+				simmern
+				berleburg
+				rietberg
+				minden
+				bielefeld
+				magdeburg juterbog jerichow burg wolmirstedt
+				haldensleben calbe halle_an_der_saale
 				prum
 				schleiden
 				aachen
 				heinsberg geldern
 				kleve wesel 
 				saarbrucken
-				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
+				gorlitz rothenburg_oberlausitz
 				cottbus guben lubben luckau calau zossen
 				zagan krosno_odrzanskie sulechow zary
 				legnica zlotoryja #Duchy of Legnica
@@ -973,9 +989,8 @@ countries = {
 				trier wittlich
 				mayen coblenz saarburg
 				daun cochem
-				kreuznach birkenfeld castellaun
-				lichtenberg_veldenz
-				meisenheim
+				kreuznach castellaun
+				meisenheim ###GO TO HESSE-KASSEL
 				ostrow_wielkopolski pleszew
 				pyzdry kozmin sroda_wielkopolska
 				gniezno mogilno trzemeszno
@@ -1605,7 +1620,8 @@ countries = {
 				pirna annaburg
 				weissenfels zwickau rochlitz grimma delitzsch
 				leipzig chemnitz altenburg
-				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
+				bautzen hoyerswerda marienstern 
+				plauen glauchau
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -1650,8 +1666,6 @@ countries = {
 
 		MAG = {	#Magdeburg
 			own_control_core = {
-				magdeburg juterbog jerichow burg wolmirstedt
-				haldensleben calbe halle_an_der_saale
 			}
 
 			starting_technology_level = 3
@@ -1695,7 +1709,6 @@ countries = {
 
 		BRE = {	#Bremen
 			own_control_core = {
-				stade neuhaus gestenthorpe osterholz achim bremervorde zeven
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -1884,6 +1897,8 @@ countries = {
 		HPL = { #Holstein-Plön
 			own_control_core = {
 				kiel heiligenhafen plon
+				stormarn segeberg rendsburg steinburg
+				pinneberg
 			}
 
 			starting_technology_level = 3
@@ -1920,7 +1935,6 @@ countries = {
 
 		HTR = { #Holstein-Rendsburg
 			own_control_core = {
-				stormarn segeberg rendsburg steinburg
 			}
 
 			starting_technology_level = 3
@@ -12590,6 +12604,7 @@ countries = {
 
 		ATH = {
 			own_control_core = {
+				karpenisi vonitsa angelokastron nafpaktos
 				athens megara thebes atalanti livadeia gravia
 				damala ermioni kalamata kyparissia
 				tripolitsa veligosti karytaina
@@ -12600,7 +12615,7 @@ countries = {
 				neopatras zetounion
 				bodonitsa
 				negroponte kleisoura karystos kymi oreos eretreia
-				monemvasia mystras oitylo leuktron astros ostrovo
+				monemvasia mystras oitylo leuktron astros 
 			}
 
 			starting_technology_level = 3
@@ -13296,11 +13311,11 @@ countries = {
 		}
 
 		SER = {
-			own_control_core = {
+			own_control_core = { 
 				belgrad debrc sabac
-				krusevac kucevo branicevo rudnik smederevo krupanj valjevo uzice pljevlja
-				arilje brvenik medveda
-				gradac zica trgoviste_SER sjenica velbuzd
+				krusevac kucevo branicevo rudnik smederevo krupanj valjevo uzice stalac
+				arilje jagodina ravno
+				gradac zica kozelj svrljig visesav
 			}
 			own_control_integrated = {
 			}
@@ -17796,11 +17811,12 @@ countries = {
 		HAB = {	#Austria
 			own_control_core = {
 				vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
-				bregenz immenstadt
+				bregenz scharding ried braunau
 				dubrovnik waidhofen skofja_loka metkovic 
 				celje lasko
 				trieste
-				passau st_polten
+				st_polten
+				feldkirch bludenz
 				brixen bled
 				feldkirchen
 				cernauti
@@ -17809,7 +17825,7 @@ countries = {
 				opava hlucin #Duchy of Opava
 				goito mantova ostiglia
 				salzburg hallein st_johann saalfelden leibnitz tamsweg friesach
-				bischofshofen zell_am_see mittersill laufen muhldorf
+				bischofshofen zell_am_see mittersill kitzbuhel kufstein
 				ptuj zell_am_ziller
 				gorizia pazin
 				lienz bruneck hermagor winklern
@@ -17921,8 +17937,6 @@ countries = {
 			}
 
 			own_control_integrated = {
-				krumbach gunzburg wertingen #Margraviate of Burgau
-				waldsee saulgau #Lordship of Waldsee
 			}
 
 			own_control_conquered = {
@@ -32893,9 +32907,10 @@ countries = {
 		#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 		TUR = {
 			own_control_core = {
-				berat ballsh
+				berat ballsh ostrovo
 				kavaje
 				elbasan
+				pljevlja trgoviste_SER sjenica brvenik velbuzd medveda
 				durres
 				kruje tirana
 				beypazari kibrus kizilca
@@ -32904,8 +32919,8 @@ countries = {
 				izmit atpazari
 				domanic
 				samos ikaria foca #Aegean Sea
-				nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
-				argyrokastro avlonya karpenisi konitsa
+				arta preveza parga ioannina kleisoura_epirus butrint
+				argyrokastro avlonya konitsa
 				sultanonu bilecik goynuk eynegol inonu nalli sogut
 				sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
 				kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
@@ -32918,10 +32933,10 @@ countries = {
 				ormenio
 				demetrias farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
 				bukelon devol ustra
-				peja prizren bitola prilep kicevo tetovo kotor shkoder debar onogost gradina
+				peja prizren bitola pri kicevo tetovo kotor shkoder debar onogost gradina
 				budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
 				kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
-				glubocica nis prokuplje stalac ravno jagodina gacko trebinje ohrid kocani strumica
+				glubocica nis prokuplje gacko trebinje ohrid kocani strumica
 				koman has dukagjini lezha florina
 				sredets samokov plovdiv stipon ovech
 				hiambouli rusokastro lardeja boruy
@@ -32931,7 +32946,7 @@ countries = {
 				tulcea harsova
 				archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
 				babadag cernavoda constanta enisala isaccea
-				visesav kozelj svrljig pirot tsaribrod  
+				pirot tsaribrod  
 				zemlungrad dupnitsa
 				burgas sozopol
  				dospat bansko krupnik melnik nevrokop 
@@ -33877,14 +33892,33 @@ countries = {
 
 		LBV = {
 			own_control_core = {
-				landshut scharding ried braunau traunstein griesbach kelheim eggenfelden
+				landshut traunstein griesbach kelheim eggenfelden
 				landau straubing bavaria_regen cham burghausen
 				erding rosenheim mallersdorf rottenburg
 				munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
-				pfaffenhofen friedberg ingolstadt neuburg_an_der_donau kitzbuhel kufstein burglengenfeld
-				germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
+				pfaffenhofen friedberg ingolstadt neuburg_an_der_donau  burglengenfeld
+				germersheim neustadt_an_der_haardt oppenheim kaiserslautern
 				amberg eschenbach neumarkt roding sulzbach #Oberpfalz
-				zweibrucken pirmasens bitche
+				zweibrucken pirmasens bitche lichtenberg_veldenz landau_rhineland leiningen speyer worms hof
+				laufen muhldorf passau immenstadt
+				dillingen oberdorf sonthofen
+				freising miesbach garmisch
+				krumbach gunzburg wertingen #Margraviate of Burgau
+				grafenau
+				berchtesgaden
+				eichstatt beilngries
+				regensburg
+				kempten
+				illereichen
+				augsburg
+				memmingen
+				bamberg kronach
+				forchheim lichtenfels pegnitz
+				wurzburg hassfurt karlstadt mellrichstadt konigshofen schweinfurt bruckenau
+				ansbach wunsiedel bayreuth neustadt schwabach
+				kulmbach
+				nuremberg
+				oettingen
 			}
 
 			starting_technology_level = 3
@@ -33996,7 +34030,6 @@ countries = {
 
 		EIC = {	#Eichst�tt
 			own_control_core = {
-				eichstatt beilngries
 			}
 
 			starting_technology_level = 3
@@ -34066,7 +34099,6 @@ countries = {
 
 		WBG = {	#W�rzburg
 			own_control_core = {
-				wurzburg hassfurt karlstadt mellrichstadt konigshofen schweinfurt bruckenau
 			}
 
 			starting_technology_level = 3
@@ -34117,7 +34149,6 @@ countries = {
 
 		AUG = {	#Augsburg
 			own_control_core = {
-				dillingen oberdorf sonthofen
 			}
 
 			starting_technology_level = 3
@@ -34142,7 +34173,6 @@ countries = {
 
 		AGC = {	#Free Imperial City of Augsburg
 			own_control_core = {
-				augsburg
 			}
 
 			starting_technology_level = 3
@@ -34354,8 +34384,6 @@ countries = {
 
 		BAM = {	#Bamberg
 			own_control_core = {
-				bamberg kronach
-				forchheim lichtenfels pegnitz
 			}
 
 			starting_technology_level = 3
@@ -34578,7 +34606,6 @@ countries = {
 				aarau baden_im_aargau #County of Lenzburg
 				frauenfeld #Lordship of Thurgau
 				schaffhausen
-				feldkirch
 				glarus
 				fribourg
 				lausanne
@@ -34601,7 +34628,7 @@ countries = {
 				bellinzona locarno
 				mesocco
 				chur zuoz tarasp
-				werdenberg bludenz
+				werdenberg 
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -34800,7 +34827,6 @@ countries = {
 
 		FRE = {	#Freising
 			own_control_core = {
-				freising miesbach garmisch
 			}
 
 			starting_technology_level = 3
@@ -34827,7 +34853,6 @@ countries = {
 
 		BRC = {	#Berchtesgaden
 			own_control_core = {
-				berchtesgaden
 			}
 
 			starting_technology_level = 3
@@ -34850,7 +34875,6 @@ countries = {
 
 		GRF = {	#Grafenau
 			own_control_core = {
-				grafenau
 			}
 
 			starting_technology_level = 3
@@ -34990,7 +35014,7 @@ countries = {
 
 		HSP = {  # Holstein Pinneberg
 			own_control_core = {
-				pinneberg
+				
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35191,7 +35215,6 @@ countries = {
 
 		RBG = {  # Rietberg (North Germany)
 			own_control_core = {
-				rietberg
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35374,7 +35397,6 @@ countries = {
 		NSS = {  # Nassau Siegen (North Germany)
 			own_control_core = {
 				dillenburg #Nassau Dillenburg
-				siegen #Nassau Siegen
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35492,7 +35514,7 @@ countries = {
 
 		LDA = {  # Landau (South Germany)
 			own_control_core = {
-				landau_rhineland
+				
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35592,7 +35614,6 @@ countries = {
 
 		PSZ = {  # Simmern (South Germany)
 			own_control_core = {
-				simmern
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35766,7 +35787,6 @@ countries = {
 
 		FUR = {  # Fürstenberg (South Germany)
 			own_control_core = {
-				furstenberg
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35793,7 +35813,6 @@ countries = {
 
 		HAC = {  # Hachberg (Baden) (South Germany)
 			own_control_core = {
-				hachberg
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35869,7 +35888,6 @@ countries = {
 
 		WIE = {  # Wied (North Germany)
 			own_control_core = {
-				wied
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35969,7 +35987,7 @@ countries = {
 
 		KIR = {  # Kirchberg (South Germany)
 			own_control_core = {
-				erbach_swabia illereichen
+				erbach_swabia 
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -36013,7 +36031,6 @@ countries = {
 
 		REG = {	#Regensburg
 			own_control_core = {
-				regensburg
 			}
 
 			starting_technology_level = 3
@@ -36030,7 +36047,6 @@ countries = {
 
 		NUR = {	#Nuremberg
 			own_control_core = {
-				nuremberg
 			}
 
 			starting_technology_level = 3
@@ -36049,8 +36065,6 @@ countries = {
 
 		ANS = {	#Ansbach
 			own_control_core = {
-				ansbach wunsiedel bayreuth neustadt schwabach
-				kulmbach
 			}
 
 			starting_technology_level = 3
@@ -36176,7 +36190,6 @@ countries = {
 
 		MEM = {	#Memmingen
 			own_control_core = {
-				memmingen
 			}
 
 			starting_technology_level = 3
@@ -36192,7 +36205,6 @@ countries = {
 
 		KMP = {	#Kempten
 			own_control_core = {
-				kempten
 			}
 
 			starting_technology_level = 3
@@ -36246,6 +36258,9 @@ countries = {
 			own_control_core = {
 				stuttgart goppingen welzheim backnang urach nagold riedlingen oberndorf calw hohenberg
 				tubingen 
+				waldsee saulgau #Lordship of Waldsee
+				uberlingen
+				heilbronn vaihingen
 			}
 
 			starting_technology_level = 3
@@ -36272,7 +36287,7 @@ countries = {
 
 		OET = {	#Oettingen
 			own_control_core = {
-				oettingen vaihingen
+				 
 			}
 
 			starting_technology_level = 3
@@ -36320,7 +36335,6 @@ countries = {
 
 		HBR = {	#Heilbronn
 			own_control_core = {
-				heilbronn
 			}
 
 			starting_technology_level = 3
@@ -36364,6 +36378,8 @@ countries = {
 				konstanz
 				heidelberg
 				bruchsal sinsheim mosbach buchen tauberbischofsheim
+				hachberg
+				furstenberg
 			}
 
 			starting_technology_level = 3
@@ -36455,7 +36471,6 @@ countries = {
 
 		UBL = { #Überlingen
 			own_control_core = {
-				uberlingen
 			}
 
 			starting_technology_level = 3
@@ -36914,7 +36929,7 @@ countries = {
 
 		PLN = { #Plauen
 			own_control_core = {
-				plauen hof
+				 
 			}
 
 			starting_technology_level = 3
@@ -36993,7 +37008,7 @@ countries = {
 
 		GLA = { #Glauchau
 			own_control_core = {
-				glauchau
+				
 			}
 
 			starting_technology_level = 3
@@ -37057,7 +37072,6 @@ countries = {
 
 		RUP = { #Ruppin
 			own_control_core = {
-				ruppin
 			}
 
 			starting_technology_level = 3
@@ -37087,7 +37101,6 @@ countries = {
 
 		HVB = {	#Havelberg
 			own_control_core = {
-				havelberg wittstock
 			}
 
 			starting_technology_level = 3
@@ -37114,7 +37127,6 @@ countries = {
 
 		SWR = { #Schwerin
 			own_control_core = {
-				schwerin butzow
 			}
 
 			starting_technology_level = 3
@@ -37144,7 +37156,10 @@ countries = {
 
 		MKL = { #Mecklenburg
 			own_control_core = {
-				wismar strelitz neubrandenburg grabow hagenow grevesmuhlen doberan ribnitz rostock
+				wismar grabow hagenow grevesmuhlen doberan ribnitz rostock
+				schwerin butzow
+				gustrow parchim malchow
+				waren malchin
 			}
 
 			starting_technology_level = 3
@@ -37221,7 +37236,6 @@ countries = {
 
 		WRN = { #Waren
 			own_control_core = {
-				waren malchin
 			}
 
 			starting_technology_level = 3
@@ -37297,7 +37311,6 @@ countries = {
 
 		GSW = { #Gustrow
 			own_control_core = {
-				gustrow parchim malchow
 			}
 
 			starting_technology_level = 3
@@ -37906,7 +37919,6 @@ countries = {
 
 		PDB = {	#Paderborn
 			own_control_core = {
-				paderborn buren warburg
 			}
 
 			starting_technology_level = 3
@@ -38114,7 +38126,7 @@ countries = {
 
 		WRM = {	#Worms
 			own_control_core = {
-				worms
+				
 			}
 
 			starting_technology_level = 3
@@ -38130,7 +38142,7 @@ countries = {
 
 		SYE = {	#Speyer
 			own_control_core = {
-				speyer
+				
 			}
 
 			starting_technology_level = 3
@@ -38176,7 +38188,7 @@ countries = {
 
 		LNN = {	#Leiningen
 			own_control_core = {
-				leiningen
+				
 			}
 
 			starting_technology_level = 3
@@ -38232,7 +38244,6 @@ countries = {
 
 		SYN = {	#Sayn
 			own_control_core = {
-				altenkirchen gummersbach
 			}
 
 			starting_technology_level = 3
@@ -38446,7 +38457,6 @@ countries = {
 
 		GMK = {	#(Grafschaft) Mark
 			own_control_core = {
-				hamm altena bochum
 			}
 
 			starting_technology_level = 3
@@ -38478,7 +38488,6 @@ countries = {
 
 		WTG = {	#Wittgenstein
 			own_control_core = {
-				berleburg
 			}
 
 			starting_technology_level = 3
@@ -38509,7 +38518,6 @@ countries = {
 
 		DTM = { #Dortmund
 			own_control_core = {
-				dortmund
 			}
 
 			starting_technology_level = 3
@@ -38525,7 +38533,6 @@ countries = {
 
 		ESS = {	#Essen
 			own_control_core = {
-				essen
 			}
 
 			starting_technology_level = 3
@@ -38605,7 +38612,6 @@ countries = {
 
 		ANB = {	#Arnsberg
 			own_control_core = {
-				arnsberg meschede
 			}
 
 			starting_technology_level = 3
@@ -38636,7 +38642,7 @@ countries = {
 
 		LPP = {	#Lippe
 			own_control_core = {
-				lippstadt detmold
+				 detmold
 			}
 
 			starting_technology_level = 3
@@ -38683,7 +38689,6 @@ countries = {
 
 		RVB = {	#Ravensberg
 			own_control_core = {
-				bielefeld
 			}
 
 			starting_technology_level = 3
@@ -38710,7 +38715,6 @@ countries = {
 
 		MDN = {	#Minden
 			own_control_core = {
-				minden
 			}
 
 			starting_technology_level = 3
@@ -38732,7 +38736,6 @@ countries = {
 
 		OSN = {	#Osnabrück
 			own_control_core = {
-				osnabruck bersenbruck
 			}
 
 			starting_technology_level = 3
@@ -38753,8 +38756,6 @@ countries = {
 
 		TCK = {	#Tecklenburg
 			own_control_core = {
-				tecklenburg lingen
-				cloppenburg friesoythe
 			}
 
 			starting_technology_level = 3
@@ -38845,7 +38846,17 @@ countries = {
 				uelzen #Amt of Bodenteich
 				bentheim
 				leer emden aurich
-				munster ahaus warendorf horstmar meppen vechta aschendorf rheine dulmen
+				meppen aschendorf
+				brunswick gifhorn helmstedt meinersen wolfenbuttel gandersheim #Duchy of Braunschweig-Wolfenbüttel
+				hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
+				gottingen #Duchy of Göttingen 
+				stade neuhaus gestenthorpe osterholz achim bremervorde zeven
+				osnabruck bersenbruck
+				verden soltau
+				lingen
+				hoya
+				nienburg
+				diepholz
 			}
 
 			starting_technology_level = 3
@@ -38892,9 +38903,6 @@ countries = {
 
 		BRU = {	#Brunswick (Lüneburg)
 			own_control_core = {
-				brunswick gifhorn helmstedt meinersen wolfenbuttel gandersheim #Duchy of Braunschweig-Wolfenbüttel
-				hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
-				gottingen #Duchy of Göttingen
 
 			}
 
@@ -39059,7 +39067,6 @@ countries = {
 
 		HOY = {	#Hoya
 			own_control_core = {
-				hoya
 			}
 
 			starting_technology_level = 3
@@ -39095,7 +39102,6 @@ countries = {
 
 		NIE = {	#Nienburg
 			own_control_core = {
-				nienburg
 			}
 
 			starting_technology_level = 3
@@ -39127,7 +39133,6 @@ countries = {
 
 		DPH = {	#Diepholz
 			own_control_core = {
-				diepholz
 			}
 
 			starting_technology_level = 3
@@ -39160,7 +39165,6 @@ countries = {
 
 		VRD = {	#Verden
 			own_control_core = {
-				verden soltau
 			}
 
 			starting_technology_level = 3
@@ -39207,7 +39211,8 @@ countries = {
 		OLD = {	#Oldenburg
 			own_control_core = {
 				oldenburg elsfleth
-				delmenhorst
+				delmenhorst birkenfeld
+				cloppenburg friesoythe vechta
 			}
 
 			starting_technology_level = 3
@@ -54334,7 +54339,6 @@ countries = {
 		ONY = {
 
 			own_control_core = {
-				onenioteke oneniote teiehonwahkhkwatha niiohehsane oswegatchie nikahionhwakowa
 			}
 
 			starting_technology_level = 0
@@ -54355,7 +54359,6 @@ countries = {
 		ONO = {
 
 			own_control_core = {
-			tsikahiotsisto otsiningo oswego
 			}
 
 			starting_technology_level = 0
@@ -54376,7 +54379,6 @@ countries = {
 		GYO = {
 
 			own_control_core = {
-			skaniatares assorodus gahato
 			}
 
 			starting_technology_level = 0
@@ -54397,7 +54399,6 @@ countries = {
 		ONN = {
 
 			own_control_core = {
-			canadaigua geneseo tsonentsiio irondequoit
 			}
 
 			starting_technology_level = 0
@@ -58661,7 +58662,1041 @@ countries = {
 		#https://en.wikipedia.org/wiki/Cahokia
 		CHK = {
 			own_control_core = {
-				shawmut naumkeag assabet quinsigamond weshacum patuxet assonet nauset nantucket agawam pocumtuck mahaiwe pontoosuck seekonk woonsocket pawcatuck saukiog siccanemos willimantic nehantuck quinnipiac rippowam scatacook winooski gwenaska koes nitamibontegw walloomsac pecunktuk wantastiquet ottauquechee ompompanusooc passumpsic cowasuck amoskeag nashua squamscott pennacook umbagog pemigewasset ossipee monadnock sunapee coos ammonoosuc casco kennebunk androscoggin pequawket ammoscongon anasagunticook kennebec sagadahoc messalonskee norridgewock kineo caratunk kennebango nanrantsouak mittaywanquam penobscot majabigwaduce piscataquis passagassawkeag pemetic millinocket katahdin aroostook meduxnekeag allagash passamaquoddy machias nicatous maatawamkeag manhattan tappan nochpeem montauk unquachog massapequa poughkeepsie ponkhockie minisink kitchawanc mahicannituck horicon esquatak lenape canajoharie saratoga schenectady teionontatatie oneonta ticonderoga itekiatonhniarikon oskennonton oronia oneyotdehaga kawenote tsiietsenhtha adirondacks kanyengehaga nikahionhwakowa oswegatchie ahkwesasne_ny kaniatarahontsi ahna_wate onenioteke niiohehsane teiehonwahkhkwatha oneniote tsikahiotsisto oswego otsiningo skaniatares assorodus gahato canadaigua irondequoit geneseo tsonentsiio tiotoren kanentaweron thahnawate cattaraugus ahouenro raritan hackensack navisink piscopeek tetamekanch kechemeche cohansey amintonck assunpink muscotnetcong hopatcong shackamaxon wawassan wyomissing paxtang connatachequa conewago lehigh paunacussing tohickon schuylkill tesinigh attaock cocalico shamokin mahoning mattawana juniata onojutta tuckahoe wallenpaupack massawomeck scahentowanen lackawanna atrakwaye wappasening lackawaxen minguannan tappahanna assawoman loyalsock lycoming tangasootack andastoerrhonon susquehannock allegheny loyalhanna youghiogheny quemahoning conemaugh erie saucunk shenango tionesta kittaning punxsutawney wicomico chicamacomico matapeake patapsco wicontiss nentego patuxent anacostia monocacy potapoco catoctin antietam cacapon opequon wapocomo werowocomoco patawomeck wicocomico nanzatico rappahannock kiskiack accomac nansemond chesapeake weyanock powhatan appamatuck cheroenhaka waqua pamunkey doeg manassas tegninateo rassawek mowhemencho appomattox monahassanugh massinacak monasukapanough saponi nessoneick occaneechi pintahae meherrin mahock chiswell tutelo torope mondongachate onandagoa massanutten schinhandowi shenandoah mosopeleacipi tazewell bland kallamuckee wappacoma ashby conococheague patna_us calicuas moneton mohetan kanawha ouasioto pocatalico chinquetana weotowe tsalagi anigiduwagi wihlink monongahela onimgohow calicua roanoke croatan hatteras chowanoke pocosin wiccacon pamlico coree corani neuse chicora dawhee woccon cohari sapponah necoes gowtano nooherooka kehaukee cherohenaka_nc pamticough adshusheer eno sissipahaw uwharrie waxhaw saura alamance yadkin keyauwee joara iswa guaquili eswawpuddenah kituwa nikwasi guaxule tahkeeosteh italwa wattogee watauga shady_valley_wasteland tanasee_ridge kuwohi nantahala_forest waccamaw winyah winnee peedee pocotaligo etiwan wando kiawah coosaw combahee wimbee santee cofitachequi hymahi talimeco ilasi catawba enoree pacolate amoyescheck keowee oolenoy generostee selkehatchie saluda congaree kosalu capachequi toa kasihta hitchauta pallachacola eufaula ocute ichisi altamaha cofaqui coosa ulibahali apica talimachusi itaba utsutigway quanasee chattahoochee_forest tugaloo nacoochee estatoe etoho kiokee wahachee ogeechee ohoopee sawokli alapaha mikasuki alapahoochee ocmulgee oconee hitchiti mocama tacatacaru tamathli icafui tybee ossabaw sapelo canoochee coweta kealedji pakanahuili tussahaw tuckabutche tescuntee chatahoochee timucua malapaz uriutina napituca mayaca utina itaraholata _fl jororo acuera surruque ho_bay mayaimi ais guacata tequesta guarungube tequemapo okeechobee caloosahatchee uriparacoxi potano vicela uqueten tocaste guazoco mocozo ozita apalachee anhayca azile uzachile pensacola watappo choctawhatchee chatot pelisipi shawnee xualae maniatique amoyeli_gunahita canasoga chiaha coste hogohega great_smokies chalahume satapo tellico hiwasee chatanugi chestowee walden_ridge daguwanalahi aniyutsi shawanoe spithota chucalissa hatchie obion chewalla tombigby kaskinampo cussate chuwalee tullahoma choate tsoyaha sequatchie bledsoe eskalapia chattarawa nepepimmesipi yuchi kentucky eskippakaithiki chenoka adena lewekeomi cuttawba tywhapita charquis kuttawa aaboukingon pennyrile cuttaway warioto cuyahoga ashtabula mahoning_oh tuscarawas muskingum captina conotton olentangy chianouske scioto ethapetha hocking kokosing sandusky maumee qusquasrundee shapoquate assereniet mameiwasipi mineami pickawillany oheyandewa aankwaahsakwa wapinippi agouasaque patoka gichthanne wapahani quiaghtena mississinewa kankakee pakamik wabash kociihsasiipi tippecanoe micewehudehik kineepikwameekwa waawiiyaataanong giwitatigweiasibi osaakiiwaki shiawasee saginaw shebeon tittabawassee saganing cheboygan wequetong asiniike manistee muskegon onekama mastigon wabenasibi owashtanong kalamazoo sakiwasipi wapikisko mackinac tahquamenon manistique ishpeming menominee keweenaw chicagon ontonagon checagou tiatiki pisticoui kishwaukee ahsenisiipi pecatonica peewareewa peoria theakeiki waupecan sangamon matsigame cahokia kaskaskia kaskankaham amonokoa macoupin ochechiton pawwikamsipi mitchigamea ambraw osanamon okaw millioke kenosha sheboygan koshkonong boojwiikwedong manitowoc oconto peshtigo muhwaosipi meskousing aupuhkirakanewe whaypaw kakaling mendota pecatonica_wi kiwigapawa gaamiskwaabikaang chequamegon kayeskikan mishkwagokag kinnickinnic enookwasaneenah waumandee hahatououadeba pokegama odaawaa sappah abihka callamaco ohatchee tuasi ishtaboli hytop talisi casiste caxa humati atahachi piachi mabila taliepacana zabusta apafalaya pakana wakokai uchee omusee mobile consha tombigbee escatawppa tohome conecuh patsaliga chootawatchee cootcla hogehege koasati apotaka_hacha napochi buddahatchie capino chicksawhe biloxi okeloussa eiowane pascagoula mosco caftacha eianamogola yaneka tchoukafala chatata ongoulastoga sacchuma quizquiz yazoo tiou taposa quigualtam koroa natchez chittaloosa houma ossabaw_sound port_royal_sound charleston_harbor long_bay_us onslow_bay pamlico_sound cape_hatteras raleigh_bay albemarle_sound chesapeake_channel lower_chesapeake_bay upper_chesapeake_bay chincoteague_bay delaware_bay cape_may barnegat_bay long_island_coast_us long_island_sound raritan_bay block_channel narragansett_bay nantucket_shoals pleasant_bay cape_cod_bay massachusetts_bay scantum_basin casco_bay penobscot_bay schoodic_ridge bulbancha bogue_chitto tangipahoa itihumma chawasha atchafalaya opelousa ciwat otse tsikip _tx ya_ttaish calcasieu doustioni ouachita kisatchie catahoula tensas tunica anilco guachoyo ayays tutilpinco pacaha quigate casqui coligua calpista palisema nanatsoho naguatex catalte aguacay amaye chaguate ouachita_mts tanico quipana tula_ark utiangue tutilcoya anoixi cayas satsukhdin wahzhazhe unica tamaroa wyaconda oahaha emasulia chariton meramec pahatsi tanwakanwakaghe utsehta nikhdhintanwan intapushe ni_okaska towosaghy chepoussa cholohollay st_francois_mts nodaway nudarcha wimihsoorita hokah wapkawazioju owatonna hahawakpa lahontan minnetonka wabezi kagiwigwan shingwako winnibigoshish bemidji mahkato watonwan shetek chanshayapi tipsinah kandiyohi tchan_sansan kiyuska pabaska chagu oyate_shisha wakmua_oin igmu kampeska mnihaha okobojo pocasse unkpatina manatara maanaagi_iixodagish ruhptare moingwena coiracoentanon wapsipinicon ocheyedan penaca moskwawakwa iowa kiosaquay inyanshashawatpa pahotcha nishnabotna monona tchankasndata mathoskabde ginebig misi_zaaga_igan minnewawa nemadji wissakode makoua kitchigumi koochiching miskwaagamiiwi mesabi neemannee kawishiwi marapa cerwecerna shichah kaya_paha sicangu waziblo wetarhoo hinyankaga badlands_sd_n shanha mistaiyohe he_sapa awaxaawi_ishiibisha histahayo neesihushaanu skahuukaawiat iyawakagapi matootonha nd_badlands chakadee_wakpa wahasah badlands_mt waahukaahaanu wit_anowi_yohe moehe_yoe ihkowom_iyo_he ksai_yohe mitsiadazi skaapirox buaxaxxaashe aahkawirahkata aashbiliihkupe iichiilikaaashaashe itkanaahtuusu e_ometaeso heviksnipahis mo_ohta_vo_honaaeva notameohmeshehse iisaxpuatahcheeaashe aashbikkaashee ishpiialawaache awatixa adixoodagoorahareesh koostaaka amahami suktogeja_o_ipa patgasa_wakpa baliisshe_aashe minisose ski_iyo_he hoskitaga kinuhsisuht wase_wakpa caba_wakpa badlands_mt_2 e_omita_i xuahceesh_annappiio huupalikooche aluutashe baashalapache aashise binmatshua cuthuhogwa kinaksisahtai kyaiyesisahtai onnikisisaahtaayi mahpahpahazhhah nataeosueti rockies_mt poyiitahtai wakpa_juk_ana etzikom kwaskwuti cahe canhewincasta shuntaneshnanga kansas monecato kirarutah nepahalla neosho manhukdhintanwan nanzewaspe wasetihoge etzanoa quivira harahey ninescah ayadaldapa ne_shuta aahkawiraahkata ne_miskua kaw aahkawiraahkata panenetah kaiurskuta headdhetanwan wakhakukdhin pasukhdin tulsa tawehash chikaskia guichita wewoka washita ouachita_ok kiamichi hawaastatkiicu nigitai kicpahat gulvau oktahutchee nixgu niobrara aowa waha_tunga kits_ixta kickatari mnitanka minatare omaha nemaha nebraska ni_haunchi_to kanpeska kus_lecha kickatus ickari_kitsu nutanke pitahauerat hehvaitaneo laramie_range meneeohe medicine_bow wotapio so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l phankeska_wakpa ononio_he wasin_wakpa veoneohe mano_iyo_he mutsisooni_yohe heeyoteyoo ponoeohe wishkahuunu mahohevahoe beesowuunenno minii_yohe wiskapella chitolah nanwacinahaana opaskwayak wapisiw_sipihk winnipegosis wazihe minizuahe wibazoka_wakpa minichinas tugaske notukeu miksiw_sipisis kiyiu manitowi_sakahikanihk ye_ya_xabine ogiciza_wakpa pimicaskewyashik ceepee saskatchewan kistapinan petaigan porcupine_hills notinito_sipiy wetaskiwin amisk kisiskaciwani_sipiy amiskwaciwiy titaga wabamun apahtoksipisskan mokowan ijathibe_wapta kananaskis okotoks inotonniicaah saamis insaombi makhabn waskasoo netook keoma michichi wawaskesiw_sipiy wastina shunda pembina_ab ya_kti_ki apetowun onabeesh tootinaowaziibeeng kinosota kihi sihabi sipiweske waskada winnipeg mnisaton mihkwakamiwi_sipiy pikwedina_sagaomam maskwa osukyuze hepa canuba_wakpa muskiki kinistino etomami kamsack s iskwao tacehubana wascana posakanaciwiy katepwewi assapasca pikwedina kimodakiwi ajawewesitagun manomin gawakomitigweia mustinka tewaukon maitomoni_ohe mekinock pembina minnewaukan mirixubaash saakak_hukaahaanu metigoshe itscheabine 
+				shawmut
+				naumkeag
+				assabet
+				quinsigamond
+				weshacum
+				patuxet
+				assonet
+				nauset
+				nantucket
+				agawam
+				pocumtuck
+				mahaiwe
+				pontoosuck
+				seekonk
+				woonsocket
+				pawcatuck
+				saukiog
+				siccanemos
+				willimantic
+				nehantuck
+				quinnipiac
+				rippowam
+				scatacook
+				winooski
+				gwenaska
+				koes
+				nitamibontegw
+				walloomsac
+				pecunktuk
+				wantastiquet
+				ottauquechee
+				ompompanusooc
+				passumpsic
+				cowasuck
+				amoskeag
+				nashua
+				squamscott
+				pennacook
+				umbagog
+				pemigewasset
+				ossipee
+				monadnock
+				sunapee
+				coos
+				ammonoosuc
+				casco
+				kennebunk
+				androscoggin
+				pequawket
+				ammoscongon
+				anasagunticook
+				kennebec
+				sagadahoc
+				messalonskee
+				norridgewock
+				kineo
+				caratunk
+				kennebango
+				nanrantsouak
+				mittaywanquam
+				penobscot
+				majabigwaduce
+				piscataquis
+				passagassawkeag
+				pemetic
+				millinocket
+				katahdin
+				aroostook
+				meduxnekeag
+				allagash
+				passamaquoddy
+				machias
+				nicatous
+				maatawamkeag
+				manhattan
+				tappan
+				nochpeem
+				montauk
+				unquachog
+				massapequa
+				poughkeepsie
+				ponkhockie
+				minisink
+				kitchawanc
+				mahicannituck
+				horicon
+				esquatak
+				lenape
+				canajoharie
+				saratoga
+				schenectady
+				teionontatatie
+				oneonta
+				ticonderoga
+				itekiatonhniarikon
+				oskennonton
+				oronia
+				oneyotdehaga
+				kawenote
+				tsiietsenhtha
+				adirondacks
+				kanyengehaga
+				nikahionhwakowa
+				oswegatchie
+				ahkwesasne_ny
+				kaniatarahontsi
+				ahna_wate
+				onenioteke
+				niiohehsane
+				teiehonwahkhkwatha
+				oneniote
+				tsikahiotsisto
+				oswego
+				otsiningo
+				skaniatares
+				assorodus
+				gahato
+				canadaigua
+				irondequoit
+				geneseo
+				tsonentsiio
+				tiotoren
+				kanentaweron
+				thahnawate
+				cattaraugus
+				ahouenro
+				raritan
+				hackensack
+				navisink
+				piscopeek
+				tetamekanch
+				kechemeche
+				cohansey
+				amintonck
+				assunpink
+				muscotnetcong
+				hopatcong
+				shackamaxon
+				wawassan
+				wyomissing
+				paxtang
+				connatachequa
+				conewago
+				lehigh
+				paunacussing
+				tohickon
+				schuylkill
+				tesinigh
+				attaock
+				cocalico
+				shamokin
+				mahoning
+				mattawana
+				juniata
+				onojutta
+				tuckahoe
+				wallenpaupack
+				massawomeck
+				scahentowanen
+				lackawanna
+				atrakwaye
+				wappasening
+				lackawaxen
+				minguannan
+				tappahanna
+				assawoman
+				loyalsock
+				lycoming
+				tangasootack
+				andastoerrhonon
+				susquehannock
+				allegheny
+				loyalhanna
+				youghiogheny
+				quemahoning
+				conemaugh
+				erie
+				saucunk
+				shenango
+				tionesta
+				kittaning
+				punxsutawney
+				wicomico
+				chicamacomico
+				matapeake
+				patapsco
+				wicontiss
+				nentego
+				patuxent
+				anacostia
+				monocacy
+				potapoco
+				catoctin
+				antietam
+				cacapon
+				opequon
+				wapocomo
+				werowocomoco
+				patawomeck
+				wicocomico
+				nanzatico
+				rappahannock
+				kiskiack
+				accomac
+				nansemond
+				chesapeake
+				weyanock
+				powhatan
+				appamatuck
+				cheroenhaka
+				waqua
+				pamunkey
+				doeg
+				manassas
+				tegninateo
+				rassawek
+				mowhemencho
+				appomattox
+				monahassanugh
+				massinacak
+				monasukapanough
+				saponi
+				nessoneick
+				occaneechi
+				pintahae
+				meherrin
+				mahock
+				chiswell
+				tutelo
+				torope
+				mondongachate
+				onandagoa
+				massanutten
+				schinhandowi
+				shenandoah
+				mosopeleacipi
+				tazewell
+				bland
+				kallamuckee
+				wappacoma
+				ashby
+				conococheague
+				patna_us
+				calicuas
+				moneton
+				mohetan
+				kanawha
+				ouasioto
+				pocatalico
+				chinquetana
+				weotowe
+				tsalagi
+				anigiduwagi
+				wihlink
+				monongahela
+				onimgohow
+				calicua
+				roanoke
+				croatan
+				hatteras
+				chowanoke
+				pocosin
+				wiccacon
+				pamlico
+				coree
+				corani
+				neuse
+				chicora
+				dawhee
+				woccon
+				cohari
+				sapponah
+				necoes
+				gowtano
+				nooherooka
+				kehaukee
+				cherohenaka_nc
+				pamticough
+				adshusheer
+				eno
+				sissipahaw
+				uwharrie
+				waxhaw
+				saura
+				alamance
+				yadkin
+				keyauwee
+				joara
+				iswa
+				guaquili
+				eswawpuddenah
+				kituwa
+				nikwasi
+				guaxule
+				tahkeeosteh
+				italwa
+				wattogee
+				watauga
+				shady_valley_wasteland
+				tanasee_ridge
+				kuwohi
+				nantahala_forest
+				waccamaw
+				winyah
+				winnee
+				peedee
+				pocotaligo
+				etiwan
+				wando
+				kiawah
+				coosaw
+				combahee
+				wimbee
+				santee
+				cofitachequi
+				hymahi
+				talimeco
+				ilasi
+				catawba
+				enoree
+				pacolate
+				amoyescheck
+				keowee
+				oolenoy
+				generostee
+				selkehatchie
+				saluda
+				congaree
+				kosalu
+				capachequi
+				toa
+				kasihta
+				hitchauta
+				pallachacola
+				eufaula
+				ocute
+				ichisi
+				altamaha
+				cofaqui
+				coosa
+				ulibahali
+				apica
+				talimachusi
+				itaba
+				utsutigway
+				quanasee
+				chattahoochee_forest
+				tugaloo
+				nacoochee
+				estatoe
+				etoho
+				kiokee
+				wahachee
+				ogeechee
+				ohoopee
+				sawokli
+				alapaha
+				mikasuki
+				alapahoochee
+				ocmulgee
+				oconee
+				hitchiti
+				mocama
+				tacatacaru
+				tamathli
+				icafui
+				tybee
+				ossabaw
+				sapelo
+				canoochee
+				coweta
+				kealedji
+				pakanahuili
+				tussahaw
+				tuckabutche
+				tescuntee
+				chatahoochee
+				timucua
+				malapaz
+				uriutina
+				napituca
+				mayaca
+				utina
+				itaraholata
+				_fl
+				jororo
+				acuera
+				surruque
+				ho_bay
+				mayaimi
+				ais
+				guacata
+				tequesta
+				guarungube
+				tequemapo
+				okeechobee
+				caloosahatchee
+				uriparacoxi
+				potano
+				vicela
+				uqueten
+				tocaste
+				guazoco
+				mocozo
+				ozita
+				apalachee
+				anhayca
+				azile
+				uzachile
+				pensacola
+				watappo
+				choctawhatchee
+				chatot
+				pelisipi
+				shawnee
+				xualae
+				maniatique
+				amoyeli_gunahita
+				canasoga
+				chiaha
+				coste
+				hogohega
+				great_smokies
+				chalahume
+				satapo
+				tellico
+				hiwasee
+				chatanugi
+				chestowee
+				walden_ridge
+				daguwanalahi
+				aniyutsi
+				shawanoe
+				spithota
+				chucalissa
+				hatchie
+				obion
+				chewalla
+				tombigby
+				kaskinampo
+				cussate
+				chuwalee
+				tullahoma
+				choate
+				tsoyaha
+				sequatchie
+				bledsoe
+				eskalapia
+				chattarawa
+				nepepimmesipi
+				yuchi
+				kentucky
+				eskippakaithiki
+				chenoka
+				adena
+				lewekeomi
+				cuttawba
+				tywhapita
+				charquis
+				kuttawa
+				aaboukingon
+				pennyrile
+				cuttaway
+				warioto
+				cuyahoga
+				ashtabula
+				mahoning_oh
+				tuscarawas
+				muskingum
+				captina
+				conotton
+				olentangy
+				chianouske
+				scioto
+				ethapetha
+				hocking
+				kokosing
+				sandusky
+				maumee
+				qusquasrundee
+				shapoquate
+				assereniet
+				mameiwasipi
+				mineami
+				pickawillany
+				oheyandewa
+				aankwaahsakwa
+				wapinippi
+				agouasaque
+				patoka
+				gichthanne
+				wapahani
+				quiaghtena
+				mississinewa
+				kankakee
+				pakamik
+				wabash
+				kociihsasiipi
+				tippecanoe
+				micewehudehik
+				kineepikwameekwa
+				waawiiyaataanong
+				giwitatigweiasibi
+				osaakiiwaki
+				shiawasee
+				saginaw
+				shebeon
+				tittabawassee
+				saganing
+				cheboygan
+				wequetong
+				asiniike
+				manistee
+				muskegon
+				onekama
+				mastigon
+				wabenasibi
+				owashtanong
+				kalamazoo
+				sakiwasipi
+				wapikisko
+				mackinac
+				tahquamenon
+				manistique
+				ishpeming
+				menominee
+				keweenaw
+				chicagon
+				ontonagon
+				checagou
+				tiatiki
+				pisticoui
+				kishwaukee
+				ahsenisiipi
+				pecatonica
+				peewareewa
+				peoria
+				theakeiki
+				waupecan
+				sangamon
+				matsigame
+				cahokia
+				kaskaskia
+				kaskankaham
+				amonokoa
+				macoupin
+				ochechiton
+				pawwikamsipi
+				mitchigamea
+				ambraw
+				osanamon
+				okaw
+				millioke
+				kenosha
+				sheboygan
+				koshkonong
+				boojwiikwedong
+				manitowoc
+				oconto
+				peshtigo
+				muhwaosipi
+				meskousing
+				aupuhkirakanewe
+				whaypaw
+				kakaling
+				mendota
+				pecatonica_wi
+				kiwigapawa
+				gaamiskwaabikaang
+				chequamegon
+				kayeskikan
+				mishkwagokag
+				kinnickinnic
+				enookwasaneenah
+				waumandee
+				hahatououadeba
+				pokegama
+				odaawaa
+				sappah
+				abihka
+				callamaco
+				ohatchee
+				tuasi
+				ishtaboli
+				hytop
+				talisi
+				casiste
+				caxa
+				humati
+				atahachi
+				piachi
+				mabila
+				taliepacana
+				zabusta
+				apafalaya
+				pakana
+				wakokai
+				uchee
+				omusee
+				mobile
+				consha
+				tombigbee
+				escatawppa
+				tohome
+				conecuh
+				patsaliga
+				chootawatchee
+				cootcla
+				hogehege
+				koasati
+				apotaka_hacha
+				napochi
+				buddahatchie
+				capino
+				chicksawhe
+				biloxi
+				okeloussa
+				eiowane
+				pascagoula
+				mosco
+				caftacha
+				eianamogola
+				yaneka
+				tchoukafala
+				chatata
+				ongoulastoga
+				sacchuma
+				quizquiz
+				yazoo
+				tiou
+				taposa
+				quigualtam
+				koroa
+				natchez
+				chittaloosa
+				houma
+				ossabaw_sound
+				port_royal_sound
+				charleston_harbor
+				long_bay_us
+				onslow_bay
+				pamlico_sound
+				cape_hatteras
+				raleigh_bay
+				albemarle_sound
+				chesapeake_channel
+				lower_chesapeake_bay
+				upper_chesapeake_bay
+				chincoteague_bay
+				delaware_bay
+				cape_may
+				barnegat_bay
+				long_island_coast_us
+				long_island_sound
+				raritan_bay
+				block_channel
+				narragansett_bay
+				nantucket_shoals
+				pleasant_bay
+				cape_cod_bay
+				massachusetts_bay
+				scantum_basin
+				casco_bay
+				penobscot_bay
+				schoodic_ridge
+				bulbancha
+				bogue_chitto
+				tangipahoa
+				itihumma
+				chawasha
+				atchafalaya
+				opelousa
+				ciwat
+				otse
+				tsikip
+				_tx
+				ya_ttaish
+				calcasieu
+				doustioni
+				ouachita
+				kisatchie
+				catahoula
+				tensas
+				tunica
+				anilco
+				guachoyo
+				ayays
+				tutilpinco
+				pacaha
+				quigate
+				casqui
+				coligua
+				calpista
+				palisema
+				nanatsoho
+				naguatex
+				catalte
+				aguacay
+				amaye
+				chaguate
+				ouachita_mts
+				tanico
+				quipana
+				tula_ark
+				utiangue
+				tutilcoya
+				anoixi
+				cayas
+				satsukhdin
+				wahzhazhe
+				unica
+				tamaroa
+				wyaconda
+				oahaha
+				emasulia
+				chariton
+				meramec
+				pahatsi
+				tanwakanwakaghe
+				utsehta
+				nikhdhintanwan
+				intapushe
+				ni_okaska
+				towosaghy
+				chepoussa
+				cholohollay
+				st_francois_mts
+				nodaway
+				nudarcha
+				wimihsoorita
+				hokah
+				wapkawazioju
+				owatonna
+				hahawakpa
+				lahontan
+				minnetonka
+				wabezi
+				kagiwigwan
+				shingwako
+				winnibigoshish
+				bemidji
+				mahkato
+				watonwan
+				shetek
+				chanshayapi
+				tipsinah
+				kandiyohi
+				tchan_sansan
+				kiyuska
+				pabaska
+				chagu
+				oyate_shisha
+				wakmua_oin
+				igmu
+				kampeska
+				mnihaha
+				okobojo
+				pocasse
+				unkpatina
+				manatara
+				maanaagi_iixodagish
+				ruhptare
+				moingwena
+				coiracoentanon
+				wapsipinicon
+				ocheyedan
+				penaca
+				moskwawakwa
+				iowa
+				kiosaquay
+				inyanshashawatpa
+				pahotcha
+				nishnabotna
+				monona
+				tchankasndata
+				mathoskabde
+				ginebig
+				misi_zaaga_igan
+				minnewawa
+				nemadji
+				wissakode
+				makoua
+				kitchigumi
+				koochiching
+				miskwaagamiiwi
+				mesabi
+				neemannee
+				kawishiwi
+				marapa
+				cerwecerna
+				shichah
+				kaya_paha
+				sicangu
+				waziblo
+				wetarhoo
+				hinyankaga
+				badlands_sd_n
+				shanha
+				mistaiyohe
+				he_sapa
+				awaxaawi_ishiibisha
+				histahayo
+				neesihushaanu
+				skahuukaawiat
+				iyawakagapi
+				matootonha
+				nd_badlands
+				chakadee_wakpa
+				wahasah
+				badlands_mt
+				waahukaahaanu
+				wit_anowi_yohe
+				moehe_yoe
+				ihkowom_iyo_he
+				ksai_yohe
+				mitsiadazi
+				skaapirox
+				buaxaxxaashe
+				aahkawirahkata
+				aashbiliihkupe
+				iichiilikaaashaashe
+				itkanaahtuusu
+				e_ometaeso
+				heviksnipahis
+				mo_ohta_vo_honaaeva
+				notameohmeshehse
+				iisaxpuatahcheeaashe
+				aashbikkaashee
+				ishpiialawaache
+				awatixa
+				adixoodagoorahareesh
+				koostaaka
+				amahami
+				suktogeja_o_ipa
+				patgasa_wakpa
+				baliisshe_aashe
+				minisose
+				ski_iyo_he
+				hoskitaga
+				kinuhsisuht
+				wase_wakpa
+				caba_wakpa
+				badlands_mt_2
+				e_omita_i
+				xuahceesh_annappiio
+				huupalikooche
+				aluutashe
+				baashalapache
+				aashise
+				binmatshua
+				cuthuhogwa
+				kinaksisahtai
+				kyaiyesisahtai
+				onnikisisaahtaayi
+				mahpahpahazhhah
+				nataeosueti
+				rockies_mt
+				poyiitahtai
+				wakpa_juk_ana
+				etzikom
+				kwaskwuti
+				cahe
+				canhewincasta
+				shuntaneshnanga
+				kansas
+				monecato
+				kirarutah
+				nepahalla
+				neosho
+				manhukdhintanwan
+				nanzewaspe
+				wasetihoge
+				etzanoa
+				quivira
+				harahey
+				ninescah
+				ayadaldapa
+				ne_shuta
+				aahkawiraahkata
+				ne_miskua
+				kaw
+				aahkawiraahkata
+				panenetah
+				kaiurskuta
+				headdhetanwan
+				wakhakukdhin
+				pasukhdin
+				tulsa
+				tawehash
+				chikaskia
+				guichita
+				wewoka
+				washita
+				ouachita_ok
+				kiamichi
+				hawaastatkiicu
+				nigitai
+				kicpahat
+				gulvau
+				oktahutchee
+				nixgu
+				niobrara
+				aowa
+				waha_tunga
+				kits_ixta
+				kickatari
+				mnitanka
+				minatare
+				omaha
+				nemaha
+				nebraska
+				ni_haunchi_to
+				kanpeska
+				kus_lecha
+				kickatus
+				ickari_kitsu
+				nutanke
+				pitahauerat
+				hehvaitaneo
+				laramie_range
+				meneeohe
+				medicine_bow
+				wotapio
+				so_taeo_o
+				oevemanaho
+				ohktouna
+				hisse_yoyi_yoe
+				hisiometaneo
+				paiyo_he
+				niineniiniicie
+				neenowuxoote_i
+				ce_eiinox
+				nih_iitkotousi_l
+				phankeska_wakpa
+				ononio_he
+				wasin_wakpa
+				veoneohe
+				mano_iyo_he
+				mutsisooni_yohe
+				heeyoteyoo
+				ponoeohe
+				wishkahuunu
+				mahohevahoe
+				beesowuunenno
+				minii_yohe
+				wiskapella
+				chitolah
+				nanwacinahaana
+				opaskwayak
+				wapisiw_sipihk
+				winnipegosis
+				wazihe
+				minizuahe
+				wibazoka_wakpa
+				minichinas
+				tugaske
+				notukeu
+				miksiw_sipisis
+				kiyiu
+				manitowi_sakahikanihk
+				ye_ya_xabine
+				ogiciza_wakpa
+				pimicaskewyashik
+				ceepee
+				saskatchewan
+				kistapinan
+				petaigan
+				porcupine_hills
+				notinito_sipiy
+				wetaskiwin
+				amisk
+				kisiskaciwani_sipiy
+				amiskwaciwiy
+				titaga
+				wabamun
+				apahtoksipisskan
+				mokowan
+				ijathibe_wapta
+				kananaskis
+				okotoks
+				inotonniicaah
+				saamis
+				insaombi
+				makhabn
+				waskasoo
+				netook
+				keoma
+				michichi
+				wawaskesiw_sipiy
+				wastina
+				shunda
+				pembina_ab
+				ya_kti_ki
+				apetowun
+				onabeesh
+				tootinaowaziibeeng
+				kinosota
+				kihi
+				sihabi
+				sipiweske
+				waskada
+				winnipeg
+				mnisaton
+				mihkwakamiwi_sipiy
+				pikwedina_sagaomam
+				maskwa
+				osukyuze
+				hepa
+				canuba_wakpa
+				muskiki
+				kinistino
+				etomami
+				kamsack
+				s
+				iskwao
+				tacehubana
+				wascana
+				posakanaciwiy
+				katepwewi
+				assapasca
+				pikwedina
+				kimodakiwi
+				ajawewesitagun
+				manomin
+				gawakomitigweia
+				mustinka
+				tewaukon
+				maitomoni_ohe
+				mekinock
+				pembina
+				minnewaukan
+				mirixubaash
+				saakak_hukaahaanu
+				metigoshe
+				itscheabine 
 			}
 			starting_technology_level = 1
 
