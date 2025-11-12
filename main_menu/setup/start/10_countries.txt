@@ -930,6 +930,11 @@ countries = {
 
 		TEU = { #Teutonic Order
 			own_control_core = {
+				eisleben
+				merseburg
+				weissenfels
+				langensalza freyburg beichlingen
+				erfurt
 				mors
 				schmalkalden
 				wetzlar
@@ -1623,7 +1628,7 @@ countries = {
 			own_control_core = {
 				meissen sayda freiberg dresden
 				pirna annaburg
-				weissenfels zwickau rochlitz grimma
+				zwickau rochlitz grimma
 				leipzig chemnitz 
 				bautzen  marienstern 
 				plauen glauchau
@@ -1693,8 +1698,8 @@ countries = {
 
 		THU = {	#Thuringia - PU under Meissen
 			own_control_core = {
-				  langensalza freyburg apolda
-				beichlingen
+				   apolda
+				
 			}
 
 			starting_technology_level = 3
@@ -37622,7 +37627,6 @@ countries = {
 
 		MFE = {	#Mansfeld
 			own_control_core = {
-				eisleben
 			}
 
 			starting_technology_level = 3
@@ -37648,7 +37652,6 @@ countries = {
 
 		MRB = {	#Merseburg
 			own_control_core = {
-				merseburg
 			}
 
 			starting_technology_level = 3
@@ -37732,7 +37735,7 @@ countries = {
 
 		SWZ = {	#Schwarzburg
 			own_control_core = {
-				arnstadt saalfeld
+				arnstadt 
 			}
 
 			starting_technology_level = 3
@@ -37763,6 +37766,7 @@ countries = {
 
 		FLD = {	#Fulda
 			own_control_core = {
+				saalfeld
 			}
 
 			starting_technology_level = 3
@@ -37847,7 +37851,6 @@ countries = {
 
 		ERF = {	#Erfurt
 			own_control_core = {
-				erfurt
 			}
 
 			starting_technology_level = 3
