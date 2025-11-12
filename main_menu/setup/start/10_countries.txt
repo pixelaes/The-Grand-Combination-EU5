@@ -4805,7 +4805,10 @@ countries = {
 				cochoqua ngonnemoa uri_ae_ona chariguriqua
 				gouriqua hessequa gouritsmond attequa outeniqua
 				gonaqua houtunqua damaqua damasonqua hoengeiqua rharhabe
-				kai_karoo gamka humcumqua swy_e inqua khukagamma hamcumqua anys_mountains groot_swart_mountains outenniqua_mountains
+				kai_karoo gamka humcumqua swy_e inqua khukagamma hamcumqua 
+				khari_karoo gainou kanna_south koo attaqua kammanassie
+				ubiqua swellendam ibequa gydo
+				goringhaikona goringhaiqua paarl gorachouqua
 
 				wirrai_durhai guwandhaang cootamundra thurrawal murranbulla boandik bangarang narrandera awabakal
 				dharug eora blue_mountains guramal tharawal ngarigo jerrinja didthul george_lake
@@ -29307,6 +29310,48 @@ countries = {
 
 		CHI = { #Yuán
 			own_control_core = {
+				bozhou wujiang_bozhou shaxi suiyang bochuan zizhou renhuai
+				gulin yongning
+				shuicheng zhijin huozhu caoni cengtai dafang jinji dagu_shunyuan shuixi
+				shizong
+				qiubei wucao guangxi weimo jiaha
+				luoxiong
+				luliang
+				malong_qujing
+				luoshan_qujing
+				nanning
+				zhanyi kedu
+				wusa zhaoban heizhang
+				mangbu luojiao guihua
+				yunlian
+				mabian muchuan mahu
+				wumeng luozuoguan yongshan daguan
+				dongchuan zhehai qiaojia tangdan
+				rende
+				hequ_wuding yuanmou luquan
+				mingyi
+				dechang
+				beishe lizhou_mahu zhenxi_lizhou qiongbu suzhou lugu jianchang_sichuan
+				xisha tonghai pingdian xie
+				jianshui
+				mile
+				ami
+				mengzi
+				heqing jianchuan
+				yaozhou dayao juque
+				ningfan beisheng jinshajiang
+				runyan zuosuo pingchuan
+				mengding_mengzi
+				phong_tho muong_te
+				niuwu puri_simao situo
+				talang tongguan_yuanjiang luokong
+				yuanjiang_yuanjiang malongtalang
+				mengtong baodian zheledian kainan
+				mengban_weiyuan weiyuan
+				mengding gengma mengmeng
+				menglei musuo yinshaluo
+				nam_thing
+				leibo
 				rongmei wufeng
 				tianping
 				shinan
@@ -30197,7 +30242,6 @@ countries = {
 
 		MTG = { #Möng Ting
 			own_control_core = {
-				nam_thing
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30209,7 +30253,6 @@ countries = {
 
 		MGN = { #Möng Ngum
 			own_control_core = {
-				menglei musuo yinshaluo
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30225,7 +30268,6 @@ countries = {
 
 		MHA = { #Möng Hsa
 			own_control_core = {
-				mengding gengma mengmeng
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30237,7 +30279,6 @@ countries = {
 
 		MWO = { #Möng Wo
 			own_control_core = {
-				mengban_weiyuan weiyuan
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30253,7 +30294,6 @@ countries = {
 
 		MGK = { #Möng Ku
 			own_control_core = {
-				mengtong baodian zheledian kainan
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30268,11 +30308,9 @@ countries = {
 
 		YNJ = { #Yuanjiang
 			own_control_core = {
-				yuanjiang_yuanjiang malongtalang
 			}
 
 			own_control_integrated = {
-				talang tongguan_yuanjiang luokong
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30287,7 +30325,6 @@ countries = {
 
 		NWU = { #Niuwu
 			own_control_core = {
-				niuwu puri_simao situo
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30302,7 +30339,6 @@ countries = {
 
 		NYZ = { #Níngyuǎnzhŝu
 			own_control_core = {
-				phong_tho muong_te
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30317,7 +30353,6 @@ countries = {
 
 		NLU = { #Nalou
 			own_control_core = {
-				mengding_mengzi
 			}
 
 			own_control_integrated = {
@@ -30336,7 +30371,6 @@ countries = {
 
 		YJI = { #Yánjǝng
 			own_control_core = {
-				runyan zuosuo pingchuan
 			}
 
 			own_control_integrated = {
@@ -30355,7 +30389,6 @@ countries = {
 
 		BZH = { #Běishèng
 			own_control_core = {
-				ningfan beisheng jinshajiang
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30370,7 +30403,6 @@ countries = {
 
 		YAN = { #Yáo'ĝn
 			own_control_core = {
-				yaozhou dayao juque
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30385,7 +30417,6 @@ countries = {
 
 		HQG = { #Heqing
 			own_control_core = {
-				heqing jianchuan
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30397,7 +30428,6 @@ countries = {
 
 		NNN = { #Annan
 			own_control_core = {
-				mengzi
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30409,7 +30439,6 @@ countries = {
 
 		AGN = { #Aning
 			own_control_core = {
-				ami
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30424,7 +30453,6 @@ countries = {
 
 		MLE = { #Mile
 			own_control_core = {
-				mile
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30439,7 +30467,6 @@ countries = {
 
 		JSI = { #Jianshui
 			own_control_core = {
-				jianshui
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30463,7 +30490,6 @@ countries = {
 
 		NGZ = { #Ningzhou
 			own_control_core = {
-				xisha tonghai pingdian xie
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30475,7 +30501,6 @@ countries = {
 
 		LLS = { #Luóluósī
 			own_control_core = {
-				beishe lizhou_mahu zhenxi_lizhou qiongbu suzhou lugu jianchang_sichuan
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30487,7 +30512,6 @@ countries = {
 
 		CGZ = { #Chĝngzhŝu
 			own_control_core = {
-				dechang
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30499,7 +30523,6 @@ countries = {
 
 		XLG = { #Xianlong
 			own_control_core = {
-				mingyi
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30511,7 +30534,6 @@ countries = {
 
 		WDG = { #Wǔdìng
 			own_control_core = {
-				hequ_wuding yuanmou luquan
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30523,7 +30545,6 @@ countries = {
 
 		RND = { #Réndé
 			own_control_core = {
-				rende
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30535,7 +30556,6 @@ countries = {
 
 		DCN = { #Dongchuan
 			own_control_core = {
-				dongchuan zhehai qiaojia tangdan
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30547,7 +30567,6 @@ countries = {
 
 		WNG = { #Wumeng
 			own_control_core = {
-				wumeng luozuoguan yongshan daguan
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30562,7 +30581,6 @@ countries = {
 
 		MHU = { #Mahu
 			own_control_core = {
-				mabian muchuan mahu
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30577,7 +30595,6 @@ countries = {
 
 		LBO = { #Leibo
 			own_control_core = {
-				leibo
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30589,7 +30606,6 @@ countries = {
 
 		YNL = { #Yunlian
 			own_control_core = {
-				yunlian
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30604,7 +30620,6 @@ countries = {
 
 		ZNX = { #Zhenxiong
 			own_control_core = {
-				mangbu luojiao guihua
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30619,7 +30634,6 @@ countries = {
 
 		WSA = { #Wusa
 			own_control_core = {
-				wusa zhaoban heizhang
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30631,7 +30645,6 @@ countries = {
 
 		ZYI = { #Zhanyi
 			own_control_core = {
-				zhanyi kedu
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30643,7 +30656,6 @@ countries = {
 
 		QJG = { #Qujing
 			own_control_core = {
-				nanning
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30655,7 +30667,6 @@ countries = {
 
 		YZO = { #Yizuo
 			own_control_core = {
-				luoshan_qujing
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30667,7 +30678,6 @@ countries = {
 
 		MLG = { #Malong
 			own_control_core = {
-				malong_qujing
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30679,7 +30689,6 @@ countries = {
 
 		LLN = { #Luliang
 			own_control_core = {
-				luliang
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30691,7 +30700,6 @@ countries = {
 
 		LXG = { #Luoxiong
 			own_control_core = {
-				luoxiong
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30706,7 +30714,6 @@ countries = {
 
 		GGX = { #Guangxi
 			own_control_core = {
-				qiubei wucao guangxi weimo jiaha
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30721,7 +30728,6 @@ countries = {
 
 		SZG = { #Shizong
 			own_control_core = {
-				shizong
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30733,7 +30739,6 @@ countries = {
 
 		SXI = { #Shuixi
 			own_control_core = {
-				shuicheng zhijin huozhu caoni cengtai dafang jinji dagu_shunyuan shuixi
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30748,7 +30753,6 @@ countries = {
 
 		CLE = { #Chelei
 			own_control_core = {
-				gulin yongning
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -30763,7 +30767,6 @@ countries = {
 
 		BZU = { #Bozhou
 			own_control_core = {
-				bozhou wujiang_bozhou shaxi suiyang bochuan zizhou renhuai
 			}
 
 			include = "south_east_asia_monarchy_no_mandala_no_coast"
