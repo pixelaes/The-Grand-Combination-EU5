@@ -4905,6 +4905,8 @@
  LTV_ADJ: "Latvian"
  ESH: "Esthland Governate"
  ESH_ADJ: "Esthonian"
+ USC: "USCA"
+ USC_long: "United States of Central America"
  GUA: "Guatemala"
  HON: "Honduras"
  ELS: "El Salvador"
@@ -4920,3 +4922,4 @@
  URU: "Uruguay"
  CHL: "Chile"
  PRG: "Paraguay"
+ NET: "Netherlands"

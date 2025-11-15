@@ -13,6 +13,21 @@ USA = {
 	difficulty = 3
 }
 
+CAN = {
+	color = map_CAN
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
 MEX = {
 	color = map_MEX
 	color2 = rgb { 16 41 202 }
@@ -28,8 +43,23 @@ MEX = {
 	difficulty = 3
 }
 
+USC = {
+	color = map_USC
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
 GUA = {
-	color = map_MEX
+	color = map_GUA
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -44,7 +74,7 @@ GUA = {
 }
 
 HON = {
-	color = map_MEX
+	color = map_HON
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -59,22 +89,7 @@ HON = {
 }
 
 ELS = {
-	color = map_MEX
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-CRC = {
-	color = map_MEX
+	color = map_ELS
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -89,7 +104,22 @@ CRC = {
 }
 
 NIC = {
-	color = map_MEX
+	color = map_NIC
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+CRC = {
+	color = map_CRC
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -104,7 +134,7 @@ NIC = {
 }
 
 COL = {
-	color = map_MEX
+	color = map_COL
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -119,7 +149,7 @@ COL = {
 }
 
 VNZ = {
-	color = map_MEX
+	color = map_VNZ
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -134,7 +164,7 @@ VNZ = {
 }
 
 ECU = {
-	color = map_MEX
+	color = map_ECU
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -149,7 +179,7 @@ ECU = {
 }
 
 PER = {
-	color = map_MEX
+	color = map_PER
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -164,7 +194,7 @@ PER = {
 }
 
 BOL = {
-	color = map_MEX
+	color = map_BOL
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -179,7 +209,7 @@ BOL = {
 }
 
 BRZ = {
-	color = map_MEX
+	color = map_BRZ
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -194,7 +224,7 @@ BRZ = {
 }
 
 ARG = {
-	color = map_MEX
+	color = map_ARG
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -209,7 +239,7 @@ ARG = {
 }
 
 URU = {
-	color = map_MEX
+	color = map_URU
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -224,7 +254,7 @@ URU = {
 }
 
 CHL = {
-	color = map_MEX
+	color = map_CHL
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -239,7 +269,7 @@ CHL = {
 }
 
 PRG = {
-	color = map_MEX
+	color = map_PRG
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
