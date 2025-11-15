@@ -1,5 +1,5 @@
 ﻿HAB = {
-	color = map_austrian
+	color = map_HAB_AUS
 	color2 = rgb { 220  220  220 }	#Like in EU4
 
 	unit_color0 = rgb {	200 200 200 }

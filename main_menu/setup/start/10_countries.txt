@@ -5068,7 +5068,7 @@ countries = {
 			}
 		}
 
-		MEI = { #Meissen
+		SAX = { #Meissen
 			own_control_core = {
 				meissen sayda freiberg dresden
 				pirna annaburg
@@ -6014,8 +6014,7 @@ countries = {
 			include = "expl_novgorod"
 		}
 
-		#Principality of Galich-Mersky
-		GLM = {
+		KRA = {
 			own_control_core = {
 				krakow chrzanow
 			}
@@ -14489,7 +14488,7 @@ countries = {
 			dynasty = ramberti_dynasty
 		}
 
-		FLO = { #Florence
+		TUS = { #Florence
 			own_control_core = {
 				florence mangona poggibonsi sanlorenzo
 				livorno piombino pisa pontedera
@@ -16072,8 +16071,7 @@ countries = {
 			dynasty = del_vasto_dynasty
 		}
 
-		#Savoy - SAV
-		SAV = {
+		SRP = {
 			own_control_core = {
 				chambery  saint_jean_de_maurienne
 				moutiers evian
@@ -18222,7 +18220,7 @@ countries = {
 
 		}
 
-		CAS = {
+		SPA = {
 			own_control_core = {
 				avila adrada arevalo las_navas oropesa villatoro
 				burgos aranda_de_duero briviesca castrojeriz lerma logrono miranda_de_ebro najera sto_domingo_silos villadiego villarcayo
@@ -22170,7 +22168,7 @@ countries = {
 			capital = bouillon
 		}
 
-		HAB = {	#Austria
+		HAB = {	
 			own_control_core = {
 				fryvaldov
 				vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
@@ -22355,7 +22353,7 @@ countries = {
 				slovene
 			}
 
-			country_rank = rank_duchy
+			country_rank = rank_empire
 			dynasty = habsburg_dynasty
 			capital = vienna
 		}
@@ -29182,7 +29180,7 @@ countries = {
 			country_rank = rank_county
 		}
 
-		KRA = {
+		IRA = {
 			type = building
 
 			capital = hekikai

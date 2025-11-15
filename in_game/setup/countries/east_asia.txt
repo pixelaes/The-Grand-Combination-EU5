@@ -229,8 +229,8 @@ MMI = { #https://ja.wikipedia.org/wiki/%E6%A1%83%E4%BA%95%E6%B0%8F
 	religion_definition = shinto
 }
 
-KRA = { #https://ja.wikipedia.org/wiki/%E5%90%89%E8%89%AF%E6%B0%8F
-	color = map_KRA
+IRA = { #https://ja.wikipedia.org/wiki/%E5%90%89%E8%89%AF%E6%B0%8F
+	color = map_IRA
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = saigoku_culture

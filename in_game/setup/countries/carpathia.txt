@@ -14,7 +14,7 @@
 }
 
 WAL = {
-	color = map_wallachian
+	color = map_WAL
 	color2 = rgb { 82 160 242 }
 
 	culture_definition = wallachian
