@@ -14,6 +14,936 @@ current_age = age_1_traditions
 
 countries = {
 	countries = {
+		MEX = {
+			own_control_core = {
+				xaltocan
+				tehotihuacan
+				culhuacan
+				tetzcoco
+				apan
+				tenochtitlan
+				tlacopan
+				azcapotzalco
+				chalco
+				xochimilco
+				axochiapan
+				cuauhnahuac
+				quauhquechollan
+				huaxtepec
+				itzocan
+				amaticoztitlan
+				tlapan
+				ometepec
+				oapan
+				jicayan
+				zacatepec
+				yohualtepec
+				huajuapan
+				silacayoapam
+				chiautla
+				cuauhteopan
+				tlazcozauhtitlan
+				yopitzinco
+				tixtla
+				chilapa
+				tecoanapa
+				cihuatlan
+				tecpan
+				ixtapan
+				zacatollan
+				teotepec
+				tlapacoya
+				pachyohcan
+				atocpan
+				zempoala
+				tollantzinco
+				axocopan
+				zimapan
+				ixmiquilpan
+				cadereyta
+				tecozautla
+				tututepec
+				coatlan
+				cuauhtolco
+				tonameca
+				manialtepec
+				comitlan
+				juchatengo
+				nube_flan
+				tehuantepec
+				zanatepec
+				chimalapan
+				guiigu_yudxi
+				huamelula
+				juxtlahuaca
+				tlachquiauhco
+				poctlan
+				tillantonco
+				amoltepec
+				teozacualco
+				jaltepec
+				yucucui
+				coixtlahuacan
+				yucundaa
+				yucundeq
+				yodzocahi
+				nochixtlan
+				sosola
+				ixtlan
+				zaachila
+				miahuatlan
+				totolapan
+				mictlan
+				yautepec
+				tlacolula
+				teotitlan
+				ixcatlan
+				oxitlan
+				xicaltepec
+				cuicatlan
+				tochtepec
+				mixtlan
+				tozlan
+				tlacotlalpan
+				cosamaloapan
+				iztachacalapan
+				nudo_zempoaltepetl
+				ozumacin
+				atepec
+				cuauhcuetzpaltepec
+				chinantlan
+				tesechoacan
+				cuetlaxtlan
+				xamapan
+				nopiloa
+				teutila
+				puctlan
+				otatitlan
+				coatlicamac
+				suchilapan
+				atitlan
+				choapan
+				xochiapa
+				coatzacoalco
+				atzaccan
+				acayucan
+				texistepec
+				tonala_coatzacoalco
+				cuauhtochco
+				ahuilizapan
+				otlaquiquixtla
+				zongolica
+				cempoala
+				itzcalpan
+				xicochimalco
+				quiahuiztlan
+				tizatlan
+				tepeticpac
+				ocotelolco
+				quiahuixtlan
+				huexotzinco
+				cholollan
+				xicotepec
+				zacatlan
+				tetela
+				ixtacamaxtitlan
+				tepeyahualco
+				tepeyacac
+				tecalco
+				tecamachalco
+				tehuacan
+				tepexi
+				tlatlauquitepec
+				nauhtlan
+				tuzapan
+				papantla
+				tlapacoyan
+				cuyuxquihui
+				xalapa
+				xalacinco
+				mizantla
+				teziutlan
+				tuxpan
+				teayotlan
+				pantepec
+				taximaroa
+				tzitacuaro
+				zinapecuaro
+				guayangareo
+				tiripetio
+				tacambaro
+				tzintzuntzan
+				cuitzeo
+				churumekua
+				tuzantla
+				caracuaro
+				puruaran
+				huandacareo
+				acambaro
+				maravatio
+				yuririapundaro
+				zacapu
+				xacona
+				zula_michoacan
+				tlazazalca
+				angamacutiro
+				xilotlan
+				erongaricuaro
+				patzcuaro
+				aguacana
+				uruapan
+				tinguindin
+				tancitaro
+				coliman
+				tlacalahuastla
+				caxitlan
+				coahuayana
+				chucutitlan
+				apatzingan
+				teloloapan
+				ajuchitlan
+				cutzamala
+				tepecoacuilco
+				tetellan
+				zompanco
+				oztoman
+				tlachco
+				temascaltepec
+				zacazonapan
+				malinalco
+				tlalpujahua
+				tollohcan
+				ixtlahuaca
+				ninil
+				teotenanco
+				mixquiahuala
+				tollan
+				cuauhtitlan
+				xilotepec
+				ixtachichimecapan
+				kerhiretarhu
+				tetzapotitlan
+				huayacocotla
+				tutotepec
+				metztitlan
+				jalpan
+				tziuhcoac
+				oxtlipan
+				copuz
+				cocomacan
+				mo_o_ti
+				pechichitane
+				xiriquitzio
+				nat_tha_hi
+				penlamu
+				uza
+				pame
+				otomi
+				tanchaycha
+				tangamanga
+				hnahnu
+				huaxcama
+				ozuluama
+				panuco
+				tamtoc
+				quechula
+				ocosingo
+				lakam_tun
+				tenamitl
+				zinacantan
+				pochutla
+				tila
+				tonala_chiapas
+				napinaica
+				jaltenango
+				huehuetan
+				baak
+				cupilco
+				zahuatan
+				tatahuitalpan
+				mayapan
+				mani
+				hocabail
+				sotuta
+				maxcanu
+				hunucma
+				tho
+				motul
+				dzilam
+				titsimin
+				chichen_itza
+				tases
+				kalotmul
+				zaci
+				kaan_peech
+				calkini
+				edzna
+				hochob
+				dzibilnocac
+				chakan_putum
+				tixchel
+				xicallanco
+				itzamkanac
+				nadzcaan
+				éemal
+				chactemal
+				colha
+				nohmul
+				chakanbakan
+				xpuhil
+				dzibanche
+				bakhalal
+				chacchoben
+				tixmul
+				xpaicheil
+				telantunich
+				ekab
+				labcah
+				zama
+				coba
+				chakan_yucatan
+				jootsuuk
+				tlayolan
+				tochpan
+				tlamazolan
+				sayula
+				cuzalapa
+				amollan
+				cocollan
+				cutzalan
+				tomatlan
+				xihutla
+				zihuatlan
+				melahuacan
+				revillagigedo_islands
+				cuauhchinanco
+				tlalpan
+				amaxacotlan
+				cuautla
+				autlan
+				tenamaxtlan
+				ameca
+				huitzquilic
+				etzatlan
+				tala_mx
+				ahuacatlan
+				tzapotzingo
+				hostoticpac
+				hostotipaquillo
+				xalisco
+				magdalenas
+				aztatlan
+				sentispac
+				tonala
+				tlaxomulco
+				chapallan
+				acatic
+				ixtlahuacan
+				coinan
+				mextiacan
+				mitic
+				metzquititlan
+				xalostotitlan
+				tepactitlan
+				yahualican
+				north_aztatlan
+				tehuantepec_isthmus
+				comata_cape
+				coahuayana_delta
+				hupenuu
+				mah_hom
+				oohkoi_yohe
+				kuhtsutuuka
+				hoyu_ao_he
+				atarque
+				tinde
+				kiowa
+				hotoanaohe
+				wahin_wakpa
+				apispaha
+				chinali
+				honih_hiyo_he
+				iriirakiicuhat
+				tsesh_ke_shende
+				tcha_shka_ozhaye
+				kwahada
+				tucumcari
+				natahende
+				guhlkahende
+				chlaande
+				nitahende
+				natages
+				yenecamu
+				guaycura
+				monqui
+				cadegomo
+				mti_pa
+				guadalupe_island
+				cochimi
+				nakipa
+				koleeu
+				akwaala
+				kumeyaay
+				kwapa
+				north_hia_ced_oodham
+				south_hia_ced_oodham
+				huhuhla
+				xiica_hai_iic_coii
+				koklolodi
+				tohono_oodham
+				himuris
+				tahejoc
+				comcaac
+				cucurpe
+				xiica_xnaai_iic_coii
+				pitic
+				ures
+				aconchi
+				aritpa
+				yoreme
+				huatabampo
+				chinipas
+				makurawe
+				cosihuiriachi
+				matape
+				guaimas
+				soyopa
+				sahuaripa
+				batuco
+				oposura
+				papigochic
+				babicora
+				corodehuachi
+				sinaloa
+				baborigame
+				badiraguato
+				ahome
+				cerocahui
+				gonogochi
+				culiacan
+				quetzalla
+				piaxtla
+				mazatlan
+				tamazula
+				otaez
+				topia
+				tayoltita
+				chiametlan
+				maloya
+				guarisamey
+				acaponeta
+				nayarit
+				mezquital
+				nilapohuana
+				odam
+				canatlan
+				atanagunypacam
+				tamaulipeco
+				maratine
+				coospacam
+				magueyes
+				hualahuises
+				galeana
+				pilon
+				pantlan
+				tula
+				mante
+				ypoa
+				ma_tehua_llan
+				guanchenis
+				mazatlpilli
+				mazatepec
+				guachichil
+				miopacoas
+				coneto
+				papanton
+				cuencame
+				alamamas
+				irritila
+				tepehuan
+				inde
+				guanacevi
+				papasquiaro
+				mapimi
+				sisimbles
+				osatayogliglas
+				cacalotito
+				julime
+				tu_e_dine_de
+				baopapas
+				babonoyaba
+				guajoquilla
+				mesquite
+				guiaquitas
+				nonoava
+				cocoyome
+				coyame
+				sainapuchi
+				yoli
+				jae_aaya
+				alazapa
+				cuanales
+				masacuajulam
+				gualeguas
+				tilijais
+				guazapayogliglas
+				huajuco
+				chisos
+				espopolames
+				gueiquesales
+				muruam
+				chichitames
+				cauitaome
+				yeme
+				east_hanos
+				west_hanos
+				manso
+				hue_hue_ri_gi_ta
+				tehua
+				suma
+				namiquipa
+				xicahua
+				pinanaca
+				dzithinahnde
+				xumani
+				patarabueye
+				chinaitih
+				tahuunde
+				tseichi
+				tugumlepen
+				estok_gna
+				cachopostales
+				cacaxtles
+				koke_metchesko_laha
+				cabias
+				tsel_tatli_dsha
+				tinapihuaya
+				piguique
+				capoque
+				karankawa
+				copane
+				mariame
+				tu_sis_nde
+				bobole
+				ndawe_qoha
+				tonkawa
+				kanahatino
+				sha_ia_nde
+				kol_kuka
+				teyas
+				mashgalende
+				melenudo
+				waco
+				nokoni
+				tanimuu
+				kitsai
+				taovaya
+				tawakoni
+				aays
+				yscani
+				tses_tsembai
+				tenawa
+				tchokana
+				penatuka
+				kwaaru
+				paruhuya
+				atajal
+				tchesha
+				aranama
+				saxop_wan_pupako
+				chayopin
+				yanaguana
+				nasoni
+				lacane
+				nisohone
+				nadakuh
+				nabiti
+				nacao
+				nacogdoches
+				naconiche
+				ayish
+				haynay
+				nacachau
+				nabaydacu
+				nakono
+				deadose
+				bidai
+				patiri
+				ishak
+				han
+				orcoquisac
+				caux
+				toyal
+				pachina
+				palaquechare
+				mayeye
+				yojuane
+				cantona
+				toho
+				ajehuac_yana
+				sana_tx
+				tza_wan_pupako
+				tickanwatic
+				tih_go_tel
+				teypana
+				shiewhibak
+				aaku
+				halona_idiwana
+				tsiya
+				tuf_shur_tia
+				than_u_ge
+				ohkweeo_owingeh
+				ialophaybo
+				dinetah
+				nde_nda_i
+				tsezhin_deezahi
+				kin_ligaai
+				ni_alniigi
+				tselgaii
+				tse_bitai
+				chinili
+				orayvi
+				walpi
+				shungopavi
+				kwatsaan
+				halchidoma
+				aha_macav
+				hwalbay
+				havasubaaja
+				tu_dotlizh_ndee
+				grand_canyon
+				piipaash
+				akimel_oodham
+				sobaipuri
+				jocome
+				tsoka_ne_nde
+				bidanku
+				dzil_nchaa_sian
+				tse_binestie
+				totokwan
+				kohatk
+				guwevkabaya
+				dolkabaya
+				liinabaha
+				nadah_dogalnine
+				yavpe
+				wipukba
+				dzil_taadn
+				dilzhee
+				tlacuitlapan
+				yamanquex
+				zain
+				tepecan
+				yuac
+				nochistlan
+				xochipillan
+				teulinchan
+				xochitepec
+				huaxtla
+				sauzas
+				guaxaban
+				xiconaque
+				cuxtaque
+				colorado_delta
+				tecopa_cape
+				xazl_iimt_island
+				haro_cape
+				talchichintle_island
+				lucenilla_peninsula
+				pulmo_cape
+				eugenia_cape
+				payomkawichum
+				kukamonga
+				yaanga
+				ventureno
+				ineseno
+				pimuu_nga
+				channel_islands
+				tepotahal
+				mutsun
+				awaswas
+				chochenyo
+				tawalimni
+				chawchila
+				yashikumne
+				noptinte
+				gashowu
+				tachi
+				pitkachi
+				koyeti
+				yawdanshi
+				tulumni
+				hometwoli
+				sierra_nevada_s
+				mewuk
+				onasatis
+				kashaya
+				kulanapan
+				ukomno_om
+				tlokyhan
+				koloma
+				nochu_ci
+				tuolomne
+				mokelumne
+				kasumne
+				sierra_nevada_c
+				suisin
+				korusi
+				yo_loy
+				hill_nomlaki
+				river_nomlaki
+				koyoongkawi
+				mechoopda
+				maidu
+				yupu
+				nisenan
+				konkow
+				yahi
+				mountain_maidu
+				atsugewi
+				yana
+				sinkyone
+				mattole
+				nongatl
+				jaroujiji
+				wailaki
+				hoilkut
+				oohl
+				chidkhu
+				tututni
+				ko_kwel
+				natinixwe
+				amblu_kai
+				tsnungwe
+				wintu
+				okwanuchu
+				waika
+				siskiyou
+				karuk
+				yulalona
+				tak_elam
+				etnemitane
+				achomawi
+				tollin
+				mbosaksawaas
+				ewksikni
+				modokni
+				iviatim
+				kitanemuk
+				taaqtam
+				vanyume
+				kawaiisu
+				tubatulabam
+				timbisha
+				kuzedika
+				tumpisa
+				havasu
+				ivanpah
+				pah_rimpi
+				moapa
+				sebit
+				amargosa
+				nuwuvi_desert
+				parrusit
+				uinkaret
+				kaibab
+				quitchupah
+				kaiparowit
+				koosharem
+				pierruiat
+				tooele
+				unkagarit
+				pio_gwut
+				seuhubeogoi
+				pagayuat
+				kawich
+				akamba
+				tsaiduka
+				kutsipiuti
+				makuhadokado
+				sawawaktodo
+				kupadokado
+				winnemucca
+				humbokado
+				atsa_kudok_wa
+				tipatikka
+				tsogwiyuyugi
+				kuyatikka
+				mahaguatikka
+				watatikka
+				tosa_konoki
+				tanalelti
+				powalu
+				toedokado
+				tovusidokado
+				waitikka
+				reno
+				toyabe
+				agai_ticutta
+				koop_ticutta
+				cui_yui_ticutta
+				kamu_ticutta
+				panina_ticutta
+				tsitsiadi
+				gidi_tika
+				malheur
+				wadadokado
+				tagotoka
+				moadokado
+				yakwahnim_paa
+				panati
+				tipanuk
+				king_hill
+				yahandeka
+				toponisw
+				seneca
+				arock
+				juntura
+				nyssa
+				payette
+				yam_pah_pa
+				buenaventura
+				morgan
+				yoov_we_teuh
+				so_so_goiw
+				randolph
+				boa_ogoi
+				yuttahih
+				bear_river_w
+				bear_river_e
+				hazelton
+				richfield
+				pohoko_ikkatee
+				wapi
+				dembimbosaage
+				jefferson
+				lemhi
+				pohogwe
+				koa_aga_itoka
+				shohopanaiti
+				yambadika
+				waradika
+				sahpeech
+				yoowetum
+				pahva_nits
+				cumumba
+				toompahnahwach
+				sweetwater
+				guchuntikka
+				tondzaosha
+				kuccuntikka
+				teewinot
+				grand_teton
+				shoshonne
+				leadore
+				kamodika
+				doyahinee
+				red_rock
+				agaidika
+				elkhorn
+				penointikara
+				ruby_valley
+				beaverhead
+				tukudika
+				mitse_adazi
+				fremont
+				gazzllatin
+				ashalaho
+				dukundeka
+				kahpota
+				moghwachi
+				taviwac
+				na_isha
+				arapaho
+				colorado
+				moanunts
+				winimuc
+				to_aheedliinii
+				wasatch
+				uncompaghre
+				nuchiu
+				tavaputs
+				uintah
+				taveewach
+				pahdteeahnooch
+				yapudttka
+				ouray
+				moffat
+				routt
+				dagett
+				savery
+				basawunena
+				bridger
+				rock_springs
+				flaming_gorge
+				sinclair
+				point_of_rocks
+				wamsutter
+				milk_creek
+				east_yuttahih
+				pushroot
+				split_rock
+				washakie
+				hinono_ei
+				moneta
+				grass_creek
+				hot_springs
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = london
+
+			include = "expl_western_europe"
+
+			ai_advance_preference_tags = {
+				exploration = 5
+			}
+		}
+
 		USA = {
 			own_control_core = {
 				shawmut
@@ -5897,7 +6827,742 @@ countries = {
 			}
 			own_control_colony = {
 				# Canada
-				gaspe chicchoc marsoui pewjeg cascapedia paspebiac matapedia matane rimouski mitis amqui causapscal kakouna molsemtekw temiscouata kamouraska kikonteku kamitsisit etchemin wachilmezi onkobagag sartigan wolastoq stadacona andawaohie ontaretse ahwendoe ondaonnentakwi aunona taoondewake kouate laurentian_massif mingan pigou aguanish natashquan manapakuaniskau uanaman upuahpukau magpie_massif notiskuan anticosti natigostec mecatina kegaska coacoachou napetipi uashat nipisso nipissis caopacho opocopa mistecapiu ouiauirabugu toulnustouc capotigamau manicouagan mouchalagane kapuameut piletisipuk manicouagan_depression pessamit betsiamites pipmuacan itomamo kitchesatsiou manouanis tetepisca essipit manouane manouanis_massif chicoutimi shipshaw onatchiway outapimiskou metabetchouane tadoussac opiticiwan oskelaneo minkaniciciw wemotaci maskotci metabeskega kokokachi cikakw_sipi kiskissink wayagamac windigo_massif kitigan_zibi baskatong poigan picanoc tapani kiamika kanegaok temiscamingue maganasipi kippawa winneway kinojevis osisko kitcisakik kakibonga cawassiemica capimitchigama mistassibi samaqua ouasimesca nestaocano tchitogama peribonka onistagane machisque ashuapmushuan kanishushteu chigoubiche nicabau ouiatchouaniche wigwomadensis masolian yamaska wdpesek hochelaga kemoimenahan ahkwesasne otennienontant makigotekw loigan_sibo kiwetin_sipi mikiwam outaragasipi tremblant_massif alsigontekw wolinak wabanaki arthabaska nebesek nikitotegwak megantic maskikogamak coaticook memphremagog wigwomadenek wagowategok ekwentondie yamachiche shawinigan mekinac matawin nagatinong weskarini okaisipi quyon nichabau malartic wasakin chicobi harricana obaska megiscane matagami_depression opawica opemisca waswanipi maicasagi soscumica nottaway missicabi waskaganish kaipeshimushich nemasca kapitukamach kauakiekamatsh natastan nistam kamashikamach ouagama mistissini cawachagamite shipastouk mistassiniish chibougamau temiscamie pitchibourenik caisaboscai chistamikap nasacauso neoskweskau cauouatstacau mistimakan chisasibi maquatua atikuan nichicun misask wahemen naococane kuujjuarapik qingaaluk tupialuviniq wiyashakimi nastapoka kuujjuaq kuuvik natuak kasuswapaskau koskoak ungava_peninsula sanikiluaq southampton_island pangnirtung iglunga iqaluit kimmirut amadjuak kinngait baffin_island caniapiscau kasakaupuyau wayustikw mistanipi chipisipi katataskatikw misinichikw otelnuk kawachisakau kawachikamasu enchukamao qikirtajuaq kamusawawasich kawawasukutisich kaypikupau mistinatwayasu kamiskayachuuch qurlutuq whale_lowlands kangiqsualujjuaq imaapik siimitalik uashekanau mistinatuakamau mushuau kausseskait tupirvialuit koroc quebec_torngats nunainguk navchak kingmirtok napaktok okak aulatsivik ukasikalik agvituk kaipokok aillik tessuialluk misha_shipu tikigaksuagusik aivitok kenamu sheshatshiu kauipushkakamat kamassekutinat labrador_highlands hamilton_inlet shabogamo ashuanipi kepimits muhaukamau atikonak kamassekuakamat nipissu winokapau mishikamau menutinau ushkau_nipi attikamagen petitsikapau hamilton_highlands catucto ikkatuluk uivvatok natsitok inutsualak belle_isle wipetikil naskwotchu mekapisk eimastukwek epwikek kutapuskuj pgotapesg upsukdaskooch wli_qospem gosaoie nogamsig meelpaeg amasipukwek sibook baie_verte walnaypek akilasiewakik newfoundland_highlands cape_spear bacalhieu mekwiskajk mollyhuajeck placentia cape_race maqtewey nukamkiajijk miquelon elsiktuk tignish malpeque tapu_tuitn pukusamkek menageesenog askataliank cheticamp ingonish qospemk apaqtukowatek sipuk kluskapewiktuk pictou chignecto maccan tatamagouche antigonish canso kekwapskuk wikipoq weljuik jijkwtuk cobequid shubenacadie kennetook kjipuktuk wetewatoqsik musquedoboit aspotogan esekatik nmejuaqnek nictaux wekwayik chebogue muinawamek nisiamk oqumkikiak chipoudy petitcodiac memramcook richibucto kouchibouguac miramichi neguac anagance seeboosis nepisiguit tracadie caraquet restigouche maleagit pogomeg asoqasqoq matapedia_highlands madawaska negoot becaguimec siegas menahkwesk mispec kennebecasis washademoak otnabog kcheeminpink canaan_bog grand_ nashwaak oromocto meductic welamooktook pokiok grand_manan pocologan chamcook magaguadavic cataraqui kahwenoke toniato gananoque opinicon kitchissippi pasapkedjinawong onontchataronon maizinaazibi matoueska kinozhesipi pikwakanagan petawawa napanee ganneious ganaraska quinte otonabee kawartha mazinaw skootamatta kamaniskeg catchacoma kashagawigamog macassa niagara nissouri kandoucho kenhionatatie tekahionhake kanagio ganatchio bkwejanong menesetung saugeen dehskan_ziibi nochemoweniing etharita ehwae garafraxa eramosa ouentarionk cahiague kaotia scanonaenrat ossossane tkaronto oshawa scugog haskaont missinihe tetioneshohon shawanaga cognashene kahshe magnetawan nosbonsing nipissing powassan memesagamesing nemag wanapitei onaping pogamasing temagami ishpatina_ridge manitoulin wemitigoj eskimanetigon mississagi matabichuan matachewan sessekinika mattawa opimika baawitigong batchawana michipicoten agawa_superior manitowik pekatek aguasabon wawa_uplands nipigon namewaminikan ombabika wabinosh kaitotikwia kaministiquia kakabeka neebing minong kapuskasing missinaibi nemegosenda otapingshewee tionaga wakusimi mattawishkwia nemegosenda_uplands kenogamissi mattagami buskegau mistango nahma piscoutagami mattawasaga nagagami watistiguam achikamii kabinakagami pagwachuan ginoogaming atikwa saganaga quetico namakan gojijin kakagi wabaseemong winnange wabigoon obishikokaang waaninaawangang wabigoon_uplands lac_seul ogoki miniss atikokiwam matapesatakun petawanga pichinamei makokibatan kagianagami ogoki_uplands winisk kinusheo wabuk asheweig tabasokwia shibogama wapikopa wunnumin wapitotem hudson_bay_lowlands winisk_uplands washeo niskibi shagamu ministik severn_uplands kinosao_sipi manigotagan atikaki mukutawa oceko_sipiy mantago chitek kawinaw mechiso pikwitonei anipitapiskow poskatinak silsby_ wekusko_upland nunatonowago kanaskipenaski kaministikowak echimamish eyapaysis lac_seul_upland hayes_river_upland numaykoos mistutikumak opuskowin kapuskaywak churchill_river_upland reindeer_ indian_ shethanei tadoule kapuskaypachik thlewiaza mistahi seal_river_upland nejanilini_uplands kamisak machichi kichekokotic sowunusiske wapusk des_nedhe nunalla nueltin tatinnai thaolintoa tha_anne kazan_uplands northern_arctic_uplands arctic_archipelago attawapiskat ekwan otadaonanis patchepawapoka lakitusaki attawapiskat_lowlands kashechewan wabimeig mammamattawa wapiskau kinosheo pagashi tchakashapug james_bay_lowlands english_river_uplands moosonee abimatinu takwata wawiyastan kwetabohigan kagawask mesagami olimisk abitibi_uplands mahnahwoonan sivukutaitiarruvik akimiski bay_of_quinte central_ niagara_basin eastern_erie_basin central_erie_basin pelee_island northern_ deadmans_point cunningham_point manitoulin_channel southern_ clark_point blue_point whitefish_point strait_of_makinac middle_ south_ wind_point au_sable_point pukaskwa_point schreiber_channel keweenaw_coast copper_harbor aulatsivik_island sloop_harbour_point hawke_island labrador_sea canada_high_sea9 canada_high_sea6 canada_high_sea7 cumberland_sound north_aulatsivik_island hatten_headland edgell_island angijak_island dyer_cape baffin_high_sea2 baffin_high_sea4 canada_high_sea2 canada_high_sea4 anticosti_channel grosse_island saint_lawrence_gulf gulf_of_saint_lawrence cabot_strait bay_of_islands esquiman_channel amour_point mouth_of_saint_lawrence saguenay_fjord saint_lawrence_estuary boisvert_point anglais_point cartier_point coast_of_gaspe honguedo_strait mingan_islands bilodeau_point anticosti_coast mecatina_islands les_blacklands vieux_poste_point rouge_cape quero_bank havre_aubert_cape northumberland_strait pictou_banks strait_of_canso bradelle_valley laurentian_channel burgeo_bank hermitage_channel st_pierre_bank canada_high_sea16 green_bank canada_high_sea13 canada_high_sea14 canada_high_sea15 canada_high_sea11 canada_high_sea12 groais_island freels_cape notre_dame_channel grey_islands canada_high_sea10 brown_bank bacarro_bank lahave_bank emerald_bank canada_high_sea19 canada_high_sea20 canada_high_sea21 sydney_bight misaine_bank middle_bank canso_bank canada_high_sea17 canada_high_sea18 grand_manan_basin bay_of_fundy minas_basin pen_islands mouth_of_the_winisk shagamu_coast kamisak_coast mouth_of_thlewiaza thompson_point churchill_shoal dawson_inlet rankin_inlet chesterfield_inlet salluit_fjord charles_island king_george_sound akpatok_island1 akpatok_island2 jubilee_island glencoe_island big_island saddleback_island forbes_sound vauquelin_point belcher_islands_coast5 salikuit_islands mctavish_island drayton_island cape_smith digges_island netcheck_cape evans_strait santianna_point coats_island3 leyson_point mansel_island3 kakachischuan_point cape_hope_islands cape_henrietta_maria bear_islands 
+				gaspe
+				chicchoc
+				marsoui
+				pewjeg
+				cascapedia
+				paspebiac
+				matapedia
+				matane
+				rimouski
+				mitis
+				amqui
+				causapscal
+				kakouna
+				molsemtekw
+				temiscouata
+				kamouraska
+				kikonteku
+				kamitsisit
+				etchemin
+				wachilmezi
+				onkobagag
+				sartigan
+				wolastoq
+				stadacona
+				andawaohie
+				ontaretse
+				ahwendoe
+				ondaonnentakwi
+				aunona
+				taoondewake
+				kouate
+				laurentian_massif
+				mingan
+				pigou
+				aguanish
+				natashquan
+				manapakuaniskau
+				uanaman
+				upuahpukau
+				magpie_massif
+				notiskuan
+				anticosti
+				natigostec
+				mecatina
+				kegaska
+				coacoachou
+				napetipi
+				uashat
+				nipisso
+				nipissis
+				caopacho
+				opocopa
+				mistecapiu
+				ouiauirabugu
+				toulnustouc
+				capotigamau
+				manicouagan
+				mouchalagane
+				kapuameut
+				piletisipuk
+				manicouagan_depression
+				pessamit
+				betsiamites
+				pipmuacan
+				itomamo
+				kitchesatsiou
+				manouanis
+				tetepisca
+				essipit
+				manouane
+				manouanis_massif
+				chicoutimi
+				shipshaw
+				onatchiway
+				outapimiskou
+				metabetchouane
+				tadoussac
+				opiticiwan
+				oskelaneo
+				minkaniciciw
+				wemotaci
+				maskotci
+				metabeskega
+				kokokachi
+				cikakw_sipi
+				kiskissink
+				wayagamac
+				windigo_massif
+				kitigan_zibi
+				baskatong
+				poigan
+				picanoc
+				tapani
+				kiamika
+				kanegaok
+				temiscamingue
+				maganasipi
+				kippawa
+				winneway
+				kinojevis
+				osisko
+				kitcisakik
+				kakibonga
+				cawassiemica
+				capimitchigama
+				mistassibi
+				samaqua
+				ouasimesca
+				nestaocano
+				tchitogama
+				peribonka
+				onistagane
+				machisque
+				ashuapmushuan
+				kanishushteu
+				chigoubiche
+				nicabau
+				ouiatchouaniche
+				wigwomadensis
+				masolian
+				yamaska
+				wdpesek
+				hochelaga
+				kemoimenahan
+				ahkwesasne
+				otennienontant
+				makigotekw
+				loigan_sibo
+				kiwetin_sipi
+				mikiwam
+				outaragasipi
+				tremblant_massif
+				alsigontekw
+				wolinak
+				wabanaki
+				arthabaska
+				nebesek
+				nikitotegwak
+				megantic
+				maskikogamak
+				coaticook
+				memphremagog
+				wigwomadenek
+				wagowategok
+				ekwentondie
+				yamachiche
+				shawinigan
+				mekinac
+				matawin
+				nagatinong
+				weskarini
+				okaisipi
+				quyon
+				nichabau
+				malartic
+				wasakin
+				chicobi
+				harricana
+				obaska
+				megiscane
+				matagami_depression
+				opawica
+				opemisca
+				waswanipi
+				maicasagi
+				soscumica
+				nottaway
+				missicabi
+				waskaganish
+				kaipeshimushich
+				nemasca
+				kapitukamach
+				kauakiekamatsh
+				natastan
+				nistam
+				kamashikamach
+				ouagama
+				mistissini
+				cawachagamite
+				shipastouk
+				mistassiniish
+				chibougamau
+				temiscamie
+				pitchibourenik
+				caisaboscai
+				chistamikap
+				nasacauso
+				neoskweskau
+				cauouatstacau
+				mistimakan
+				chisasibi
+				maquatua
+				atikuan
+				nichicun
+				misask
+				wahemen
+				naococane
+				kuujjuarapik
+				qingaaluk
+				tupialuviniq
+				wiyashakimi
+				nastapoka
+				kuujjuaq
+				kuuvik
+				natuak
+				kasuswapaskau
+				koskoak
+				ungava_peninsula
+				sanikiluaq
+				southampton_island
+				pangnirtung
+				iglunga
+				iqaluit
+				kimmirut
+				amadjuak
+				kinngait
+				baffin_island
+				caniapiscau
+				kasakaupuyau
+				wayustikw
+				mistanipi
+				chipisipi
+				katataskatikw
+				misinichikw
+				otelnuk
+				kawachisakau
+				kawachikamasu
+				enchukamao
+				qikirtajuaq
+				kamusawawasich
+				kawawasukutisich
+				kaypikupau
+				mistinatwayasu
+				kamiskayachuuch
+				qurlutuq
+				whale_lowlands
+				kangiqsualujjuaq
+				imaapik
+				siimitalik
+				uashekanau
+				mistinatuakamau
+				mushuau
+				kausseskait
+				tupirvialuit
+				koroc
+				quebec_torngats
+				nunainguk
+				navchak
+				kingmirtok
+				napaktok
+				okak
+				aulatsivik
+				ukasikalik
+				agvituk
+				kaipokok
+				aillik
+				tessuialluk
+				misha_shipu
+				tikigaksuagusik
+				aivitok
+				kenamu
+				sheshatshiu
+				kauipushkakamat
+				kamassekutinat
+				labrador_highlands
+				hamilton_inlet
+				shabogamo
+				ashuanipi
+				kepimits
+				muhaukamau
+				atikonak
+				kamassekuakamat
+				nipissu
+				winokapau
+				mishikamau
+				menutinau
+				ushkau_nipi
+				attikamagen
+				petitsikapau
+				hamilton_highlands
+				catucto
+				ikkatuluk
+				uivvatok
+				natsitok
+				inutsualak
+				belle_isle
+				wipetikil
+				naskwotchu
+				mekapisk
+				eimastukwek
+				epwikek
+				kutapuskuj
+				pgotapesg
+				upsukdaskooch
+				wli_qospem
+				gosaoie
+				nogamsig
+				meelpaeg
+				amasipukwek
+				sibook
+				baie_verte
+				walnaypek
+				akilasiewakik
+				newfoundland_highlands
+				cape_spear
+				bacalhieu
+				mekwiskajk
+				mollyhuajeck
+				placentia
+				cape_race
+				maqtewey
+				nukamkiajijk
+				miquelon
+				elsiktuk
+				tignish
+				malpeque
+				tapu_tuitn
+				pukusamkek
+				menageesenog
+				askataliank
+				cheticamp
+				ingonish
+				qospemk
+				apaqtukowatek
+				sipuk
+				kluskapewiktuk
+				pictou
+				chignecto
+				maccan
+				tatamagouche
+				antigonish
+				canso
+				kekwapskuk
+				wikipoq
+				weljuik
+				jijkwtuk
+				cobequid
+				shubenacadie
+				kennetook
+				kjipuktuk
+				wetewatoqsik
+				musquedoboit
+				aspotogan
+				esekatik
+				nmejuaqnek
+				nictaux
+				wekwayik
+				chebogue
+				muinawamek
+				nisiamk
+				oqumkikiak
+				chipoudy
+				petitcodiac
+				memramcook
+				richibucto
+				kouchibouguac
+				miramichi
+				neguac
+				anagance
+				seeboosis
+				nepisiguit
+				tracadie
+				caraquet
+				restigouche
+				maleagit
+				pogomeg
+				asoqasqoq
+				matapedia_highlands
+				madawaska
+				negoot
+				becaguimec
+				siegas
+				menahkwesk
+				mispec
+				kennebecasis
+				washademoak
+				otnabog
+				kcheeminpink
+				canaan_bog
+				grand_
+				nashwaak
+				oromocto
+				meductic
+				welamooktook
+				pokiok
+				grand_manan
+				pocologan
+				chamcook
+				magaguadavic
+				cataraqui
+				kahwenoke
+				toniato
+				gananoque
+				opinicon
+				kitchissippi
+				pasapkedjinawong
+				onontchataronon
+				maizinaazibi
+				matoueska
+				kinozhesipi
+				pikwakanagan
+				petawawa
+				napanee
+				ganneious
+				ganaraska
+				quinte
+				otonabee
+				kawartha
+				mazinaw
+				skootamatta
+				kamaniskeg
+				catchacoma
+				kashagawigamog
+				macassa
+				niagara
+				nissouri
+				kandoucho
+				kenhionatatie
+				tekahionhake
+				kanagio
+				ganatchio
+				bkwejanong
+				menesetung
+				saugeen
+				dehskan_ziibi
+				nochemoweniing
+				etharita
+				ehwae
+				garafraxa
+				eramosa
+				ouentarionk
+				cahiague
+				kaotia
+				scanonaenrat
+				ossossane
+				tkaronto
+				oshawa
+				scugog
+				haskaont
+				missinihe
+				tetioneshohon
+				shawanaga
+				cognashene
+				kahshe
+				magnetawan
+				nosbonsing
+				nipissing
+				powassan
+				memesagamesing
+				nemag
+				wanapitei
+				onaping
+				pogamasing
+				temagami
+				ishpatina_ridge
+				manitoulin
+				wemitigoj
+				eskimanetigon
+				mississagi
+				matabichuan
+				matachewan
+				sessekinika
+				mattawa
+				opimika
+				baawitigong
+				batchawana
+				michipicoten
+				agawa_superior
+				manitowik
+				pekatek
+				aguasabon
+				wawa_uplands
+				nipigon
+				namewaminikan
+				ombabika
+				wabinosh
+				kaitotikwia
+				kaministiquia
+				kakabeka
+				neebing
+				minong
+				kapuskasing
+				missinaibi
+				nemegosenda
+				otapingshewee
+				tionaga
+				wakusimi
+				mattawishkwia
+				nemegosenda_uplands
+				kenogamissi
+				mattagami
+				buskegau
+				mistango
+				nahma
+				piscoutagami
+				mattawasaga
+				nagagami
+				watistiguam
+				achikamii
+				kabinakagami
+				pagwachuan
+				ginoogaming
+				atikwa
+				saganaga
+				quetico
+				namakan
+				gojijin
+				kakagi
+				wabaseemong
+				winnange
+				wabigoon
+				obishikokaang
+				waaninaawangang
+				wabigoon_uplands
+				lac_seul
+				ogoki
+				miniss
+				atikokiwam
+				matapesatakun
+				petawanga
+				pichinamei
+				makokibatan
+				kagianagami
+				ogoki_uplands
+				winisk
+				kinusheo
+				wabuk
+				asheweig
+				tabasokwia
+				shibogama
+				wapikopa
+				wunnumin
+				wapitotem
+				hudson_bay_lowlands
+				winisk_uplands
+				washeo
+				niskibi
+				shagamu
+				ministik
+				severn_uplands
+				kinosao_sipi
+				manigotagan
+				atikaki
+				mukutawa
+				oceko_sipiy
+				mantago
+				chitek
+				kawinaw
+				mechiso
+				pikwitonei
+				anipitapiskow
+				poskatinak
+				silsby_
+				wekusko_upland
+				nunatonowago
+				kanaskipenaski
+				kaministikowak
+				echimamish
+				eyapaysis
+				lac_seul_upland
+				hayes_river_upland
+				numaykoos
+				mistutikumak
+				opuskowin
+				kapuskaywak
+				churchill_river_upland
+				reindeer_
+				indian_
+				shethanei
+				tadoule
+				kapuskaypachik
+				thlewiaza
+				mistahi
+				seal_river_upland
+				nejanilini_uplands
+				kamisak
+				machichi
+				kichekokotic
+				sowunusiske
+				wapusk
+				des_nedhe
+				nunalla
+				nueltin
+				tatinnai
+				thaolintoa
+				tha_anne
+				kazan_uplands
+				northern_arctic_uplands
+				arctic_archipelago
+				attawapiskat
+				ekwan
+				otadaonanis
+				patchepawapoka
+				lakitusaki
+				attawapiskat_lowlands
+				kashechewan
+				wabimeig
+				mammamattawa
+				wapiskau
+				kinosheo
+				pagashi
+				tchakashapug
+				james_bay_lowlands
+				english_river_uplands
+				moosonee
+				abimatinu
+				takwata
+				wawiyastan
+				kwetabohigan
+				kagawask
+				mesagami
+				olimisk
+				abitibi_uplands
+				mahnahwoonan
+				sivukutaitiarruvik
+				akimiski
+				bay_of_quinte
+				central_
+				niagara_basin
+				eastern_erie_basin
+				central_erie_basin
+				pelee_island
+				northern_
+				deadmans_point
+				cunningham_point
+				manitoulin_channel
+				southern_
+				clark_point
+				blue_point
+				whitefish_point
+				strait_of_makinac
+				middle_
+				south_
+				wind_point
+				au_sable_point
+				pukaskwa_point
+				schreiber_channel
+				keweenaw_coast
+				copper_harbor
+				aulatsivik_island
+				sloop_harbour_point
+				hawke_island
+				labrador_sea
+				cumberland_sound
+				north_aulatsivik_island
+				hatten_headland
+				edgell_island
+				angijak_island
+				dyer_cape
+				anticosti_channel
+				grosse_island
+				saint_lawrence_gulf
+				gulf_of_saint_lawrence
+				cabot_strait
+				bay_of_islands
+				esquiman_channel
+				amour_point
+				mouth_of_saint_lawrence
+				saguenay_fjord
+				saint_lawrence_estuary
+				boisvert_point
+				anglais_point
+				cartier_point
+				coast_of_gaspe
+				honguedo_strait
+				mingan_islands
+				bilodeau_point
+				anticosti_coast
+				mecatina_islands
+				les_blacklands
+				vieux_poste_point
+				rouge_cape
+				quero_bank
+				havre_aubert_cape
+				northumberland_strait
+				pictou_banks
+				strait_of_canso
+				bradelle_valley
+				laurentian_channel
+				burgeo_bank
+				hermitage_channel
+				st_pierre_bank
+				green_bank
+				groais_island
+				freels_cape
+				notre_dame_channel
+				grey_islands
+				canada_high_sea10
+				brown_bank
+				bacarro_bank
+				lahave_bank
+				emerald_bank
+				sydney_bight
+				misaine_bank
+				middle_bank
+				canso_bank
+				grand_manan_basin
+				bay_of_fundy
+				minas_basin
+				pen_islands
+				mouth_of_the_winisk
+				shagamu_coast
+				kamisak_coast
+				mouth_of_thlewiaza
+				thompson_point
+				churchill_shoal
+				dawson_inlet
+				rankin_inlet
+				chesterfield_inlet
+				salluit_fjord
+				charles_island
+				king_george_sound
+				akpatok_island1
+				akpatok_island2
+				jubilee_island
+				glencoe_island
+				big_island
+				saddleback_island
+				forbes_sound
+				vauquelin_point
+				belcher_islands_coast5
+				salikuit_islands
+				mctavish_island
+				drayton_island
+				cape_smith
+				digges_island
+				netcheck_cape
+				evans_strait
+				santianna_point
+				coats_island3
+				leyson_point
+				mansel_island3
+				kakachischuan_point
+				cape_hope_islands
+				cape_henrietta_maria
+				bear_islands 
 
 				chainouqua swartberg klipgat agulhas bredasdorp
 				cochoqua ngonnemoa uri_ae_ona chariguriqua
@@ -42854,12 +44519,6 @@ countries = {
 		#P'urhipecherio (Tarascan Empire) - TAR https://en.wikipedia.org/wiki/Pur%C3%A9pecha_Empire
 		TAR = {
 			own_control_core = {
-				caracuaro puruaran tancitaro
-				guayangareo tiripetio tacambaro
-				tzintzuntzan tinguindin uruapan
-				huandacareo
-				zacapu tlazazalca xacona zula_michoacan angamacutiro yuririapundaro
-				erongaricuaro patzcuaro aguacana
 			}
 
 
@@ -42884,7 +44543,7 @@ countries = {
 		#Churumekua - CRK https://es.wikipedia.org/wiki/Churumuco_de_Morelos
 		CRK = {
 			own_control_core = {
-				churumekua
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -42900,7 +44559,7 @@ countries = {
 		#Cuitzeo - CTE https://es.wikipedia.org/wiki/Municipio_de_Cuitzeo
 		CTE = {
 			own_control_core = {
-				cuitzeo
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -42916,7 +44575,7 @@ countries = {
 		#Tuzantla - TUZ https://es.wikipedia.org/wiki/Tuzantla
 		TUZ = {
 			own_control_core = {
-				tuzantla
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -42932,7 +44591,7 @@ countries = {
 		#Tzitacuaro - TZI https://es.wikipedia.org/wiki/Zit%C3%A1cuaro
 		TZI = {
 			own_control_core = {
-				tzitacuaro
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -42948,7 +44607,7 @@ countries = {
 		#Taximaroa - TAX https://es.wikipedia.org/wiki/Ciudad_Hidalgo_(Michoac%C3%A1n)
 		TAX = {
 			own_control_core = {
-				taximaroa
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -42964,7 +44623,7 @@ countries = {
 		#Tenŝchtitlan (Aztec Empire) - TNC - Vassal of Azcapozalco
 		TNC = {
 			own_control_core = {
-				tenochtitlan
+				
 			}
 
 			include = "amerindian_advanced_monarchy_no_coast"
@@ -43000,7 +44659,6 @@ countries = {
 		#Acolhuacan (Tetzcoco) - TTZ
 		TTZ = {
 			own_control_core = {
-				tetzcoco tehotihuacan zempoala apan
 			}
 
 
@@ -43018,7 +44676,7 @@ countries = {
 		#Culhuacan - CUL
 		CUL = {
 			own_control_core = {
-				culhuacan
+				
 			}
 
 			include = "amerindian_advanced_monarchy_no_coast"
@@ -43039,7 +44697,6 @@ countries = {
 		#Tepanecapan (Azcapotzalco) - TEP
 		TEP = {
 			own_control_core = {
-				azcapotzalco cuauhtitlan tollan
 			}
 
 
@@ -43061,7 +44718,7 @@ countries = {
 		#Tlacopan - TCP https://es.wikipedia.org/wiki/Tacuba
 		TCP = {
 			own_control_core = {
-				tlacopan
+				
 			}
 
 			include = "amerindian_advanced_monarchy_no_coast"
@@ -43079,7 +44736,6 @@ countries = {
 		#Xaltocan - OTO
 		OTO = {
 			own_control_core = {
-				xaltocan pachyohcan
 			}
 
 
@@ -43097,7 +44753,6 @@ countries = {
 		#Axocopan - AXO
 		AXO = {
 			own_control_core = {
-				axocopan mixquiahuala tecozautla
 			}
 
 
@@ -43115,7 +44770,6 @@ countries = {
 		#Tollohcan - MAT
 		MAT = {#https://es.wikipedia.org/wiki/Calixtlahuaca#Periodos_de_Ocupaci%C3%B3n
 			own_control_core = {
-				ixtlahuaca tollohcan ninil teotenanco
 			}
 
 
@@ -43133,7 +44787,6 @@ countries = {
 		#Malinalco - MLN
 		MLN = { #https://es.wikipedia.org/wiki/Malinalco
 			own_control_core = {
-				malinalco
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -43149,7 +44802,7 @@ countries = {
 		#Tixtla - TLA
 		TLA = {#https://en.wikipedia.org/wiki/Tlapanec_language
 			own_control_core = {
-				tixtla
+				
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43166,7 +44819,7 @@ countries = {
 		#Yopitzinco - YPZ
 		YPZ = {
 			own_control_core = {
-				yopitzinco
+				
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl"
@@ -43183,7 +44836,7 @@ countries = {
 		#Chilapa - CLP
 		CLP = {
 			own_control_core = {
-				chilapa
+				
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43200,7 +44853,7 @@ countries = {
 		#Oapan - OAP
 		OAP = {
 			own_control_core = {
-				oapan
+				
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43217,12 +44870,6 @@ countries = {
 		#Tlaxcallan - TLX (Stateless until 1348)
 		TLX = {
 			own_control_core = {
-				tepeticpac quiahuixtlan tizatlan ocotelolco
-			}
-
-			discovered_regions = {
-				mesoamerica_region
-				aridoamerica_region
 			}
 
 			include = "amerindian_advanced_republic_not_nahuatl_no_coast"
@@ -43238,13 +44885,9 @@ countries = {
 		#Huexotzinco - HJZ
 		HJZ = {
 			own_control_core = {
-				huexotzinco
+				
 			}
 
-			discovered_regions = {
-				mesoamerica_region
-				aridoamerica_region
-			}
 
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -43259,12 +44902,7 @@ countries = {
 		#Quauhquechollan - QLL
 		QLL = {
 			own_control_core = {
-				quauhquechollan
-			}
-
-			discovered_regions = {
-				mesoamerica_region
-				aridoamerica_region
+				
 			}
 
 			include = "amerindian_advanced_monarchy_no_coast"
@@ -43280,8 +44918,6 @@ countries = {
 		#Zaachila - ZAP https://es.wikipedia.org/wiki/Zaachila
 		ZAP = {
 			own_control_core = {
-				yucucui zaachila  totolapan tlacolula
-				sosola
 			}
 
 			include = "amerindian_monarchy"
@@ -43301,7 +44937,7 @@ countries = {
 		#Teposcocula - TPL https://arqueologiamexicana.mx/mexico-antiguo/teposcolula-oaxaca
 		TPL = {
 			own_control_core = {
-				yucundaa
+				
 			}
 
 			include = "amerindian_monarchy"
@@ -43317,7 +44953,7 @@ countries = {
 		#Ixtlan - IXL
 		IXL = {
 			own_control_core = {
-				ixtlan
+				
 			}
 
 			include = "amerindian_monarchy"
@@ -43333,7 +44969,7 @@ countries = {
 		#Yodzocahi - YDZ https://arqueologiamexicana.mx/mexico-antiguo/un-palacio-real-en-la-mixteca-oaxaquena
 		YDZ = {
 			own_control_core = {
-				yodzocahi
+				
 			}
 
 			include = "amerindian_monarchy"
@@ -43349,7 +44985,7 @@ countries = {
 		#Yautepec - YAU https://es.wikipedia.org/wiki/Municipio_de_Yautepec
 		YAU = {
 			own_control_core = {
-				yautepec
+				
 			}
 
 			starting_technology_level = 1
@@ -43365,11 +45001,9 @@ countries = {
 		#Tehuantepec - THT https://es.wikipedia.org/wiki/Santo_Domingo_Tehuantepec
 		THT = {
 			own_control_core = {
-				tehuantepec guiigu_yudxi
 			}
 
 			own_control_integrated = {
-				chimalapan zanatepec
 			}
 
 			include = "amerindian_monarchy"
@@ -43385,7 +45019,7 @@ countries = {
 		#Miahuatlan - MHT
 		MHT = {
 			own_control_core = {
-				miahuatlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -43401,12 +45035,10 @@ countries = {
 		#Yuhuitayu Yucu Dzaa - MIX
 		MIX = {
 			own_control_core = {
-				tututepec juchatengo   amoltepec
-				manialtepec tonameca huamelula comitlan
 			}
 
 			own_control_integrated = {
-				cuauhtolco
+				
 			}
 
 
@@ -43424,7 +45056,6 @@ countries = {
 		#Quiegoqui - QIG https://mediateca.inah.gob.mx/repositorio/islandora/object/tesis%3A3618
 		QIG = {
 			own_control_core = {
-				coatlan
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43441,7 +45072,6 @@ countries = {
 		#Teozacoalco - TZL https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-62212019000200011
 		TZL = {
 			own_control_core = {
-				nochixtlan jaltepec teozacualco
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43458,7 +45088,6 @@ countries = {
 		#Juxtlahuaca - JUX
 		JUX = {
 			own_control_core = {
-				juxtlahuaca
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43475,7 +45104,6 @@ countries = {
 		#Tlachquiauhco - TCQ
 		TCQ = {
 			own_control_core = {
-				tlachquiauhco poctlan tillantonco
 			}
 
 
@@ -43493,7 +45121,7 @@ countries = {
 		#Yucu Chatula - YCH
 		YCH = {
 			own_control_core = {
-				jicayan zacatepec
+				 
 			}
 
 
@@ -43511,7 +45139,7 @@ countries = {
 		#�uu Ndiyi - NND
 		NND = {
 			own_control_core = {
-				mictlan
+				
 			}
 
 
@@ -43529,7 +45157,6 @@ countries = {
 		#Yodzocoo - COI
 		COI = {
 			own_control_core = {
-				coixtlahuacan yucundeq
 			}
 
 
@@ -43547,7 +45174,7 @@ countries = {
 		#Cuicatlan - CCN
 		CCN = {
 			own_control_core = {
-				cuicatlan
+				
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43564,7 +45191,6 @@ countries = {
 		#Teotitlan - TEO
 		TEO = {
 			own_control_core = {
-				teotitlan tehuacan zongolica tecamachalco ahuilizapan
 			}
 
 			own_control_integrated = {
@@ -43590,11 +45216,9 @@ countries = {
 		#Coliman - CLM
 		CLM = {
 			own_control_core = {
-				coliman caxitlan coahuayana tochpan tlayolan chucutitlan
 			}
 
 			own_control_integrated = {
-				apatzingan
 			}
 
 
@@ -43612,7 +45236,6 @@ countries = {
 		#Quiahuiztlan - QHZ
 		QHZ = { #https://es.wikipedia.org/wiki/Quiahuiztl%C3%A1n
 			own_control_core = {
-				quiahuiztlan nauhtlan cuyuxquihui
 			}
 
 
@@ -43630,7 +45253,6 @@ countries = {
 		#Papantla - PPT
 		PPT = {
 			own_control_core = {
-				papantla tuzapan
 			}
 
 
@@ -43666,7 +45288,6 @@ countries = {
 		#Mizantla - MZT
 		MZT = {
 			own_control_core = {
-				mizantla
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43683,7 +45304,6 @@ countries = {
 		#Teayotlan - HST
 		HST = {
 			own_control_core = {
-				teayotlan
 			}
 
 
@@ -43701,7 +45321,7 @@ countries = {
 		#Tetzapotitlan - TZP
 		TZP = {
 			own_control_core = {
-				tetzapotitlan
+				
 			}
 
 
@@ -43719,7 +45339,7 @@ countries = {
 		#Tziuhcoac - TZH
 		TZH = {
 			own_control_core = {
-				tziuhcoac
+				
 			}
 
 
@@ -43737,7 +45357,7 @@ countries = {
 		#Oxtlipan - OXT
 		OXT = {
 			own_control_core = {
-				oxtlipan
+				
 			}
 
 
@@ -43755,7 +45375,7 @@ countries = {
 		#Ozuluama - OZL
 		OZL = {
 			own_control_core = {
-				ozuluama
+				
 			}
 
 
@@ -43773,7 +45393,7 @@ countries = {
 		#Tuxpan - TXP
 		TXP = {
 			own_control_core = {
-				tuxpan
+				
 			}
 
 
@@ -43791,7 +45411,7 @@ countries = {
 		#Michuachapanco - MCC
 		MCC = {
 			own_control_core = {
-				panuco
+				
 			}
 
 
@@ -43809,7 +45429,7 @@ countries = {
 		#Tamtoc - TTC
 		TTC = {
 			own_control_core = {
-				tamtoc
+				
 			}
 
 
@@ -43827,7 +45447,6 @@ countries = {
 		#Xalisco - XAL
 		XAL = {
 			own_control_core = {
-				xalisco hostoticpac amaxacotlan
 			}
 
 			include = "amerindian_advanced_monarchy"
@@ -43844,7 +45463,6 @@ countries = {
 		#Tlalpan - TAA
 		TAA = {
 			own_control_core = {
-				tlalpan
 			}
 
 			include = "amerindian_advanced_monarchy_no_coast"
@@ -43861,7 +45479,7 @@ countries = {
 		#Tzapotzingo - TZZ
 		TZZ = {
 			own_control_core = {
-				tzapotzingo
+				
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43878,7 +45496,7 @@ countries = {
 		#Sentispac - SNT
 		SNT = {
 			own_control_core = {
-				sentispac
+				
 			}
 
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -43896,7 +45514,6 @@ countries = {
 			type = pop
 
 			add_pops_from_locations = {
-				acambaro nat_tha_hi maravatio xiriquitzio
 			}
 
 			starting_technology_level = 0
@@ -43911,7 +45528,6 @@ countries = {
 		#Tonala - TNL
 		TNL = {
 			own_control_core = {
-				tonala ixtlahuacan chapallan
 			}
 
 
@@ -43928,7 +45544,7 @@ countries = {
 		#Mextiacan - MXT
 		MXT = {
 			own_control_core = {
-				mextiacan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -43943,7 +45559,7 @@ countries = {
 		#Yahualican - YAH
 		YAH = {
 			own_control_core = {
-				yahualican
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -43958,7 +45574,7 @@ countries = {
 		#Tecpatitlan - TPN
 		TPN = {
 			own_control_core = {
-				tepactitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -43973,7 +45589,6 @@ countries = {
 		#Mitic - MIT
 		MIT = {
 			own_control_core = {
-				mitic metzquititlan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -43988,7 +45603,7 @@ countries = {
 		#Xalostotitlan - XLT
 		XLT = {
 			own_control_core = {
-				xalostotitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44003,7 +45618,7 @@ countries = {
 		#Coinan - CON
 		CON = {
 			own_control_core = {
-				coinan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44018,7 +45633,7 @@ countries = {
 		#Acatic - ACA
 		ACA = {
 			own_control_core = {
-				acatic
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44050,7 +45665,7 @@ countries = {
 		#Teulinchan - TEL
 		TEL = {
 			own_control_core = {
-				teulinchan
+				
 			}
 
 
@@ -44067,7 +45682,6 @@ countries = {
 		#Xochipillan - XOC
 		XOC = {
 			own_control_core = {
-				nochistlan xochipillan
 			}
 
 
@@ -44188,7 +45802,6 @@ countries = {
 		#Chalco - CLC
 		CLC = {
 			own_control_core = {
-				chalco
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44204,7 +45817,6 @@ countries = {
 		#Huaxtepec - HUX
 		HUX = {
 			own_control_core = {
-				huaxtepec
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44220,7 +45832,7 @@ countries = {
 		#Cuauhnahuac - CUU
 		CUU = {
 			own_control_core = {
-				cuauhnahuac
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44236,7 +45848,7 @@ countries = {
 		#Tlachco - TCH
 		TCH = {
 			own_control_core = {
-				tlachco
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44252,7 +45864,7 @@ countries = {
 		#Oztoman - OZT
 		OZT = {
 			own_control_core = {
-				oztoman
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44268,7 +45880,7 @@ countries = {
 		#Temascaltepec - TMS
 		TMS = {
 			own_control_core = {
-				temascaltepec
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44284,7 +45896,7 @@ countries = {
 		#Tepecoacuilco - TCC
 		TCC = {
 			own_control_core = {
-				tepecoacuilco
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44303,7 +45915,7 @@ countries = {
 		#Chiautla - CTL
 		CTL = {
 			own_control_core = {
-				chiautla
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44319,7 +45931,7 @@ countries = {
 		#Tetellan - TLL
 		TLL = {
 			own_control_core = {
-				tetellan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44335,7 +45947,7 @@ countries = {
 		#Zompanco - ZOM
 		ZOM = {
 			own_control_core = {
-				zompanco
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44351,7 +45963,7 @@ countries = {
 		#Tlazcozauhtitlan - TLZ
 		TLZ = {
 			own_control_core = {
-				tlazcozauhtitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44367,7 +45979,7 @@ countries = {
 		#Cuauhteopan - UAU
 		UAU = {
 			own_control_core = {
-				cuauhteopan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44383,7 +45995,6 @@ countries = {
 		#Yohualtepec - YOH
 		YOH = {
 			own_control_core = {
-				yohualtepec huajuapan silacayoapam
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44399,7 +46010,6 @@ countries = {
 		#Tecpantepec - TPT
 		TPT = {
 			own_control_core = {
-				tecpan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -44415,7 +46025,6 @@ countries = {
 		#Cihuatlan - CIH
 		CIH = {
 			own_control_core = {
-				cihuatlan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -44431,7 +46040,6 @@ countries = {
 		#Zacatollan - ZCT
 		ZCT = {
 			own_control_core = {
-				zacatollan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -44447,7 +46055,7 @@ countries = {
 		#Ajuchitlan - AJC
 		AJC = {
 			own_control_core = {
-				ajuchitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44463,7 +46071,7 @@ countries = {
 		#Tlapan - TLP
 		TLP = {
 			own_control_core = {
-				tlapan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44479,7 +46087,7 @@ countries = {
 		#Ayotlan - AYO
 		AYO = {
 			own_control_core = {
-				tecoanapa
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -44495,7 +46103,7 @@ countries = {
 		#Ometepec - OMT
 		OMT = {
 			own_control_core = {
-				ometepec
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -44511,7 +46119,6 @@ countries = {
 		#Coatlicamac - CTC
 		CTC = {
 			own_control_core = {
-				coatlicamac suchilapan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44527,7 +46134,6 @@ countries = {
 		#Coatzacoalco - CTZ
 		CTZ = {
 			own_control_core = {
-				coatzacoalco acayucan texistepec
 			}
 			include = "amerindian_advanced_monarchy"
 			include = "expl_mesoamerica"
@@ -44547,7 +46153,6 @@ countries = {
 		#Tepeyacac - TPY
 		TPY = {
 			own_control_core = {
-				tepeyacac tecalco
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44563,7 +46168,6 @@ countries = {
 		#Cuetlaxtlan - CTX
 		CTX = {
 			own_control_core = {
-				cuetlaxtlan xamapan
 			}
 			include = "amerindian_advanced_monarchy"
 			include = "expl_mesoamerica"
@@ -44579,7 +46183,6 @@ countries = {
 		#Cholollan - CLL
 		CLL = {
 			own_control_core = {
-				cholollan
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44595,7 +46198,6 @@ countries = {
 		#Xochimilco - XCH
 		XCH = {
 			own_control_core = {
-				xochimilco
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44611,7 +46213,6 @@ countries = {
 		#Atocpan - ATO
 		ATO = {
 			own_control_core = {
-				atocpan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44627,7 +46228,6 @@ countries = {
 		#Tollantzinco - TZC
 		TZC = {
 			own_control_core = {
-				tollantzinco
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44643,7 +46243,6 @@ countries = {
 		#Metztitlan - MET
 		MET = {#https://es.wikipedia.org/wiki/Metztitl%C3%A1n
 			own_control_core = {
-				metztitlan ixmiquilpan zimapan cadereyta
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44659,7 +46258,6 @@ countries = {
 		#Huayacocotla - HYC https://es.wikipedia.org/wiki/Huayacocotla
 		HYC = {
 			own_control_core = {
-				huayacocotla
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44675,7 +46273,6 @@ countries = {
 		#Tutotepec - TUT https://es.wikipedia.org/wiki/Tutotepec
 		TUT = {
 			own_control_core = {
-				tutotepec
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44691,7 +46288,6 @@ countries = {
 		#Xilotepec - XIL https://es.wikipedia.org/wiki/Se%C3%B1or%C3%ADo_de_Jilotepec
 		XIL = {
 			own_control_core = {
-				xilotepec ixtachichimecapan kerhiretarhu
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44707,7 +46303,6 @@ countries = {
 		#Zinapecuaro - ZIN
 		ZIN = {
 			own_control_core = {
-				zinapecuaro
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44723,7 +46318,7 @@ countries = {
 		#Ixtacamaxtitlan - IXT
 		IXT = {
 			own_control_core = {
-				ixtacamaxtitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44739,7 +46334,7 @@ countries = {
 		#Tetela - TEE
 		TEE = {
 			own_control_core = {
-				tetela
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44755,7 +46350,7 @@ countries = {
 		#Zacatlan - ZAT
 		ZAT = {
 			own_control_core = {
-				zacatlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44771,7 +46366,6 @@ countries = {
 		#Tlatlauquitepec - TLQ
 		TLQ = {
 			own_control_core = {
-				tlatlauquitepec teziutlan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44787,7 +46381,7 @@ countries = {
 		#Tlapacoyan - TCY
 		TCY = {
 			own_control_core = {
-				tlapacoyan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44803,7 +46397,7 @@ countries = {
 		#Ahuacatlan - AHU
 		AHU = {
 			own_control_core = {
-				ahuacatlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44819,7 +46413,7 @@ countries = {
 		#Cuauhchinanco - GCH
 		GCH = {
 			own_control_core = {
-				cuauhchinanco
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44835,7 +46429,7 @@ countries = {
 		#Etzatlan - ETZ
 		ETZ = {
 			own_control_core = {
-				etzatlan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44851,7 +46445,6 @@ countries = {
 		#Xochitepec - XCT
 		XCT = {
 			own_control_core = {
-				xochitepec huaxtla
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44870,7 +46463,7 @@ countries = {
 		#Ameca - AME
 		AME = {
 			own_control_core = {
-				ameca
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44886,7 +46479,7 @@ countries = {
 		#Tenamaxtlan - TNX
 		TNX = {
 			own_control_core = {
-				tenamaxtlan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44902,7 +46495,6 @@ countries = {
 		#Amollan - AML
 		AML = {
 			own_control_core = {
-				amollan
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44918,7 +46510,7 @@ countries = {
 		#Cuzalapa - CZL
 		CZL = {
 			own_control_core = {
-				cuzalapa
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -44934,7 +46526,6 @@ countries = {
 		#Tomatlan - TMT
 		TMT = {
 			own_control_core = {
-				tomatlan zihuatlan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -44950,7 +46541,7 @@ countries = {
 		#Melahuacan - MHC
 		MHC = {
 			own_control_core = {
-				melahuacan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44966,7 +46557,7 @@ countries = {
 		#Xihutla - XIH
 		XIH = {
 			own_control_core = {
-				xihutla
+				
 			}
 			include = "amerindian_advanced_monarchy"
 			include = "expl_mesoamerica"
@@ -44982,7 +46573,7 @@ countries = {
 		#Autlan - ATL
 		ATL = {
 			own_control_core = {
-				autlan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -44998,7 +46589,6 @@ countries = {
 		#Cocollan - CCL
 		CCL = {
 			own_control_core = {
-				cocollan cutzalan
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45014,7 +46604,7 @@ countries = {
 		#Huitzquilic - HTZ
 		HTZ = {
 			own_control_core = {
-				huitzquilic
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45030,7 +46620,7 @@ countries = {
 		#Aztatlan - AZL
 		AZL = {
 			own_control_core = {
-				aztatlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45046,7 +46636,6 @@ countries = {
 		#Tlamazolan - TZM
 		TZM = {
 			own_control_core = {
-				tlamazolan xilotlan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45062,7 +46651,7 @@ countries = {
 		#Tlapacoya - TLY
 		TLY = {
 			own_control_core = {
-				tlapacoya
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45078,7 +46667,7 @@ countries = {
 		#Cuautla - CAU
 		CAU = {
 			own_control_core = {
-				cuautla
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45094,7 +46683,6 @@ countries = {
 		#Amapila - AMP
 		AMP = {
 			own_control_core = {
-				tlacalahuastla
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45110,7 +46698,6 @@ countries = {
 		#Sayula - SAY
 		SAY = {
 			own_control_core = {
-				sayula
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45126,7 +46713,6 @@ countries = {
 		#Pantepec - PTP
 		PTP = {
 			own_control_core = {
-				pantepec xicotepec
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45142,7 +46728,6 @@ countries = {
 		#Xalapa - XAP
 		XAP = {
 			own_control_core = {
-				xalapa xalacinco tepeyahualco
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45158,7 +46743,6 @@ countries = {
 		#Cuauhtochco - CUO
 		CUO = {
 			own_control_core = {
-				cuauhtochco otlaquiquixtla
 			}
 			include = "amerindian_advanced_monarchy"
 			include = "expl_mesoamerica"
@@ -45174,7 +46758,6 @@ countries = {
 		#Xicochimalco - XIC
 		XIC = {
 			own_control_core = {
-				xicochimalco itzcalpan
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45190,10 +46773,9 @@ countries = {
 		#Tochtepec - TOH https://es.wikipedia.org/wiki/Municipio_de_Tochtepec
 		TOH = {
 			own_control_core = {
-				tochtepec chinantlan xicaltepec
 			}
 			own_control_integrated = {
-				mixtlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45209,7 +46791,6 @@ countries = {
 		#Teutila - TTA
 		TTA = {
 			own_control_core = {
-				teutila ixcatlan oxitlan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45225,7 +46806,6 @@ countries = {
 		#Puctlan - PTL
 		PTL = {
 			own_control_core = {
-				puctlan nopiloa
 			}
 			include = "amerindian_advanced_monarchy"
 			include = "expl_mesoamerica"
@@ -45241,7 +46821,7 @@ countries = {
 		#Cosamaloapan - CSM
 		CSM = {
 			own_control_core = {
-				cosamaloapan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45257,7 +46837,7 @@ countries = {
 		#Otatitlan - OTA
 		OTA = {
 			own_control_core = {
-				otatitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45273,7 +46853,7 @@ countries = {
 		#Tlacotlalpan - TLT
 		TLT = {
 			own_control_core = {
-				tlacotlalpan
+				
 			}
 			include = "amerindian_advanced_monarchy"
 			include = "expl_mesoamerica"
@@ -45289,7 +46869,6 @@ countries = {
 		#Tozlan - TOZ
 		TOZ = {
 			own_control_core = {
-				tozlan atzaccan
 			}
 			include = "amerindian_advanced_monarchy"
 			include = "expl_mesoamerica"
@@ -45308,7 +46887,7 @@ countries = {
 		#Iztachacalapan - IZC
 		IZC = {
 			own_control_core = {
-				iztachacalapan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45324,7 +46903,7 @@ countries = {
 		#Tesechoacan - TSE
 		TSE = {
 			own_control_core = {
-				tesechoacan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45340,7 +46919,6 @@ countries = {
 		#Cuauhcuetzpaltepec - CCP
 		CCP = {
 			own_control_core = {
-				cuauhcuetzpaltepec
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45356,7 +46934,7 @@ countries = {
 		#Ozumacin - OZU
 		OZU = {
 			own_control_core = {
-				ozumacin
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45372,7 +46950,7 @@ countries = {
 		#Atepec - ATP
 		ATP = {
 			own_control_core = {
-				atepec
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45388,7 +46966,7 @@ countries = {
 		#Choapan - CPN
 		CPN = {
 			own_control_core = {
-				choapan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45404,7 +46982,7 @@ countries = {
 		#Xochiapa - XCP
 		XCP = {
 			own_control_core = {
-				xochiapa
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45420,7 +46998,7 @@ countries = {
 		#Atitlan - ATT
 		ATT = {
 			own_control_core = {
-				atitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45436,7 +47014,7 @@ countries = {
 		#Ixtapan - IXA
 		IXA = {
 			own_control_core = {
-				ixtapan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45452,7 +47030,7 @@ countries = {
 		#Cutzamala - CUZ
 		CUZ = {
 			own_control_core = {
-				cutzamala
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45471,7 +47049,7 @@ countries = {
 		#Teloloapan - TLO
 		TLO = {
 			own_control_core = {
-				teloloapan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45490,7 +47068,7 @@ countries = {
 		#Amaticoztitlan - AMT
 		AMT = {
 			own_control_core = {
-				amaticoztitlan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45506,7 +47084,7 @@ countries = {
 		#Itzocan - IZO
 		IZO = {
 			own_control_core = {
-				itzocan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45522,7 +47100,7 @@ countries = {
 		#Axochiapan - AXC
 		AXC = {
 			own_control_core = {
-				axochiapan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45538,7 +47116,7 @@ countries = {
 		#Tepexi - TPX
 		TPX = {
 			own_control_core = {
-				tepexi
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45554,7 +47132,7 @@ countries = {
 		#Zacazonapan - ZCZ
 		ZCZ = {
 			own_control_core = {
-				zacazonapan
+				
 			}
 			include = "amerindian_advanced_monarchy_no_coast"
 			include = "expl_mesoamerica"
@@ -45570,11 +47148,9 @@ countries = {
 		#Itza - ITZ
 		ITZ = {
 			own_control_core = {
-				noh_peten yax_mutal pachan
-				namaan itzamkanac tatahuitalpan 
 			}
 			own_control_integrated = {
-				nadzcaan
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45592,9 +47168,6 @@ countries = {
 		#Cocom - COC
 		COC = {
 			own_control_core = {
-				mayapan sotuta hocabail hunucma maxcanu motul
-				 chichen_itza zaci tases kalotmul
-				jootsuuk tho
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45611,7 +47184,6 @@ countries = {
 		#Tutul-Xiu - XIU
 		XIU = {
 			own_control_core = {
-				mani dzibilnocac telantunich
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45628,7 +47200,7 @@ countries = {
 		#Ah Canul - CNL
 		CNL = {
 			own_control_core = {
-				calkini
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45645,7 +47217,6 @@ countries = {
 		#Chakan Putum - CKP
 		CKP = {
 			own_control_core = {
-				chakan_putum kaan_peech edzna hochob tixchel
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45662,7 +47233,6 @@ countries = {
 		#Chel - HEL
 		HEL = {
 			own_control_core = {
-				dzilam titsimin ekab labcah zama coba
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45679,7 +47249,6 @@ countries = {
 		#Uaymil - UAY
 		UAY = {
 			own_control_core = {
-				chakan_yucatan tixmul chacchoben
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45715,7 +47284,6 @@ countries = {
 		#Cháak teʼ éemal - CTM
 		CTM = {
 			own_control_core = {
-				chactemal bakhalal
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45731,7 +47299,6 @@ countries = {
 		#Kowoj - KOW
 		KOW = {
 			own_control_core = {
-				chakanbakan xpaicheil dzibanche xpuhil
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45747,7 +47314,6 @@ countries = {
 		#Yoko t'aanob - YOK
 		YOK = {
 			own_control_core = {
-				tonala_coatzacoalco cupilco zahuatan
 			}
 			include = "amerindian_mesoamerican_tribe_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45763,7 +47329,6 @@ countries = {
 		#Chʼol - XOL
 		XOL = {
 			own_control_core = {
-				baak xicallanco tila ocosingo pochutla lakam_tun
 			}
 			include = "amerindian_mesoamerican_tribe_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45798,10 +47363,9 @@ countries = {
 		#Kʼicheʼ - KIC
 		KIC = {
 			own_control_core = {
-				pismachi
+				
 			}
 			own_control_integrated = {
-				otzoya tzunun_kaab huehuetan
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45817,7 +47381,6 @@ countries = {
 		#Chorti - CHT
 		CHT = {
 			own_control_core = {
-				metapan ocotepec opoa chiquimula
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45837,7 +47400,6 @@ countries = {
 		#Sotz'leb - LAC
 		LAC = {
 			own_control_core = {
-				napinaica tenamitl
 			}
 			include = "amerindian_mesoamerican_tribe_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45853,7 +47415,6 @@ countries = {
 		#Kaqchikel - KAQ
 		KAQ = {
 			own_control_core = {
-				kakol_kiej xelahuh
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45872,10 +47433,9 @@ countries = {
 		#Mam - MMM
 		MMM = {
 			own_control_core = {
-				chinabajul jaltenango
 			}
 			own_control_integrated = {
-				tonala_chiapas
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45916,7 +47476,6 @@ countries = {
 		#Tzeltal - TZE
 		TZE = {
 			own_control_core = {
-				quechula zinacantan
 			}
 			include = "amerindian_mesoamerican_tribe_not_nahuatl"
 			include = "expl_mesoamerica"
@@ -45932,7 +47491,7 @@ countries = {
 		#Tz'utujil - TZU
 		TZU = {
 			own_control_core = {
-				atitlan_guatemala
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45948,7 +47507,7 @@ countries = {
 		#Q'anjob'al - QAN
 		QAN = {
 			own_control_core = {
-				jolom_konob
+				
 			}
 			include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
 			include = "expl_mesoamerica"
@@ -45988,7 +47547,6 @@ countries = {
 		#Kuskatan - KUS https://en.wikipedia.org/wiki/Cuzcatlan
 		KUS = {
 			own_control_core = {
-				chalchuapa kuskatan cojutepeque nonualco
 			}
 			discovered_regions = {
 				central_america_region
@@ -46006,7 +47564,6 @@ countries = {
 		#Cuauhtemallan - QUA
 		QUA = {
 			own_control_core = {
-				cuauhtemallan itzcuintlan
 			}
 			discovered_regions = {
 				central_america_region
@@ -46507,7 +48064,6 @@ countries = {
 		#Teypana pueblo - TEY
 		TEY = {
 			own_control_core = {
-				teypana
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
@@ -46524,7 +48080,6 @@ countries = {
 		#Isleta Pueblo (Shiewhibak) - ISL
 		ISL = {
 			own_control_core = {
-				shiewhibak
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
@@ -46538,7 +48093,6 @@ countries = {
 		#Acoma Pueblo (�ak?u) - ACO
 		ACO = {
 			own_control_core = {
-				aaku
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
@@ -46552,7 +48106,6 @@ countries = {
 		#Zia Pueblo - KER
 		KER = {
 			own_control_core = {
-				tsiya
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
@@ -46566,7 +48119,6 @@ countries = {
 		#Tano - TNN
 		TNN = {
 			own_control_core = {
-				than_u_ge #Tano Tribe
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
@@ -46580,7 +48132,6 @@ countries = {
 		#Taos pueblo (Ia?oph�ybo) - TAO
 		TAO = {
 			own_control_core = {
-				ialophaybo
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
@@ -46594,7 +48145,6 @@ countries = {
 		#Sandia Pueblo (Tuf Shur Tia) - TST
 		TST = {
 			own_control_core = {
-				tuf_shur_tia #Sandia Pueblo
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
@@ -46608,7 +48158,6 @@ countries = {
 		#Ohkwee �w�ngeh - OHK
 		OHK = {
 			own_control_core = {
-				ohkweeo_owingeh
 			}
 			include = "amerindian_tribe_settled_northwestern"
 			include = "expl_northwestern_america"
