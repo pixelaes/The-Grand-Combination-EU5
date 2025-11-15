@@ -220,7 +220,7 @@ SLT = {
 }
 
 NEU = {
-	color = rgb { 51 191 102 }
+	color =map_NEU
 	
 	culture_definition = franc_comtois
 	religion_definition = catholic
@@ -393,7 +393,7 @@ KNZ = {
 }
 
 WUR = {
-	color = rgb { 111 162 128 }
+	color = map_WUR
 	
 	culture_definition = swabian
 	religion_definition = catholic
@@ -406,7 +406,7 @@ OET = {
 	religion_definition = catholic
 }
 
-SWH = {
+SWS = {
 	color = rgb { 40 90 161 }
 	
 	culture_definition = east_franconian
@@ -421,7 +421,7 @@ HBR = {
 }
 
 BDE = {
-	color = rgb { 117 161 67 }
+	color = map_BDE
 	
 	culture_definition = rhine_franconian
 	religion_definition = catholic
@@ -685,8 +685,8 @@ HLF = {
     religion_definition = catholic
 }
 
-HOH = {
-    color = rgb { 170 120 90 }
+HOH = { # Hohenzollern-Hechingen
+    color = map_HOH
     culture_definition = swabian
     religion_definition = catholic
 }

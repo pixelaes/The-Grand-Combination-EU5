@@ -169,7 +169,7 @@ HTR = {
 }
 
 SLV = {
-	color = rgb { 0 150 255 }
+	color = map_SLV
 	
 	culture_definition = holsatian
 	religion_definition = catholic

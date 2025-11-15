@@ -163,6 +163,36 @@ HAN = {
 	difficulty = 3
 }
 
+SHL = {
+	color = map_SHL
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+SWH = {
+	color = map_SWH_dominion0_1
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
 GBR = {
 	color = map_GBR
 	color2 = rgb { 16 41 202 }
@@ -255,6 +285,51 @@ KRA = {
 
 SAX = {
 	color = map_SAX
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+TSC = {
+	color = map_TSC
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+HOS = { # Hohenzollern-Sigmaringen
+	color = map_HOS
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+MST = { # Mecklenburg-Strelitz
+	color = map_MST
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }

@@ -288,10 +288,10 @@ religion_definition = catholic
 
 
 LUC = { #lucca
-color = rgb { 160 60 30 }
+	color = map_LUC
 
-culture_definition = tuscan
-religion_definition = catholic
+	culture_definition = tuscan
+	religion_definition = catholic
 
 }
 
@@ -336,7 +336,7 @@ religion_definition = catholic
 
 
 MOD	= { #modena
-color = rgb { 192 102 151 }
+color = map_MOD
 
 culture_definition = emilian
 religion_definition = catholic
@@ -363,7 +363,7 @@ religion_definition = catholic
 
 
 NAP	= { #naples
-	color = map_naples
+	color = map_NAP
 
 	culture_definition = neapolitan
 	religion_definition = catholic
@@ -384,7 +384,7 @@ religion_definition = catholic
 
 
 PAP	= { #papalstates
-	color = rgb { 211 211 211 }
+	color = map_PAP
 
 	culture_definition = median
 	religion_definition = catholic
@@ -396,7 +396,7 @@ PAP	= { #papalstates
 
 
 PAR	= { #parma
-color = rgb { 128 202 129 }
+color = map_PAR
 
 culture_definition = emilian
 religion_definition = catholic
@@ -533,7 +533,7 @@ religion_definition = catholic
 
 
 SIC	= { #sicily
-color = rgb { 100 100 0 }
+color = map_SCI
 
 culture_definition = sicilian
 religion_definition = catholic

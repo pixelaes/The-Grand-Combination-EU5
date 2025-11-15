@@ -23,7 +23,6 @@ countries = {
 				chama seacal kajyub nito toquegua
 				noh_peten namaan yax_mutal pachan wak_kabnal
 				ceibal ixtutz pusilha campin tzoite paliac
-				tzunuun altun_ha lamanai xunantunich uxwitza
 				talanga tecohtzincalpan comayagua maniani
 				tencoa ocotepec opoa cururu shalatenan
 				chinda naco yoro ticamaya
@@ -34,7 +33,6 @@ countries = {
 				kukra tawahka prinzus boas bawika silam yuskus ku panamahkas
 				matagalpa rama ulwas xiotenko ukutal xalapan danli
 				nagarando nequecheri diria cuauhcapolca tezoatega guaxenicos sutiapan
-				karawala awastara ahuya_yari
 				orosi bocto nekokiaw garabito uxarraci
 				coctu boruca quepos pacaca
 				dererri tariaca kabeka
@@ -577,6 +575,7 @@ countries = {
 
 		VNZ = {
 			own_control_core = {
+				guayana waini
 				ichitki suchiimma marakaaya perija catatumbo jauregui
 				chitagaes kukuta babichas yukpa
 				coro paraguana tucanca chama_venezuela arapuey mukas cabimas capatarida
@@ -666,6 +665,9 @@ countries = {
 				liribamba
 				alausi hatun_kanar shabalula cangochamba malacatos calvas pukamuru
 				kofan quijos siona napo kichwa puyu sangay macas yaguarzongo
+			}
+			own_control_colony = {
+				isabela_island santiago_islands santa_cruz_islands
 			}
 			starting_technology_level = 3
 			government = {
@@ -3852,11 +3854,9 @@ countries = {
 			}
 
 
-			our_cores_conquered_by_others = {
-				varberg halmstad kungsbacka
-				ronneby bregne solvesborg
-				gladsax osby 
-				helsingborg lund malmo
+			own_control_colony = {
+				# Caribbean
+				ayay
 			}
 
 			capital = roskilde
@@ -4534,7 +4534,7 @@ countries = {
 				kashubian #pruthenian
 			}
 
-			country_rank = rank_duchy
+			country_rank = rank_kingdom
 			capital = malbork
 
 			#Setup to accurately portray the starting situation
@@ -5349,12 +5349,55 @@ countries = {
 			dynasty = gryf_dynasty
 		}
 
-		HPL = { #Holstein-Plön
+		SHL = { #Holstein-Plön
+			our_cores_conquered_by_others = {
+				kiel heiligenhafen plon
+				stormarn segeberg rendsburg steinburg
+				pinneberg
+				heide
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			include = "expl_northern_europe"
+			include = "german_principality"
+			government = {
+
+				ruler = shl_johann_iii_holstein_kiel
+
+				ruler_term = {	character = shl_gerhard_ii_holstein_kiel start_date = 1290.1.1 end_date = 1312.10.28 regnal_number = 2	}
+				ruler_term = {
+					character = shl_gerhard_iv_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 4 #Yes, there is no Gerhard III, it skips from II to IV
+					character = shl_johann_iii_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 3
+				}
+				ruler_term = { character = shl_johann_iii_holstein_kiel start_date = 1314.6.7 regnal_number = 3 }
+
+				regnal_numbers = {
+					name_gerard = 4
+					name_john = 3
+					name_adolf = 6
+				}
+			}
+
+			tolerated_cultures = {
+				polabian
+			}
+
+			country_rank = rank_county
+			capital = plon
+			dynasty = schauenburg_dynasty
+		}
+
+		SWH = {
 			own_control_core = {
 				kiel heiligenhafen plon
 				stormarn segeberg rendsburg steinburg
 				pinneberg
 				heide
+				eckernforde slesvig flensburg aabenraa haderslev
+				ribe tonder
+				husum
 			}
 
 			starting_technology_level = 3
@@ -5418,11 +5461,9 @@ countries = {
 		}
 
 		SLV = { #Slesvig
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				eckernforde slesvig flensburg aabenraa haderslev
 				ribe tonder
-			}
-			own_control_integrated = {
 				husum
 			}
 
@@ -7121,7 +7162,7 @@ countries = {
 			}
 
 			starting_technology_level = 3
-			country_rank = rank_kingdom
+			country_rank = rank_empire
 
 			government = {
 				type = monarchy
@@ -8292,833 +8333,701 @@ countries = {
 			own_control_integrated = {
 			}
 			own_control_colony = {
-				# Canada
-				sakwatamau tawatinaw ayahciyiniw_sakahikan kamspikihteek asiniwaciy
-				thilane_hot_ine sakawyiniw ot_esh_otchore
-				athabasca kai_theli_ke_hot_inne tethul
-				mikkwa wabasca mushikitee ksituan
-				amisk_sipi amisk_sakahikan wawaskesiwisakahikan
-				namew kipahigan mistahi_sakahikan wapiskau_sk kiheewapiw
-				sakitawahk methye missinipi kawatinook
-				gani_koe tazin tipinuwak misekumaw
-				klewi tu_nedhe tucho tidee kakisa
-				wecho soombak_e utsingi kahochella
-				thubun tronka_chua tatsan nonacho lutselk_e deskenetlata natalkai
-				thoa dubawnt abitau kasba
-				poyiitahtai
-				wakpa_juk_ana
-				etzikom
-				kwaskwuti
-				cahe
-				canhewincasta
-				wazihe
-				minizuahe
-				wibazoka_wakpa
-				minichinas
-				tugaske
-				notukeu
-				miksiw_sipisis
-				kiyiu
-				manitowi_sakahikanihk
-				ye_ya_xabine
-				ogiciza_wakpa
-				pimicaskewyashik
-				ceepee
-				saskatchewan
-				kistapinan
-				petaigan
-				porcupine_hills
-				notinito_sipiy
-				wetaskiwin
-				amisk
-				kisiskaciwani_sipiy
-				amiskwaciwiy
-				titaga
-				wabamun
-				apahtoksipisskan
-				mokowan
-				ijathibe_wapta
-				kananaskis
-				okotoks
-				inotonniicaah
-				saamis
-				insaombi
-				makhabn
-				waskasoo
-				netook
-				keoma
-				michichi
-				wawaskesiw_sipiy
-				wastina
-				shunda
-				pembina_ab
-				ya_kti_ki
-				apetowun
-				osukyuze
-				hepa
-				canuba_wakpa
-				muskiki
-				kinistino
-				etomami
-				kamsack
-				iskwao
-				tacehubana
-				wascana
-				posakanaciwiy
-				katepwewi
-				assapasca
-				opaskwayak
-				wapisiw_sipihk
-				winnipegosis
-				onabeesh
-				tootinaowaziibeeng
-				kinosota
-				kihi
-				sihabi
-				sipiweske
-				waskada
-				winnipeg
-				mnisaton
-				mihkwakamiwi_sipiy
-				pikwedina_sagaomam
-				maskwa
-				gaspe
-				chicchoc
-				marsoui
-				pewjeg
-				cascapedia
-				paspebiac
-				matapedia
-				matane
-				rimouski
-				mitis
-				amqui
-				causapscal
-				kakouna
-				molsemtekw
-				temiscouata
-				kamouraska
-				kikonteku
-				kamitsisit
-				etchemin
-				wachilmezi
-				onkobagag
-				sartigan
-				wolastoq
-				stadacona
-				andawaohie
-				ontaretse
-				ahwendoe
-				ondaonnentakwi
-				aunona
-				taoondewake
-				kouate
-				laurentian_massif
-				mingan
-				pigou
-				aguanish
-				natashquan
-				manapakuaniskau
-				uanaman
-				upuahpukau
-				magpie_massif
-				notiskuan
-				anticosti
-				natigostec
-				mecatina
-				kegaska
-				coacoachou
-				napetipi
-				uashat
-				nipisso
-				nipissis
-				caopacho
-				opocopa
-				mistecapiu
-				ouiauirabugu
-				toulnustouc
-				capotigamau
-				manicouagan
-				mouchalagane
-				kapuameut
-				piletisipuk
-				manicouagan_depression
-				pessamit
-				betsiamites
-				pipmuacan
-				itomamo
-				kitchesatsiou
-				manouanis
-				tetepisca
-				essipit
-				manouane
-				manouanis_massif
-				chicoutimi
-				shipshaw
-				onatchiway
-				outapimiskou
-				metabetchouane
-				tadoussac
-				opiticiwan
-				oskelaneo
-				minkaniciciw
-				wemotaci
-				maskotci
-				metabeskega
-				kokokachi
-				cikakw_sipi
-				kiskissink
-				wayagamac
-				windigo_massif
-				kitigan_zibi
-				baskatong
-				poigan
-				picanoc
-				tapani
-				kiamika
-				kanegaok
-				temiscamingue
-				maganasipi
-				kippawa
-				winneway
-				kinojevis
-				osisko
-				kitcisakik
-				kakibonga
-				cawassiemica
-				capimitchigama
-				mistassibi
-				samaqua
-				ouasimesca
-				nestaocano
-				tchitogama
-				peribonka
-				onistagane
-				machisque
-				ashuapmushuan
-				kanishushteu
-				chigoubiche
-				nicabau
-				ouiatchouaniche
-				wigwomadensis
-				masolian
-				yamaska
-				wdpesek
-				hochelaga
-				kemoimenahan
-				ahkwesasne
-				otennienontant
-				makigotekw
-				loigan_sibo
-				kiwetin_sipi
-				mikiwam
-				outaragasipi
-				tremblant_massif
-				alsigontekw
-				wolinak
-				wabanaki
-				arthabaska
-				nebesek
-				nikitotegwak
-				megantic
-				maskikogamak
-				coaticook
-				memphremagog
-				wigwomadenek
-				wagowategok
-				ekwentondie
-				yamachiche
-				shawinigan
-				mekinac
-				matawin
-				nagatinong
-				weskarini
-				okaisipi
-				quyon
-				nichabau
-				malartic
-				wasakin
-				chicobi
-				harricana
-				obaska
-				megiscane
-				matagami_depression
-				opawica
-				opemisca
-				waswanipi
-				maicasagi
-				soscumica
-				nottaway
-				missicabi
-				waskaganish
-				kaipeshimushich
-				nemasca
-				kapitukamach
-				kauakiekamatsh
-				natastan
-				nistam
-				kamashikamach
-				ouagama
-				mistissini
-				cawachagamite
-				shipastouk
-				mistassiniish
-				chibougamau
-				temiscamie
-				pitchibourenik
-				caisaboscai
-				chistamikap
-				nasacauso
-				neoskweskau
-				cauouatstacau
-				mistimakan
-				chisasibi
-				maquatua
-				atikuan
-				nichicun
-				misask
-				wahemen
-				naococane
-				kuujjuarapik
-				qingaaluk
-				tupialuviniq
-				wiyashakimi
-				nastapoka
-				kuujjuaq
-				kuuvik
-				natuak
-				kasuswapaskau
-				koskoak
-				ungava_peninsula
-				sanikiluaq
-				southampton_island
-				pangnirtung
-				iglunga
-				iqaluit
-				kimmirut
-				amadjuak
-				kinngait
-				baffin_island
-				caniapiscau
-				kasakaupuyau
-				wayustikw
-				mistanipi
-				chipisipi
-				katataskatikw
-				misinichikw
-				otelnuk
-				kawachisakau
-				kawachikamasu
-				enchukamao
-				qikirtajuaq
-				kamusawawasich
-				kawawasukutisich
-				kaypikupau
-				mistinatwayasu
-				kamiskayachuuch
-				qurlutuq
-				whale_lowlands
-				kangiqsualujjuaq
-				imaapik
-				siimitalik
-				uashekanau
-				mistinatuakamau
-				mushuau
-				kausseskait
-				tupirvialuit
-				koroc
-				quebec_torngats
-				nunainguk
-				navchak
-				kingmirtok
-				napaktok
-				okak
-				aulatsivik
-				ukasikalik
-				agvituk
-				kaipokok
-				aillik
-				tessuialluk
-				misha_shipu
-				tikigaksuagusik
-				aivitok
-				kenamu
-				sheshatshiu
-				kauipushkakamat
-				kamassekutinat
-				labrador_highlands
-				hamilton_inlet
-				shabogamo
-				ashuanipi
-				kepimits
-				muhaukamau
-				atikonak
-				kamassekuakamat
-				nipissu
-				winokapau
-				mishikamau
-				menutinau
-				ushkau_nipi
-				attikamagen
-				petitsikapau
-				hamilton_highlands
-				catucto
-				ikkatuluk
-				uivvatok
-				natsitok
-				inutsualak
-				belle_isle
-				wipetikil
-				naskwotchu
-				mekapisk
-				eimastukwek
-				epwikek
-				kutapuskuj
-				pgotapesg
-				upsukdaskooch
-				wli_qospem
-				gosaoie
-				nogamsig
-				meelpaeg
-				amasipukwek
-				sibook
-				baie_verte
-				walnaypek
-				akilasiewakik
-				newfoundland_highlands
-				cape_spear
-				bacalhieu
-				mekwiskajk
-				mollyhuajeck
-				placentia
-				cape_race
-				maqtewey
-				nukamkiajijk
-				miquelon
-				elsiktuk
-				tignish
-				malpeque
-				tapu_tuitn
-				pukusamkek
-				menageesenog
-				askataliank
-				cheticamp
-				ingonish
-				qospemk
-				apaqtukowatek
-				sipuk
-				kluskapewiktuk
-				pictou
-				chignecto
-				maccan
-				tatamagouche
-				antigonish
-				canso
-				kekwapskuk
-				wikipoq
-				weljuik
-				jijkwtuk
-				cobequid
-				shubenacadie
-				kennetook
-				kjipuktuk
-				wetewatoqsik
-				musquedoboit
-				aspotogan
-				esekatik
-				nmejuaqnek
-				nictaux
-				wekwayik
-				chebogue
-				muinawamek
-				nisiamk
-				oqumkikiak
-				chipoudy
-				petitcodiac
-				memramcook
-				richibucto
-				kouchibouguac
-				miramichi
-				neguac
-				anagance
-				seeboosis
-				nepisiguit
-				tracadie
-				caraquet
-				restigouche
-				maleagit
-				pogomeg
-				asoqasqoq
-				matapedia_highlands
-				madawaska
-				negoot
-				becaguimec
-				siegas
-				menahkwesk
-				mispec
-				kennebecasis
-				washademoak
-				otnabog
-				kcheeminpink
-				canaan_bog
-				grand_
-				nashwaak
-				oromocto
-				meductic
-				welamooktook
-				pokiok
-				grand_manan
-				pocologan
-				chamcook
-				magaguadavic
-				cataraqui
-				kahwenoke
-				toniato
-				gananoque
-				opinicon
-				kitchissippi
-				pasapkedjinawong
-				onontchataronon
-				maizinaazibi
-				matoueska
-				kinozhesipi
-				pikwakanagan
-				petawawa
-				napanee
-				ganneious
-				ganaraska
-				quinte
-				otonabee
-				kawartha
-				mazinaw
-				skootamatta
-				kamaniskeg
-				catchacoma
-				kashagawigamog
-				macassa
-				niagara
-				nissouri
-				kandoucho
-				kenhionatatie
-				tekahionhake
-				kanagio
-				ganatchio
-				bkwejanong
-				menesetung
-				saugeen
-				dehskan_ziibi
-				nochemoweniing
-				etharita
-				ehwae
-				garafraxa
-				eramosa
-				ouentarionk
-				cahiague
-				kaotia
-				scanonaenrat
-				ossossane
-				tkaronto
-				oshawa
-				scugog
-				haskaont
-				missinihe
-				tetioneshohon
-				shawanaga
-				cognashene
-				kahshe
-				magnetawan
-				nosbonsing
-				nipissing
-				powassan
-				memesagamesing
-				nemag
-				wanapitei
-				onaping
-				pogamasing
-				temagami
-				ishpatina_ridge
-				manitoulin
-				wemitigoj
-				eskimanetigon
-				mississagi
-				matabichuan
-				matachewan
-				sessekinika
-				mattawa
-				opimika
-				baawitigong
-				batchawana
-				michipicoten
-				agawa_superior
-				manitowik
-				pekatek
-				aguasabon
-				wawa_uplands
-				nipigon
-				namewaminikan
-				ombabika
-				wabinosh
-				kaitotikwia
-				kaministiquia
-				kakabeka
-				neebing
-				minong
-				kapuskasing
-				missinaibi
-				nemegosenda
-				otapingshewee
-				tionaga
-				wakusimi
-				mattawishkwia
-				nemegosenda_uplands
-				kenogamissi
-				mattagami
-				buskegau
-				mistango
-				nahma
-				piscoutagami
-				mattawasaga
-				nagagami
-				watistiguam
-				achikamii
-				kabinakagami
-				pagwachuan
-				ginoogaming
-				atikwa
-				saganaga
-				quetico
-				namakan
-				gojijin
-				kakagi
-				wabaseemong
-				winnange
-				wabigoon
-				obishikokaang
-				waaninaawangang
-				wabigoon_uplands
-				lac_seul
-				ogoki
-				miniss
-				atikokiwam
-				matapesatakun
-				petawanga
-				pichinamei
-				makokibatan
-				kagianagami
-				ogoki_uplands
-				winisk
-				kinusheo
-				wabuk
-				asheweig
-				tabasokwia
-				shibogama
-				wapikopa
-				wunnumin
-				wapitotem
-				hudson_bay_lowlands
-				winisk_uplands
-				washeo
-				niskibi
-				shagamu
-				ministik
-				severn_uplands
-				kinosao_sipi
-				manigotagan
-				atikaki
-				mukutawa
-				oceko_sipiy
-				mantago
-				chitek
-				kawinaw
-				mechiso
-				pikwitonei
-				anipitapiskow
-				poskatinak
-				silsby_
-				wekusko_upland
-				nunatonowago
-				kanaskipenaski
-				kaministikowak
-				echimamish
-				eyapaysis
-				lac_seul_upland
-				hayes_river_upland
-				numaykoos
-				mistutikumak
-				opuskowin
-				kapuskaywak
-				churchill_river_upland
-				reindeer_
-				indian_
-				shethanei
-				tadoule
-				kapuskaypachik
-				thlewiaza
-				mistahi
-				seal_river_upland
-				nejanilini_uplands
-				kamisak
-				machichi
-				kichekokotic
-				sowunusiske
-				wapusk
-				des_nedhe
-				nunalla
-				nueltin
-				tatinnai
-				thaolintoa
-				tha_anne
-				kazan_uplands
-				northern_arctic_uplands
-				arctic_archipelago
-				attawapiskat
-				ekwan
-				otadaonanis
-				patchepawapoka
-				lakitusaki
-				attawapiskat_lowlands
-				kashechewan
-				wabimeig
-				mammamattawa
-				wapiskau
-				kinosheo
-				pagashi
-				tchakashapug
-				james_bay_lowlands
-				english_river_uplands
-				moosonee
-				abimatinu
-				takwata
-				wawiyastan
-				kwetabohigan
-				kagawask
-				mesagami
-				olimisk
-				abitibi_uplands
-				mahnahwoonan
-				sivukutaitiarruvik
-				akimiski
-				bay_of_quinte
-				central_
-				niagara_basin
-				eastern_erie_basin
-				central_erie_basin
-				pelee_island
-				northern_
-				deadmans_point
-				cunningham_point
-				manitoulin_channel
-				southern_
-				clark_point
-				blue_point
-				whitefish_point
-				strait_of_makinac
-				middle_
-				south_
-				wind_point
-				au_sable_point
-				pukaskwa_point
-				schreiber_channel
-				keweenaw_coast
-				copper_harbor
-				aulatsivik_island
-				sloop_harbour_point
-				hawke_island
-				labrador_sea
-				cumberland_sound
-				north_aulatsivik_island
-				hatten_headland
-				edgell_island
-				angijak_island
-				dyer_cape
-				anticosti_channel
-				grosse_island
-				saint_lawrence_gulf
-				gulf_of_saint_lawrence
-				cabot_strait
-				bay_of_islands
-				esquiman_channel
-				amour_point
-				mouth_of_saint_lawrence
-				saguenay_fjord
-				saint_lawrence_estuary
-				boisvert_point
-				anglais_point
-				cartier_point
-				coast_of_gaspe
-				honguedo_strait
-				mingan_islands
-				bilodeau_point
-				anticosti_coast
-				mecatina_islands
-				les_blacklands
-				vieux_poste_point
-				rouge_cape
-				quero_bank
-				havre_aubert_cape
-				northumberland_strait
-				pictou_banks
-				strait_of_canso
-				bradelle_valley
-				laurentian_channel
-				burgeo_bank
-				hermitage_channel
-				st_pierre_bank
-				green_bank
-				groais_island
-				freels_cape
-				notre_dame_channel
-				grey_islands
-				canada_high_sea10
-				brown_bank
-				bacarro_bank
-				lahave_bank
-				emerald_bank
-				sydney_bight
-				misaine_bank
-				middle_bank
-				canso_bank
-				grand_manan_basin
-				bay_of_fundy
-				minas_basin
-				pen_islands
-				mouth_of_the_winisk
-				shagamu_coast
-				kamisak_coast
-				mouth_of_thlewiaza
-				thompson_point
-				churchill_shoal
-				dawson_inlet
-				rankin_inlet
-				chesterfield_inlet
-				salluit_fjord
-				charles_island
-				king_george_sound
-				akpatok_island1
-				akpatok_island2
-				jubilee_island
-				glencoe_island
-				big_island
-				saddleback_island
-				forbes_sound
-				vauquelin_point
-				belcher_islands_coast5
-				salikuit_islands
-				mctavish_island
-				drayton_island
-				cape_smith
-				digges_island
-				netcheck_cape
-				evans_strait
-				santianna_point
-				coats_island3
-				leyson_point
-				mansel_island3
-				kakachischuan_point
-				cape_hope_islands
-				cape_henrietta_maria
-				bear_islands 
+				# Mediterranean
+					malta gibraltar
 
+				# Atlantic
+					bermuda west_falkland east_falkland georgia_isle
+
+				# Caribbean
+					maynoa yaguabo aguacadiba guaygata anaya oristan kaiman
+					abacoa exuma guanima eleuthera utiaquia guanahani inagua samana_cay jumento caycos lucayoneque bahama
+					ariogana wadadli liamuiga walichi malliouhana anegada aburakeiru vieques_island
+					cairiani alubera waitu_kubuli hewanorra cairiani ichirouganaim alubera kamahuya youloumain
+
+				# Belize
+					tzunuun altun_ha lamanai xunantunich uxwitza
+
+				# Mosquito Coast
+					karawala awastara ahuya_yari
+
+				# Canada
+					sakwatamau tawatinaw ayahciyiniw_sakahikan kamspikihteek asiniwaciy
+					thilane_hot_ine sakawyiniw ot_esh_otchore
+					athabasca kai_theli_ke_hot_inne tethul
+					mikkwa wabasca mushikitee ksituan
+					amisk_sipi amisk_sakahikan wawaskesiwisakahikan
+					namew kipahigan mistahi_sakahikan wapiskau_sk kiheewapiw
+					sakitawahk methye missinipi kawatinook
+					gani_koe tazin tipinuwak misekumaw
+					klewi tu_nedhe tucho tidee kakisa
+					wecho soombak_e utsingi kahochella
+					thubun tronka_chua tatsan nonacho lutselk_e deskenetlata natalkai
+					thoa dubawnt abitau kasba
+					poyiitahtai
+					wakpa_juk_ana
+					etzikom
+					kwaskwuti
+					cahe
+					canhewincasta
+					wazihe
+					minizuahe
+					wibazoka_wakpa
+					minichinas
+					tugaske
+					notukeu
+					miksiw_sipisis
+					kiyiu
+					manitowi_sakahikanihk
+					ye_ya_xabine
+					ogiciza_wakpa
+					pimicaskewyashik
+					ceepee
+					saskatchewan
+					kistapinan
+					petaigan
+					porcupine_hills
+					notinito_sipiy
+					wetaskiwin
+					amisk
+					kisiskaciwani_sipiy
+					amiskwaciwiy
+					titaga
+					wabamun
+					apahtoksipisskan
+					mokowan
+					ijathibe_wapta
+					kananaskis
+					okotoks
+					inotonniicaah
+					saamis
+					insaombi
+					makhabn
+					waskasoo
+					netook
+					keoma
+					michichi
+					wawaskesiw_sipiy
+					wastina
+					shunda
+					pembina_ab
+					ya_kti_ki
+					apetowun
+					osukyuze
+					hepa
+					canuba_wakpa
+					muskiki
+					kinistino
+					etomami
+					kamsack
+					iskwao
+					tacehubana
+					wascana
+					posakanaciwiy
+					katepwewi
+					assapasca
+					opaskwayak
+					wapisiw_sipihk
+					winnipegosis
+					onabeesh
+					tootinaowaziibeeng
+					kinosota
+					kihi
+					sihabi
+					sipiweske
+					waskada
+					winnipeg
+					mnisaton
+					mihkwakamiwi_sipiy
+					pikwedina_sagaomam
+					maskwa
+					gaspe
+					chicchoc
+					marsoui
+					pewjeg
+					cascapedia
+					paspebiac
+					matapedia
+					matane
+					rimouski
+					mitis
+					amqui
+					causapscal
+					kakouna
+					molsemtekw
+					temiscouata
+					kamouraska
+					kikonteku
+					kamitsisit
+					etchemin
+					wachilmezi
+					onkobagag
+					sartigan
+					wolastoq
+					stadacona
+					andawaohie
+					ontaretse
+					ahwendoe
+					ondaonnentakwi
+					aunona
+					taoondewake
+					kouate
+					laurentian_massif
+					mingan
+					pigou
+					aguanish
+					natashquan
+					manapakuaniskau
+					uanaman
+					upuahpukau
+					magpie_massif
+					notiskuan
+					anticosti
+					natigostec
+					mecatina
+					kegaska
+					coacoachou
+					napetipi
+					uashat
+					nipisso
+					nipissis
+					caopacho
+					opocopa
+					mistecapiu
+					ouiauirabugu
+					toulnustouc
+					capotigamau
+					manicouagan
+					mouchalagane
+					kapuameut
+					piletisipuk
+					pessamit
+					betsiamites
+					pipmuacan
+					itomamo
+					kitchesatsiou
+					manouanis
+					tetepisca
+					essipit
+					manouane
+					manouanis_massif
+					chicoutimi
+					shipshaw
+					onatchiway
+					outapimiskou
+					metabetchouane
+					tadoussac
+					opiticiwan
+					oskelaneo
+					minkaniciciw
+					wemotaci
+					maskotci
+					metabeskega
+					kokokachi
+					cikakw_sipi
+					kiskissink
+					wayagamac
+					windigo_massif
+					kitigan_zibi
+					baskatong
+					poigan
+					picanoc
+					tapani
+					kiamika
+					kanegaok
+					temiscamingue
+					maganasipi
+					kippawa
+					winneway
+					kinojevis
+					osisko
+					kitcisakik
+					kakibonga
+					cawassiemica
+					capimitchigama
+					mistassibi
+					samaqua
+					ouasimesca
+					nestaocano
+					tchitogama
+					peribonka
+					onistagane
+					machisque
+					ashuapmushuan
+					kanishushteu
+					chigoubiche
+					nicabau
+					ouiatchouaniche
+					wigwomadensis
+					masolian
+					yamaska
+					wdpesek
+					hochelaga
+					kemoimenahan
+					ahkwesasne
+					otennienontant
+					makigotekw
+					loigan_sibo
+					kiwetin_sipi
+					mikiwam
+					outaragasipi
+					alsigontekw
+					wolinak
+					wabanaki
+					arthabaska
+					nebesek
+					nikitotegwak
+					megantic
+					maskikogamak
+					coaticook
+					memphremagog
+					wigwomadenek
+					wagowategok
+					ekwentondie
+					yamachiche
+					shawinigan
+					mekinac
+					matawin
+					nagatinong
+					weskarini
+					okaisipi
+					quyon
+					nichabau
+					malartic
+					wasakin
+					chicobi
+					harricana
+					obaska
+					megiscane
+					opawica
+					opemisca
+					waswanipi
+					maicasagi
+					soscumica
+					nottaway
+					missicabi
+					waskaganish
+					kaipeshimushich
+					nemasca
+					kapitukamach
+					kauakiekamatsh
+					natastan
+					nistam
+					kamashikamach
+					ouagama
+					mistissini
+					cawachagamite
+					shipastouk
+					mistassiniish
+					chibougamau
+					temiscamie
+					pitchibourenik
+					caisaboscai
+					chistamikap
+					nasacauso
+					neoskweskau
+					cauouatstacau
+					mistimakan
+					chisasibi
+					maquatua
+					atikuan
+					nichicun
+					misask
+					wahemen
+					naococane
+					kuujjuarapik
+					qingaaluk
+					tupialuviniq
+					wiyashakimi
+					nastapoka
+					kuujjuaq
+					kuuvik
+					natuak
+					kasuswapaskau
+					koskoak
+					sanikiluaq
+					pangnirtung
+					iglunga
+					iqaluit
+					kimmirut
+					amadjuak
+					kinngait
+					baffin_island
+					caniapiscau
+					kasakaupuyau
+					wayustikw
+					mistanipi
+					chipisipi
+					katataskatikw
+					misinichikw
+					otelnuk
+					kawachisakau
+					kawachikamasu
+					enchukamao
+					qikirtajuaq
+					kamusawawasich
+					kawawasukutisich
+					kaypikupau
+					mistinatwayasu
+					kamiskayachuuch
+					qurlutuq
+					whale_lowlands
+					kangiqsualujjuaq
+					imaapik
+					siimitalik
+					uashekanau
+					mistinatuakamau
+					mushuau
+					kausseskait
+					tupirvialuit
+					koroc
+					nunainguk
+					navchak
+					kingmirtok
+					napaktok
+					okak
+					aulatsivik
+					ukasikalik
+					agvituk
+					kaipokok
+					aillik
+					tessuialluk
+					misha_shipu
+					tikigaksuagusik
+					aivitok
+					kenamu
+					sheshatshiu
+					kauipushkakamat
+					kamassekutinat
+					shabogamo
+					ashuanipi
+					kepimits
+					muhaukamau
+					atikonak
+					kamassekuakamat
+					nipissu
+					winokapau
+					mishikamau
+					menutinau
+					ushkau_nipi
+					attikamagen
+					petitsikapau
+					catucto
+					ikkatuluk
+					uivvatok
+					natsitok
+					inutsualak
+					belle_isle
+					wipetikil
+					naskwotchu
+					mekapisk
+					eimastukwek
+					epwikek
+					kutapuskuj
+					pgotapesg
+					upsukdaskooch
+					wli_qospem
+					gosaoie
+					nogamsig
+					meelpaeg
+					amasipukwek
+					sibook
+					baie_verte
+					walnaypek
+					akilasiewakik
+					cape_spear
+					bacalhieu
+					mekwiskajk
+					mollyhuajeck
+					placentia
+					cape_race
+					maqtewey
+					nukamkiajijk
+					miquelon
+					elsiktuk
+					tignish
+					malpeque
+					tapu_tuitn
+					pukusamkek
+					menageesenog
+					askataliank
+					cheticamp
+					ingonish
+					qospemk
+					apaqtukowatek
+					sipuk
+					kluskapewiktuk
+					pictou
+					chignecto
+					maccan
+					tatamagouche
+					antigonish
+					canso
+					kekwapskuk
+					wikipoq
+					weljuik
+					jijkwtuk
+					cobequid
+					shubenacadie
+					kennetook
+					kjipuktuk
+					wetewatoqsik
+					musquedoboit
+					aspotogan
+					esekatik
+					nmejuaqnek
+					nictaux
+					wekwayik
+					chebogue
+					muinawamek
+					nisiamk
+					oqumkikiak
+					chipoudy
+					petitcodiac
+					memramcook
+					richibucto
+					kouchibouguac
+					miramichi
+					neguac
+					anagance
+					seeboosis
+					nepisiguit
+					tracadie
+					caraquet
+					restigouche
+					maleagit
+					pogomeg
+					asoqasqoq
+					madawaska
+					negoot
+					becaguimec
+					siegas
+					menahkwesk
+					mispec
+					kennebecasis
+					washademoak
+					otnabog
+					kcheeminpink
+					canaan_bog
+					grand_
+					nashwaak
+					oromocto
+					meductic
+					welamooktook
+					pokiok
+					grand_manan
+					pocologan
+					chamcook
+					magaguadavic
+					cataraqui
+					kahwenoke
+					toniato
+					gananoque
+					opinicon
+					kitchissippi
+					pasapkedjinawong
+					onontchataronon
+					maizinaazibi
+					matoueska
+					kinozhesipi
+					pikwakanagan
+					petawawa
+					napanee
+					ganneious
+					ganaraska
+					quinte
+					otonabee
+					kawartha
+					mazinaw
+					skootamatta
+					kamaniskeg
+					catchacoma
+					kashagawigamog
+					macassa
+					niagara
+					nissouri
+					kandoucho
+					kenhionatatie
+					tekahionhake
+					kanagio
+					ganatchio
+					bkwejanong
+					menesetung
+					saugeen
+					dehskan_ziibi
+					nochemoweniing
+					etharita
+					ehwae
+					garafraxa
+					eramosa
+					ouentarionk
+					cahiague
+					kaotia
+					scanonaenrat
+					ossossane
+					tkaronto
+					oshawa
+					scugog
+					haskaont
+					missinihe
+					tetioneshohon
+					shawanaga
+					cognashene
+					kahshe
+					magnetawan
+					nosbonsing
+					nipissing
+					powassan
+					memesagamesing
+					nemag
+					wanapitei
+					onaping
+					pogamasing
+					temagami
+					manitoulin
+					wemitigoj
+					eskimanetigon
+					mississagi
+					matabichuan
+					matachewan
+					sessekinika
+					mattawa
+					opimika
+					baawitigong
+					batchawana
+					michipicoten
+					agawa_superior
+					manitowik
+					pekatek
+					aguasabon
+					wawa_uplands
+					nipigon
+					namewaminikan
+					ombabika
+					wabinosh
+					kaitotikwia
+					kaministiquia
+					kakabeka
+					neebing
+					minong
+					kapuskasing
+					missinaibi
+					nemegosenda
+					otapingshewee
+					tionaga
+					wakusimi
+					mattawishkwia
+					kenogamissi
+					mattagami
+					buskegau
+					mistango
+					nahma
+					piscoutagami
+					mattawasaga
+					nagagami
+					watistiguam
+					achikamii
+					kabinakagami
+					pagwachuan
+					ginoogaming
+					atikwa
+					saganaga
+					quetico
+					namakan
+					gojijin
+					kakagi
+					wabaseemong
+					winnange
+					wabigoon
+					obishikokaang
+					waaninaawangang
+					lac_seul
+					ogoki
+					miniss
+					atikokiwam
+					matapesatakun
+					petawanga
+					pichinamei
+					makokibatan
+					kagianagami
+					winisk
+					kinusheo
+					wabuk
+					asheweig
+					tabasokwia
+					shibogama
+					wapikopa
+					wunnumin
+					wapitotem
+					washeo
+					niskibi
+					shagamu
+					ministik
+					kinosao_sipi
+					manigotagan
+					atikaki
+					mukutawa
+					oceko_sipiy
+					mantago
+					chitek
+					kawinaw
+					mechiso
+					pikwitonei
+					anipitapiskow
+					poskatinak
+					nunatonowago
+					kanaskipenaski
+					kaministikowak
+					echimamish
+					eyapaysis
+					numaykoos
+					mistutikumak
+					opuskowin
+					kapuskaywak
+					shethanei
+					tadoule
+					kapuskaypachik
+					thlewiaza
+					mistahi
+					kamisak
+					machichi
+					kichekokotic
+					sowunusiske
+					wapusk
+					des_nedhe
+					nunalla
+					nueltin
+					tatinnai
+					thaolintoa
+					tha_anne
+					attawapiskat
+					ekwan
+					otadaonanis
+					patchepawapoka
+					lakitusaki
+					kashechewan
+					wabimeig
+					mammamattawa
+					wapiskau
+					kinosheo
+					pagashi
+					tchakashapug
+					moosonee
+					abimatinu
+					takwata
+					wawiyastan
+					kwetabohigan
+					kagawask
+					mesagami
+					olimisk
+					mahnahwoonan
+					sivukutaitiarruvik
+					akimiski
+				
+				# Guyana
+					essequibo demerara berbice tumatumari neekeari
+
+				# South Africa 
 				chainouqua swartberg klipgat agulhas bredasdorp
 				cochoqua ngonnemoa uri_ae_ona chariguriqua
 				gouriqua hessequa gouritsmond attequa outeniqua
@@ -16263,7 +16172,7 @@ countries = {
 		}
 
 
-		SIC = {
+		TSC = {
 			own_control_core = {
 				catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
 				corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
@@ -16275,7 +16184,6 @@ countries = {
 				gaeta naples nola piedimonte sora venafro campagna salacon salerno vallo ariano avellino santangelo
 			}
 			our_cores_conquered_by_others = {
-				ajim
 			}
 
 			starting_technology_level = 3
@@ -16788,7 +16696,6 @@ countries = {
 
 		CRT = { #Candia https://en.wikipedia.org/wiki/Kingdom_of_Candia
 			own_control_core = {
-				chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
 			}
 
 			starting_technology_level = 3
@@ -16975,7 +16882,7 @@ countries = {
 				neopatras zetounion
 				bodonitsa
 				negroponte kleisoura karystos kymi oreos eretreia
-				monemvasia mystras oitylo leuktron astros 
+				monemvasia mystras oitylo leuktron astros andros mykonos amorgos
 			}
 
 			starting_technology_level = 3
@@ -18267,11 +18174,20 @@ countries = {
 				almeria almanzora baza gergal mojacar velez_rubio
 				granada adra almunecar guadix huescar illora loja pinar orgiva
 				malaga antequera velez_malaga
-				ronda algeciras gibraltar marbella
+				ronda algeciras marbella
 			}
 
-			our_cores_conquered_by_others = {
-				jumilla
+			own_control_colony = {
+				# Canary Islands
+				teguise maxorata tamaraceite hipalan tedote aguere
+
+				# Caribbean
+				habana batanabo guanimar marien_cuba siguanea guaniguanico guanamacabibes macoriges west_sabaneneque hanabana jagua
+				cubanacan east_cubanacan magon ornofay guamuhaya east_sabaneque central_sabaneque sabana
+				south_camaguey camaguey mabuya guaimaro
+				bayamo macaca jiguani cueiba maguanes bani_cuba lora cayaguayo
+				yateras bayaquitiri mayari guantanamo baracoa sagua barajagua
+				guaynabo guaraca guaynia guama arasibo ayamaco
 			}
 
 			starting_technology_level = 3
@@ -18373,6 +18289,26 @@ countries = {
 				lisbon alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas torres_vedras
 				porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo
 				braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real
+			}
+			own_control_colony = {
+				# Madeira + Azores
+				funchal porto_santo
+				ta_delgada santa_maria angra horta santa_cruz_flores
+
+				# Capo Verde
+				santo_antao sao_nicolao boa_vista santiago fogo
+				
+				# Africa
+				kilwa_kisiwani songo_mnara lindi mikindani 
+				somana ibo gomene memba nacala
+				sofala
+				quelimane
+				angoche
+				mozambique
+				inhambane
+				chibuene manyikeni
+				chimuande mussul loge icalo cahenda ambriz nsolu
+				mbanza_soyo soyo ambrizete bumbe nbengo mbaba
 			}
 
 			starting_technology_level = 3
@@ -18745,6 +18681,28 @@ countries = {
 
 		FRA = {
 			own_control_core = {
+				#Appanages
+
+				#Poitou (Own by the ruler)
+				poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
+				niort bourganeuf chatellerault brosse lusignan aulnay st_jean_dangely
+				talmont beauvoir mauleon_poitou
+
+				#C. de Champagne
+				chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
+				chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
+				rosnay villemaur choiseul
+
+				#Too small/unimportant appanages
+				guise hirson
+
+				#Too small/unimportant vassals (fiefs movants)
+				coucy marle #S. Coucy
+				saint_gaudens #Vic. des Quatre Valles
+				brienne #C. Brienne
+				joinville #S. Joinville
+				grandpre #C. Grandpre
+				lille douai #From Flanders after the Treaty of Athis-sur-Orge
 				paris brie_comte_robert corbeil montmorency
 				amiens breteuil corbie nesle peronne
 				clermont montargis sens saint_florentin senlis nemours melun
@@ -18934,34 +18892,21 @@ countries = {
 				aleria bastia calvi corte ajaccio sartene vico bonifacio #Corsica
 			}
 			own_control_integrated = {
-				#Appanages
-
-				#Poitou (Own by the ruler)
-				poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-				niort bourganeuf chatellerault brosse lusignan aulnay st_jean_dangely
-				talmont beauvoir mauleon_poitou
-
-				#C. de Champagne
-				chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
-				chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
-				rosnay villemaur choiseul
-
-				#Too small/unimportant appanages
-				guise hirson
-
-				#Too small/unimportant vassals (fiefs movants)
-				coucy marle #S. Coucy
-				saint_gaudens #Vic. des Quatre Valles
-				brienne #C. Brienne
-				joinville #S. Joinville
-				grandpre #C. Grandpre
 			}
 
 			own_control_conquered = {
-				lille douai #From Flanders after the Treaty of Athis-sur-Orge
 			}
 
-			our_cores_conquered_by_others = {
+			own_control_colony = {
+				# Algeria
+					tamazaghrane oran arzew ksar_ibn_senane
+					tamentfoust medea algiers tablat cherchell
+
+				# Guyana
+					kourou cayenne palikur
+
+				# Caribbean
+					carucairi iguanacaera
 			}
 
 			starting_technology_level = 3
@@ -21960,9 +21905,15 @@ countries = {
 				middelburg bergen_zoom breda eindhoven hertogenbosch helmond
 				weert
 				maastricht
-				limbourg
 				cuijk
 				zutphen doetinchem
+			}
+			own_control_colony = {
+				# Caribbean
+				arubeira curacaute buriari
+
+				# Guyana
+				witagron paramaribo pereru_tepu ndyuka iaremappo
 			}
 
 			starting_technology_level = 3
@@ -22055,7 +22006,7 @@ countries = {
 			capital = middelburg
 		}
 
-		#Brabant
+		#Belgium
 		BEL = {
 			own_control_core = {
 				brussels nivelles leuven mechelen antwerp turnhout 
@@ -22068,6 +22019,7 @@ countries = {
 				bastogne orchimont la_roche neufchateau_luxembourg st_vith arlon
 				bouillon
 				stavelot
+				limbourg
 			}
 
 			starting_technology_level = 3
@@ -22294,7 +22246,7 @@ countries = {
 				sanok krosno lesko
 				zhydachiv bolekhiv dolyna
 				chioggia venice mestre
-				pola rovinj pag zadar split brac slanomodon kythira andros mykonos amorgos karpathos
+				pola rovinj pag zadar split brac slanomodon
 			}
 
 			own_control_integrated = {
@@ -22855,7 +22807,6 @@ countries = {
 
 		KNI = { #Knights Hospitaller
 			own_control_core = {
-				rodos kos
 			}
 
 			include = "catholic_military_order"
@@ -22946,7 +22897,6 @@ countries = {
 
 		SAO = { #Salona
 			own_control_core = {
-				malta
 			}
 
 			starting_technology_level = 3
@@ -23123,9 +23073,7 @@ countries = {
 		TLE = { #Tlemcen
 			own_control_core = {
 				tessala mascara tlemcen bordj_bou_arreridj
-				mostaganem brashk cherchell tenes
-				tamazaghrane oran arzew ksar_ibn_senane
-				tamentfoust medea algiers tablat
+				mostaganem brashk tenes
 				tahert djelfa zenina asir_ALG tissemsilt
 				el_bayadh ain_sefra naama messaad ksar_el_boukhari el_abiodh_sidi_cheikh brezina
 				mazouna miliana qal_at_ibn_salama yellel chlef al_khadra_ALG
@@ -26490,6 +26438,7 @@ countries = {
 			}
 
 			own_control_integrated = {
+				chania hagios_pavlos rethymno candia gergeri elounda viannos siteia kythira
 				el_arish nekhel qatya warrada
 				matruh sallum tobruk
 				el_qoseir ras_gharib safaga
@@ -26651,14 +26600,12 @@ countries = {
 		ZAN = {
 			own_control_core = {
 				bagamoyo dar_es_salaam kisiju kisimani_mafia mitimiri
-				kilwa_kisiwani songo_mnara lindi mikindani
 
 				vumba_kuu tanga pangani mkwaja utondwe
 				tungi vamizi
 			}
 
 			own_control_integrated = {
-				somana ibo gomene memba nacala
 			}
 
 			country_rank = rank_kingdom
@@ -26834,8 +26781,6 @@ countries = {
 		#Inhambane - INH
 		INH = {
 			own_control_core = {
-				inhambane
-				chibuene manyikeni
 			}
 
 			starting_technology_level = 3
@@ -26853,7 +26798,6 @@ countries = {
 		#Sofala Sultanate - SFA (Vassal of Mutapa) Influenced by Kilwa
 		SFA = {
 			own_control_core = {
-				sofala
 			}
 
 			starting_technology_level = 3
@@ -27060,7 +27004,6 @@ countries = {
 		#Angoche - AGH
 		AGH = { #https://en.wikipedia.org/wiki/Angoche
 			own_control_core = {
-				angoche
 			}
 
 			starting_technology_level = 3
@@ -27088,7 +27031,6 @@ countries = {
 		#Quelimane - QLM
 		QLM = { #https://en.wikipedia.org/wiki/Quelimane
 			own_control_core = {
-				quelimane
 			}
 
 			starting_technology_level = 3
@@ -27116,7 +27058,6 @@ countries = {
 		#Mozambique Sultanate - MOZ (Vassal of Kilwa)
 		MOZ = {
 			own_control_core = {
-				mozambique
 			}
 
 			starting_technology_level = 3
@@ -36043,7 +35984,6 @@ countries = {
 		#Alaiye - ALY https://en.wikipedia.org/wiki/Alaiye
 		ALY = {
 			own_control_core = {
-				alaiye selinti
 			}
 
 			starting_technology_level = 3
@@ -36269,7 +36209,6 @@ countries = {
 		#Cyprus - CYP
 		CYP = {
 			own_control_core = {
-				nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
 			}
 
 			starting_technology_level = 3
@@ -37367,8 +37306,12 @@ countries = {
 		}
 
 		#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
-		TUR = {
+		OTT = {
 			own_control_core = {
+				alaiye selinti
+				nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
+				rodos kos
+				karpathos
 				ghat sokna zawila ubari
 				djanet
 				dayr_aqul badra ilam
@@ -37591,7 +37534,7 @@ countries = {
 
 			capital = bursa
 
-			country_rank = rank_duchy
+			country_rank = rank_empire
 
 			religious_school = maturidi_school #since their founding they were supporters of maturidi, although they were also among the earliest adopters of hanafi and had ismaili, alawi, alevi, bektashi and mevlevi
 		}
@@ -40530,9 +40473,48 @@ countries = {
 			capital = helfenstein
 		}
 
+		HOS = {  # Hohenzollern (South Germany)
+			own_control_core = {
+				sigmaringen
+			}
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "expl_northern_europe"
+			include = "catholic_monarchy_no_coast"
+			include = "german_principality"
+			government = {
+
+				ruler = hoh_friedrich_ix_von_zollern
+
+				ruler_term = { character = hoh_burkhard_i_von_zollern start_date = 1050.1.1 end_date = 1061.1.1 regnal_number = 1 }
+				ruler_term = { character = hoh_friedrich_i_von_zollern start_date = 1061.1.1 end_date = 1125.1.1 regnal_number = 1 }
+				ruler_term = { character = hoh_friedrich_ii_von_zollern start_date = 1125.1.1 end_date = 1145.1.1 regnal_number = 2 }
+				ruler_term = { character = hhb_burkhard_ii_hohenberg start_date = 1145.1.1 end_date = 1152.1.1 regnal_number = 2 }
+				ruler_term = { character = hoh_gotfried_von_zimmern start_date = 1152.1.1 end_date = 1160.1.1 regnal_number = 1 }
+				ruler_term = { character = ans_friedrich_i_von_nurnberg start_date = 1160.1.1 end_date = 1204.1.1 regnal_number = 3 }
+				ruler_term = { character = ans_konrad_i_von_nurnberg start_date = 1204.1.1 end_date = 1218.1.1 regnal_number = 1 }
+				ruler_term = { character = hoh_friedrich_iv_von_zollern start_date = 1218.1.1 end_date = 1255.1.1 regnal_number = 4 }
+				ruler_term = { character = hoh_friedrich_v_von_zollern start_date = 1255.1.1 end_date = 1289.5.24 regnal_number = 5 }
+				ruler_term = { character = hoh_friedrich_vi_von_zollern start_date = 1289.5.24 end_date = 1298.5.4 regnal_number = 6 }
+				ruler_term = { character = hoh_friedrich_vii_von_zollern start_date = 1298.5.4 end_date = 1309.10.6 regnal_number = 7 }
+				ruler_term = { character = hoh_friedrich_viii_von_zollern start_date = 1309.10.6 end_date = 1333.1.1 regnal_number = 8 }
+				ruler_term = { character = hoh_friedrich_ix_von_zollern start_date = 1333.1.1 regnal_number = 9 }
+
+				regnal_numbers = {
+					name_burchard = 2
+					name_friedrich = 9
+					name_godfrey = 1
+				}
+			}
+
+			
+			country_rank = rank_county
+			capital = balingen
+		}
+
 		HOH = {  # Hohenzollern (South Germany)
 			own_control_core = {
-				balingen sigmaringen horb
+				balingen horb
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -40901,7 +40883,7 @@ countries = {
 			dynasty = oettingen_dynasty
 		}
 
-		SWH = {	#Schwäbisch Hall
+		SWS = {	#Schwäbisch Hall
 			own_control_core = {
 			}
 
@@ -41737,13 +41719,89 @@ countries = {
 			dynasty = schwerin_dynasty
 		}
 
-		MKL = { #Mecklenburg
+		MKL = { #Mecklenburg-Schwerin
 			own_control_core = {
 				wismar grabow hagenow grevesmuhlen doberan ribnitz rostock
 				schwerin butzow
 				gustrow parchim malchow
 				waren malchin
-				strelitz neubrandenburg ratzeburg ###FOR MECKLENBURG_STRELITZ
+			}
+
+			starting_technology_level = 3
+			include = "catholic_monarchy"
+			include = "expl_northern_europe"
+			include = "german_principality"
+			government = {
+
+				ruler = mkl_albrecht_ii_mecklenburg
+
+				ruler_term = { character = mkl_pribislaw_mecklenburg start_date = 1167.1.1 end_date = 1178.12.30  regnal_number = 1 }
+				ruler_term = {
+					character = mkl_nikolaus_i_mecklenburg start_date = 1178.12.30 end_date = 1200.5.25 regnal_number = 1
+					character = mkl_heinrich_borwin_i_mecklenburg start_date = 1178.12.30 end_date = 1200.5.25 regnal_number = 1
+				}
+				ruler_term = { character = mkl_heinrich_borwin_i_mecklenburg start_date = 1200.5.25 end_date = 1219.1.1 regnal_number = 1 }
+				ruler_term = {
+					character = mkl_heinrich_borwin_ii_mecklenburg start_date = 1219.1.1 end_date = 1225.5.25 regnal_number = 2
+					character = mkl_nikolaus_ii_mecklenburg start_date = 1219.1.1 end_date = 1225.5.25 regnal_number = 2
+				}
+				ruler_term = { character = mkl_heinrich_borwin_ii_mecklenburg regnal_number = 2 start_date = 1225.5.25 end_date = 1226.6.5 }
+				ruler_term = { character = mkl_johann_i_mecklenburg start_date = 1226.6.5 end_date = 1264.8.1 regnal_number = 1 }
+				ruler_term = {
+					character = mkl_heinrich_i_mecklenburg start_date = 1264.8.1 end_date = 1265.5.16 regnal_number = 1
+					character = mkl_albrecht_i_mecklenburg start_date = 1264.8.1 end_date = 1265.5.16 regnal_number = 1
+					character = mkl_nikolaus_iii_mecklenburg start_date = 1264.8.1 end_date = 1265.5.16 regnal_number = 3
+					character = mkl_johann_ii_mecklenburg start_date = 1264.8.1 end_date = 1265.5.16 regnal_number = 2
+				}
+				ruler_term = {
+					character = mkl_heinrich_i_mecklenburg start_date = 1265.5.16 end_date = 1271.1.1 regnal_number = 1
+					character = mkl_nikolaus_iii_mecklenburg start_date = 1265.5.16 end_date = 1271.1.1 regnal_number = 3
+					character = mkl_johann_ii_mecklenburg start_date = 1265.5.16 end_date = 1271.1.1 regnal_number = 2
+				}
+				ruler_term = {
+					character = mkl_nikolaus_iii_mecklenburg start_date = 1271.1.1 end_date = 1289.5.27 regnal_number = 3
+					character = mkl_johann_ii_mecklenburg start_date = 1271.1.1 end_date = 1289.5.27 regnal_number = 2
+					character = mkl_heinrich_ii_mecklenburg start_date = 1271.1.1 end_date = 1289.5.27 regnal_number = 2
+					character = mkl_johann_iii_mecklenburg start_date = 1271.1.1 end_date = 1289.5.27 regnal_number = 3
+				}
+				ruler_term = {
+					character = mkl_nikolaus_iii_mecklenburg start_date = 1289.5.27 end_date = 1290.6.8 regnal_number = 3
+					character = mkl_johann_ii_mecklenburg start_date = 1289.5.27 end_date = 1290.6.8 regnal_number = 2
+					character = mkl_heinrich_ii_mecklenburg start_date = 1289.5.27 end_date = 1290.6.8 regnal_number = 2
+				}
+				ruler_term = {
+					character = mkl_johann_ii_mecklenburg start_date = 1290.6.8 end_date = 1298.5.27 regnal_number = 2
+					character = mkl_heinrich_ii_mecklenburg start_date = 1290.6.8 end_date = 1298.5.27 regnal_number = 2
+				}
+				ruler_term = {
+					character = mkl_heinrich_ii_mecklenburg start_date = 1298.5.27 end_date = 1302.1.2 regnal_number = 2
+					character = mkl_heinrich_i_mecklenburg start_date = 1298.5.27 end_date = 1302.1.2 regnal_number = 1
+				}
+				ruler_term = { character = mkl_heinrich_ii_mecklenburg start_date = 1302.1.2 end_date = 1329.1.21 regnal_number = 2 }
+				ruler_term = { character = mkl_albrecht_ii_mecklenburg start_date = 1329.1.21 regnal_number = 2 }
+
+				regnal_numbers = {
+					name_pribislav = 2
+					name_nicholas = 3
+					name_henry.name_borwin = 3
+					name_john = 3
+					name_henry = 2
+					name_albert = 2
+				}
+			}
+
+			tolerated_cultures = {
+				polabian
+			}
+
+			country_rank = rank_county
+			capital = wismar
+			dynasty = mecklenburg_dynasty
+		}
+
+		MST = { #Mecklenburg-Strelitz
+			own_control_core = {
+				strelitz neubrandenburg ratzeburg
 			}
 
 			starting_technology_level = 3
@@ -43411,7 +43469,7 @@ countries = {
 			capital = munster
 		}
 
-		HAN = {	#Lüneburg
+		HAN = {	#Hanover
 			own_control_core = {
 				luneburg celle winsen harburg ebstorf isenhagen winsen_aller fallingbostel
 				ritzebuttel
@@ -43421,7 +43479,7 @@ countries = {
 				bentheim
 				leer emden aurich
 				meppen aschendorf
-				brunswick gifhorn helmstedt meinersen wolfenbuttel gandersheim #Duchy of Braunschweig-Wolfenbüttel
+				wolfenbuttel #Duchy of Braunschweig-Wolfenbüttel
 				hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
 				gottingen #Duchy of Göttingen 
 				stade neuhaus gestenthorpe osterholz achim bremervorde zeven
@@ -43433,9 +43491,6 @@ countries = {
 				diepholz
 				hofgeismar 
 				einbeck duderstadt herzberg
-				holzminden
-				blankenburg
-				goslar
 				wernigerode
 				hildesheim alfeld burgdorf
 			}
@@ -52930,10 +52985,10 @@ countries = {
 		KHM = { #Khmer
 			own_control_core = {
 				angkor
-				angkor_borei angkor_knong apui ban_don ban_phone banlung banon banteay_chhmar battambang beng_mealea buriram champasak chhmuoh_thmei damrey_trom doh_kromum
-				idkabue indrapura_khmer ishanapura kampong_saom koh_ker koh_kong khorat kracheh longvek lumphat kampong_roessei kon_tum khukhan kramuon_sa
-				mahaxay muang_mang muang_phalan muang_phin muang_ta_oi muang_tam mueng_thung_yai nokor_reach_seyma nong_bok or_keo peam phanom_rung phimai phnom_penh phnom_santuk phnom_srok phsar_dek phutthaisong pouthi_loeu prathai_saman preah_ko prasat_andet prasat_don_an prasat_don_kau prasat_pram_lovet prasat_thong_lang
-				preah_khan_kompong_svay preah_vihear prey_nokor pursat rattanaburi rong_damrel sampheak_borak samxay sandan sangkha savannakhet sdok_kok_thom sepon song_be srey_sarchhor srok_khleang stung_treng suwannaphum tboung_khmum thuan_binh toek_khmau tonle_kong tuol_ta_mouk thung_samrit vat_phou vyadhapura
+				angkor_borei angkor_knong apui ban_don ban_phone banlung banon banteay_chhmar battambang beng_mealea buriram champasak  damrey_trom doh_kromum
+				idkabue indrapura_khmer ishanapura kampong_saom koh_ker koh_kong khorat kracheh longvek lumphat kon_tum khukhan 
+				mahaxay muang_mang muang_phalan muang_phin muang_ta_oi muang_tam mueng_thung_yai nokor_reach_seyma nong_bok peam phanom_rung phimai phnom_penh phnom_santuk phnom_srok phutthaisong prathai_saman preah_ko prasat_andet prasat_don_an prasat_don_kau prasat_thong_lang
+				preah_khan_kompong_svay preah_vihear pursat rattanaburi sampheak_borak samxay sandan sangkha savannakhet sdok_kok_thom sepon song_be srey_sarchhor stung_treng suwannaphum tboung_khmum thuan_binh tonle_kong thung_samrit vat_phou vyadhapura
 			}
 
 			include = "south_east_asia_monarchy"
@@ -52976,8 +53031,6 @@ countries = {
 
 		CHA = { #Champa
 			own_control_core = {
-				vijaya amaravati aryaru bal_cattinon bong_son camp_po_thit cat_tien chan_bo dak_lak di_dinh dien_ban ha_va_nguon indrapura kampong_sraka_trey
-				kauthara panduranga samriddhipuri simhapura kon_klor ia bang_keng
 			}
 			our_cores_conquered_by_others = {}
 			include = "vietnamese_champa_monarchy"
@@ -53038,6 +53091,9 @@ countries = {
 				thien_truong tho_hoang thu_vat trang_an tuyen_hoa tuyen_quang van_kiep vo_nhai vu_ninh
 				# own_control_integrated, but culture accepted
 				phon_nha vrddha_ratnapura visnupura amarendrapura
+				vijaya amaravati aryaru bal_cattinon bong_son camp_po_thit cat_tien chan_bo dak_lak di_dinh dien_ban ha_va_nguon indrapura kampong_sraka_trey
+				kauthara panduranga samriddhipuri simhapura kon_klor ia bang_keng
+				or_keo phsar_dek srok_khleang kramuon_sa pouthi_loeu toek_khmau kampong_roessei prey_nokor tuol_ta_mouk prasat_pram_lovet chhmuoh_thmei rong_damrel
 			}
 			own_control_integrated = {}
 			our_cores_conquered_by_others = {}

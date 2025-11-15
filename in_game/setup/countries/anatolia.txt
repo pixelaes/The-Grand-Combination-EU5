@@ -223,6 +223,21 @@ TUR = {
 	difficulty = 1
 }
 
+OTT = {
+	color = map_ottomans
+	color2 = rgb { 126 203 120 } #same as in EU4
+
+	unit_color0 = rgb {	175 40 40 }
+	unit_color1 = rgb {	76 78 114 }
+	unit_color2 = rgb {	18 90 47 }
+
+	culture_definition = turkish_culture
+	religion_definition = sunni
+
+	description_category = military
+	difficulty = 1
+}
+
 BHT = {
 	color = map_bohtan
 	color2 = rgb { 144 220 149 }
