@@ -35,7 +35,7 @@ ERM = {
 	religion_definition = catholic
 }
 
-CHL = {
+CLN = {
 	color = rgb { 181 17 16 }
 
 	culture_definition = prussian

@@ -627,7 +627,7 @@ KAM = { #Kaimana
 	religion_definition = imunu_religion
 }
 
-BOL = { #Bool (Dapitan)
+BOO = { #Bool (Dapitan)
 	color = map_BOL
 	color2 = rgb { 16 41 202 }
 

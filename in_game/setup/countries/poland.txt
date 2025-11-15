@@ -246,7 +246,7 @@ ZIE = {
 	religion_definition = catholic
 }
 
-BRZ = {
+BZE = {
 	color = rgb { 53 242 106 }
 	
 	culture_definition = silesian

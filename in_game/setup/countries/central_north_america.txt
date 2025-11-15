@@ -166,7 +166,7 @@ ANL = {
 }
 
 #coligua - COL
-COL = {
+CLU = {
 	color = map_koroa
 	color2 = rgb { 12 59 181 }
 

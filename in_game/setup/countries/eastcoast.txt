@@ -557,7 +557,7 @@ ERI = {
 	
 }
 
-HON = {
+HNN = {
 	color = map_honniasont
 	color2 = rgb { 129 142 135 }
 

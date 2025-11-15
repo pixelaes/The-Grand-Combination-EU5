@@ -208,7 +208,7 @@ BOD = {
 	religion_definition = catholic
 }
 
-ARG = {
+ARO = {
 	color = hsv360 { 239 70 61 }
 	
 	culture_definition = french

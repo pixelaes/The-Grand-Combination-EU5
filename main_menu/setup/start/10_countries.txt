@@ -14,6 +14,1324 @@ current_age = age_1_traditions
 
 countries = {
 	countries = {
+
+		GUA = {
+			own_control_core = {
+				acasaguastlan chiquimula cuauhtemallan guazacapan itzalku
+				xelahuh kakol_kiej itzcuintlan atitlan_guatemala
+				jolom_konob zapaluta tzunun_kaab otzoya chinabajul pismachi
+				chama seacal kajyub nito toquegua
+				noh_peten namaan yax_mutal pachan wak_kabnal
+				ceibal ixtutz pusilha campin tzoite paliac
+				tzunuun altun_ha lamanai xunantunich uxwitza
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		HON = {
+			own_control_core = {
+				talanga tecohtzincalpan comayagua maniani
+				tencoa ocotepec opoa cururu shalatenan
+				chinda naco yoro ticamaya
+				choluteca nacaome texiguat xoxonal
+				pech sico olanchito ollalko papayeca
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		ELS = {
+			own_control_core = {
+				usulutan chalchuapa metapan kuskatan cojutepeque nonualco
+				gotera queiquin
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		NIC = {
+			own_control_core = {
+				kukra tawahka prinzus boas bawika silam yuskus ku panamahkas
+				matagalpa rama ulwas xiotenko ukutal xalapan danli
+				nagarando nequecheri diria cuauhcapolca tezoatega guaxenicos sutiapan
+				karawala awastara ahuya_yari
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		CRC = {
+			own_control_core = {
+				orosi bocto nekokiaw garabito uxarraci
+				coctu boruca quepos pacaca
+				dererri tariaca kabeka
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		COL = {
+			own_control_core = {
+				burica chiriqui huista
+				veragua caribaro terbi
+				tauraba parita nata escoria chiru esquegua
+				panama careta pocorosa comogre chochama
+				cubiga chepo chuchures
+				simiti macaregua tora camacota hacaritamas duitama cev_bonifacio_i_di_ceva
+				tauramena upia humadea yopo tame guadual arauca cubara
+				atanari cumaribo maracoa orocue metica
+				chayrama teyuna yaharo upar sicarate ariguani curumanao
+				mompoj norosi tamalameque mahates calamari mocana kamach zarate
+				necocli upper_sinu zenues sinu sincel one
+				andaki chaira caguan papamane guayupes ariari guaviare mocoa
+				pasca timana purace otas coyaima yaporox quicuima
+				suamox leyva chicaquicha choconta chunsua caqueza funza bosa_colombia
+				chipata yacupipizote ondaimas paribari guarinoes colombayma guaduas tocaima
+				mayaba noris sotachiro yolombo nechi pantagoras cocorna guarzo aburra
+				iscuande narino tumaco tapaje hatunllacta inga patia
+				caly buga caloto micay timbiqui yauto munchique
+				vijes sonso gorrones tahamies cauroma umbra otun tulua
+				baudo choco quibdo gioro tatama noanama tado_colombia novita
+				acanti curiche kuna murri catios bojaya amaga xundabe ebejico
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		VNZ = {
+			own_control_core = {
+				ichitki suchiimma marakaaya perija catatumbo jauregui
+				chitagaes kukuta babichas yukpa
+				coro paraguana tucanca chama_venezuela arapuey mukas cabimas capatarida
+				aragua tirgua cura caracas batey onoto
+				carora barquisimeto yaracuy gayon nirgua
+				guarico guamontey ipire guaquire
+				cumanagoto cumana paraguachoa turuepano araya karu_pana cumanacoa
+				orinucu uyapari guanipa tucupita kalina maturin anaco
+				caroni parepona aro kai_kara cachamay tumeremo
+				kumarakapay macuxi ingariko takutu mucajai
+				apure guajobos arechuna sarare suripa caparo tachira cania
+				guanare guaritico barinas tampacal hacarigua tapo
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		ECU = {
+			own_control_core = {
+				guancavilca manta guayaquil daule yaguachi puna chacayacu machala yazne
+				caran baba jama atacames pailon babahuyu
+				quito waranka panzaleo imbaguarbak tsachila mindu otavalo kayambi tacunga hambatus
+				liribamba
+				alausi hatun_kanar shabalula cangochamba malacatos calvas pukamuru
+				kofan quijos siona napo kichwa puyu sangay macas yaguarzongo
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		PER = {
+			own_control_core = {
+				tumbes chira nariguala nunura xllang
+				ayahuacas guayacundo apurlec huancapampa
+				pakatnamu sana farfan chan_chan chao huacatambo manchan huarmey
+				ocro paramonga guamanmayo
+				chancay chiprac collique cantamarca rimaq huarochiri
+				ishma chilca huarco naupahuasi incahuasi
+				chuqlluqucha chinchay puka_tampu ica cahuachi acari
+				incawasi chullac pukiupukio
+				yauca atico caraveli ucuna camana quilca yanque aruni
+				arequipa churajon tampo puquina chaucalana tacna kileqollo
+				aqush yaino huari rapayan chavin japallan huacrachuco manchac
+				garu wanuco_marka chiquia kotosh atash ichugan pumpu gochacalla
+				andaymarca pashas tumshukaiko waricoto choquerecuay kasha_tampu quillahuaca willcahuain
+				ingapirca llampqui tarmatambo tunanmarca hatun_xauxa pumaruri
+				wari_willka willka_ulo tampu_machay churkampa tayaccasa llacsapallanca
+				allpas wari_peru pariahuanca pampahuaylla choccalpata paqwayranra
+				sondor auccapana challwanqa millcca tukri_apu_apu willkawaman soras huaman_karpa
+				caniche seqse_qaqa
+				yanahuara cotapampa antabamba tucssa sara_sara
+				raqchi sausaya kanamarca
+				achachiwa uyo_uyo pampa
+				chumbivilcas maukallaqta waqrapukara pikillaqta qusqu pisaq paucartambo
+				urupampa quillarumiyoc
+				yanatile yunca ullantaytampu picchu willka_pampa
+				ilucan chetilla huambos chumuch congona kuelap huamanpata olan
+				illapa kaxa_marca tantaricuy chimu llucho markahuamachuco pirca_pirca
+				huallumarca
+				awajun bagua utkhupampa namballe ingatambo karajia huancachaca
+				moyobamba lamas yurimagua chatuza cocamas kachi rupharupha
+				may_ushin kakataibo ashaninka panatahuas yanesha chanchacc nomatsigenga
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		BOL = {
+			own_control_core = {
+				oruro ayaviri pukara macaya pumanota puncune wankani titimani iskanwaya
+				hatunqulla ichuna chucuito contornasa pomata
+				machaqa axawiri achacachi viacha tiwanaku calamarca chuqiyapu
+				kori_bara_karaa_ancas callapa ayo_ayo sicasica curahuara matarjawira sura
+				aullagas karanka uru carangas isluga llica uyuni loa lipi hatun_killaka
+				charka colquechaca ccantumarcani thumilki oronckota chake tupiza payacullo
+				camataqui
+				toara cochinoca omaguacas puma susques lickanantay antofalla kolla
+				inka_llaqta ayopaya paititi yungas guanay kallawaya caupolican sarkajpa
+				yurakar
+				pomabamba huacareta tomina takopaya yamparaez samaipata chuwi mizque
+				sachchaa_mukku arque incarraqay
+				kabishi kuruminaka paikoneka saraveka otuke koraveka
+				bia_mbya mbia guarayo cayuvava yuracare
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		BRZ = {
+			own_control_core = {
+				carijo piratinin piratini
+				jeguakava ibicui ibirapuita cacequi ibaje
+				inhandui
+				cruz_alta palmeira nandeva lagoa_vermelha passo_fundo vacaria
+				icabaqua tupancireta umbu cacapava
+				vacacai
+				tapes patos jacui sao_leopoldo san_antonio_patrulha arroio
+				tapajo tupinambarana uatuma urucurituba apoquitaua juris
+				turas urubu munduruku
+				mariua waiwai kinja bares manaos maues mura kambeba arua miranha
+				curumu ananatuba anajas arari marajoara pixipixi
+				ariste lokono araguari mazagao arua_amazon nheengaiba mariocai
+				oiampi wayampi paru kuruaya prainha gurupatuba
+				surubiu obidos zoe
+				bakairi kukuro_kalapalo kuhikugu
+				irantxe enawene kajkwakratxi apiaka kayabi rikbaktsa
+				manoki
+				mundurukania satere_mawe curuai tupulicus ukarangma
+				kura kajabi kaiabi panara apiacas ikpeng
+				oro_win karipuna pakaasnovos yjxa ahe wari kaxarari
+				uru_pa_in jiparana uru_eu_wau_wau amundava itarap djeoromitxi
+				kwaza akana latunde nambikwara surui_paiter kawahib
+				sakirabia wajuru towa_panka purubora aikana makurap
+				sabanes guarasugwe kabixi marmainde tawande anunsu nambikuara
+				guarasugwa
+				baure moxos tsimanes kanisianas siriono itonama movima cayubaba pacahuara eseejja takana
+				anambe asurini para_gaviao parkateje parakana
+				pyti macauba caraja kricatije tocantis mehin paranaidji
+				acroas kraho
+				ava_canoeiro uracu crixas guatacuba porangatu arraias
+				gameleira funil xerente akwe mansinha
+				guiratinga araguaia boe awen awa_brazil itapirapua areia
+				xavante araes kiriras
+				para tupirama apyawa karaja itya_mahadu gurupi canastra
+				coco tapirape auwe iny_karaja
+				marapanim tupinamba samauma mairi kaapor kururupu tapuitapera
+				miritiba itapecuru gurgueia uruaitis timbira
+				guaja guajajara caru krenye upaon_acu guajara pykopcateje
+				canela_apanyekra canela_ramkokamekra
+				itaueira boi parnagua medonho jacu manuais
+				tapuios igaracu potyguara tacariju poti cais tabajara aroas
+				kalabaca caninde piaui kaapiuara
+				tubiba quixara utuva monxoro jucas telha paiaco
+				jenipaboacu acarau tapuia tremembe arerius reriu payaku
+				pitaguari kaninde tapeba anace
+				karapoto ipojuca yapuata fulni_o iate kambiwa caxanga xukuru
+				kaaysara potiguara caico paraiba pegas coremas quincu
+				fernando_noronha
+				kariri caete xoko arakaiu pankararu tuxa kaimbe itabaiana
+				ouricuri truka paranabuku jaguarari tumbalala
+				pankara atikum pipipa
+				acoroazes ipueira itajui itaboca ibotirama
+				kayapo irece andarai
+				sauipe kiriri tanhacu tupiniquim
+				guanambi itaberaba itaitu uaua itapicuru jiribatuba
+				paracatu buriti itapiracaba akwen xakriaba anais
+				jaiba janauba montes_claros
+				cataguases kaxixo pinheiro
+				curvelo sabarabucu santa_luzia sete_lagoas goianas
+				pirapora
+				jequitinhonha maxakali itakangapyra
+				almenara salinas rio_pardo
+				hahahae itaratim
+				bocaiuva tijuco itamarandiba
+				tamoio cunhambebe
+				iguape cananeia marataiama gohayo sao_sebastiao
+				itu sorocaba araritaguaba
+				mogi_mirim campinas jundiai
+				atibaia sao_roque jerubatuba parnaiba piratininga
+				aruja mogi_das_cruzes
+				aimore kiri_kere malalis coutins
+				pecanha borun mucuri urucu
+				fanado aracuai nanuque
+				guaitaca jose_calcado itapemirim guarapiri
+				itaparica nandu
+				krenak itanhomi caratinga mutum manhuacu matipo
+				gouveia conceicao itabira serro porte
+				itaperuna guaitaka sao_fidelis
+				cantagalo mokaie nova_friburgo
+				goitaca
+				kapiwary ararayu_aba nheteroia mage y_uasu goana_para ita_kua_y
+				santa_barbara caete_brasil itacolomi mariana ponte_nova piranga
+				coropo praiba_sul tampruns piray ita_atiaia
+				pataxo nac_nanuk
+				tapuy jucuru caravelas vicosa
+				sao_luis_do_paraitinga lorena guaratingueta taubate paraibuna jacarei
+				santo_antonio_monte formiga piumhi tres_pontas
+				passos sao_sebastiao_paraiso cabo_verde cataguas
+				alfenas mandiyu camanducaia
+				parapopeba sao_joao_rei oliveira lavras
+				porto_turvo baependi campanha itajuba
+				rio_preto juiz_fora barbacena leopoldina rio_pomba muriae
+				lapa ponta_grossa curitiba bocaiuva_do_sul palmeira_brasil
+				sao_jose_pinhais parnanguara
+				karai_yo xokleng itapocu itajai mafra
+				santo_antonio chopim chapeco palmas taquara
+				curitibanos lages sao_joaquim urubici
+				kariio apytere tubarao sambaqui iaguarauna
+				umuarama mbya campo_mourao iguazu guarapuava
+				mbai_yuru
+				bauru botucatu
+				kaingang porto_tibirica valparaiso tiete
+				sapukaia mantiqueira caiapo araquara
+				itapeva itapetininga
+				abare_i itaporanga apiai
+				capao_bonito
+				barretos jaboticabal tanabi sao_jose_preto
+				brotas piracicaba sao_carlos
+				paranoa corumba cayapo javaes goroti_kumrenhtx
+				araripocone iranmranhre utugo_kuri_doge morrinhos
+				guaiana imbau jataizinho apucarana itarare
+				bororos uberaba bagagem aratu pium_i
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		ARG = {
+			own_control_core = {
+				chana mbegua timbu ituzaingo tuvicha_mini yaros bohan
+				carapachay ombu yaguari_guazu gualeguay nogoya
+				tandil tapalquen chivilco calfuleufu tubicha_mini pillahuinco kla_rome_ko
+				trenquelauquen wangulen rangkull_mapu
+				mepenes taragui agaes avaes payubre yapeyu itapua uruguay
+				cuareim pairindi mandisobi
+				sheulec dapiguemlec lanagashec tacshic pitlaxa wichi wiznay
+				niyaj eben_ezer shichaam alpu
+				raxalaa ongamira qompi qollaxalec rukahe yaaucaniga nakaigetergehe
+				moqoit tilala romang
+				ichukanai gualamba ashca kuska ayllu_yacuchiri auqajikuna patay
+				matara ocol chinipi sinipi qom_toba atoj_wasin ashca_caycu
+				macaclita noguinet auleta siton naure sumampa asingasta gualas chine
+				caminigas mogas chupilta
+				qom_caia nonot_daxinic aim_mocoylek lalek_cotaa qar_ka_la
+				quisquisacate kata_kuna chipion karendo
+				oma_sacopo angastaco tastil salta jujuy tilcara paya
+				watungasta pipanaco aconquija shincal yukkuman kilmes tolombon lule
+				guandacol talampaya polco cuyo tamberias fiambalao pissis ischigualasto jachal
+				pivn_man_antu angualasto
+				chepes ulapes michilingue saleta nogolma
+				uco uspallata huanacache guentota jaurua millcayac
+				ullum sankancete zonda quines
+				popopis atuel viluco mamull_mapu rankulche vuta_chadihue quemu_quemu chapaleufu chical_co lewfuko
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		URU = {
+			own_control_core = {
+				charrua araicuahita yi hum arachan guenoa ita_cuara ybiti yacegua cangucu chuy jaguarao
+
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		CHL = {
+			own_control_core = {
+				arica tarapaca huantajaya iki_iki tocopilla ckara_ama
+				tulor antofagasta paposo tatal chanaral cobija
+				qupayapu kellollampu huasco elki limari
+				millapel liwen
+				aconca_hue qillu_uta waykuche meli_pillan rangkawe kolchawwe kuruko mawlen
+				cauquen pikumche uthan_uthatun chillan perquilauquen puchacay biobio
+				lafkenmapu lelbunmapu wenteche inapiremapu pebuenmapu
+				pikunwijimapu caurakawin ancud quiquilhue quellon piren
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
+		PRG = {
+			own_control_core = {
+				nemby kyyindy akaray kaarendy canindeyu takuru_puku ycuamandiyu ayvu_pora
+				pai_tavytera kuarepoti curuguaty kaaguy_jehasapa yguazu tsiripa ygana
+			}
+			starting_technology_level = 3
+			government = {
+				ruler = random
+
+				type = republic
+				heir_selection = oligarchic_elective
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 80
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
+			accepted_cultures = { }
+			tolerated_cultures = { }
+
+			court_language = norman_dialect
+			country_rank = rank_kingdom
+			capital = tenochtitlan
+
+			include = "expl_western_europe"
+		}
+
 		MEX = {
 			own_control_core = {
 				xaltocan
@@ -930,12 +2248,29 @@ countries = {
 				}
 			}
 
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
+			}
+
 			accepted_cultures = { }
 			tolerated_cultures = { }
 
 			court_language = norman_dialect
 			country_rank = rank_kingdom
-			capital = london
+			capital = tenochtitlan
 
 			include = "expl_western_europe"
 
@@ -1803,12 +3138,6 @@ countries = {
 				mahpahpahazhhah
 				nataeosueti
 				rockies_mt
-				poyiitahtai
-				wakpa_juk_ana
-				etzikom
-				kwaskwuti
-				cahe
-				canhewincasta
 				shuntaneshnanga
 				kansas
 				monecato
@@ -1894,78 +3223,6 @@ countries = {
 				wiskapella
 				chitolah
 				nanwacinahaana
-				opaskwayak
-				wapisiw_sipihk
-				winnipegosis
-				wazihe
-				minizuahe
-				wibazoka_wakpa
-				minichinas
-				tugaske
-				notukeu
-				miksiw_sipisis
-				kiyiu
-				manitowi_sakahikanihk
-				ye_ya_xabine
-				ogiciza_wakpa
-				pimicaskewyashik
-				ceepee
-				saskatchewan
-				kistapinan
-				petaigan
-				porcupine_hills
-				notinito_sipiy
-				wetaskiwin
-				amisk
-				kisiskaciwani_sipiy
-				amiskwaciwiy
-				titaga
-				wabamun
-				apahtoksipisskan
-				mokowan
-				ijathibe_wapta
-				kananaskis
-				okotoks
-				inotonniicaah
-				saamis
-				insaombi
-				makhabn
-				waskasoo
-				netook
-				keoma
-				michichi
-				wawaskesiw_sipiy
-				wastina
-				shunda
-				pembina_ab
-				ya_kti_ki
-				apetowun
-				onabeesh
-				tootinaowaziibeeng
-				kinosota
-				kihi
-				sihabi
-				sipiweske
-				waskada
-				winnipeg
-				mnisaton
-				mihkwakamiwi_sipiy
-				pikwedina_sagaomam
-				maskwa
-				osukyuze
-				hepa
-				canuba_wakpa
-				muskiki
-				kinistino
-				etomami
-				kamsack
-				s
-				iskwao
-				tacehubana
-				wascana
-				posakanaciwiy
-				katepwewi
-				assapasca
 				pikwedina
 				kimodakiwi
 				ajawewesitagun
@@ -2021,6 +3278,23 @@ countries = {
 					distribution_of_power_law = dop_traditional_distribution_of_power
 					immigration_law = open_borders_law
 				}
+			}
+
+			discovered_regions = {
+				canada_region
+				caribbean_region
+				east_coast_region
+				great_plains_region
+				mesoamerica_region
+				central_america_region
+				aridoamerica_region
+				alaska_region
+				west_coast_region
+				colombia_region
+				brazil_region
+				andes_region
+				chaco_region
+				la_plata_region
 			}
 
 			accepted_cultures = { }
@@ -3183,7 +4457,7 @@ countries = {
 			capital = lidzbark
 		}
 
-		CHL = { #Kulm / Chełmno
+		CLN = { #Kulm / Chełmno
 			own_control_core = {
 			}
 
@@ -5258,6 +6532,29 @@ countries = {
 		#Principality of Muscovy
 		RUS = {
 			own_control_core = {
+				kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
+				nel_kan tsipanda aim_maia ust_yudoma ust_mil ust_maia
+				avlayakan chumikan udskoye bolodek tul_kichan maya
+				tupik gulya larba chilchi yuktali tas_yuryakh kundy
+				torgo dikimdya tyanya amedichi yukhta kuranakh
+				onguren ul_kan kichera argada ust_barguzin chitkan bayangol
+				karaftit bagdarin bukachacha ziul_zkan telemba isenga narhata ozero_oron ozero_baunt
+				angoya kutima osenny kamniga konkudera bodaybo kyakhtinskii
+				taksimo irakinda kuanda amalyk ikab_ya khani katugino
+				yeremeyevka uch_barchik chara bul_bukhta balaganakh molvo
+				irkutsk slyudyanka cheremkhovo zalari
+				ust_kut reka_tuba nikolsky_pogost irkutsk_kazachinskoye zhigalovo
+				bayanday kachug balagansk baikal osinsky
+				ket pervomayskoye
+				verkh_chebula mariinsk
+				minusinsk idrinskoye
+				bratsk chuva nizhneudinsk siberia_kuytun staraya_zima
+				kezhma upper_angara lower_angara educhanka yarkino
+				manzaya boguchany chunoyar aban
+				kansk ilansky krasnoyarsk yemelyanovo dzerzhinskoye biryusa
+				novosyolovo nazarovo uzhur bolshoy_kosogol tatarskaya_tesyu kortuz
+				kamensk motygino taseyevo pashino
+				bolshoy_uluy itatsky tyukhtet makovskoe kazachinskoye
 				siewierz
 				ostrow_wielkopolski pleszew
 				theodoro
@@ -5649,9 +6946,30 @@ countries = {
 				terebovlia khorostkiv ternopil
 			}
 
-			own_control_conquered = {
-				#Principality of Kolomna
-				kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
+			own_control_colony = {
+				ketanda ogonok yugorenok ust_ynykchan eldikan tumul
+				takhtoyamsk brokhovo yamsk atargan magadan palatka tauisk
+				palana voyampolka tigil sedanka kovran
+				uka_town shiveluch klyuchi kamchatsk malka
+				ostrov_beringa milkovo achava oktyabr_skii pauzhetka
+				kozyrevsk krutogorovskiy sobolevo kirovskiy khayryuzovo
+
+				# Alaska
+				agw_aneq su_naq kasukuak swikshak amalik alinchak
+				chignik kangi_asinaq qagiigun qagaan unimax qawalangin
+				akuugun niigugis naahmigus qaxun sasignan amiq
+				aniakchak ugashik egegik qarr_unaq igiugig nuuriileng
+				aguyaq akokpaq koliaganeq baleknagiq igushiq togiaq
+				mamterat quinhagaq iiq mamterilleq kwigilingoq kalskaq
+				nunapichuq tununaq kaghasuq niugtaq ce_vaq mekoryuq
+				marayaarmiut imangaq qerrulliiq tapqaq unalakleet ungaliq yukkhana
+				malemiut kuuyuk qikiqtagruk kuugaaluk kongashuk
+				sinjik nachirvik kigluaik anakovik kugirukuk
+				sivuqaq savoonga kitagnaq st_matthew
+				nuurvik uataaq kivualinagmut uivvak kali
+				kachemak kenai dgheyaytnu k_enakatnu tyonek iliamna susitna
+				daxunhyuu taatiilaaq caniqaq nanwalek nuciiq
+				t_aaku jilkaat aa_kw xunaa shee_t_ika xutsnoowu
 			}
 
 			starting_technology_level = 3
@@ -6827,6 +8145,95 @@ countries = {
 			}
 			own_control_colony = {
 				# Canada
+				sakwatamau tawatinaw ayahciyiniw_sakahikan kamspikihteek asiniwaciy
+				thilane_hot_ine sakawyiniw ot_esh_otchore
+				athabasca kai_theli_ke_hot_inne tethul
+				mikkwa wabasca mushikitee ksituan
+				amisk_sipi amisk_sakahikan wawaskesiwisakahikan
+				namew kipahigan mistahi_sakahikan wapiskau_sk kiheewapiw
+				sakitawahk methye missinipi kawatinook
+				gani_koe tazin tipinuwak misekumaw
+				klewi tu_nedhe tucho tidee kakisa
+				wecho soombak_e utsingi kahochella
+				thubun tronka_chua tatsan nonacho lutselk_e deskenetlata natalkai
+				thoa dubawnt abitau kasba
+				poyiitahtai
+				wakpa_juk_ana
+				etzikom
+				kwaskwuti
+				cahe
+				canhewincasta
+				wazihe
+				minizuahe
+				wibazoka_wakpa
+				minichinas
+				tugaske
+				notukeu
+				miksiw_sipisis
+				kiyiu
+				manitowi_sakahikanihk
+				ye_ya_xabine
+				ogiciza_wakpa
+				pimicaskewyashik
+				ceepee
+				saskatchewan
+				kistapinan
+				petaigan
+				porcupine_hills
+				notinito_sipiy
+				wetaskiwin
+				amisk
+				kisiskaciwani_sipiy
+				amiskwaciwiy
+				titaga
+				wabamun
+				apahtoksipisskan
+				mokowan
+				ijathibe_wapta
+				kananaskis
+				okotoks
+				inotonniicaah
+				saamis
+				insaombi
+				makhabn
+				waskasoo
+				netook
+				keoma
+				michichi
+				wawaskesiw_sipiy
+				wastina
+				shunda
+				pembina_ab
+				ya_kti_ki
+				apetowun
+				osukyuze
+				hepa
+				canuba_wakpa
+				muskiki
+				kinistino
+				etomami
+				kamsack
+				iskwao
+				tacehubana
+				wascana
+				posakanaciwiy
+				katepwewi
+				assapasca
+				opaskwayak
+				wapisiw_sipihk
+				winnipegosis
+				onabeesh
+				tootinaowaziibeeng
+				kinosota
+				kihi
+				sihabi
+				sipiweske
+				waskada
+				winnipeg
+				mnisaton
+				mihkwakamiwi_sipiy
+				pikwedina_sagaomam
+				maskwa
 				gaspe
 				chicchoc
 				marsoui
@@ -18931,7 +20338,7 @@ countries = {
 		}
 
 		#Perigord (Vassal, Fief Mouvant)
-		PER = {
+		PRI = {
 			own_control_core = {
 			}
 
@@ -21256,7 +22663,7 @@ countries = {
 			capital = bodonitsa
 		}
 
-		ARG = { #Argos
+		ARO = { #Argos
 			own_control_core = {
 			}
 			our_cores_conquered_by_others = {
@@ -26651,6 +28058,7 @@ countries = {
 		#Japan
 		JAP = {
 			own_control_core = {
+				hiyama_hokkaido fukushima kamiiso kameda kayabe nishi
 				inaka hanawa hiraka_aomori shimokita kamikita nukanobu kazuno
 				kuji iwate shimohei kitahei kamihei shiwa hienuki esashi waga isawa iwai
 				kesen motoyoshi oshika tome kurihara kami kurokawa miyagi natori
@@ -32076,6 +33484,73 @@ countries = {
 
 		CHI = { #Yuán
 			own_control_core = {
+				tongan_lijiang jujin
+				gongshan adeqiu linxi zhuluo lanzhou_lanzhou zhiziluo
+				chabcha buha caka dulan dungkar_amdo guolimu qardam amnye_machen quge sailahai zeku muxihe
+				baurang
+				dartsedo lhagang kazhi dzogon zhanggu
+				darlag bayan_har lungkya madoi
+				serta dzamtang nubzur shukjung
+				dartang droge metsang takden
+				durgyeling rahor yungdrung geshitsa
+				guide
+				jishi
+				hezhou dingqiang
+				amchok taktsang sangqu tso_gon
+				kedang kuntokling liulin
+				minzhou tanchang xigu
+				wenxian_gongchang fuzhou_songpan lidian
+				jiangyou pingwu
+				songzhou_songpan heishui hongyuan muge rinpung dazhasi gurkyang tewo
+				baoning_maozhou maerkang qiongxi
+				wenshan
+				lushan_yazhou wenchuan
+				diaomen hanyuan shimian
+				waerhdje
+				yongning_baisheng muli kheong langqu
+				nixi xiaodandang dadandang
+				nyarong chodrak_kham
+				litang nyachukha daoba
+				biru pembar riwoche samda shopando sok tengchen yangdzong
+				batang markham shar_yelpuk
+				tsakhalkho dzogang mengung
+				sampheling dzingcho sangme
+				gonjo drayab sho tangkya
+				chamdo karma_densa khamgar
+				lhakhang pasho pema
+				nangchen chodrak gechak jang_tana pelme zurmang_namgyaltse
+				jyekundo lungsho
+				derge jomda katok kharak sibda tromge wara_kham
+				longtang gegong mangge sershul
+				dzagyal khana lab serkar
+				ganze manigango trotsang khordong dawu
+				pome lhari chumdo shukden
+				rigyal metog tirkong
+				rima sangacho walong
+				dzongkar baryang dargyeling lo_mustang tradun
+				zangla padum phuktal
+				shey leh charasa kargil karpokhar lamayuru
+				skardu khaplu shigar
+				nako tabo tsorub
+				rutok drangtse hanle tashigang
+				purang tokchen
+				toling dungkar tsaparang
+				gartok rala
+				gyanema khyunglung
+				sakya ganden_delingshar lhadrak ngamring tagmo_lingkha
+				shigatse jonang namling tropu tsangdram
+				lhasa damzhung drigung galo gyama taklung tsora tsurphu
+				nedong densatil gongkar nyemo rinpung_yarlung samye
+				dingri chorten_nyima gonga_chode nyalam pelmo
+				gyantse nenying ralung
+				trigu chikchar gonpatsi lhodrak lho_taklung tragor zangchen
+				gyamda buchu daklha_gampo zhokha
+				nakchu barom rongpo
+				namtso_doring tsedzong ronglung gonkri
+				serzhik shantsa zangdan
+				mendong samten selephu
+				phari
+				tsherlung ormogang
 				shenyang
 				kaiyuan_jurchen tieling
 				changchun itu_jilin nongan yehe
@@ -43076,7 +44551,7 @@ countries = {
 			dynasty = piast_dynasty
 		}
 
-		BRZ = {	#Brzeg
+		BZE = {	#Brzeg
 			own_control_core = {
 			}
 			starting_technology_level = 3
@@ -48320,7 +49795,6 @@ countries = {
 		#Tairona - TAI
 		TAI = {
 			own_control_core = {
-				teyuna chayrama yaharo
 			}
 			starting_technology_level = 0
 			include = "amerindian_tribe_colombia"
@@ -48334,7 +49808,6 @@ countries = {
 		#Muyquyta - ZIP
 		ZIP = {
 			own_control_core = {
-				funza chicaquicha choconta caqueza bosa_colombia
 			}
 			starting_technology_level = 0
 			include = "amerindian_tribe_colombia"
@@ -48348,7 +49821,6 @@ countries = {
 		#Chunsua - ZAQ
 		ZAQ = {
 			own_control_core = {
-				chunsua suamox boiaca duitama
 			}
 			starting_technology_level = 0
 			include = "amerindian_tribe_colombia"
@@ -48777,7 +50249,6 @@ countries = {
 		#Chimu - CHM
 		CHM = { #https://es.wikipedia.org/wiki/Reino_Chim%C3%BA
 			own_control_core = {
-				chan_chan chimu chao paramonga
 			}
 
 			include = "andean_monarchy"
@@ -48793,7 +50264,6 @@ countries = {
 		#Xllang - XLL
 		XLL = { #https://es.wikipedia.org/wiki/Reino_Sic%C3%A1n
 			own_control_core = {
-				xllang apurlec pakatnamu farfan sana
 			}
 
 			include = "andean_monarchy"
@@ -48809,8 +50279,6 @@ countries = {
 		#Sacha-p-qulla - CYA
 		CYA = { #https://es.wikipedia.org/wiki/Cultura_chachapoyas
 			own_control_core = {
-				kuelap huancachaca karajia olan congona utkhupampa moyobamba
-				huamanpata lamas chatuza
 			}
 
 			include = "andean_monarchy"
@@ -48842,7 +50310,6 @@ countries = {
 		#Ichma - ICM
 		ICM = { #https://es.wikipedia.org/wiki/Cultura_ychsma
 			own_control_core = {
-				ishma rimaq huarochiri
 			}
 
 			include = "andean_monarchy"
@@ -48874,7 +50341,6 @@ countries = {
 		#Hanan Chanka - HNK
 		HNK = { #https://es.wikipedia.org/wiki/Chanca
 			own_control_core = {
-				allpas tampu_machay churkampa llacsapallanca tayaccasa
 			}
 
 			include = "andean_monarchy"
@@ -48890,7 +50356,6 @@ countries = {
 		#Urin Chanka - URC
 		URC = { #https://es.wikipedia.org/wiki/Chanca
 			own_control_core = {
-				huaman_karpa sondor challwanqa
 			}
 
 			include = "andean_monarchy"
@@ -48906,7 +50371,6 @@ countries = {
 		#Chincha - CIC
 		CIC = { #https://es.wikipedia.org/wiki/Cultura_chincha
 			own_control_core = {
-				chinchay puka_tampu ica
 			}
 
 			include = "andean_monarchy"
@@ -48923,7 +50387,6 @@ countries = {
 		#Should ally Ayarmaca against the Charka
 		CSU = { #https://es.wikipedia.org/wiki/Curacazgo_incaico
 			own_control_core = {
-				qusqu quillarumiyoc
 			}
 
 			include = "andean_monarchy"
@@ -48960,7 +50423,6 @@ countries = {
 		#Ayarmaca - AYA
 		AYA = { #https://es.wikipedia.org/wiki/Ayarmaca
 			own_control_core = {
-				yanatile ullantaytampu urupampa pisaq
 			}
 
 			include = "andean_monarchy"
@@ -48977,7 +50439,7 @@ countries = {
 		#Pinagua - PIG
 		PIG = { #https://es.wikipedia.org/wiki/Ayarmaca
 			own_control_core = {
-				pikillaqta
+				
 			}
 
 			include = "andean_monarchy"
@@ -48993,7 +50455,6 @@ countries = {
 		#Paka Jaqis - PCJ
 		PCJ = { #https://es.wikipedia.org/wiki/Se%C3%B1or%C3%ADo_pacajes
 			own_control_core = {
-				axawiri machaqa tiwanaku viacha calamarca chuqiyapu sicasica
 			}
 
 			include = "andean_monarchy"
@@ -49009,7 +50470,6 @@ countries = {
 		#Lupijaki - LUP
 		LUP = { #https://es.wikipedia.org/wiki/Lupaca
 			own_control_core = {
-				chucuito pomata contornasa
 			}
 
 			include = "andean_monarchy"
@@ -49025,7 +50485,6 @@ countries = {
 		#Charka - CRA
 		CRA = { #https://es.wikipedia.org/wiki/Pueblo_charca
 			own_control_core = {
-				charka colquechaca arque sachchaa_mukku sarkajpa
 			}
 
 			include = "amerindian_monarchy"
@@ -49041,7 +50500,6 @@ countries = {
 		#Kana - KNA
 		KNA = { #https://es.wikipedia.org/wiki/Aimaras
 			own_control_core = {
-				oruro ayaviri sausaya
 			}
 
 			discovered_areas = {
@@ -49063,7 +50521,6 @@ countries = {
 		#Karanka - KRK
 		KRK = { #https://es.wikipedia.org/wiki/Aimaras
 			own_control_core = {
-				karanka kori_bara_karaa_ancas matarjawira
 			}
 
 			include = "andean_monarchy"
@@ -49079,7 +50536,6 @@ countries = {
 		#Qulla - QUL
 		QUL = { #https://es.wikipedia.org/wiki/Reino_colla
 			own_control_core = {
-				hatunqulla macaya wankani
 			}
 
 			include = "andean_monarchy"
@@ -49095,7 +50551,6 @@ countries = {
 		#Sura - SUR
 		SUR = { #https://es.wikipedia.org/wiki/Reinos_aimaras
 			own_control_core = {
-				sura paititi ayopaya incarraqay
 			}
 
 			include = "andean_monarchy"
@@ -49131,7 +50586,6 @@ countries = {
 		#Calva - CAV
 		CAV = { #https://es.wikipedia.org/wiki/Paltas
 			own_control_core = {
-				calvas
 			}
 
 			discovered_areas = {
@@ -49152,7 +50606,6 @@ countries = {
 		#Malacato - MLT
 		MLT = { #https://es.wikipedia.org/wiki/Paltas
 			own_control_core = {
-				malacatos
 			}
 
 			discovered_areas = {
@@ -49173,7 +50626,7 @@ countries = {
 		#Garrochamba - GRR
 		GRR = { #https://es.wikipedia.org/wiki/Paltas
 			own_control_core = {
-				cangochamba
+				
 			}
 
 			include = "andean_monarchy"
@@ -49344,7 +50797,7 @@ countries = {
 		#Huamachuco - HCH
 		HCH = { #https://www.deperu.com/cultural/sitios-arqueologicos/complejo-arqueologico-markahuamachuco-2619 https://revistas.unife.edu.pe/index.php/consensus/article/download/404/361/1319
 			own_control_core = {
-				markahuamachuco
+				
 			}
 
 			include = "andean_monarchy"
@@ -49360,7 +50813,6 @@ countries = {
 		#Cuismancu - CUI
 		CUI = { #https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/view/1847/1783
 			own_control_core = {
-				tantaricuy kaxa_marca illapa llucho
 			}
 
 			include = "andean_monarchy"
@@ -49425,7 +50877,7 @@ countries = {
 		#Collique - CLQ
 		CLQ = { #https://es.wikipedia.org/wiki/Cultura_Collique
 			own_control_core = {
-				collique
+				
 			}
 
 			include = "andean_monarchy"
@@ -49440,7 +50892,7 @@ countries = {
 		#Canta - NTA
 		NTA = { #https://www.arqueologiadelperu.com.ar/canta.htm
 			own_control_core = {
-				cantamarca
+				
 			}
 
 			include = "andean_monarchy"
@@ -49455,7 +50907,6 @@ countries = {
 		#Huarco - HRC
 		HRC = {
 			own_control_core = {
-				huarco incahuasi chilca
 			}
 
 			include = "andean_monarchy"
@@ -49519,7 +50970,7 @@ countries = {
 		#Sora - SRA
 		SRA = {
 			own_control_core = {
-				soras
+				
 			}
 
 			include = "andean_monarchy"
@@ -49536,7 +50987,7 @@ countries = {
 		#Settled Pop based, made into normal tag for balance
 		MYM = {
 			own_control_core = {
-				choccalpata paqwayranra
+				
 			}
 
 			include = "andean_tribe"
@@ -49551,7 +51002,6 @@ countries = {
 		#Allied with the Hannan Charka
 		PCR = {
 			own_control_core = {
-				wari_peru pariahuanca
 			}
 
 			include = "andean_monarchy"
@@ -49567,7 +51017,7 @@ countries = {
 		#Parinacocha - PCO
 		PCO = {
 			own_control_core = {
-				tucssa
+				
 			}
 
 			include = "andean_monarchy"
@@ -49583,7 +51033,7 @@ countries = {
 		#Aruni - ANI
 		ANI = {
 			own_control_core = {
-				aruni
+				
 			}
 
 			include = "andean_monarchy"
@@ -49599,7 +51049,6 @@ countries = {
 		#Churajon - CHJ
 		CHJ = {
 			own_control_core = {
-				caraveli atico
 			}
 
 			include = "andean_monarchy"
@@ -49630,7 +51079,7 @@ countries = {
 		#Canchi - CNC
 		CNC = {
 			own_control_core = {
-				waqrapukara
+				
 			}
 
 			include = "andean_monarchy"
@@ -49677,7 +51126,7 @@ countries = {
 		#Umasuyus - UMA
 		UMA = { #https://es.wikipedia.org/wiki/Achacachi
 			own_control_core = {
-				achacachi
+				
 			}
 
 			include = "andean_monarchy"
@@ -49805,7 +51254,6 @@ countries = {
 		#Settled, NOTE transformed into normal tag for the sake of balance
 		KKE = {
 			own_control_core = {
-				willka_pampa auccapana yanahuara
 			}
 			discovered_areas = {
 				puna_area suni_area rupa_rupa_area acamama_area chala_area
@@ -49998,57 +51446,9 @@ countries = {
 		#-------------------------- Tibet and Xinjiang ----------------------------
 		TIB = { #Tibet
 			own_control_core = {
-				sakya ganden_delingshar lhadrak ngamring tagmo_lingkha
-				shigatse jonang namling tropu tsangdram
-				lhasa damzhung drigung galo gyama taklung tsora tsurphu
-				nedong densatil gongkar nyemo rinpung_yarlung samye
-				dingri chorten_nyima gonga_chode nyalam pelmo
-				gyantse nenying ralung
-				trigu chikchar gonpatsi lhodrak lho_taklung tragor zangchen
-				gyamda buchu daklha_gampo zhokha
-				nakchu barom rongpo
-				namtso_doring tsedzong ronglung gonkri
-				serzhik shantsa zangdan
-				mendong samten selephu
-				phari
-				tsherlung ormogang
 			}
 
 			our_cores_conquered_by_others = {
-				toling dungkar tsaparang
-				gartok rala
-				gyanema khyunglung
-				purang tokchen
-				shey leh charasa kargil karpokhar lamayuru
-				skardu khaplu shigar
-				nako tabo tsorub
-				rutok drangtse hanle tashigang
-				zangla padum phuktal
-				dzongkar baryang dargyeling lo_mustang tradun
-				pome lhari chumdo shukden
-				rigyal metog tirkong
-				rima sangacho walong
-				ganze manigango trotsang
-				longtang gegong mangge sershul
-				dzagyal khana lab serkar
-				derge jomda katok kharak sibda tromge wara_kham
-				nangchen chodrak gechak jang_tana pelme zurmang_namgyaltse
-				jyekundo lungsho
-				gonjo drayab sho tangkya
-				chamdo karma_densa khamgar
-				lhakhang pasho pema
-				batang markham shar_yelpuk
-				tsakhalkho dzogang mengung
-				sampheling dzingcho sangme
-				biru pembar riwoche samda shopando sok tengchen yangdzong
-				litang nyachukha
-				nyarong chodrak_kham dawu dzogon khordong
-				zhanggu durgyeling geshitsa rahor yungdrung
-				dartang droge metsang takden
-				darlag amnye_machen bayan_har lungkya madoi
-				serta dzamtang nubzur shukjung
-				dartsedo lhagang baurang
-				chabcha buha caka dulan dungkar_amdo guolimu qardam
 			}
 
 			country_rank = rank_kingdom
@@ -50113,9 +51513,6 @@ countries = {
 
 		GUG = { #Guge
 			own_control_core = {
-				toling dungkar tsaparang
-				gartok rala
-				gyanema khyunglung
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50128,7 +51525,6 @@ countries = {
 
 		PUR = { #Purang
 			own_control_core = {
-				purang tokchen
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50141,10 +51537,6 @@ countries = {
 
 		MAR = { #Maryul
 			own_control_core = {
-				shey leh charasa kargil karpokhar lamayuru
-				skardu khaplu shigar
-				nako tabo tsorub
-				rutok drangtse hanle tashigang
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50162,7 +51554,6 @@ countries = {
 
 		ZNK = { #Zanskar
 			own_control_core = {
-				zangla padum phuktal
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50336,7 +51727,6 @@ countries = {
 
 		MGG = { #Mangyül Gungthang
 			own_control_core = {
-				dzongkar baryang dargyeling lo_mustang tradun
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50349,9 +51739,6 @@ countries = {
 
 		POO = { #Powo
 			own_control_core = {
-				pome lhari chumdo shukden
-				rigyal metog tirkong
-				rima sangacho walong
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50368,7 +51755,6 @@ countries = {
 
 		HOR = { #Hor States
 			own_control_core = {
-				ganze manigango trotsang khordong dawu
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50381,8 +51767,6 @@ countries = {
 
 		LGT = { #Lingtsang
 			own_control_core = {
-				longtang gegong mangge sershul
-				dzagyal khana lab serkar
 			}
 
 			include = "limited_east_asia_monarchy"
@@ -50399,7 +51783,6 @@ countries = {
 
 		DRG = { #Derge
 			own_control_core = {
-				derge jomda katok kharak sibda tromge wara_kham
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50412,8 +51795,6 @@ countries = {
 
 		NCN = { #Nangchen
 			own_control_core = {
-				nangchen chodrak gechak jang_tana pelme zurmang_namgyaltse
-				jyekundo lungsho
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50426,9 +51807,6 @@ countries = {
 
 		GNJ = { #Gonjo
 			own_control_core = {
-				gonjo drayab sho tangkya
-				chamdo karma_densa khamgar
-				lhakhang pasho pema
 			}
 
 			include = "east_asia_monarchy_no_coast"
@@ -50441,9 +51819,6 @@ countries = {
 
 		BTG = { #Batang
 			own_control_core = {
-				batang markham shar_yelpuk
-				tsakhalkho dzogang mengung
-				sampheling dzingcho sangme
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50456,7 +51831,6 @@ countries = {
 
 		NBH = { #Nubhor
 			own_control_core = {
-				biru pembar riwoche samda shopando sok tengchen yangdzong
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50469,7 +51843,6 @@ countries = {
 
 		LTN = { #Litang
 			own_control_core = {
-				litang nyachukha daoba
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50482,7 +51855,6 @@ countries = {
 
 		NYA = { #Nyarong
 			own_control_core = {
-				nyarong chodrak_kham
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50495,7 +51867,6 @@ countries = {
 
 		GYT = { #Gyelthang
 			own_control_core = {
-				nixi xiaodandang dadandang
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50512,11 +51883,9 @@ countries = {
 
 		YNG = { #Yongning
 			own_control_core = {
-				yongning_baisheng muli kheong langqu
 			}
 
 			own_control_integrated = {
-				waerhdje
 			}
 
 			include = "asia_advanced_tribe"
@@ -50533,7 +51902,6 @@ countries = {
 
 		TNQ = { #Tianquan
 			own_control_core = {
-				diaomen hanyuan shimian
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50550,7 +51918,6 @@ countries = {
 
 		MCI = { #Muchi
 			own_control_core = {
-				lushan_yazhou wenchuan
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50567,7 +51934,6 @@ countries = {
 
 		WMO = { #Weimao
 			own_control_core = {
-				wenshan
 			}
 
 			include = "asia_advanced_tribe"
@@ -50580,7 +51946,6 @@ countries = {
 
 		TSK = { #TSK
 			own_control_core = {
-				baoning_maozhou maerkang qiongxi
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50597,7 +51962,6 @@ countries = {
 
 		SNP = { #Songpan
 			own_control_core = {
-				songzhou_songpan heishui hongyuan muge rinpung dazhasi gurkyang tewo
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50615,7 +51979,6 @@ countries = {
 
 		LGZ = { #Longzhou
 			own_control_core = {
-				jiangyou pingwu
 			}
 
 			include = "asia_advanced_tribe"
@@ -50632,8 +51995,6 @@ countries = {
 
 		MNZ = { #Minzhou
 			own_control_core = {
-				minzhou tanchang xigu
-				wenxian_gongchang fuzhou_songpan lidian
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50646,7 +52007,6 @@ countries = {
 
 		TAZ = { #Taozhou
 			own_control_core = {
-				kedang kuntokling liulin
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50659,7 +52019,6 @@ countries = {
 
 		KHG = { #Khagya
 			own_control_core = {
-				amchok taktsang sangqu tso_gon
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50676,7 +52035,6 @@ countries = {
 
 		HEZ = { #Hezhou
 			own_control_core = {
-				hezhou dingqiang
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50693,7 +52051,6 @@ countries = {
 
 		JIZ = { #Jishizhou
 			own_control_core = {
-				jishi
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50710,7 +52067,6 @@ countries = {
 
 		BIR = { #Biri
 			own_control_core = {
-				guide
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50723,7 +52079,6 @@ countries = {
 
 		GYE = { #Gyelrong
 			own_control_core = {
-				durgyeling rahor yungdrung geshitsa
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50736,9 +52091,6 @@ countries = {
 
 		GOL = { #Golog
 			own_control_core = {
-				darlag bayan_har lungkya madoi
-				serta dzamtang nubzur shukjung
-				dartang droge metsang takden
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50755,11 +52107,9 @@ countries = {
 
 		CKL = { #Minyag
 			own_control_core = {
-				dartsedo lhagang kazhi dzogon zhanggu
 			}
 
 			own_control_integrated = {
-				baurang
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50776,7 +52126,6 @@ countries = {
 
 		AMD = { #Amdo
 			own_control_core = {
-				chabcha buha caka dulan dungkar_amdo guolimu qardam amnye_machen quge sailahai zeku muxihe
 			}
 
 			include = "asia_advanced_no_pagan_tribe"
@@ -50867,11 +52216,9 @@ countries = {
 
 		LJG = { #Lijiang
 			own_control_core = {
-				tongan_lijiang jujin
 			}
 
 			own_control_integrated = {
-				gongshan adeqiu linxi zhuluo lanzhou_lanzhou zhiziluo
 			}
 
 			include = "asia_advanced_tribe"
@@ -55523,7 +56870,7 @@ countries = {
 			capital = kainta
 		}
 
-		BOL = { #Bool (Dapitan)
+		BOO = { #Bool (Dapitan)
 			own_control_core = {
 				bool talibon
 			}
@@ -57018,7 +58365,7 @@ countries = {
 		}
 
 		#Honniasont Erie
-		HON = {
+		HNN = {
 			type = pop
 
 			add_pops_from_locations = {
@@ -61729,7 +63076,7 @@ countries = {
 
 		#Coligua Mississippian - COL
 		#https://en.wikipedia.org/wiki/Koroa
-		COL = {
+		CLU = {
 			type = pop
 
 			add_pops_from_locations = {

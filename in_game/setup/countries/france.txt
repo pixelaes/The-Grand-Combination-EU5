@@ -386,7 +386,7 @@ VLN = {
 }
 
 #Perigord   
-PER = {
+PRI = {
 	#color = map_FRA
 	color = rgb { 230 66 66 }
 	culture_definition = limousin
