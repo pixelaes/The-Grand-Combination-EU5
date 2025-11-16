@@ -71,6 +71,7 @@ colors = {
 	map_MKL = rgb { 207 111 64 }
 	map_BDE = rgb { 118 229 215 }
 	map_WUR = rgb { 111 162 128 }
+	map_HAN = rgb { 164 217 127 }
 	map_NEU = rgb { 255 204 0 }
 	map_PAP = rgb { 224 224 148 }
 	map_PAP_democratic = rgb { 238 17 17 }
