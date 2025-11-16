@@ -61856,6 +61856,128 @@ countries = {
 			capital = tuapse
 		}
 
+		JJZ = { 
+			own_control_core = {
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		MJZ = { 
+			own_control_core = {
+				bakanas ashchyozek dagandely koksala sayak
+				tokrau espe kusak zhamankul
+				moiynty mukur zhamshy kashkanteniz
+				bolgan_ana aitbulat belen_ana talmas_ata
+				orda_bazar alashakhan baskamyr ulytau
+				zhuban_ana kaip_ata karagau korgan maulimberdy
+				tagatay dandybay karabay smai_samkai yegindybulak
+				tengiz kon_tengiz kulanotpes sonaly
+				sarybulak zhanaarka arkat kaynar_atbai
+				karasor karkaraly balyktykol
+				shybyndy
+				aybas kabyrga karaturgay turgay zhaldama 
+				sarykopa karasu saryozen ulkayak 
+				shoindykol
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		SJZ = { 
+			own_control_core = {
+				kyzylsay
+				almaty boyauli karakastek karamergen kargaly kurty shengeldy talkhir
+				sozak aksumbe gulshara kyzylkorgan ran tasty
+				balasagun dzhul harandzuvan kysmyci nuzket sargau soltobe
+				merki aspara khantau kulan sretenskoe tasuktul tolekskoe
+				talas dzhulsub sarvaslyk tekabket yangi zherkorgan
+				tamdy akkesene baba_ata nurlykent saudakent shavgar sholakkorgan
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		KHI = { 
+			own_control_core = {
+				pulzhai qonirat shimbay xojeli khurgancha kath
+				vezir urgench khiva kyat_kala nyzvar darganata hazarasp buzikkala
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		KKD = { 
+			own_control_core = {
+				jubara karmakshi
+				sighnaq asanas barchkend jand kamyskala 
+				turkestan aktas_kystagy baydibek_ata ikan karnak sawran shilik
+				otrar artyk_ata kyr_uzkand mardankuyik sutkent zemukh zhaushikumtobe
+				isbijab arsubaniket badam karabulak kazatlyk shymkent
+				chach almalik_chach altyntobe bogiston burchmullo fanakat nuket
+				akhsikath asht karasuu kasan kerben pop_fargana
+				fergana marghinan osh quva rishton
+				andijan arslanbob gulcha jalalabad_fergana uzkand
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
 		CPA = { #Copa
 			own_control_core = {
 			}
