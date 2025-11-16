@@ -392,13 +392,6 @@ KNZ = {
 	religion_definition = catholic
 }
 
-WUR = {
-	color = map_WUR
-	
-	culture_definition = swabian
-	religion_definition = catholic
-}
-
 OET = {
 	color = rgb { 154 79 103 }
 	
@@ -415,13 +408,6 @@ SWS = {
 
 HBR = {
 	color = rgb { 250 227 16 }
-	
-	culture_definition = rhine_franconian
-	religion_definition = catholic
-}
-
-BDE = {
-	color = map_BDE
 	
 	culture_definition = rhine_franconian
 	religion_definition = catholic
@@ -655,7 +641,7 @@ SAW = {
     religion_definition = catholic
 }
 
-SAB = {
+SEB = {
     color = rgb { 180 140 90 }
     culture_definition = high_alemannic
     religion_definition = catholic
@@ -673,7 +659,7 @@ ELL = {
     religion_definition = catholic
 }
 
-HEH = {
+HHM = {
     color = rgb { 180 130 80 }
     culture_definition = swabian
     religion_definition = catholic
@@ -681,12 +667,6 @@ HEH = {
 
 HLF = {
     color = rgb { 190 140 100 }
-    culture_definition = swabian
-    religion_definition = catholic
-}
-
-HOH = { # Hohenzollern-Hechingen
-    color = map_HOH
     culture_definition = swabian
     religion_definition = catholic
 }

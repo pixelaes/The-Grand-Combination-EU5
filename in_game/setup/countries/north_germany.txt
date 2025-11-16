@@ -348,14 +348,6 @@ BBG = {
 	religion_definition = catholic
 }
 
-ANH = {
-	color = map_ANH
-	color2 = rgb { 203 93 124 }
-
-	culture_definition = saxon
-	religion_definition = catholic
-}
-
 BNB = {
 	color = rgb { 150 213 211 }
 
@@ -447,13 +439,6 @@ HSF = {
 	religion_definition = catholic
 }
 
-HES = {
-	color = rgb { 114 171 184 }
-
-	culture_definition = rhine_franconian
-	religion_definition = catholic
-}
-
 PDB = {
 	color = rgb { 214 90 79 }
 
@@ -498,13 +483,6 @@ TRI = {
 
 DIE = {
 	color = rgb { 236 90 91 }
-
-	culture_definition = rhine_franconian
-	religion_definition = catholic
-}
-
-FRN = {
-	color = rgb { 243 201 33 }
 
 	culture_definition = rhine_franconian
 	religion_definition = catholic
@@ -654,13 +632,6 @@ KLE = {
 
 ANB = {
 	color = rgb { 176 176 6 }
-
-	culture_definition = angrian
-	religion_definition = catholic
-}
-
-LPP = {
-	color = rgb { 21 83 149 }
 
 	culture_definition = angrian
 	religion_definition = catholic
@@ -830,12 +801,6 @@ BHL = {
 GLN = {
     color = rgb { 175 140 115 }
     culture_definition = saxon
-    religion_definition = catholic
-}
-
-WDE = {
-    color = rgb { 200 180 130 }
-    culture_definition = rhine_franconian
     religion_definition = catholic
 }
 

@@ -6,7 +6,7 @@ CPL = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
+	culture_definition = mazovian
 	religion_definition = catholic
 
 	description_category = administrative
@@ -21,8 +21,8 @@ EST = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = estonian
+	religion_definition = lutheran
 
 	description_category = administrative
 	difficulty = 3
@@ -36,8 +36,8 @@ LTV = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = latvian
+	religion_definition = lutheran
 
 	description_category = administrative
 	difficulty = 3
@@ -51,23 +51,8 @@ ESH = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-PRU = {
-	color = map_PRU
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = muscovite
+	religion_definition = orthodox
 
 	description_category = administrative
 	difficulty = 3
@@ -81,8 +66,8 @@ NET = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = low_franconian
+	religion_definition = calvinist
 
 	description_category = administrative
 	difficulty = 3
@@ -96,7 +81,7 @@ BEL = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
+	culture_definition = walloon
 	religion_definition = catholic
 
 	description_category = administrative
@@ -111,8 +96,8 @@ RUS = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = muscovite
+	religion_definition = orthodox
 
 	description_category = administrative
 	difficulty = 3
@@ -126,68 +111,8 @@ MOL = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-BAV = {
-	color = map_BAV
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-HAN = {
-	color = map_HAN
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-SHL = {
-	color = map_SHL
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-SWH = {
-	color = map_SWH_dominion0_1
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = moldovan
+	religion_definition = orthodox
 
 	description_category = administrative
 	difficulty = 3
@@ -202,7 +127,7 @@ GBR = {
 	unit_color2 = hsv360 {	37 84 89 }
 
 	culture_definition = english
-	religion_definition = catholic
+	religion_definition = anglican
 
 	description_category = administrative
 	difficulty = 3
@@ -216,7 +141,7 @@ SRP = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
+	culture_definition = piedmontese
 	religion_definition = catholic
 
 	description_category = administrative
@@ -231,7 +156,7 @@ SPA = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
+	culture_definition = castilian
 	religion_definition = catholic
 
 	description_category = administrative
@@ -246,7 +171,7 @@ SAR = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
+	culture_definition = piedmontese
 	religion_definition = catholic
 
 	description_category = administrative
@@ -261,7 +186,7 @@ TUS = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
+	culture_definition = tuscan
 	religion_definition = catholic
 
 	description_category = administrative
@@ -276,22 +201,7 @@ KRA = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-SAX = {
-	color = map_SAX
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
+	culture_definition = lesser_polish
 	religion_definition = catholic
 
 	description_category = administrative
@@ -306,37 +216,7 @@ TSC = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-HOS = { # Hohenzollern-Sigmaringen
-	color = map_HOS
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-MST = { # Mecklenburg-Strelitz
-	color = map_MST
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
+	culture_definition = neapolitan
 	religion_definition = catholic
 
 	description_category = administrative

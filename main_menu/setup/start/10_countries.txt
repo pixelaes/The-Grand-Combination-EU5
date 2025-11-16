@@ -28412,7 +28412,7 @@ countries = {
 			country_rank = rank_county
 		}
 
-		HSK = {
+		HKW = {
 			type = building
 
 			capital = awa_shikoku
@@ -31890,7 +31890,7 @@ countries = {
 			country_rank = rank_county
 		}
 
-		NAS = {
+		NAU = {
 			type = building
 
 			capital = nasu
@@ -39750,7 +39750,7 @@ countries = {
 			dynasty = leuchtenberg_dynasty
 		}
 
-		FLK = {  # Falkenstein (South Germany)
+		HEH = {  # Falkenstein (South Germany)
 			own_control_core = {
 				meisenheim
 			}
@@ -39773,7 +39773,7 @@ countries = {
 			dynasty = falkenstein_dynasty
 		}
 
-		KTZ = {  # Katzenelnbogen (North Germany)
+		HSD = {  # Katzenelnbogen (North Germany)
 			own_control_core = {
 				darmstadt mainz bensheim offenbach
 				erbach
@@ -39819,7 +39819,7 @@ countries = {
 			capital = usingen
 		}
 
-		NSI = {  # Nassau Idstein (North Germany)
+		NAS = {  # Nassau Idstein (North Germany)
 			own_control_core = {
 				wiesbaden katzenelnbogen
 				diez
@@ -40334,7 +40334,7 @@ countries = {
 			capital = saarwerden
 		}
 
-		SAB = {  # Sausenberg (South Germany)
+		SEB = {  # Sausenberg (South Germany)
 			own_control_core = {
 			}
 			starting_technology_level = 3
@@ -40391,7 +40391,7 @@ countries = {
 			capital = ellwangen
 		}
 
-		HEH = {  # Heidenheim (South Germany)
+		HHM = {  # Heidenheim (South Germany)
 			own_control_core = {
 			}
 			starting_technology_level = 3
@@ -42460,7 +42460,7 @@ countries = {
 			capital = hersfeld
 		}
 
-		HES = {	#Hesse
+		HSK = {	#Hesse
 			own_control_core = {
 				kassel rotenburg eschwege melsungen
 				hanau
@@ -43617,7 +43617,7 @@ countries = {
 			capital = goslar
 		}
 
-		SCB = {	#Schauenburg
+		SML = {	#Schauenburg
 			own_control_core = {
 				buckeburg
 			}
@@ -57036,7 +57036,7 @@ countries = {
 			capital = bool
 		}
 
-		SML = { #Sanmalan
+		SNL = { #Sanmalan
 			own_control_core = {
 				samboangan dapitan panaon sibugay sindangan siocon
 			}

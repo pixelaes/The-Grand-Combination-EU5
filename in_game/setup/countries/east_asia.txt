@@ -77,8 +77,8 @@ KOU = { #https://ja.wikipedia.org/wiki/%E9%AB%98%E6%B0%8F
 	religion_definition = shinto
 }
 
-HSK = { #https://ja.wikipedia.org/wiki/%E7%B4%B0%E5%B7%9D%E6%B0%8F
-	color = map_HSK
+HKW = { #https://ja.wikipedia.org/wiki/%E7%B4%B0%E5%B7%9D%E6%B0%8F
+	color = map_HKW
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = saigoku_culture
@@ -789,8 +789,8 @@ TKO = { #https://ja.wikipedia.org/wiki/%E5%A4%9A%E5%8A%9F%E6%B0%8F
 	culture_definition = tougoku_culture
 	religion_definition = shinto
 }
-NAS = { #https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E6%B0%8F
-	color = map_NAS
+NAU = { #https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E6%B0%8F
+	color = map_NAU
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tougoku_culture

@@ -635,8 +635,8 @@ BOO = { #Bool (Dapitan)
 	religion_definition = anitism_religion
 }
 
-SML = { #Sanmalan
-	color = map_SML
+SNL = { #Sanmalan
+	color = map_SNL
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = subanon_culture
