@@ -89,7 +89,7 @@ colors = {
 	map_MJZ = rgb { 190 240 255 }
 	map_JJZ = rgb { 185 255 240 }
 	map_KHI = rgb { 188 123 103 }
-	map_KKD = rgb { 119 130 145 }
+	map_KOK = rgb { 119 130 145 }
 
 	#eu4 map colors
 	map_debug = rgb { 255 0 255 }
@@ -2214,7 +2214,7 @@ colors = {
 	map_TOS = rgb { 190 60 70 }
 	map_HNM = rgb { 240 240 190 }
 	map_UNN = rgb { 30 180 60 }
-	map_KOK = hsv { 0.61 0.33 0.38 }
+	map_KAK = hsv { 0.61 0.33 0.38 }
 	map_TOY = rgb { 50 180 90 }
 	map_HIG = rgb { 230 50 210 }
 	map_EMA = rgb { 60 150 130 }

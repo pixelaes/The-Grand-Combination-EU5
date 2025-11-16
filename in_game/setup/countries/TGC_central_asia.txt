@@ -38,8 +38,8 @@ KHI = { #Abkhazia
 	religion_definition = orthodox
 }
 
-KKD = { #Abkhazia
-	color = map_KKD
+KOK = { #Abkhazia
+	color = map_KOK
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture

@@ -32143,7 +32143,7 @@ countries = {
 			country_rank = rank_county
 		}
 
-		KOK = {
+		KAK = {
 			type = building
 
 			capital = saku
@@ -61856,6 +61856,24 @@ countries = {
 			capital = tuapse
 		}
 
+		KAZ = { 
+			own_control_core = {
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
 		JJZ = { 
 			own_control_core = {
 			}
@@ -61951,7 +61969,7 @@ countries = {
 			capital = tuapse
 		}
 
-		KKD = { 
+		KOK = { 
 			own_control_core = {
 				jubara karmakshi
 				sighnaq asanas barchkend jand kamyskala 

@@ -838,8 +838,8 @@ UNN = { #https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%87%8E%E6%B0%8F
 	culture_definition = tougoku_culture
 	religion_definition = shinto
 }
-KOK = { #https://ja.wikipedia.org/wiki/%E9%A6%99%E5%9D%82%E6%B0%8F
-	color = map_KOK
+KAK = { #https://ja.wikipedia.org/wiki/%E9%A6%99%E5%9D%82%E6%B0%8F
+	color = map_KAK
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tougoku_culture
