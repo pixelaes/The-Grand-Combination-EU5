@@ -488,7 +488,7 @@ countries = {
 				tauraba parita nata escoria chiru esquegua
 				panama careta pocorosa comogre chochama
 				cubiga chepo chuchures
-				simiti macaregua tora camacota hacaritamas duitama cev_bonifacio_i_di_ceva
+				simiti macaregua tora camacota hacaritamas duitama 
 				tauramena upia humadea yopo tame guadual arauca cubara
 				atanari cumaribo maracoa orocue metica
 				chayrama teyuna yaharo upar sicarate ariguani curumanao
@@ -1697,7 +1697,6 @@ countries = {
 				xicallanco
 				itzamkanac
 				nadzcaan
-				éemal
 				chactemal
 				colha
 				nohmul
@@ -2759,7 +2758,6 @@ countries = {
 				mayaca
 				utina
 				itaraholata
-				_fl
 				jororo
 				acuera
 				surruque
@@ -3011,35 +3009,6 @@ countries = {
 				natchez
 				chittaloosa
 				houma
-				ossabaw_sound
-				port_royal_sound
-				charleston_harbor
-				long_bay_us
-				onslow_bay
-				pamlico_sound
-				cape_hatteras
-				raleigh_bay
-				albemarle_sound
-				chesapeake_channel
-				lower_chesapeake_bay
-				upper_chesapeake_bay
-				chincoteague_bay
-				delaware_bay
-				cape_may
-				barnegat_bay
-				long_island_coast_us
-				long_island_sound
-				raritan_bay
-				block_channel
-				narragansett_bay
-				nantucket_shoals
-				pleasant_bay
-				cape_cod_bay
-				massachusetts_bay
-				scantum_basin
-				casco_bay
-				penobscot_bay
-				schoodic_ridge
 				bulbancha
 				bogue_chitto
 				tangipahoa
@@ -3050,7 +3019,6 @@ countries = {
 				ciwat
 				otse
 				tsikip
-				_tx
 				ya_ttaish
 				calcasieu
 				doustioni
@@ -3075,7 +3043,6 @@ countries = {
 				aguacay
 				amaye
 				chaguate
-				ouachita_mts
 				tanico
 				quipana
 				tula_ark
@@ -3101,7 +3068,6 @@ countries = {
 				towosaghy
 				chepoussa
 				cholohollay
-				st_francois_mts
 				nodaway
 				nudarcha
 				wimihsoorita
@@ -3250,7 +3216,6 @@ countries = {
 				aahkawiraahkata
 				ne_miskua
 				kaw
-				aahkawiraahkata
 				panenetah
 				kaiurskuta
 				headdhetanwan
@@ -4381,7 +4346,6 @@ countries = {
 				weissenfels
 				langensalza freyburg beichlingen
 				erfurt
-				mors
 				schmalkalden
 				wetzlar
 				muhlhausen
@@ -4507,7 +4471,6 @@ countries = {
 				ruler_term = { character = teu_dietrich_von_altenburg start_date = 1335.4.18 regnal_number = 1	}
 				regnal_numbers = {
 					name_theodoric = 1
-					name_luther = 1
 					name_werner = 1
 				}
 
@@ -6721,6 +6684,7 @@ countries = {
 		#Principality of Muscovy
 		RUS = {
 			own_control_core = {
+				jariekhi omalo
 				kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
 				nel_kan tsipanda aim_maia ust_yudoma ust_mil ust_maia
 				avlayakan chumikan udskoye bolodek tul_kichan maya
@@ -6751,9 +6715,8 @@ countries = {
 				tana 
 				copa akhtar 
 				moscow zvenigorod ruza pushkino vokhna bronnitsy rogozh
-				pieninka repola 
 				kem keret kovda kriitina saarijoki 
-				repola karhumagi kizhi lindjarvi nadvoitsy pieninka puatane sellinkyla semcojarvi 
+				repola karhumagi kizhi lindjarvi nadvoitsy pieninka puatane sellinkyla
 				rukajarvi jyskyjarvi kiestinki ontajarvi paanajarvi suikujarvi tunkuo uhtuo
 				kola dalniye_zelentsy kiltina luujarvi maaselka ponoi semiostrov svyatoy_nos
 				umba kantalahti kashkarantsy olenitsa pyalitsa raivke tetrino varzuga
@@ -6903,14 +6866,11 @@ countries = {
 				yelan machekha novonikolayevsky samoylovka
 				novopavlovsk yessentuq alexandrovskoye blagodarnoye novoselitskoye
 				kalininskaya bryukhovetskaya bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor
-				adyukh stavropol grigoropolisskaya uspenskoye shad_kirman petrovskoye_pontic privolnoye belaya_glina peschanokopskoye
-				novo_alexandrovskoye bezopasnoye ipatovo bakanas ashchyozek dagandely koksala sayak
+				stavropol grigoropolisskaya uspenskoye shad_kirman petrovskoye_pontic privolnoye belaya_glina peschanokopskoye
+				novo_alexandrovskoye bezopasnoye ipatovo 
 				irgiz chet_irgiz karasay kayrakty sazanbay
-				zhuban_ana kaip_ata karagau korgan maulimberdy gebergeyel khaiylmysh khaqmar shikashin yuldibay tagatay dandybay karabay smai_samkai yegindybulak
-				sarykopa karasu saryozen ulkayak bolgan_ana aitbulat belen_ana talmas_ata tengiz kon_tengiz kulanotpes sonaly tokrau espe kusak zhamankul
-				aybas kabyrga karaturgay turgay zhaldama orda_bazar alashakhan baskamyr ulytau namjan atach ishkul kumak suyunduk tanalyk yaik
-				zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
-				sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
+				gebergeyel khaiylmysh khaqmar shikashin yuldibay
+				namjan atach ishkul kumak suyunduk tanalyk yaik
 				
 				usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn 
 				karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka 
@@ -6935,8 +6895,11 @@ countries = {
 				naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek 
 				kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda 
 				kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
+				
+				mamiya_kala rim_gora
+				chegem karcha_kala koban
 
-				chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
+				chilia cetatea_alba gura_galbenei sarata tighina kutarka sernur morki urzhum
 				lusta soldaia 
 				zainsk syun verkhneyarkeyevo
 				menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
@@ -6958,7 +6921,7 @@ countries = {
 				kuznetsk salair kytmanovo ust_kabyrza askiz abakasnk beya shushenskoye
 				tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
 				surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
-				alkhan_kala nazran dzhulat tatartup
+				dzhulat tatartup
 				promsa alatyr batyrevo
 				atrat altyshevo bolshoye_boldino shatki arzamas sarov lukoyanov krasnoslobodsk ruzayevka
 				insar temnikov tarbeevka zubova_polyana mokhcha nizhny_lomov zemetchino bondari 
@@ -6972,9 +6935,6 @@ countries = {
 				ushkan koskuduk manysai shagan zhaksy_karasay
 				ketik_kala kabakty karatobe_mangyshlak kyzylkala
 				masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
-				beleuli kyushe sam shuruk sisem_ata uchkuduk
-				pulzhai qonirat shimbay xojeli khurgancha
-				vezir urgench
 				kazan laish calli mamadysh bogatye_saby oli_baraza dobyaz
 				yaransk kiknur kabachischi yoshkar_ola
 				bolghar cukataw bilyar almetyevsk 
@@ -7001,21 +6961,18 @@ countries = {
 				poganovka sorochinskaya buzuluk grachevka bol_shoy_uran malyy_uran
 				s_ezzaja bogatoye
 				tobolsk vagay tavdinsky_sloboda yurginskoye vikulovo
-				bayanaul shybyndy bozok_astana akkol
-				karasor karkaraly takhir
-				arykbalyk kak kokshetau shoindykol atbasar
+				bayanaul bozok_astana akkol takhir
+				arykbalyk kak kokshetau atbasar
 				kulykol zhetykol shoptikol siberia_tenteksor konildi
 				zharkol sasykkol kartaly alakol almenevo safkul shchuchye kargapolye kurtamysh
 				yetkul troitsk uyskoye 
 				bolshoy_ik ust_katav mesyagutovo zlatoust
 				chimgi_tura tugulym yalutorovsk shadrinsk
 				tsaryovo_gorodishche burayevo
-				sarybulak zhanaarka arkat balyktykol kaynar_atbai
 
 				bratslav balta bershad drahushiv karabul savran
 				torhovytsia teplyk tsybuliv uman zavallia
 				vinnytsia buzhskyi pohrebyshche sokilets
-				armavir 
 
 				#Principality of Kursk
 				kursk fatezh kosozhichi olgov
@@ -7023,9 +6980,9 @@ countries = {
 				
 				martyshkino koporye soikino yama burga khotsy kulotino megrino moloskovitsa khotchino lisino markovo lyady mezhutka
 				novgorod golino staropolye staraya_russa chudovo kosichkoj zaplyusye kresttsy yazhelbitsy berezovets nebolchi
-				kholm velikiye_luki demon soltsy nalyuchi dolchinyo vlitsy sumino nadvoitsy
+				kholm velikiye_luki demon soltsy nalyuchi dolchinyo vlitsy sumino
 				staraya_ladoga tikhvin lipno_nov borovichi pikalyovo soltsy_kirishi maselga spirkovo lyubytino
-				olonets vazhiny shuya_karelia kondpoga kizhi shyoltozero lindjarvi semcojarvi lodenoye_pole vytegra vinnitsy
+				olonets vazhiny shuya_karelia kondpogashyoltozero semcojarvi lodenoye_pole vytegra vinnitsy
 				gorodetsk maksatikha udomlya smerdyn moshenskoye okhona belye_kresty ozerevo troshovo babayevo pudoga iksa village_onega
 				luda malye_oserki nyonoksa priluky pomorye arkhangelsk kholmogory vaymuga brin_navolok siya ust_pinega vershinino sheleksa yemetsk
 				ramenki mednoye vyshny_volochyok bologoye zhabny torzhok kuvshinovo ostashkov
@@ -7037,7 +6994,7 @@ countries = {
 				porkhov plyussa dubronjo spas_na_kholmu
 				rzheva_pustaya ashevo bezhanitsy podberezye visokoye kuretsk lyakhovichy maryovo lyubno svinort gorodets_luga izori tesov
 				bronnitsa gruzino veliky_porog valday pribuzh ivangorod izboishchi pashozero tervenichi megra voznesenye ostrechiny andomsky_pogost
-				kinerma pryazha  sellinkyla karhumagi puatane sumsky_posad unezhma vygozero maloshuyka
+				kinerma pryazha sumsky_posad unezhma vygozero maloshuyka
 				chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
 				#Principality of Volokolansk
 				volok
@@ -7136,12 +7093,23 @@ countries = {
 			}
 
 			own_control_colony = {
+				# Siberia
+				zolotiinka iyengra neriungri neluki nimnyr aldan tommot
 				ketanda ogonok yugorenok ust_ynykchan eldikan tumul
 				takhtoyamsk brokhovo yamsk atargan magadan palatka tauisk
 				palana voyampolka tigil sedanka kovran
 				uka_town shiveluch klyuchi kamchatsk malka
 				ostrov_beringa milkovo achava oktyabr_skii pauzhetka
 				kozyrevsk krutogorovskiy sobolevo kirovskiy khayryuzovo
+				ugoyan ukulan verkhnyaya tegyulte onnyos uluu borulakh
+				nuotara myndagai abaga amga uchele darkylakh
+				ushki okam ul_ya arka enken ayan aimchan
+				chivitkino evenksk kushka merenga omchikan buksunda
+				achaivayam apuka pakhachi khalino tilichiki
+				talovka manily kamenskoie oklan paren gizhiga
+				mejnypilgyn vatyrkan vukvylgayat machevna tyulene
+				valkall_an rykuul ugolnye nyerpicha konchalyt gytgomkyvamm tadlyeoan unazigmit
+				anadyr_trail krasnyano tavayveem v_enyn tumanskaya y_lkytveem gacgatagyn
 
 				# Alaska
 				agw_aneq su_naq kasukuak swikshak amalik alinchak
@@ -7151,9 +7119,9 @@ countries = {
 				aguyaq akokpaq koliaganeq baleknagiq igushiq togiaq
 				mamterat quinhagaq iiq mamterilleq kwigilingoq kalskaq
 				nunapichuq tununaq kaghasuq niugtaq ce_vaq mekoryuq
-				marayaarmiut imangaq qerrulliiq tapqaq unalakleet ungaliq yukkhana
+				marayaarmiut imangaq qerrulliiq tapqaq unalakleet ungaliq
 				malemiut kuuyuk qikiqtagruk kuugaaluk kongashuk
-				sinjik nachirvik kigluaik anakovik kugirukuk
+				sinjik nachirvik kigluaik anakovik
 				sivuqaq savoonga kitagnaq st_matthew
 				nuurvik uataaq kivualinagmut uivvak kali
 				kachemak kenai dgheyaytnu k_enakatnu tyonek iliamna susitna
@@ -8334,16 +8302,16 @@ countries = {
 			}
 			own_control_colony = {
 				# Mediterranean
-					malta gibraltar
+					malta
 
 				# Atlantic
-					bermuda west_falkland east_falkland georgia_isle
+					bermuda west_falkland east_falkland
 
 				# Caribbean
 					maynoa yaguabo aguacadiba guaygata anaya oristan kaiman
 					abacoa exuma guanima eleuthera utiaquia guanahani inagua samana_cay jumento caycos lucayoneque bahama
 					ariogana wadadli liamuiga walichi malliouhana anegada aburakeiru vieques_island
-					cairiani alubera waitu_kubuli hewanorra cairiani ichirouganaim alubera kamahuya youloumain
+					cairiani alubera waitu_kubuli hewanorra ichirouganaim kamahuya youloumain
 
 				# Belize
 					tzunuun altun_ha lamanai xunantunich uxwitza
@@ -8386,7 +8354,6 @@ countries = {
 					saskatchewan
 					kistapinan
 					petaigan
-					porcupine_hills
 					notinito_sipiy
 					wetaskiwin
 					amisk
@@ -8472,7 +8439,6 @@ countries = {
 					aunona
 					taoondewake
 					kouate
-					laurentian_massif
 					mingan
 					pigou
 					aguanish
@@ -8480,7 +8446,6 @@ countries = {
 					manapakuaniskau
 					uanaman
 					upuahpukau
-					magpie_massif
 					notiskuan
 					anticosti
 					natigostec
@@ -8510,7 +8475,6 @@ countries = {
 					tetepisca
 					essipit
 					manouane
-					manouanis_massif
 					chicoutimi
 					shipshaw
 					onatchiway
@@ -8527,7 +8491,6 @@ countries = {
 					cikakw_sipi
 					kiskissink
 					wayagamac
-					windigo_massif
 					kitigan_zibi
 					baskatong
 					poigan
@@ -8652,7 +8615,6 @@ countries = {
 					kimmirut
 					amadjuak
 					kinngait
-					baffin_island
 					caniapiscau
 					kasakaupuyau
 					wayustikw
@@ -8671,7 +8633,6 @@ countries = {
 					mistinatwayasu
 					kamiskayachuuch
 					qurlutuq
-					whale_lowlands
 					kangiqsualujjuaq
 					imaapik
 					siimitalik
@@ -8808,8 +8769,6 @@ countries = {
 					washademoak
 					otnabog
 					kcheeminpink
-					canaan_bog
-					grand_
 					nashwaak
 					oromocto
 					meductic
@@ -8900,7 +8859,6 @@ countries = {
 					manitowik
 					pekatek
 					aguasabon
-					wawa_uplands
 					nipigon
 					namewaminikan
 					ombabika
@@ -8941,7 +8899,6 @@ countries = {
 					wabigoon
 					obishikokaang
 					waaninaawangang
-					lac_seul
 					ogoki
 					miniss
 					atikokiwam
@@ -9038,13 +8995,13 @@ countries = {
 				goringhaikona goringhaiqua paarl gorachouqua
 
 				wirrai_durhai guwandhaang cootamundra thurrawal murranbulla boandik bangarang narrandera awabakal
-				dharug eora blue_mountains guramal tharawal ngarigo jerrinja didthul george_lake
-				alpine_mountains thaua yuin wadbilliga_mountains kosciuszko_mountains bidwell krauatungalung krowathunkkooloong mallacoota
-				braiakalung brataulung boon_wurrung yarra kurnai jaitmatang waveroo taungurung woi_wurrung wellington_lake
-				karta_pintingga latje_latje millewa chala kooinkill ngarrindjeri ngargad kromelak bindjali djappuminyou jakelbalak alexandrina_lake lake_yarli
+				dharug eora guramal tharawal ngarigo jerrinja didthul 
+				thaua yuin bidwell krauatungalung krowathunkkooloong mallacoota
+				braiakalung brataulung boon_wurrung yarra kurnai jaitmatang waveroo taungurung woi_wurrung 
+				karta_pintingga latje_latje millewa chala kooinkill ngarrindjeri ngargad kromelak bindjali djappuminyou jakelbalak
 				dadi_dadi nari_nari malegoondeet kureinji madi_madi yitha_yitha wandjiwalgu barkinji barundji
 				yunggai wemba_wemba marin_balluk dja_dja_wurrung ngunawal lail_buil ngurraiillam wotjobaluk baraba_baraba yorta_yorta yakkajari wiradjuri wachigari
-				buandig coonawarra jardwajali gunditjmara djabwurung balla_arat gulidjan giraiwurung gadubanud geelong wathaurong corangamite_lake
+				buandig coonawarra jardwajali gunditjmara djabwurung balla_arat gulidjan giraiwurung gadubanud geelong wathaurong 
 				east_palawa west_palawa peerapper tommeginne tyerrernotepanner pyemmairrener lairmairrener paredarerme toogee
 				
 				madurai ramesvaram vembar kayattar pattukkottai
@@ -18293,7 +18250,7 @@ countries = {
 			own_control_colony = {
 				# Madeira + Azores
 				funchal porto_santo
-				ta_delgada santa_maria angra horta santa_cruz_flores
+				santa_maria angra horta santa_cruz_flores
 
 				# Capo Verde
 				santo_antao sao_nicolao boa_vista santiago fogo
@@ -18818,7 +18775,7 @@ countries = {
 				
 				aix_en_provence arles brignoles marseille toulon tarascon
 				apt barcelonnette forcalquier sisteron
-				 arjols castellane digne draguignan frejus grasse 
+				castellane digne draguignan frejus grasse 
 				grenoble gap briancon 
 				romans la_mure saint_marceilin 
 				mevouillon villars 
@@ -22246,7 +22203,7 @@ countries = {
 				sanok krosno lesko
 				zhydachiv bolekhiv dolyna
 				chioggia venice mestre
-				pola rovinj pag zadar split brac slanomodon
+				pola rovinj pag zadar split brac
 			}
 
 			own_control_integrated = {
@@ -23085,7 +23042,7 @@ countries = {
 				ghardaia berriane el_guerrara guettara
 				bejaia el_kseur mansouria bouira kalaa_of_ait_abbas setif
 				constantine_ALG mila ngaous baghai dufanat bazer_sakhra tiffech tebessa meskiana tijis ikjan
-				annaba cheffia jijel el_milia skikda el_kala guelma collo tekouchdebila madas nefta
+				annaba cheffia jijel el_milia skikda el_kala guelma collo madas nefta
 			}
 
 			own_core = {
@@ -33796,22 +33753,10 @@ countries = {
 				 shiveh
 				kham_bahar ragh
 				qalai_khumb vanch
-				tamdy akkesene baba_ata nurlykent saudakent shavgar sholakkorgan
-				almaty boyauli karakastek karamergen kargaly kurty shengeldy talkhir
-				balasagun dzhul harandzuvan kysmyci nuzket sargau soltobe
 				charyn chundzha kegen lavar shelek
 				barskoon balykchy kochkor san_tash
 				dungene lepsy sagabuyen tekeli
-				merki aspara khantau kulan sretenskoe tasuktul tolekskoe
-				talas dzhulsub sarvaslyk tekabket yangi zherkorgan
-				akhsikath asht karasuu kasan kerben pop_fargana
-				andijan arslanbob gulcha jalalabad_fergana uzkand
-				chach almalik_chach altyntobe bogiston burchmullo fanakat nuket
-				fergana marghinan osh quva rishton
-				isbijab arsubaniket badam karabulak kazatlyk shymkent
 				koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
-				otrar artyk_ata kyr_uzkand mardankuyik sutkent zemukh zhaushikumtobe
-				turkestan aktas_kystagy baydibek_ata ikan karnak sawran shilik
 				gharm daroot_korgon karakol muksu sangvor
 				kurchum kandysu kokpekty shar zyryan
 				almaliq gulja narat nilka tokkuztara sarikol yulduz bortala jing 
@@ -37308,6 +37253,11 @@ countries = {
 		#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 		OTT = {
 			own_control_core = {
+				akhaltsikhe ardahan
+				hasankale ispir khupati rize
+				artanuji khikhani oltu parkhali savsat
+				ani kars kagizman tmogvi
+				panaskerti tortum
 				alaiye selinti
 				nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
 				rodos kos
@@ -37343,7 +37293,6 @@ countries = {
 				gumus
 				samsun
 				amasya niksar sonisa
-				taman
 				mesudiye
 				trebizond giresun gorele gumushane surmene
 				bayramlu unye  
@@ -37386,7 +37335,7 @@ countries = {
 				ormenio
 				demetrias farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
 				bukelon devol ustra
-				peja prizren bitola pri kicevo tetovo kotor shkoder debar onogost gradina
+				peja prizren bitola kicevo tetovo kotor shkoder debar onogost gradina
 				budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
 				kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
 				glubocica nis prokuplje gacko trebinje ohrid kocani strumica
@@ -37624,7 +37573,6 @@ countries = {
 				agh_qala
 				beyarjomand haresabad kharturan
 				tabriz heris maragheh sarab tufarqan
-				ganja barda beylagan lemberan gardman shamkir
 				mughan baciravan bilasuvar germi salyan varsan
 				ahar aslanduz kaleybar khiyav mardanaqom qahqaheh
 				hadishahr marand
@@ -37633,8 +37581,6 @@ countries = {
 				miyaneh aghkand
 				zanjan mahneshan sarcham sojas
 				bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
-				goroz shusha
-				julfa nakhchivan
 			}
 
 			our_cores_conquered_by_others = {
@@ -46947,7 +46893,6 @@ countries = {
 		#Cempoala - TOT
 		TOT = {
 			own_control_core = {
-				cempoala
 			}
 
 
@@ -61317,14 +61262,11 @@ countries = {
 			own_control_core = {
 				samarkand ayni dimishk panjakent
 				bukhara tim_samarkand
-				darganata hazarasp
 				alat daya_kathyn paykend vardanzi
 				nurota ishtixon karmana primkent yangirabod
 			}
 
 			own_control_integrated = {
-				khiva kyat_kala nyzvar 
-				kath
 			}
 
 			include = "expl_middle_east"
@@ -61429,22 +61371,19 @@ countries = {
 
 		GEO = { #Georgia
 			own_control_core = {
-				tbilisi gori kasriskari kvenipnevi mtskheta tsagvli
-				sukhumi anacopia lata_georgia pitsunda
-				bedia anaklia batumi ozurgeti poti_caucasus tsalenjikha
-				kutaisi lentekhi skande shorapani tsageri tsesi ushguli vartsikhe
-				telavi alaverdi dusheti gremi omalo rustavi shatili
-				gagi kayen khunani jariekhi
-				hereti balakan bodbe khornabuji qakh
-				panaskerti tortum
 			}
 
 			own_control_integrated = {
-				costa tuapse 
 			}
 
 			our_cores_conquered_by_others = {
 				gardman shamkir
+				hereti balakan bodbe khornabuji qakh
+				telavi alaverdi dusheti gremi omalo rustavi shatili
+				tbilisi gori kasriskari kvenipnevi mtskheta tsagvli
+				anaklia batumi ozurgeti poti_caucasus tsalenjikha
+				kutaisi lentekhi skande shorapani tsageri tsesi ushguli vartsikhe
+				gagi kayen khunani jariekhi
 			}
 
 			include = "expl_christian_caucasus"
@@ -61526,7 +61465,6 @@ countries = {
 
 		AAI = { #Alastani
 			own_control_core = {
-				akhalkalaki amberd artashavan dmanisi kldekari kumayri lori spitak
 			}
 
 			include = "expl_christian_caucasus"
@@ -61555,10 +61493,6 @@ countries = {
 
 		SME = { #Samtskhe
 			own_control_core = {
-				akhaltsikhe ardahan
-				hasankale ispir khupati rize
-				artanuji khikhani oltu parkhali savsat
-				ani kars kagizman tmogvi
 			}
 
 			include = "expl_christian_caucasus"
@@ -61614,13 +61548,9 @@ countries = {
 
 		SRV = { #Shirvan
 			own_control_core = {
-				baku javad mahmudabad maraza qobustan shamakhi
-				shirvan derbent niyazabad quba shabran
-				agsu goychay zardab
 			}
 
 			own_control_integrated = {
-				qabala
 			}
 
 			include = "expl_middle_east"
@@ -61650,7 +61580,6 @@ countries = {
 
 		AVR = { #Avaria
 			own_control_core = {
-				khunzakh tindi
 			}
 
 			include = "expl_middle_east"
@@ -61677,7 +61606,6 @@ countries = {
 
 		TRK = { #Shamkhalate of Tarki
 			own_control_core = {
-				tarki boynak endirey kumukh temirkhan_shura terek
 			}
 
 			include = "expl_middle_east"
@@ -61705,10 +61633,10 @@ countries = {
 
 		ARM = { #Armenia
 			own_control_core = {
-				yerevan bjni
 			}
 
 			our_cores_conquered_by_others = {
+				yerevan bjni
 				amberd ani artashavan igdir kars kagizman khor_virap kumayri surmali
 
 			}
@@ -61759,7 +61687,7 @@ countries = {
 		}
 
 		VDZ = { #Vayots Dzor
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				gladzor
 				sotk
 			}
@@ -61781,6 +61709,137 @@ countries = {
 
 		CIR = { #Circassia
 			own_control_core = {
+				mapa
+				taman
+				shanjir siba_circassia khadyzhi 
+				susaco
+				maykop belorechensk moschevo
+				kuzhyb shkhancheriekhabl 
+				costa tuapse 
+				armavir adyukh chatyun
+				arkhyz khumar
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		ABK = { #Abkhazia
+			own_control_core = {
+				sukhumi anacopia lata_georgia pitsunda
+				bedia
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		TCA = { 
+			own_control_core = {
+				baku javad mahmudabad maraza qobustan shamakhi
+				agsu goychay zardab
+				qabala
+				shaki aresh vartashen
+				ganja barda beylagan lemberan gardman shamkir
+				goroz shusha
+				julfa nakhchivan
+				kapan_armenia goris kashatagh tatev
+				gandzasar haterk
+				gladzor
+				sotk
+				yerevan bjni
+				akhalkalaki amberd artashavan dmanisi kldekari kumayri 
+				lori spitak gagi kayen khunani
+				hereti balakan bodbe khornabuji qakh
+				telavi alaverdi dusheti gremi rustavi shatili
+				tbilisi gori kasriskari kvenipnevi mtskheta tsagvli
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		SVN = { 
+			own_control_core = {
+				lentekhi ushguli
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		MGL = { 
+			own_control_core = {
+				anaklia batumi ozurgeti poti_caucasus tsalenjikha
+				kutaisi skande shorapani tsageri tsesi vartsikhe
+			}
+
+			include = "expl_christian_caucasus"
+			starting_technology_level = 3
+			include = "eastern_european_monarchy_not_present"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				abazin_culture
+			}
+
+			capital = tuapse
+		}
+
+		DAG = { 
+			own_control_core = {
+				shirvan derbent niyazabad quba shabran
+				rutul
+				kurakh tpig
+				khuchni
+				kubachi
+				tarki boynak endirey kumukh temirkhan_shura terek
+				khunzakh tindi
+				simsir
+				tsontaroy_kala argun targim
+				alkhan_kala nazran
 			}
 
 			include = "expl_christian_caucasus"
@@ -61816,11 +61875,9 @@ countries = {
 
 		HTY = { #Hatukay
 			own_control_core = {
-				mapa
 			}
 
 			our_cores_conquered_by_others = {
-				taman
 			}
 
 			starting_technology_level = 3
@@ -61838,7 +61895,6 @@ countries = {
 
 		HYT = { #Hytuk
 			own_control_core = {
-				shanjir siba_circassia khadyzhi 
 			}
 
 			starting_technology_level = 3
@@ -61856,7 +61912,6 @@ countries = {
 
 		KDA = { #Kabardia
 			own_control_core = {
-				kuzhyb shkhancheriekhabl 
 			}
 
 			starting_technology_level = 3
@@ -61874,7 +61929,6 @@ countries = {
 
 		KIP = { #Kipike
 			own_control_core = {
-				susaco
 			}
 
 			starting_technology_level = 3
@@ -61892,7 +61946,6 @@ countries = {
 
 		TEM = { #Temirgoy
 			own_control_core = {
-				maykop belorechensk moschevo
 			}
 
 			starting_technology_level = 3
@@ -61911,10 +61964,10 @@ countries = {
 
 		SKI = { #Shaki
 			own_control_core = {
-				shaki aresh vartashen
 			}
 
 			our_cores_conquered_by_others = {
+				shaki aresh vartashen
 				agsu goychay javad qabala zardab
 			}
 
@@ -61943,10 +61996,10 @@ countries = {
 
 		KCN = { #Khachen
 			own_control_core = {
-				gandzasar haterk
 			}
 
 			our_cores_conquered_by_others = {
+				gandzasar haterk
 				goroz kashatagh shusha
 			}
 
@@ -61973,10 +62026,10 @@ countries = {
 
 		SYU = { #Syunik
 			own_control_core = {
-				kapan_armenia goris kashatagh tatev
 			}
 
 			our_cores_conquered_by_others = {
+				kapan_armenia goris kashatagh tatev
 				julfa nakhchivan
 			}
 
@@ -62002,12 +62055,9 @@ countries = {
 
 		ALN = { #Alania
 			own_control_core = {
-				arkhyz khumar mamiya_kala rim_gora
-				chegem karcha_kala koban
 			}
 
 			our_cores_conquered_by_others = {
-				dzhulat tatartup
 			}
 
 			include = "expl_middle_east"
@@ -62029,7 +62079,6 @@ countries = {
 
 		DZK = { #Durdzuketia
 			own_control_core = {
-				tsontaroy_kala argun targim
 			}
 
 			our_cores_conquered_by_others = {
@@ -62053,7 +62102,6 @@ countries = {
 
 		SMS = { #Simsir
 			own_control_core = {
-				simsir
 			}
 
 			include = "expl_christian_caucasus"
@@ -62073,7 +62121,6 @@ countries = {
 
 		KAI = { #Kaitag
 			own_control_core = {
-				kubachi
 			}
 
 			include = "expl_middle_east"
@@ -62094,7 +62141,6 @@ countries = {
 
 		LEK = { #Lekhia
 			own_control_core = {
-				kurakh tpig
 			}
 
 			include = "expl_middle_east"
@@ -62115,7 +62161,6 @@ countries = {
 
 		RUT = { #Rutul
 			own_control_core = {
-				rutul
 			}
 
 			include = "expl_middle_east"
@@ -62136,7 +62181,6 @@ countries = {
 
 		TBA = { #Tabasaran
 			own_control_core = {
-				khuchni
 			}
 
 			include = "expl_middle_east"
