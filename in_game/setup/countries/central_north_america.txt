@@ -99,8 +99,8 @@ TSW = {
 	
 }
 
-#sahnish - SHH
-SHH = {
+#sahnish - SAH
+SAH = {
 	color = map_sahnish
 	color2 = rgb { 12 128 42 }
 

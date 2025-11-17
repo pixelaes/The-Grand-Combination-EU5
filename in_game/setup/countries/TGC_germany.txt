@@ -153,69 +153,62 @@ HEH = { # Hesse-Homburg
 }
 
 SML = { # Schaumburg-Lippe
-	color = map_HEH
+	color = map_SML
 	
 	culture_definition = swabian
 	religion_definition = catholic
 }
 
 HSK = { # Hesse-Kassel
-	color = rgb { 114 171 184 }
+	color = map_HSK
 
 	culture_definition = rhine_franconian
 	religion_definition = catholic
 }
 
 HSD = { # Hesse-Darmstadt
-	color = rgb { 114 171 184 }
+	color = map_HSD
 
 	culture_definition = rhine_franconian
 	religion_definition = catholic
 }
 
 HSD = { # Hesse-Darmstadt
-	color = rgb { 114 171 184 }
+	color = map_HSD
 
 	culture_definition = rhine_franconian
 	religion_definition = catholic
 }
 
 NAS = { # Nassau
-	color = rgb { 114 171 184 }
-
-	culture_definition = rhine_franconian
-	religion_definition = catholic
-}
-
-NAS = { # Nassau
-	color = rgb { 114 171 184 }
+	color = map_NAS
 
 	culture_definition = rhine_franconian
 	religion_definition = catholic
 }
 
 FRN = { # Frankfurt
-	color = rgb { 243 201 33 }
+	color = map_FRN
 
 	culture_definition = rhine_franconian
 	religion_definition = catholic
 }
 
 LPP = { # Lippe
-	color = rgb { 21 83 149 }
+	color = map_LPP
 
 	culture_definition = angrian
 	religion_definition = catholic
 }
 
 WDE = { # Waldeck und Pyrmont
-    color = rgb { 200 180 130 }
+    color = map_WDE
     culture_definition = rhine_franconian
     religion_definition = catholic
 }
 
 BSW = { # Braunschweig
-    color = rgb { 200 180 130 }
+    color = map_BSW
     culture_definition = rhine_franconian
     religion_definition = catholic
 }
@@ -252,8 +245,56 @@ RAL = { # Reuss älterer Linie - Reuss-Greiz
 	religion_definition = catholic
 }
 
-RJL = { # Reuss jüngerer Linie - Reuss-Gera
+RJL = { # Reuss jüngerer Linie
 	color = map_RJL
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+RLE = { # Reuss-Lobenstein-Ebersdorf
+	color = map_RJL
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+RSZ = { # Reuss-Schleiz
+	color = map_RSZ
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+RLB = { # Reuss-Lobenstein
+	color = map_RLB
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+REF = { # Reuss-Ebersdorf
+	color = map_RGR
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+RGR = { # Reuss-Gera
+	color = map_RGR
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+SCS = { # Saxe-Gotha-Saalfeld
+	color = map_SCS
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon
@@ -276,6 +317,14 @@ SWM = { # Saxe-Weimar-Eisenach
 	religion_definition = catholic
 }
 
+SHH = { # Saxe-Hildburghausen
+	color = map_RHH
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
 SAB = { # Saxe-Altenburg
 	color = map_RJL
 	color2 = rgb { 203 93 124 }
@@ -286,6 +335,22 @@ SAB = { # Saxe-Altenburg
 
 SMN = { # Saxe-Meiningen
 	color = map_SMN
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+SGA = { # Saxe-Gotha-Altenburg
+	color = map_SGA
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+LTS = { # Lichtenstein
+	color = map_LTS
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon

@@ -21711,7 +21711,7 @@ countries = {
 
 		#Luxembourg
 		LUX = {
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				luxembourg vianden
 			}
 
@@ -21856,12 +21856,10 @@ countries = {
 		NET = {
 			own_control_core = {
 				the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
-				arnhem roermond venlo nijmegen tiel harderwijk apeldoorn wolvega
+				arnhem nijmegen tiel harderwijk apeldoorn wolvega
 				utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
 				leeuwarden sloten harlingen stavoren groningen appingedam wedde
 				middelburg bergen_zoom breda eindhoven hertogenbosch helmond
-				weert
-				maastricht
 				cuijk
 				zutphen doetinchem
 			}
@@ -21977,6 +21975,8 @@ countries = {
 				bouillon
 				stavelot
 				limbourg
+				luxembourg vianden
+				maastricht roermond venlo weert
 			}
 
 			starting_technology_level = 3
@@ -22086,7 +22086,7 @@ countries = {
 				celje lasko
 				trieste
 				st_polten
-				feldkirch bludenz
+				bludenz
 				brixen bled
 				feldkirchen
 				cernauti
@@ -38528,7 +38528,7 @@ countries = {
 			capital = eichstatt
 		}
 
-		WEI = {	#Wei�enburg
+		WEI = {	
 			own_control_core = {
 			}
 
@@ -38547,7 +38547,7 @@ countries = {
 			capital = weissenburg
 		}
 
-		HNB = {	#Henneberg
+		SMN = {	#Henneberg
 			own_control_core = {
 				meiningen schleusingen 
 				 hildburghausen #Lordship of Coburg
@@ -38575,7 +38575,34 @@ countries = {
 			dynasty = henneberg_dynasty
 		}
 
-		WBG = {	#Würzburg
+		LTS = {	#Lichtenstein
+			own_control_core = {
+				feldkirch
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			include = "expl_northern_europe"
+			include = "german_principality"
+			government = {
+				regnal_numbers = {
+					name_berthold = 4
+					name_henry = 7
+				}
+				ruler = hnb_berthold_iv_henneberg_schleusingen
+			}
+
+			tolerated_cultures = {
+				saxon
+			}
+
+			country_rank = rank_county
+			capital = meiningen
+			dynasty = henneberg_dynasty
+		}
+
+		SCG = {	#Würzburg
 			own_control_core = {
 				coburg gotha
 				ohrdruf
@@ -39572,7 +39599,7 @@ countries = {
 			dynasty = von_wernigerode_dynasty
 		}
 
-		BHL = {  # Beichlingen
+		SAB = {  # Beichlingen
 			own_control_core = {
 				altenburg eisenberg
 			}
@@ -39661,6 +39688,7 @@ countries = {
 		WDE = {  # Waldeck (North Germany)
 			own_control_core = {
 				korbach
+				hoxter
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -42258,7 +42286,7 @@ countries = {
 			capital = naumburg
 		}
 
-		QUB = {	#Gera / sold by Quedlinburg
+		RAL = {	#Gera / sold by Quedlinburg
 			own_control_core = {
 				schleiz
 			}
@@ -42280,7 +42308,7 @@ countries = {
 			capital = gera
 		}
 
-		WMA = {	#Weimar
+		SWM = {	#Weimar
 			own_control_core = {
 				weimar gera eisenach
 			}
@@ -42308,7 +42336,7 @@ countries = {
 			dynasty = askanier_dynasty
 		}
 
-		SWZ = {	#Schwarzburg
+		SZR = {	#Schwarzburg
 			own_control_core = {
 				arnstadt 
 			}
@@ -42339,7 +42367,7 @@ countries = {
 			dynasty = schwarzburg_dynasty
 		}
 
-		FLD = {	#Fulda
+		RJL = {	#Fulda
 			own_control_core = {
 				saalfeld
 			}
@@ -42368,7 +42396,7 @@ countries = {
 			capital = fulda
 		}
 
-		SHS = {	#Sondershausen
+		SZS = {	#Sondershausen
 			own_control_core = {
 				sondershausen
 			}
@@ -43249,7 +43277,6 @@ countries = {
 
 		HOX = {	#Corvey
 			own_control_core = {
-				hoxter
 			}
 
 			starting_technology_level = 3
@@ -43263,7 +43290,7 @@ countries = {
 			capital = hoxter
 		}
 
-		RVB = {	#Ravensberg
+		BSW = {	#Ravensberg
 			own_control_core = {
 				gifhorn brunswick helmstedt meinersen holzminden gandersheim goslar blankenburg
 			}
@@ -43860,7 +43887,8 @@ countries = {
 		}
 
 		LIM = { #Limbourg - PU under Brabant
-			own_control_core = {
+			our_cores_conquered_by_others = {
+				maastricht roermond venlo weert
 			}
 
 			starting_technology_level = 3
@@ -63280,9 +63308,9 @@ countries = {
 			}
 		}
 
-		#Sahnish/Arikara - SHH
+		#Sahnish/Arikara - SAH
 		#https://en.wikipedia.org/wiki/Arikara
-		SHH = {
+		SAH = {
 			type = pop
 
 			add_pops_from_locations = {
