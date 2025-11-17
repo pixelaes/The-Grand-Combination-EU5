@@ -173,13 +173,6 @@ HSD = { # Hesse-Darmstadt
 	religion_definition = catholic
 }
 
-HSD = { # Hesse-Darmstadt
-	color = map_HSD
-
-	culture_definition = rhine_franconian
-	religion_definition = catholic
-}
-
 NAS = { # Nassau
 	color = map_NAS
 
@@ -221,6 +214,30 @@ ANH = { #Anhalt
 	religion_definition = catholic
 }
 
+AHD = { #Anhalt-Dessau
+	color = map_AHD
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+AHB = { #Anhalt-Bernburg
+	color = map_AHB
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+AHK = { #Anhalt-Koethen
+	color = map_AHK
+	color2 = rgb { 203 93 124 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
 SZS = { # Schwarzburg-Sonderhausen
 	color = map_SZS
 	color2 = rgb { 203 93 124 }
@@ -253,16 +270,16 @@ RJL = { # Reuss jüngerer Linie
 	religion_definition = catholic
 }
 
-RLE = { # Reuss-Lobenstein-Ebersdorf
-	color = map_RJL
+RSZ = { # Reuss-Schleiz
+	color = map_RSZ
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon
 	religion_definition = catholic
 }
 
-RSZ = { # Reuss-Schleiz
-	color = map_RSZ
+RLE = { # Reuss-Lobenstein-Ebersdorf
+	color = map_RLE
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon
@@ -278,7 +295,7 @@ RLB = { # Reuss-Lobenstein
 }
 
 REF = { # Reuss-Ebersdorf
-	color = map_RGR
+	color = map_REF
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon
@@ -302,7 +319,7 @@ SCS = { # Saxe-Gotha-Saalfeld
 }
 
 SCG = { # Saxe-Coburg and Gotha
-	color = map_RJL
+	color = map_SCG
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon
@@ -310,7 +327,7 @@ SCG = { # Saxe-Coburg and Gotha
 }
 
 SWM = { # Saxe-Weimar-Eisenach
-	color = map_RJL
+	color = map_SWM
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon
@@ -318,7 +335,7 @@ SWM = { # Saxe-Weimar-Eisenach
 }
 
 SHH = { # Saxe-Hildburghausen
-	color = map_RHH
+	color = map_SHH
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon
@@ -326,7 +343,7 @@ SHH = { # Saxe-Hildburghausen
 }
 
 SAB = { # Saxe-Altenburg
-	color = map_RJL
+	color = map_SAB
 	color2 = rgb { 203 93 124 }
 
 	culture_definition = saxon

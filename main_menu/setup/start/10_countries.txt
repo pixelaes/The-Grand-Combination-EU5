@@ -42166,10 +42166,69 @@ countries = {
 			dynasty = regenstein_dynasty
 		}
 
-		ANH = {	#Anhalt
+		AHD = {
+			own_control_core = {
+				ballenstedt
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			include = "expl_northern_europe"
+			include = "german_principality"
+			government = {
+
+				ruler = anh_albrecht_ii_anhalt_zerbst_kothen
+				ruler_term = {	character = anh_heinrich_i_anhalt start_date = 1212.2.9 end_date = 1252.1.1 regnal_number = 1	}
+				ruler_term = {	character = anh_siegfried_i_anhalt start_date = 1252.1.1 end_date = 1298.3.28 regnal_number = 1	}
+				ruler_term = {	character = anh_albrecht_i_anhalt start_date = 1298.3.28 end_date = 1316.3.28 regnal_number = 1	}
+				ruler_term = {	character = anh_albrecht_ii_anhalt_zerbst_kothen start_date = 1316.3.28 regnal_number = 2	}
+
+				regnal_numbers = {
+					name_henry = 1
+					Siegfried = 1
+					name_albert = 2
+				}
+			}
+
+			country_rank = rank_county
+			capital = zerbst
+			dynasty = askanier_dynasty
+		}
+
+		AHB = {
+			own_control_core = {
+				bernburg
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			include = "expl_northern_europe"
+			include = "german_principality"
+			government = {
+
+				ruler = anh_albrecht_ii_anhalt_zerbst_kothen
+				ruler_term = {	character = anh_heinrich_i_anhalt start_date = 1212.2.9 end_date = 1252.1.1 regnal_number = 1	}
+				ruler_term = {	character = anh_siegfried_i_anhalt start_date = 1252.1.1 end_date = 1298.3.28 regnal_number = 1	}
+				ruler_term = {	character = anh_albrecht_i_anhalt start_date = 1298.3.28 end_date = 1316.3.28 regnal_number = 1	}
+				ruler_term = {	character = anh_albrecht_ii_anhalt_zerbst_kothen start_date = 1316.3.28 regnal_number = 2	}
+
+				regnal_numbers = {
+					name_henry = 1
+					Siegfried = 1
+					name_albert = 2
+				}
+			}
+
+			country_rank = rank_county
+			capital = zerbst
+			dynasty = askanier_dynasty
+		}
+
+		AHK = {
 			own_control_core = {
 				zerbst
-				bernburg ballenstedt
 			}
 
 			starting_technology_level = 3
@@ -42367,7 +42426,7 @@ countries = {
 			dynasty = schwarzburg_dynasty
 		}
 
-		RJL = {	#Fulda
+		RLE = {
 			own_control_core = {
 				saalfeld
 			}
