@@ -1,19 +1,4 @@
-﻿LIV = {
-	color = map_livonian_order
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = german_baltic
-	religion_definition = catholic
-
-	description_category = military
-	difficulty = 4
-	
-	unit_color0 = white
-	unit_color1 = red
-	unit_color2 = white
-}
-
-TEU = {
+﻿TEU = {
 	color = map_TEU
 	color2 = rgb { 102 105 104 }
 
@@ -64,14 +49,6 @@ BIO = {
 	religion_definition = catholic
 }
 
-KUR = {
-	color = map_kurland
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = german_baltic
-	religion_definition = catholic
-}
-
 BID = {
 	color = map_dorpat
 	color2 = rgb { 16 41 202 }
@@ -93,25 +70,6 @@ ARR = {
 
 	culture_definition = liv
 	religion_definition = catholic
-}
-
-KRL = {
-	color = map_karelian
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = karelian
-	religion_definition = muinaisusko
-}
-
-LIT = {
-	color = map_LIT
-	color2 = rgb { 154 69 116 }
-
-	culture_definition = aukstaitian
-	religion_definition = romuva
-
-	description_category = military
-	difficulty = 3
 }
 
 SXM = {

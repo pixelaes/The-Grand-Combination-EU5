@@ -1,36 +1,4 @@
-﻿ENG = {
-	color = map_ENG
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-
-	
-}
-
-SCO = {
-	color = map_SCO
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = yellow
-	unit_color1 = red
-	unit_color2 = blue
-
-	culture_definition = scottish
-	religion_definition = catholic
-
-	description_category = military
-	difficulty = 4
-
-	
-}
+﻿
 
 SBL = {
 	color = map_SBL
@@ -215,20 +183,6 @@ PLE = {
 
 	culture_definition = english # Anglo-Irish were not given government jobs until a bit later
 	religion_definition = catholic
-
-	
-}
-
-WLS = {
-	color = map_WLS
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = english # totally controlled by Anglo-Normans
-	religion_definition = catholic
-	
-	unit_color0 = hsv360{ 358 70 45 }
-	unit_color1 = green
-	unit_color2 = red
 
 	
 }

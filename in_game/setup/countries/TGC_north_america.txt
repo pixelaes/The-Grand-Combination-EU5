@@ -1,3 +1,4 @@
+# USA + friends
 USA = {
 	color = map_USA
 	color2 = rgb { 16 41 202 }
@@ -13,6 +14,37 @@ USA = {
 	difficulty = 3
 }
 
+CSA = {
+	color = map_CSA
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+OGN = { # Oregon (state)
+	color = map_OGC_OGN
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+# Canada + friends
 CAN = {
 	color = map_CAN
 	color2 = rgb { 16 41 202 }
@@ -28,6 +60,24 @@ CAN = {
 	difficulty = 3
 }
 
+# Settler Territories
+
+OGC = { # Oregon County
+	color = map_OGC_OGN
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+# Mexico + friends
 MEX = {
 	color = map_MEX
 	color2 = rgb { 16 41 202 }
@@ -43,6 +93,24 @@ MEX = {
 	difficulty = 3
 }
 
+# Russia + Alyaska
+
+RAC = {
+	color = map_RAC_dominion0_1
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+# Central America 
 USC = {
 	color = map_USC
 	color2 = rgb { 16 41 202 }
@@ -133,8 +201,8 @@ CRC = {
 	difficulty = 3
 }
 
-COL = {
-	color = map_COL
+PNM = {
+	color = map_PNM
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -148,8 +216,8 @@ COL = {
 	difficulty = 3
 }
 
-VNZ = {
-	color = map_VNZ
+MQT = {
+	color = map_MQT
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -163,122 +231,4 @@ VNZ = {
 	difficulty = 3
 }
 
-ECU = {
-	color = map_ECU
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-PER = {
-	color = map_PER
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-BOL = {
-	color = map_BOL
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-BRZ = {
-	color = map_BRZ
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-ARG = {
-	color = map_ARG
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-URU = {
-	color = map_URU
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-CHL = {
-	color = map_CHL
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
-
-PRG = {
-	color = map_PRG
-	color2 = rgb { 16 41 202 }
-	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
-
-	culture_definition = english
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-}
+# Caribbean

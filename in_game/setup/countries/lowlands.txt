@@ -27,24 +27,6 @@ BRB = {
 	religion_definition = catholic
 }
 
-FLA = {
-	color = map_FLA
-	color2 = rgb { 43 141 172 }
-
-	culture_definition = low_franconian
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 2
-}
-
-LUX = {
-	color = rgb { 53 140 73 }
-
-	culture_definition = moselle_franconian
-	religion_definition = catholic
-}
-
 LIE = {
 	color = map_LIE
 	color2 = rgb { 149 186 37 }
@@ -105,13 +87,6 @@ UTR = {
 	color = rgb { 223 198 64 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
-}
-
-FRI = {
-	color = rgb { 0 128 255 }
-
-	culture_definition = frisian
 	religion_definition = catholic
 }
 

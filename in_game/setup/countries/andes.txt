@@ -334,8 +334,8 @@ XAU = {
 	religion_definition = inti
 }
 
-#Casma - CSA
-CSA = {
+#Casma - ASM
+ASM = {
 	color = map_casma
 	color2 = rgb { 16 41 202 }
 

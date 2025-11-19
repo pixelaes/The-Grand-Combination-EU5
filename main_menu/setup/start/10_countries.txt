@@ -51092,9 +51092,9 @@ countries = {
 			}
 		}
 
-		#Casma - CSA
+		#Casma - ASM
 		#Very high level Pop base, already a confederation of tribes very close to centralising
-		CSA = { #https://es.wikipedia.org/wiki/Cultura_Casma
+		ASM = { #https://es.wikipedia.org/wiki/Cultura_Casma
 			type = pop
 
 			add_pops_from_locations = {

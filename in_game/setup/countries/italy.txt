@@ -156,14 +156,6 @@ religion_definition = catholic
 }
 
 
-COR	= { #corsica
-color = rgb { 106 178 46 }
-
-culture_definition = corsican
-religion_definition = catholic
-
-}
-
 
 COT	= { #cortona
 color = rgb { 152 8 8 }
@@ -219,14 +211,6 @@ religion_definition = catholic
 }
 
 
-FER	= { #ferrara
-color = rgb { 97 136 37 }
-
-culture_definition = emilian
-religion_definition = catholic
-
-}
-
 
 FLO	= { #florence
 	color = rgb { 205 85 85 }
@@ -257,17 +241,6 @@ GAL	= { #gallura
 }
 
 
-GEN	= { #genoa
-	color = rgb { 218 215 56 }
-
-	culture_definition = ligurian
-	religion_definition = catholic
-
-	description_category = administrative
-	difficulty = 3
-
-}
-
 
 GUB	= { #gubbio
 color = rgb { 160 10 10 }
@@ -286,14 +259,6 @@ religion_definition = catholic
 
 }
 
-
-LUC = { #lucca
-	color = map_LUC
-
-	culture_definition = tuscan
-	religion_definition = catholic
-
-}
 
 
 MAN	= { #mantua
@@ -334,16 +299,6 @@ religion_definition = catholic
 
 }
 
-
-MOD	= { #modena
-color = map_MOD
-
-culture_definition = emilian
-religion_definition = catholic
-
-}
-
-
 MSP	= { #malaspina
 color = rgb { 245 215 0 }
 
@@ -362,16 +317,6 @@ religion_definition = catholic
 }
 
 
-NAP	= { #naples
-	color = map_NAP
-
-	culture_definition = neapolitan
-	religion_definition = catholic
-
-	description_category = diplomatic
-	difficulty = 2
-
-}
 
 
 PAD	= { #padua
@@ -383,25 +328,6 @@ religion_definition = catholic
 }
 
 
-PAP	= { #papalstates
-	color = map_PAP
-
-	culture_definition = median
-	religion_definition = catholic
-
-	description_category = diplomatic
-	difficulty = 3
-
-}
-
-
-PAR	= { #parma
-color = map_PAR
-
-culture_definition = emilian
-religion_definition = catholic
-
-}
 
 
 PAV	= { #pavia
@@ -507,14 +433,6 @@ religion_definition = catholic
 }
 
 
-SAV	= { #savoy
-color = hsv360 { 338 57 76 }
-
-culture_definition = arpitan
-religion_definition = catholic
-
-}
-
 SCL	= { #Saint-Claude Abbey
 color = rgb { 200 196 50 }
 
@@ -531,15 +449,6 @@ religion_definition = catholic
 
 }
 
-
-SIC	= { #sicily
-color = map_SCI
-
-culture_definition = sicilian
-religion_definition = catholic
-
-
-}
 
 
 SIE	= { #siena
@@ -634,16 +543,6 @@ religion_definition = catholic
 }
 
 
-VEN	= { #venice
-color = map_venice
-
-culture_definition = venetian
-religion_definition = catholic
-
-description_category = administrative
-difficulty = 3
-
-}
 
 
 VER	= { #verona
