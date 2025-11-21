@@ -29,8 +29,23 @@ CSA = {
 	difficulty = 3
 }
 
-OGN = { # Oregon (state)
-	color = map_OGC_OGN
+UOR = { # Oregon (state)
+	color = map_OGC_UOR
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+
+	culture_definition = english
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
+TEX = {
+	color = map_TEX
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -63,7 +78,7 @@ CAN = {
 # Settler Territories
 
 OGC = { # Oregon County
-	color = map_OGC_OGN
+	color = map_OGC_UOR
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }
@@ -111,8 +126,8 @@ RAC = {
 }
 
 # Central America 
-USC = {
-	color = map_USC
+UCA = {
+	color = map_UCA
 	color2 = rgb { 16 41 202 }
 	
 	unit_color0 = hsv360 {	0 76 53 }

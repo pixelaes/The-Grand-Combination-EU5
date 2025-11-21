@@ -15,7 +15,7 @@ current_age = age_1_traditions
 countries = {
 	countries = {
 
-		USC = {
+		UCA = {
 			own_control_core = {
 				acasaguastlan chiquimula cuauhtemallan guazacapan itzalku
 				xelahuh kakol_kiej itzcuintlan atitlan_guatemala
@@ -1726,7 +1726,6 @@ countries = {
 				xihutla
 				zihuatlan
 				melahuacan
-				revillagigedo_islands
 				cuauhchinanco
 				tlalpan
 				amaxacotlan
@@ -1758,9 +1757,6 @@ countries = {
 				tepactitlan
 				yahualican
 				north_aztatlan
-				tehuantepec_isthmus
-				comata_cape
-				coahuayana_delta
 				hupenuu
 				mah_hom
 				oohkoi_yohe
@@ -1789,7 +1785,6 @@ countries = {
 				monqui
 				cadegomo
 				mti_pa
-				guadalupe_island
 				cochimi
 				nakipa
 				koleeu
@@ -2055,21 +2050,12 @@ countries = {
 				guaxaban
 				xiconaque
 				cuxtaque
-				colorado_delta
-				tecopa_cape
-				xazl_iimt_island
-				haro_cape
-				talchichintle_island
-				lucenilla_peninsula
-				pulmo_cape
-				eugenia_cape
 				payomkawichum
 				kukamonga
 				yaanga
 				ventureno
 				ineseno
 				pimuu_nga
-				channel_islands
 				tepotahal
 				mutsun
 				awaswas
@@ -2085,10 +2071,8 @@ countries = {
 				yawdanshi
 				tulumni
 				hometwoli
-				sierra_nevada_s
 				mewuk
 				onasatis
-				kashaya
 				kulanapan
 				ukomno_om
 				tlokyhan
@@ -2097,7 +2081,6 @@ countries = {
 				tuolomne
 				mokelumne
 				kasumne
-				sierra_nevada_c
 				suisin
 				korusi
 				yo_loy
@@ -2154,7 +2137,6 @@ countries = {
 				moapa
 				sebit
 				amargosa
-				nuwuvi_desert
 				parrusit
 				uinkaret
 				kaibab
@@ -2220,8 +2202,6 @@ countries = {
 				randolph
 				boa_ogoi
 				yuttahih
-				bear_river_w
-				bear_river_e
 				hazelton
 				richfield
 				pohoko_ikkatee
@@ -2253,7 +2233,6 @@ countries = {
 				agaidika
 				elkhorn
 				penointikara
-				ruby_valley
 				beaverhead
 				tukudika
 				mitse_adazi
@@ -2290,14 +2269,12 @@ countries = {
 				sinclair
 				point_of_rocks
 				wamsutter
-				milk_creek
 				east_yuttahih
 				pushroot
 				split_rock
 				washakie
 				hinono_ei
 				moneta
-				grass_creek
 				hot_springs
 			}
 			starting_technology_level = 3
@@ -5423,7 +5400,7 @@ countries = {
 			dynasty = schauenburg_dynasty
 		}
 
-		SLV = { #Slesvig
+		SLW = { #Slesvig
 			our_cores_conquered_by_others = {
 				eckernforde slesvig flensburg aabenraa haderslev
 				ribe tonder
@@ -7110,23 +7087,6 @@ countries = {
 				mejnypilgyn vatyrkan vukvylgayat machevna tyulene
 				valkall_an rykuul ugolnye nyerpicha konchalyt gytgomkyvamm tadlyeoan unazigmit
 				anadyr_trail krasnyano tavayveem v_enyn tumanskaya y_lkytveem gacgatagyn
-
-				# Alaska
-				agw_aneq su_naq kasukuak swikshak amalik alinchak
-				chignik kangi_asinaq qagiigun qagaan unimax qawalangin
-				akuugun niigugis naahmigus qaxun sasignan amiq
-				aniakchak ugashik egegik qarr_unaq igiugig nuuriileng
-				aguyaq akokpaq koliaganeq baleknagiq igushiq togiaq
-				mamterat quinhagaq iiq mamterilleq kwigilingoq kalskaq
-				nunapichuq tununaq kaghasuq niugtaq ce_vaq mekoryuq
-				marayaarmiut imangaq qerrulliiq tapqaq unalakleet ungaliq
-				malemiut kuuyuk qikiqtagruk kuugaaluk kongashuk
-				sinjik nachirvik kigluaik anakovik
-				sivuqaq savoonga kitagnaq st_matthew
-				nuurvik uataaq kivualinagmut uivvak kali
-				kachemak kenai dgheyaytnu k_enakatnu tyonek iliamna susitna
-				daxunhyuu taatiilaaq caniqaq nanwalek nuciiq
-				t_aaku jilkaat aa_kw xunaa shee_t_ika xutsnoowu
 			}
 
 			starting_technology_level = 3
@@ -7144,6 +7104,48 @@ countries = {
 			liturgical_language = church_slavonic_language
 
 			capital = moscow
+			include = "russian_principality_no_coast"
+			include = "expl_novgorod"
+		}
+
+		RAC = {
+			own_control_core = {
+				# Alaska
+				agw_aneq su_naq kasukuak swikshak amalik alinchak
+				chignik kangi_asinaq qagiigun qagaan unimax qawalangin
+				akuugun niigugis naahmigus qaxun sasignan amiq
+				aniakchak ugashik egegik qarr_unaq igiugig nuuriileng
+				aguyaq akokpaq koliaganeq baleknagiq igushiq togiaq
+				mamterat quinhagaq iiq mamterilleq kwigilingoq kalskaq
+				nunapichuq tununaq kaghasuq niugtaq ce_vaq mekoryuq
+				marayaarmiut imangaq qerrulliiq tapqaq unalakleet ungaliq
+				malemiut kuuyuk qikiqtagruk kuugaaluk kongashuk
+				sinjik nachirvik kigluaik anakovik
+				sivuqaq savoonga kitagnaq st_matthew
+				nuurvik uataaq kivualinagmut uivvak kali
+				kachemak kenai dgheyaytnu k_enakatnu tyonek iliamna susitna
+				daxunhyuu taatiilaaq caniqaq nanwalek nuciiq
+				t_aaku jilkaat aa_kw xunaa shee_t_ika xutsnoowu
+
+				# Fort Ross
+				kashaya
+			}
+
+			starting_technology_level = 3
+			country_rank = rank_county
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = mos_ivan_i_danilovich_kalita_rurikovich
+				ruler_term = { character = mos_daniil_aleksandrovich_rurikovich start_date = 1263.11.14 regnal_number = 1 end_date = 1303.5.4 }
+				ruler_term = { character = mos_yury_danilovich_rurikovich start_date = 1303.5.4 regnal_number = 1 end_date = 1325.11.21 }
+				ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
+			}
+
+			liturgical_language = church_slavonic_language
+
+			capital = xunaa
 			include = "russian_principality_no_coast"
 			include = "expl_novgorod"
 		}
@@ -30004,7 +30006,7 @@ countries = {
 			country_rank = rank_county
 		}
 
-		UTN = {
+		UTS = {
 			type = building
 
 			capital = shioya
@@ -52780,7 +52782,7 @@ countries = {
 			}
 		}
 
-		ULA = { #Ula
+		UAA = { #Ula
 			own_control_core = {
 			}
 

@@ -425,8 +425,8 @@ OGU = { #https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%9B%BD%E6%B0%8F
 	culture_definition = tougoku_culture
 	religion_definition = shinto
 }
-UTN = { #https://ja.wikipedia.org/wiki/%E4%B8%8B%E9%87%8E%E5%AE%87%E9%83%BD%E5%AE%AE%E6%B0%8F
-	color = map_UTN
+UTS = { #https://ja.wikipedia.org/wiki/%E4%B8%8B%E9%87%8E%E5%AE%87%E9%83%BD%E5%AE%AE%E6%B0%8F
+	color = map_UTS
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tougoku_culture
@@ -2653,8 +2653,8 @@ HOI = { #Hoifa
 	religion_definition = tungusic_shamanism
 }
 
-ULA = { #Ula
-	color = map_ULA
+UAA = { #Ula
+	color = map_UAA
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = jurchen_culture

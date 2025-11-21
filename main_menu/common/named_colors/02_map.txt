@@ -5,10 +5,10 @@ colors = {
 # North American States
 	map_USA = rgb { 66 94 193 }
 	map_CAN = rgb { 94 117 55 }
-	map_CAN_dominion1 = rgb { 182 22 40 }
-	map_MEX = rgb { 173 242 175 }
 	map_CSA = rgb { 190 186 202 }
 	map_CSA_dominion1 = rgb { 180 26 74 }
+	map_CAN_dominion1 = rgb { 182 22 40 }
+	map_MEX = rgb { 173 242 175 }
 	map_GUA = rgb { 174 206 203 }
 	map_HON = rgb { 166 72 57 }
 	map_ELS = rgb { 228 229 221 }
@@ -16,9 +16,52 @@ colors = {
 	map_CRC = rgb { 183 129 124 }
 	map_PNM = rgb { 150 85 61 }
 	map_MQT = rgb { 0 36 125 }
-	map_OGC_OGN = rgb { 198 113 133 }
+	map_OGC_UOR = rgb { 198 113 133 }
 	map_RAC = rgb { 123 150 255 }
 	map_RAC_dominion0_1 = rgb { 129 159 126 }
+	map_TEX = rgb { 4 144 178 }
+	map_TEX_dominion1 = rgb { 180 26 74 }
+	map_TEX_dominion2 = rgb { 97 133 169 } # to replace ADV
+	map_CAL = rgb { 97 133 169 }
+	map_NEN = rgb { 166 224 85 }
+	map_NEN_dominion1 = rgb { 202 22 40 }
+	map_UVT = rgb { 176 192 64 }
+	map_UNY = rgb { 35 27 120 }
+	map_UPA = rgb { 0 0 0 }
+	map_UMD = rgb { 0 0 0 }
+	map_UVA = rgb { 0 0 0 }
+	map_UNC = rgb { 0 0 0 }
+	map_USC = rgb { 0 0 0 }
+	map_UGA = rgb { 0 0 0 }
+	map_UOH = rgb { 0 0 0 }
+	map_UIN = rgb { 0 0 0 }
+	map_UMI = rgb { 0 0 0 }
+	map_UIL = rgb { 111 165 227 }
+	map_UWI = rgb { 0 0 0 }
+	map_UKY = rgb { 111 165 227 }
+	map_UTN = rgb { 0 0 0 }
+	map_UAL = rgb { 0 0 0 }
+	map_UMS = rgb { 0 0 0 }
+	map_UFL = rgb { 0 0 0 }
+	map_UMN = rgb { 0 0 0 }
+	map_UIA = rgb { 0 0 0 }
+	map_UMO = rgb { 0 0 0 }
+	map_UDK = rgb { 0 0 0 }
+	map_UNE = rgb { 125 92 110 }
+	map_UKS = rgb { 0 0 0 }
+	map_ULA = rgb { 35 27 120 }
+	map_UAR = rgb { 0 0 0 }
+	map_UOK = rgb { 0 0 0 }
+	map_UMT = rgb { 0 0 0 }
+	map_UWY = rgb { 0 0 0 }
+	map_UCO = rgb { 0 0 0 }
+	map_UID = rgb { 0 0 0 }
+	map_UWA = rgb { 0 0 0 }
+	map_UNM = rgb { 125 92 110 }
+	map_UAZ = rgb { 0 0 0 }
+	map_UUT = rgb { 0 0 0 }
+	map_UNV = rgb { 0 0 0 }
+	map_UNM_dominion1 = rgb { 121 143 210 }
 
 # South American States
 	map_COL = rgb { 198 113 133 }
@@ -85,7 +128,7 @@ colors = {
 	map_PRU = rgb { 0 49 83 }
 	map_SWH = rgb { 220 150 158 }
 	map_SWH_dominion0_1 = rgb { 207 50 130 }
-	map_SLV = rgb { 30 131 162 }
+	map_SLW = rgb { 30 131 162 }
 	map_SHL = rgb { 220 150 158 }
 	map_HOH = rgb { 83 49 83 }
 	map_HOS = rgb { 16 24 71 }
@@ -147,6 +190,16 @@ colors = {
 
 # British Isles
 	map_GBR = rgb { 195 0 0 }
+
+# Superformables
+	map_LTU = rgb { 203 90 86 } # Latin Union
+	map_LTU_democratic = rgb { 236 159 89 }
+	map_LTU_dictatorship = rgb { 203 90 86 }
+	map_LTU_communist = rgb { 229 13 44 }
+	map_LTU_fascist = rgb { 12 0 45 }
+	map_LTU_napoleonic = rgb { 220 243 255 }
+	map_SLV = rgb { 20 51 146 } # Slavic Union
+	map_USS = rgb { 90 150 90 }
 
 # PLACEHOLDER
 
@@ -2214,7 +2267,7 @@ colors = {
 	map_YUK = hsv { 0.17 0.75 0.38 }
 	map_OID = rgb { 110 180 140 }
 	map_OGU = hsv { 0.78 0.86 0.38 }
-	map_UTN = rgb { 222 183 97 }
+	map_UTS = rgb { 222 183 97 }
 	map_III = rgb { 225 220 105 }
 	map_AKJ = rgb { 70 100 80 }
 	map_KSN = rgb { 225 10 10 }
@@ -2316,7 +2369,7 @@ colors = {
 
 	map_HDA = rgb { 201 54 212 } #Hada
 	map_HOI = rgb { 12 197 12 } #Hoifa
-	map_ULA = rgb { 95 175 101 } #Ula
+	map_UAA = rgb { 95 175 101 } #Ula
 	map_YEH = rgb { 32 174 54 } #Yehe
 
 	map_DNG = rgb { 240 128 128 } #Donggo

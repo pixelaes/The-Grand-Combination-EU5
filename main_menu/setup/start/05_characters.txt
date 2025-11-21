@@ -56888,7 +56888,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1111.11.20
 		dynasty = utsunomiya_dynasty
 		father = jap_fujiwara_kanefusa
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_nakahara_munefusa = {
@@ -59480,7 +59480,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1162.9.30
 		father = jap_utsunomiya_souen
 		dynasty = utsunomiya_dynasty #Actually Hatta (八田宗綱) but also second leader of Utsunomiya, so left it as that
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_tomotsuna = {
@@ -59492,7 +59492,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1204.9.1
 		father = jap_utsunomiya_munetsuna
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_naritsuna = {
@@ -59504,7 +59504,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1192.4.8
 		father = jap_utsunomiya_tomotsuna
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_yoritsuna = {
@@ -59516,7 +59516,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1259.12.26
 		father = jap_utsunomiya_naritsuna
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_yasutsuna = {
@@ -59528,7 +59528,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1260.11.24
 		father = jap_utsunomiya_yoritsuna
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_kagetsuna = {
@@ -59540,7 +59540,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1298.6.10
 		father = jap_utsunomiya_yasutsuna
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_sadatsuna = {
@@ -59552,7 +59552,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1316.8.13
 		father = jap_utsunomiya_kagetsuna
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_yasumune = {
@@ -59564,7 +59564,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1327.2.24
 		father = jap_utsunomiya_kagetsuna
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_kintsuna = {
@@ -59576,7 +59576,7 @@ adm = 31 dip = 34 mil = 24
 		father = jap_utsunomiya_sadatsuna
 		dynasty = utsunomiya_dynasty
 		spouse = jap_chiba_munetane_no_musume
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_chiba_munetane_no_musume = {
@@ -59589,7 +59589,7 @@ adm = 31 dip = 34 mil = 24
 		father = jap_chiba_munetane
 		dynasty = chiba_dynasty
 		spouse = jap_utsunomiya_kintsuna
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_ujitsuna = {
@@ -59601,7 +59601,7 @@ adm = 31 dip = 34 mil = 24
 		father = jap_utsunomiya_kintsuna
 		mother = jap_chiba_munetane_no_musume
 		dynasty = utsunomiya_dynasty
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_fuyutsuna = {
@@ -59613,7 +59613,7 @@ adm = 31 dip = 34 mil = 24
 		father = jap_utsunomiya_sadatsuna
 		dynasty = utsunomiya_dynasty
 		spouse = "random"
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_tokitsuna = {
@@ -59625,7 +59625,7 @@ adm = 31 dip = 34 mil = 24
 		father = jap_utsunomiya_yasumune
 		dynasty = utsunomiya_dynasty
 		spouse = "random"
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_utsunomiya_yasufuji = {
@@ -59637,7 +59637,7 @@ adm = 31 dip = 34 mil = 24
 		father = jap_utsunomiya_tokitsuna
 		dynasty = utsunomiya_dynasty
 		spouse = "random"
-		tag = UTN
+		tag = UTS
 	}
 
 	jap_taira_tadamitsu = {
