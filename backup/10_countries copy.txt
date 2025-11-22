@@ -15117,6 +15117,584 @@ countries = {
 			capital = nancy
 		}
 
+		#Bar (Vassal, Fief Mouvant)
+		BAR = {
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = bar_henry_iv_de_bar
+				reforms = {
+					feudal_nobility
+				}
+
+				ruler_term = { character = mtb_louis_scarpone start_date = 1038.1.1 end_date = 1073.1.1 regnal_number = 1 } # Marital Co-Ruler
+				ruler_term = { character = mtb_thierry_i_scarpone start_date = 1093.1.21 end_date = 1103.2.1 regnal_number = 2 }
+				ruler_term = { character = bar_renaud_i_scarpone start_date = 1103.2.1 end_date = 1149.3.10 regnal_number = 1 }
+				ruler_term = { character = bar_renaud_ii_scarpone start_date = 1149.3.10 end_date = 1170.7.25 regnal_number = 2 }
+				ruler_term = { character = bar_henri_i_scarpone start_date = 1170.7.25 end_date = 1190.10.1 regnal_number = 1 }
+				ruler_term = { character = bar_thiebaut_i_scarpone start_date = 1190.10.1 end_date = 1214.2.13 regnal_number = 1 }
+				ruler_term = { character = bar_henri_ii_scarpone start_date = 1214.2.13 end_date = 1239.11.13 regnal_number = 2 }
+				ruler_term = { character = bar_thiebaut_ii_scarpone start_date = 1239.11.13 end_date = 1291.10.1 regnal_number = 2 }
+				ruler_term = { character = bar_henri_iii_scarpone start_date = 1291.10.1 end_date = 1302.9.1 regnal_number = 3 }
+				ruler_term = { character = bar_edouard_i_scarpone start_date = 1302.9.1 end_date = 1336.11.1 regnal_number = 1 }
+				ruler_term = { character = bar_henry_iv_de_bar start_date = 1336.11.11 regnal_number = 4 }
+
+				regnal_numbers = {
+					name_frederick = 3
+					name_theodoric = 2
+					name_sophia = 1
+					name_louis = 1
+					name_reginald = 2
+					name_henry = 4
+					name_theobald = 2
+					name_edward = 1
+				}
+			}
+
+			tolerated_cultures = {
+				french
+			}
+
+			capital = bar_le_duc
+		}
+
+		#Blois (Vassal, Fief Mouvant)
+		BLS = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = bls_guy_i_chatillon
+				reforms = {
+					french_ducal_vassal_reform
+				}
+
+				ruler_term = { character = bls_thibault_i_blois start_date = 940.1.1 end_date = 977.1.1 regnal_number = 1 }
+				ruler_term = { character = bls_eudes_i_blois start_date = 977.1.1 end_date = 996.3.12 regnal_number = 1 }
+				ruler_term = { character = bls_thibault_ii_blois start_date = 996.3.12 end_date = 1004.7.11 regnal_number = 2 }
+				ruler_term = { character = chp_eudes_i_blois start_date = 1004.7.11 end_date = 1037.11.15 regnal_number = 2 }
+				ruler_term = { character = chp_thibault_i_blois start_date = 1037.11.15 end_date = 1089.9.30 regnal_number = 3 }
+				ruler_term = { character = bls_etienne_henri_blois start_date = 1089.9.30 end_date = 1102.5.19 regnal_name = name_stephen regnal_number = 2 }
+				ruler_term = { character = chp_thibault_ii_blois start_date = 1102.5.19 end_date = 1152.1.10 regnal_number = 4 }
+				ruler_term = { character = bls_thibault_v_blois start_date = 1152.1.10 end_date = 1191.1.20 regnal_number = 5 }
+				ruler_term = { character = bls_louis_blois start_date = 1191.1.20 end_date = 1205.4.14 regnal_number = 0 }
+				ruler_term = { character = bls_thibault_vi_blois start_date = 1205.4.14 end_date = 1218.4.1 regnal_number = 6 }
+				ruler_term = { character = bls_marguerite_blois start_date = 1218.4.1 end_date = 1230.7.1 regnal_number = 1 }
+
+				ruler_term = {
+					character = bls_marie_avesnes start_date = 1230.7.1 end_date = 1241.1.1 regnal_number = 1
+					character = bls_hugues_i_chatillon start_date = 1230.7.1 end_date = 1241.1.1 regnal_number = 1 # As Marital Co-Ruler
+				}
+
+				ruler_term = { character = bls_jean_i_chatillon start_date = 1241.1.1 end_date = 1279.6.28 regnal_number = 1 }
+				ruler_term = { character = bls_jeanne_i_chatillon start_date = 1279.6.28 end_date = 1292.1.29 regnal_number = 1 }
+				ruler_term = { character = bls_hugues_ii_chatillon start_date = 1292.1.29 end_date = 1307.1.1 regnal_number = 2 }
+				ruler_term = { character = bls_guy_i_chatillon start_date = 1307.1.1 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_theobald = 6
+					name_otto = 2
+					name_stephen = 2
+					name_louis = 1
+					name_margaret = 1
+					name_mary = 1
+					name_john = 1
+					name_joanna = 1
+					name_hugh = 2
+					name_wido = 1
+				}
+			}
+
+			accepted_cultures = {
+				french
+			}
+
+			capital = blois
+		}
+
+		#Astarac (Vassal, Fief Mouvant)
+		AST = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				regency = consort_regency
+				active_regent = mfa_cecilia_comminges
+				start_regency_date = 1330.1.1
+				end_regency_date = 1349.1.1
+				heir = ast_centule_iv_astarac
+
+				ruler_term = { character = ast_arnaud_garcia_astarac start_date = 920.1.1 end_date = 960.1.1 regnal_number = 1 }
+				ruler_term = { character = ast_garcia_arnaud_astarac start_date = 960.1.1 end_date = 975.1.1 regnal_number = 1 }
+				ruler_term = { character = ast_arnaud_ii_astarac start_date = 975.1.1 end_date = 1023.1.1 regnal_number = 2 }
+				ruler_term = { character = ast_guillaume_astarac start_date = 1023.1.1 end_date = 1072.1.1 regnal_number = 1 }
+				ruler_term = { character = ast_sanche_i_astarac start_date = 1072.1.1 end_date = 1099.1.1 regnal_number = 1 }
+				ruler_term = { character = ast_bernard_i_astarac start_date = 1099.1.1 end_date = 1142.1.1 regnal_number = 1 }
+				ruler_term = { character = ast_sanche_ii_astarac start_date = 1142.1.1 end_date = 1155.1.1 regnal_number = 2 }
+				ruler_term = { character = ast_bernard_ii_astarac start_date = 1155.1.1 end_date = 1157.1.1 regnal_number = 2 }
+				ruler_term = { character = ast_bohemond_astarac start_date = 1157.1.1 end_date = 1176.1.1 regnal_number = 1 }
+				ruler_term = { character = ast_bernard_iii_astarac start_date = 1176.1.1 end_date = 1192.1.1 regnal_number = 3 }
+				ruler_term = { character = ast_centule_i_astarac start_date = 1192.1.1 end_date = 1243.1.1 regnal_number = 1 }
+				ruler_term = { character = ast_centule_ii_astarac start_date = 1243.1.1 end_date = 1249.8.24 regnal_number = 2 }
+				ruler_term = { character = ast_bernard_iv_astarac start_date = 1249.8.24 end_date = 1291.1.1 regnal_number = 4 }
+				ruler_term = { character = ast_centule_iii_astarac start_date = 1291.1.1 end_date = 1300.1.1 regnal_number = 3 }
+				ruler_term = { character = ast_bernard_v_astarac start_date = 1300.1.1 end_date = 1331.1.1 regnal_number = 5 }
+
+				regnal_numbers = {
+					name_arnold = 2
+					name_garcia = 1
+					name_william = 1
+					name_sancho = 2
+					name_bernard = 5
+					name_bohemond = 1
+					name_centule = 3
+				}
+
+				reforms = {
+					french_ducal_vassal_reform
+				}
+			}
+			capital = mirande
+		}
+
+		#Comminges (Vassal, Fief Mouvant)
+		COM = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = semi_salic_law
+				regency = consort_regency
+				active_regent = alb_agnes_perigord
+				start_regency_date = 1336.1.1
+				end_regency_date = 1354.5.1
+				heir = com_jean_comminges
+
+				ruler_term = { character = com_arnaud_i_comminges start_date = 949.1.1 end_date = 957.1.1 regnal_number = 1 }
+				ruler_term = { character = com_roger_i_comminges start_date = 957.1.1 end_date = 979.1.1 regnal_number = 1 }
+				ruler_term = {
+					character = com_roger_i_comminges start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1 
+					character = com_arnaud_ii_comminges start_date = 979.1.1 end_date = 988.1.1 regnal_number = 2
+				}
+				ruler_term = {
+					character = com_roger_i_comminges start_date = 988.1.1 end_date = 1003.1.1 regnal_number = 1 
+					character = com_eudes_comminges start_date = 988.1.1 end_date = 1003.1.1 regnal_number = 1
+				}
+				ruler_term = {
+					character = com_roger_i_comminges start_date = 1003.1.1 end_date = 1012.1.1 regnal_number = 1 
+					character = com_eudes_comminges start_date = 1003.1.1 end_date = 1012.1.1 regnal_number = 1
+					character = com_roger_ii_comminges start_date = 1003.1.1 end_date = 1012.1.1 regnal_number = 2
+				}
+				ruler_term = {
+					character = com_eudes_comminges start_date = 1012.1.1 end_date = 1035.1.1 regnal_number = 1
+					character = com_roger_ii_comminges start_date = 1012.1.1 end_date = 1035.1.1 regnal_number = 2
+				}
+				ruler_term = { character = com_arnaud_iii_comminges start_date = 1035.1.1 end_date = 1070.1.1 regnal_number = 3 }
+				ruler_term = { character = com_roger_iii_comminges start_date = 1070.1.1 end_date = 1105.1.1 regnal_number = 3 }
+				ruler_term = { character = com_bernard_i_comminges start_date = 1105.1.1 end_date = 1145.1.1 regnal_number = 1 }
+				ruler_term = { character = com_bernard_ii_comminges start_date = 1145.1.1 end_date = 1153.1.1 regnal_number = 2 }
+				ruler_term = { character = com_bernard_iii_comminges start_date = 1153.1.1 end_date = 1176.1.1 regnal_number = 3 regnal_name = name_bernard }
+				ruler_term = { character = com_bernard_iv_comminges start_date = 1176.1.1 end_date = 1225.2.22 regnal_number = 4 }
+				ruler_term = { character = com_bernard_v_comminges start_date = 1225.2.22 end_date = 1241.11.30 regnal_number = 5 }
+				ruler_term = { character = com_bernard_vi_comminges start_date = 1241.11.30 end_date = 1295.3.20 regnal_number = 6 }
+				ruler_term = { character = com_bernard_vii_comminges start_date = 1295.3.20 end_date = 1312.7.21 regnal_number = 7 }
+				ruler_term = { character = com_bernard_viii_comminges start_date = 1312.7.21 end_date = 1336.1.1 regnal_number = 8 }
+
+				regnal_numbers = {
+					name_arnold = 3
+					name_roger = 3
+					name_otto = 1
+					name_bernard = 8
+				}
+
+				reforms = {
+					french_ducal_vassal_reform
+				}
+			}
+			capital = muret
+		}
+
+		#Isle de Jourdan (Vassal, Fief Mouvant)
+		IJO = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ijo_bernard_iv_lisle_jourdain
+
+				ruler_term = { character = ijo_odon_raymond_lisle_jourdain start_date = 1000.1.1 end_date = 1038.1.1 regnal_number = 1 }
+				ruler_term = { character = ijo_raymond_lisle_jourdain start_date = 1038.1.1 end_date = 1089.1.1 regnal_number = 1 }
+				ruler_term = { character = ijo_jourdain_i_lisle_jourdain start_date = 1089.1.1 end_date = 1132.1.1 regnal_number = 1 }
+				ruler_term = { character = ijo_bernard_i_lisle_jourdain start_date = 1132.1.1 end_date = 1161.1.1 regnal_number = 1 }
+				ruler_term = { character = ijo_jourdain_ii_lisle_jourdain start_date = 1161.1.1 end_date = 1194.1.1 regnal_number = 2 }
+				ruler_term = { character = ijo_jourdain_iii_lisle_jourdain start_date = 1194.1.1 end_date = 1205.1.1 regnal_number = 3 }
+				ruler_term = { character = ijo_bernard_ii_lisle_jourdain start_date = 1205.1.1 end_date = 1228.1.1 regnal_number = 2 }
+				ruler_term = { character = ijo_bernard_iii_lisle_jourdain start_date = 1228.1.1 end_date = 1240.1.1 regnal_number = 3 }
+				ruler_term = { character = ijo_jourdain_iv_lisle_jourdain start_date = 1240.1.1 end_date = 1271.1.1 regnal_number = 4 }
+				ruler_term = { character = ijo_jourdain_v_lisle_jourdain start_date = 1271.1.1 end_date = 1304.1.1 regnal_number = 3 }
+				ruler_term = { character = ijo_bernard_iv_lisle_jourdain start_date = 1304.1.1 regnal_number = 4 }
+
+				regnal_numbers = {
+					name_otto.name_raymond = 1
+					name_raymond = 1
+					name_jordan = 5
+					name_bernard = 4
+				}
+
+				reforms = {
+					french_ducal_vassal_reform
+				}
+			}
+
+			capital = lisle_jourdain
+		}
+
+		#Valentinois (Vassal, Fief Mouvant)
+		VLN = {
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = vln_aymar_v_poitiers
+				reforms = {
+					french_ducal_vassal_reform
+				}
+
+				ruler_term = { character = vln_eustache_poitiers start_date = 1138.1.1 end_date = 1154.1.1 regnal_number = 1 }
+				ruler_term = { character = vln_aimar_i_poitiers start_date = 1154.1.1 end_date = 1158.1.1 regnal_number = 1 }
+				ruler_term = { character = vln_guilhem_i_poitiers start_date = 1158.1.1 end_date = 1187.5.1 regnal_number = 1 }
+				ruler_term = { character = vln_aimar_ii_poitiers start_date = 1187.5.1 end_date = 1224.1.1 regnal_number = 2 }
+				ruler_term = {
+					character = vln_aimar_ii_poitiers start_date = 1224.1.1 end_date = 1227.6.1 regnal_number = 2
+					character = vln_guilhem_ii_poitiers start_date = 1224.1.1 end_date = 1227.6.1 regnal_number = 2 #Associated
+				}
+				ruler_term = { character = vln_aimar_ii_poitiers start_date = 1227.6.1 end_date = 1239.4.1 regnal_number = 2 }
+				ruler_term = { character = vln_aimar_iii_poitiers start_date = 1239.4.1 end_date = 1277.1.1 regnal_number = 3 }
+				ruler_term = { character = vln_aimar_iv_poitiers start_date = 1277.1.1 end_date = 1239.10.10 regnal_number = 4 }
+				ruler_term = { character = vln_aymar_v_poitiers start_date = 1329.10.10 regnal_number = 5 }
+
+				regnal_numbers = {
+					name_eustathius = 1
+					name_aimar = 5
+					name_william = 1
+				}
+			}
+
+			accepted_cultures = {
+				arpitan
+				auvergnat
+			}
+
+			country_rank = rank_county
+			capital = valence
+		}
+
+		#Perigord (Vassal, Fief Mouvant)
+		PRI = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = per_roger_bernard_perigord
+				
+				ruler_term = {
+					character = per_boson_i_perigord start_date = 975.1.1 end_date = 979.1.1 regnal_number = 1
+					character = per_helie_i_perigord start_date = 975.1.1 end_date = 979.1.1 regnal_number = 1
+					character = per_adalbert_i_perigord start_date = 975.1.1 end_date = 979.1.1 regnal_number = 1
+				}
+				ruler_term = {
+					character = per_boson_i_perigord start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1			
+					character = per_adalbert_i_perigord start_date = 979.1.1 end_date = 988.1.1 regnal_number = 1
+				}
+				ruler_term = { character = per_adalbert_i_perigord start_date = 988.1.1 end_date = 997.1.1 regnal_number = 1 }
+				ruler_term = { character = per_boson_ii_perigord start_date = 997.1.1 end_date = 1010.1.1 regnal_number = 2 }
+				ruler_term = { character = per_helie_ii_perigord start_date = 1010.1.1 end_date = 1031.1.1 regnal_number = 2 }
+				ruler_term = { character = per_boson_iii_perigord start_date = 1031.1.1 end_date = 1044.1.1 regnal_number = 3 }
+				ruler_term = { character = per_audebert_ii_perigord start_date = 1044.1.1 end_date = 1072.1.1 regnal_number = 2 }
+				ruler_term = { character = per_helie_iii_perigord start_date = 1072.1.1 end_date = 1104.1.1 regnal_number = 3 }
+				ruler_term = { character = per_guillaume_iii_perigord start_date = 1104.1.1 end_date = 1115.1.1 regnal_number = 3 }
+				ruler_term = { character = per_helie_v_rudel_perigord start_date = 1115.1.1 end_date = 1149.1.1 regnal_number = 5 }
+				ruler_term = { character = per_boson_iv_perigord start_date = 1149.1.1 end_date = 1166.1.1 regnal_number = 4 }
+				ruler_term = { character = per_helie_vi_perigord start_date = 1166.1.1 end_date = 1203.1.1 regnal_number = 6 }
+				ruler_term = { character = per_helie_vii_perigord start_date = 1203.1.1 end_date = 1209.1.1 regnal_number = 7 }
+				ruler_term = { character = per_archambaud_ii_perigord start_date = 1209.1.1 end_date = 1239.1.1 regnal_number = 2 }
+				ruler_term = { character = per_helie_viii_perigord start_date = 1239.1.1 end_date = 1251.1.1 regnal_number = 8 }
+				ruler_term = { character = per_archambaud_iii_perigord start_date = 1251.1.1 end_date = 1294.1.1 regnal_number = 3 }
+				ruler_term = { character = per_helie_ix_perigord start_date = 1294.1.1 end_date = 1311.1.1 regnal_number = 9 }
+				ruler_term = { character = per_archambaud_iv_perigord start_date = 1311.1.1 end_date = 1334.1.1 regnal_number = 4 }
+				ruler_term = { character = per_roger_bernard_perigord start_date = 1334.1.1 regnal_number = 1 }
+
+				regnal_numbers = {
+					#Émenon = 1
+					#Vulgrin = 1
+					name_william = 3
+					name_bernard = 1
+					name_arnold = 1
+					name_ralph = 1
+					name_richard = 1
+					name_boson = 4
+					name_elias = 9
+					name_albert = 2
+					name_archibald = 4
+					name_roger.name_bernard = 1
+				}
+
+				reforms = {
+					french_ducal_vassal_reform
+				}
+			}
+
+			accepted_cultures = {
+				languedocien
+			}
+
+			capital = perigueux
+		}
+
+		#Tonnerre (Vassal, Fief Mouvant)
+		TON = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ton_jeanne_capet
+				reforms = {
+					french_ducal_vassal_reform
+				}
+
+				ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
+				ruler_term = { character = nev_mathilde_i_courtenay start_date = 1193.2.6 end_date = 1199.10.1 regnal_number = 1 }
+				ruler_term = {
+					character = nev_mathilde_i_courtenay start_date = 1199.10.1 end_date = 1223.1.22 regnal_number = 1
+					character = nev_herve_iv_donzy start_date = 1199.10.1 end_date = 1223.1.22 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = nev_mathilde_i_courtenay start_date = 1223.1.22 end_date = 1226.1.1 regnal_number = 1 }
+				ruler_term = {
+					character = nev_mathilde_i_courtenay start_date = 1226.1.1 end_date = 1241.10.29 regnal_number = 1
+					character = frz_guigues_iv_albon start_date = 1226.1.1 end_date = 1241.10.29 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = nev_mathilde_i_courtenay start_date = 1241.10.29 end_date = 1257.7.29 regnal_number = 1 }
+
+				ruler_term = {
+					character = bou_mathilde_ii_bourbon start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 2
+					character = bur_eudes_burgundian start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = ton_marguerite_i_burgundian start_date = 1262.1.1 end_date = 1308.9.4 regnal_number = 1 }
+
+				ruler_term = { character = aux_jean_ii_chalon start_date = 1308.9.4 end_date = 1335.1.1 regnal_number = 2 }
+				ruler_term = { character = ton_jeanne_capet start_date = 1335.1.1 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_milon = 5
+					name_reginald = 1
+					name_hugh.name_reginald = 1
+					name_william = 6
+					name_wido = 1
+					name_agnes = 1
+					name_peter = 1
+					name_matilda = 2
+					name_harvey = 1
+					name_wigo = 1
+					name_otto = 1
+					name_margaret = 1
+					name_john = 2
+					name_joanna = 1
+				}
+			}
+			capital = tonnerre
+		}
+
+		#Montfort (Vassal, Fief Mouvant)
+		MON = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast_no_censor"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = mon_jean_montfort
+				reforms = {
+					french_ducal_vassal_reform
+				}
+
+				ruler_term = { character = mon_amaury_i_montfort start_date = 1050.1.1 end_date = 1053.1.1 regnal_number = 1 }
+				ruler_term = { character = mon_simon_i_montfort start_date = 1053.1.1 end_date = 1087.9.25 regnal_number = 1 }
+				ruler_term = { character = mon_amaury_ii_montfort start_date = 1087.9.25 end_date = 1089.1.1 regnal_number = 2 }
+				ruler_term = { character = mon_richard_montfort start_date = 1089.1.1 end_date = 1092.1.1 regnal_number = 1 }
+				ruler_term = { character = mon_simon_ii_montfort start_date = 1092.1.1 end_date = 1101.9.25 regnal_number = 2 }
+				ruler_term = { character = mon_amaury_iii_montfort start_date = 1101.9.25 end_date = 1137.1.1 regnal_number = 3 }
+				ruler_term = { character = mon_simon_iii_montfort start_date = 1137.1.1 end_date = 1181.3.13 regnal_number = 3 }
+				ruler_term = { character = mon_simon_iv_montfort start_date = 1181.3.13 end_date = 1218.6.25 regnal_number = 4 }
+				ruler_term = { character = mon_amaury_vi_montfort start_date = 1218.6.25 end_date = 1241.8.28 regnal_number = 3 }
+				ruler_term = { character = mon_jean_i_montfort start_date = 1241.8.28 end_date = 1249.1.1 regnal_number = 1 }
+				ruler_term = { character = mon_beatrice_montfort start_date = 1249.1.1 end_date = 1311.3.9 regnal_number = 1 }
+				ruler_term = { character = mon_yolande_montfort start_date = 1311.3.9 end_date = 1322.8.2 regnal_number = 1 }
+				ruler_term = { character = mon_jean_montfort start_date = 1322.8.2 regnal_number = 2 }
+
+				regnal_numbers = {
+					name_william = 1
+					name_amalric = 6
+					name_simeon = 4
+					name_richard = 1
+					name_john = 2
+					name_beatrix = 1
+					name_yolande = 1
+				}
+			}
+			capital = monfort_lamaury
+		}
+
+		#Aumale (Vassal, Fief Mouvant)
+		AUM = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = aum_jean_burgundy_castile
+				reforms = {
+					french_ducal_vassal_reform
+				}
+
+				ruler_term = { character = aum_etienne_i_blois start_date = 1090.1.1 end_date = 1127.1.1 regnal_number = 1 }
+				ruler_term = { character = eng_guillaume_i_blois start_date = 1127.1.1 end_date = 1179.8.20 regnal_number = 1 }
+				ruler_term = { character = eng_hawise_i_blois start_date = 1179.8.20 end_date = 1194.1.1 regnal_number = 1 }
+
+				ruler_term = { character = bgn_renaud_dammartin start_date = 1204.1.1 end_date = 1206.1.1 regnal_number = 1 }
+				ruler_term = { character = aum_simon_i_dammartin start_date = 1206.1.1 end_date = 1214.1.1 regnal_number = 1 }
+
+				ruler_term = {
+					character = aum_philippe_hurepel_clermont start_date = 1214.1.1 end_date = 1234.1.1 regnal_number = 1
+					character = bgn_mathilde_ii_dammartin start_date = 1214.1.1 end_date = 1234.1.1 regnal_number = 1 # Co-Ruler
+				}
+
+				ruler_term = { character = aum_simon_i_dammartin start_date = 1234.1.1 end_date = 1239.9.21 regnal_number = 1 } # Restored
+				ruler_term = {
+					character = aum_jeanne_i_ponthieu start_date = 1239.9.21 end_date = 1252.5.30 regnal_number = 1
+					character = cas_fernando_iii_burgundy start_date = 1239.9.21 end_date = 1252.5.30 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = {
+					character = aum_jeanne_i_ponthieu start_date = 1252.5.30 end_date = 1264.1.1 regnal_number = 1
+					character = aum_ferdinand_ii_ponthieu start_date = 1252.5.30 end_date = 1264.1.1 regnal_number = 2
+				}
+				ruler_term = {
+					character = aum_jeanne_i_ponthieu start_date = 1264.1.1 end_date = 1279.3.16 regnal_number = 1
+					character = aum_jean_i_ponthieu start_date = 1264.1.1 end_date = 1279.3.16 regnal_number = 1
+				}
+				ruler_term = { character = aum_jean_i_ponthieu start_date = 1279.3.16 end_date = 1302.7.11 regnal_number = 1 }
+				ruler_term = { character = aum_jean_burgundy_castile start_date = 1302.7.11 regnal_number = 2 }
+
+				regnal_numbers = {
+					#Guérimfred = 1
+					name_hugh = 1
+					name_enguerrand = 1
+					name_adelaide = 1
+					name_stephen = 1
+					name_william = 3
+					name_hedwig = 1
+					name_reginald = 1
+					name_simeon = 1
+					name_philip = 1
+					name_matilda = 1
+					name_joanna = 1
+					name_ferdinand = 2
+					name_john = 2
+				}
+			}
+			capital = aumale
+		}
+
+		#Roucy (Vassal, Fief Mouvant)
+		ROU = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = rou_jean_v_pierrepont
+				reforms = {
+					french_ducal_vassal_reform
+				}
+
+				ruler_term = { character = rou_robert_i_pierrepont start_date = 1204.1.1 end_date = 1204.6.1 regnal_number = 1 } # Marital Co-Ruler
+
+				ruler_term = { character = rou_jean_ii_pierrepont start_date = 1221.1.1 end_date = 1251.1.1 regnal_number = 2 }
+				ruler_term = { character = rou_jean_iii_pierrepont start_date = 1251.1.1 end_date = 1271.1.1 regnal_number = 3 }
+				ruler_term = { character = rou_jean_iv_pierrepont start_date = 1271.1.1 end_date = 1304.1.1 regnal_number = 4 }
+				ruler_term = { character = rou_jean_v_pierrepont start_date = 1304.1.1 regnal_number = 5 }
+
+				regnal_numbers = {
+					name_reginald = 1
+					#Gislebert = 1
+					name_eblo = 2
+					#Hildouin = 1
+					name_hugh = 1
+					name_guiscard = 1
+					name_ralph = 1
+					name_john = 5
+					name_eustathia = 1
+					name_enguerrand = 1
+					name_robert = 1
+
+				}
+			}
+
+			tolerated_cultures = {
+				french
+			}
+
+			capital = roucy
+		}
+
 		#Aquitaine
 		AQN = {
 			own_control_core = {
@@ -15261,6 +15839,149 @@ countries = {
 			capital = mayenne
 		}
 
+		#Valois (Revolter)
+		VLS = {
+			our_cores_conquered_by_others = {
+				soissons
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_not_present"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				ruler_term = { character = vls_jean_tristan_capet start_date = 1266.8.4 end_date = 1270.8.3 regnal_number = 1 }
+
+				ruler_term = { character = fra_charles_valois start_date = 1299.12.31 end_date = 1325.12.16 regnal_number = 1 }
+				ruler_term = { character = fra_philip_vi_valois start_date = 1325.12.16 end_date = 1328.4.1 regnal_number = 2 }
+
+				regnal_numbers = {
+					#Ermenfroi = 1
+					name_ralph = 6
+					name_herbert = 2
+					name_walter = 2
+					name_simeon = 1
+					name_adelaide = 1
+					name_hugh = 1
+					name_elizabeth = 1
+					name_eleanor = 1
+					name_philip = 2
+					name_john = 1
+					name_charles = 1
+				}
+			}
+			capital = soissons
+		}
+
+		#Perche (In PU with Alençon)
+		PRC = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast_no_censor"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+
+				ruler = ale_charles_ii_valois
+
+				ruler_term = { character = ale_pierre_i_capet start_date = 1268.3.1 end_date = 1283.4.6 regnal_number = 1 }
+
+				ruler_term = { character = fra_charles_valois start_date = 1291.1.1 end_date = 1325.12.16 regnal_number = 1 }
+				ruler_term = { character = ale_charles_ii_valois start_date = 1325.12.16 regnal_number = 2 }
+
+				regnal_numbers = {
+					name_harvey = 2
+					#Rotrou = 4
+					#Mélisende = 1
+					name_fulk = 1
+					name_godfrey = 3
+					name_hugh = 1
+					name_thomas = 1
+					name_william = 1
+					name_james = 1
+					name_peter = 1
+					name_charles = 2
+				}
+			}
+
+			tolerated_cultures = {
+				angevin
+			}
+
+			capital = belleme
+		}
+
+		#Mortain
+		MRT = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_not_present"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = nav_jeanne_ii_capet
+
+				ruler_term = { character = eng_stephen_i start_date = 1112.1.1 end_date = 1135.12.22 regnal_number = 1 }
+
+				# Annexed to Normandy 1135-1142
+
+				ruler_term = { character = anj_geoffroy_v_anjou start_date = 1142.1.1 end_date = 1144.1.19 regnal_number = 1 }
+
+				# Annexed to Normandy 1144-1154
+
+				ruler_term = { character = bgn_guillaume_i_blois start_date = 1154.10.25 end_date = 1159.10.11 regnal_number = 1 }
+
+				# Annexed to Normandy 1159-1189
+
+				ruler_term = { character = eng_john_lackland start_date = 1189.1.1 end_date = 1199.4.6 regnal_number = 1 }
+
+				# Annexed to Normandy 1199-1204, later to France 1204-1206
+
+				ruler_term = { character = bgn_renaud_dammartin start_date = 1206.1.1 end_date = 1211.1.1 regnal_number = 1 }
+
+				# Annexed to France 1211-1223
+
+				ruler_term = { character = aum_philippe_hurepel_clermont start_date = 1223.1.1 end_date = 1234.1.1 regnal_number = 1 }
+				ruler_term = { character = eng_aubrey_clermont start_date = 1234.1.1 end_date = 1242.1.1 regnal_number = 1 } # Unknown when he ceded the title to his sister
+				ruler_term = {
+					character = mrt_jeanne_clermont start_date = 1242.1.1 end_date = 1250.4.25 regnal_number = 1
+					character = mrt_gaucher_chatillon start_date = 1242.1.1 end_date = 1250.4.25 regnal_number = 1 # As Marital Co-Ruler
+				}
+				ruler_term = { character = mrt_jeanne_clermont start_date = 1250.4.25 end_date = 1252.1.1 regnal_number = 1 }
+
+				# Annexed to France 1252-1328
+
+				ruler_term = { character = nav_jeanne_ii_capet start_date = 1328.2.1 regnal_number = 2 }
+				#ruler_term = { character = nav_philip_iii_evreux start_date = 1328.2.1 regnal_number = 2 } # Marital Co-Ruler
+
+
+				regnal_numbers = {
+					name_robert = 3
+					name_richard = 1
+					name_william = 2
+					name_stephen = 1
+					name_godfrey = 1
+					name_william = 1
+					name_john = 1
+					name_reginald = 1
+					name_philip = 2
+					name_alberic = 1
+					name_joanna = 2
+					name_walter = 1
+				}
+			}
+			capital = mortain
+		}
+
 		#Artois
 		ARS = {
 			own_control_core = {
@@ -15292,6 +16013,108 @@ countries = {
 			}
 
 			capital = arras
+		}
+
+		#Saint-Pol
+		STP = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = stp_jean_chatillon
+
+				ruler_term = { character = stp_gaucher_iii_chatillon start_date = 1205.1.1 end_date = 1219.10.1 regnal_number = 1 }
+				ruler_term = { character = stp_guy_ii_chatillon start_date = 1219.10.1 end_date = 1226.8.6 regnal_number = 2 }
+				ruler_term = { character = bls_hugues_i_chatillon start_date = 1226.8.6 end_date = 1248.4.9 regnal_number = 5 }
+				ruler_term = { character = stp_guy_iii_chatillon start_date = 1248.4.9 end_date = 1289.3.12 regnal_number = 3 }
+				ruler_term = { character = bls_hugues_ii_chatillon start_date = 1289.3.12 end_date = 1292.4.7 regnal_number = 6 }
+				ruler_term = { character = stp_guy_iv_chatillon start_date = 1292.4.7 end_date = 1317.4.6 regnal_number = 4 }
+				ruler_term = { character = stp_jean_chatillon start_date = 1317.4.6 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_roger = 1
+					name_hugh = 6
+					name_wido = 4
+					name_anselm = 1
+					name_enguerrand = 1
+					name_elizabeth = 1
+					name_walter = 1
+					name_john = 1
+				}
+			}
+			capital = saint_pol
+		}
+
+		#Boulogne
+		BGN = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				regency = consort_regency
+				active_regent = auv_margaret_evreux
+				start_regency_date = 1332.8.6
+				end_regency_date = 1344.5.8
+				heir = auv_jeanne_auvergne
+
+				ruler_term = { character = eng_stephen_i start_date = 1125.1.1 end_date = 1146.12.25 regnal_number = 0 } # Marital Co-Ruler
+				ruler_term = { character = bgn_eustache_iv_blois start_date = 1146.12.25 end_date = 1153.8.17 regnal_number = 4 }
+				ruler_term = { character = bgn_guillaume_i_blois start_date = 1153.8.17 end_date = 1159.10.11 regnal_number = 1 }
+				ruler_term = { character = bgn_marie_blois start_date = 1159.10.11 end_date = 1160.1.1 regnal_number = 4 }
+				ruler_term = {
+					character = bgn_marie_blois start_date = 1160.1.1 end_date = 1170.1.1 regnal_number = 4
+					character = bgn_mathieu_alsace start_date = 1160.1.1 end_date = 1170.1.1 regnal_number = 1 # Marital Co-Ruler until 1170
+				}
+				ruler_term = { character = bgn_mathieu_alsace start_date = 1170.1.1 end_date = 1173.7.25 regnal_number = 1 } # Marital Co-Ruler until 1170
+				ruler_term = { character = bgn_ide_alsace start_date = 1173.7.25 end_date = 1190.1.1 regnal_number = 1 }
+				ruler_term = {
+					character = bgn_ide_alsace start_date = 1190.1.1 end_date = 1216.1.1 regnal_number = 1
+					character = bgn_renaud_dammartin start_date = 1190.1.1 end_date = 1216.1.1 regnal_number = 1
+				}
+				ruler_term = {
+					character = bgn_mathilde_ii_dammartin start_date = 1216.1.1 end_date = 1234.1.1 regnal_number = 2
+					character = aum_philippe_hurepel_clermont start_date = 1216.1.1 end_date = 1234.1.1 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = bgn_mathilde_ii_dammartin start_date = 1234.1.1 end_date = 1235.1.1 regnal_number = 2 }
+				ruler_term = {
+					character = bgn_mathilde_ii_dammartin start_date = 1235.1.1 end_date = 1253.1.1 regnal_number = 2
+					character = por_afonso_iii_portugal start_date = 1235.1.1 end_date = 1253.1.1 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = bgn_mathilde_ii_dammartin start_date = 1253.1.1 end_date = 1259.1.14 regnal_number = 2 }
+
+				ruler_term = { character = auv_robert_v_auvergne start_date = 1266.1.1 end_date = 1277.1.7 regnal_number = 1 }
+				ruler_term = { character = auv_guilhem_xi_auvergne start_date = 1277.1.7 end_date = 1280.1.1 regnal_number = 1 }
+				ruler_term = { character = auv_robert_vi_auvergne start_date = 1280.1.1 end_date = 1314.1.1 regnal_number = 2 }
+				ruler_term = { character = auv_robert_vii_auvergne start_date = 1314.1.1 end_date = 1325.10.13 regnal_number = 3 }
+				ruler_term = { character = auv_guilhem_xii_auvergne start_date = 1325.10.13 end_date = 1332.8.6 regnal_number = 2 }
+
+				regnal_numbers = {
+					name_baldwin = 2
+					name_arnulf = 3
+					name_eustathius = 4
+					name_matilda = 2
+					name_william = 3
+					name_mary = 1
+					name_matthew = 2
+					name_ida = 1
+					name_reginald = 1
+					name_philip = 1
+					name_alphonse = 1
+					name_adelaide = 1
+					name_robert = 3
+				}
+			}
+			capital = boulogne_sur_mer
 		}
 
 		#Poitou (Revolter)
@@ -15449,6 +16272,161 @@ countries = {
 			capital = auch
 		}
 
+		#Nevers
+		NEV = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = fla_louis_i_dampierre
+				reforms = {
+					french_ducal_vassal_reform
+				}
+
+				ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
+				ruler_term = { character = nev_mathilde_i_courtenay start_date = 1193.2.6 end_date = 1199.10.1 regnal_number = 1 }
+				ruler_term = {
+					character = nev_mathilde_i_courtenay start_date = 1199.10.1 end_date = 1223.1.22 regnal_number = 1
+					character = nev_herve_iv_donzy start_date = 1199.10.1 end_date = 1223.1.22 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = nev_mathilde_i_courtenay start_date = 1223.1.22 end_date = 1226.1.1 regnal_number = 1 }
+				ruler_term = {
+					character = nev_mathilde_i_courtenay start_date = 1226.1.1 end_date = 1241.10.29 regnal_number = 1
+					character = frz_guigues_iv_albon start_date = 1226.1.1 end_date = 1241.10.29 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = nev_mathilde_i_courtenay start_date = 1241.10.29 end_date = 1257.7.29 regnal_number = 1 }
+
+				ruler_term = {
+					character = bou_mathilde_ii_bourbon start_date = 1257.7.9 end_date = 1262.1.1 regnal_number = 2
+					character = bur_eudes_burgundian start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 1 # Marital Co-Ruler
+				}
+
+				ruler_term = { character = nev_yolande_i_burgundian start_date = 1262.1.1 end_date = 1266.8.4 regnal_number = 1 }
+				ruler_term = {
+					character = nev_yolande_i_burgundian start_date = 1266.8.4 end_date = 1270.8.3 regnal_number = 1
+					character = vls_jean_tristan_capet start_date = 1266.8.4 end_date = 1270.8.3 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = nev_yolande_i_burgundian start_date = 1270.8.3 end_date = 1272.1.1 regnal_number = 1 }
+				ruler_term = {
+					character = nev_yolande_i_burgundian start_date = 1272.1.1 end_date = 1280.6.2 regnal_number = 1
+					character = fla_robert_iii_dampierre start_date = 1272.1.1 end_date = 1280.6.2 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = nev_louis_i_dampierre start_date = 1280.6.2 end_date = 1322.7.22 regnal_number = 1 }
+				ruler_term = { character = fla_louis_i_dampierre start_date = 1322.7.22 regnal_number = 2 }
+
+				regnal_numbers = {
+					#Seguin = 2
+					name_godfrey = 1
+					name_rudolf = 1
+					#Gerberga = 1
+					#Landri = 1
+					name_reginald = 2
+					name_william = 5
+					name_wido = 1
+					name_agnes = 2
+					name_peter = 1
+					name_matilda = 2
+					name_harvey = 1
+					name_wigo = 1
+					name_walter = 1
+					name_yolande = 1
+					name_john = 1
+					name_robert = 1
+					name_louis = 2
+				}
+			}
+			capital = nevers
+		}
+
+		#Rethel
+		RET = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = fla_louis_i_dampierre
+
+				ruler_term = { character = ret_joan_rethel start_date = 1285.1.1 end_date = 1290.12.1 regnal_number = 1 }
+				ruler_term = {
+					character = ret_joan_rethel start_date = 1290.12.1 end_date = 1322.7.22 regnal_number = 1
+					character = nev_louis_i_dampierre start_date = 1290.12.1 end_date = 1322.7.22 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = ret_joan_rethel start_date = 1322.7.22 end_date = 1328.1.1 regnal_number = 1 }
+
+				ruler_term = { character = fla_louis_i_dampierre start_date = 1328.1.1 regnal_number = 2 }
+
+				regnal_numbers = {
+					name_hugh = 4
+					name_john = 1
+					name_louis = 2
+					name_manasses = 5
+					name_matilda = 1
+					name_otto = 1
+					name_walter = 1
+				}
+
+				reforms = {
+					french_ducal_vassal_reform
+				}
+			}
+			capital = rethel
+		}
+
+		EVR = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+
+				ruler = nav_philip_iii_evreux
+				reforms = {
+					french_appanage_reform
+				}
+
+				ruler_term = { character = mon_amaury_iii_montfort start_date = 1118.4.18 end_date = 1137.1.1 regnal_number = 1 }
+				ruler_term = { character = evr_amaury_iv_montfort start_date = 1137.1.1 end_date = 1140.1.1 regnal_number = 2 }
+				ruler_term = { character = mon_simon_iii_montfort start_date = 1140.1.1 end_date = 1181.3.13 regnal_number = 1 }
+				ruler_term = { character = evr_amaury_v_montfort start_date = 1181.3.13 end_date = 1182.3.13 regnal_number = 3 }
+				ruler_term = { character = eng_amaury_vi_montfort start_date = 1182.3.13 end_date = 1195.1.1 regnal_number = 4 }
+
+				# Annexed to Normandy 1195-1200, later to France 1200-1298
+
+				ruler_term = { character = evr_louis_evreux start_date = 1298.4.1 end_date = 1319.1.1 regnal_number = 1 }
+				ruler_term = { character = nav_philip_iii_evreux start_date = 1319.1.1 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_robert = 1
+					name_richard = 1
+					name_william = 1
+					name_amalric = 4
+					name_simeon = 1
+					name_louis = 1
+					name_philip = 1
+				}
+			}
+
+			tolerated_cultures = {
+				french
+			}
+
+			capital = evreux
+		}
+
 		#Normandy
 		NRM = {
 			own_control_core = {
@@ -15501,6 +16479,52 @@ countries = {
 			capital = rouen
 		}
 
+		#Narbonne
+		NRB = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = nrb_amalric_iii_lara
+
+				ruler_term = { character = cas_pedro_manrique_lara start_date = 1192.1.1 end_date = 1202.1.1 regnal_number = 2 }
+				ruler_term = { character = nrb_amalric_i_lara start_date = 1202.1.1 end_date = 1270.12.1 regnal_number = 1 }
+				ruler_term = { character = nrb_aimeric_iv_lara start_date = 1270.12.1 end_date = 1298.10.1 regnal_number = 4 }
+				ruler_term = { character = nrb_amalric_ii_lara start_date = 1298.10.1 end_date = 1328.6.19 regnal_number = 2 }
+				ruler_term = { character = nrb_aimeric_v_lara start_date = 1328.6.19 end_date = 1336.6.1 regnal_number = 5 }
+				ruler_term = { character = nrb_amalric_iii_lara start_date = 1336.6.1 regnal_number = 3 }
+
+				regnal_numbers = {
+					#Lindoin = 1
+					name_alberic = 2
+					#Mayeul = 1
+					name_otto = 1
+					#Volverade = 1
+					#Matfred = 1
+					name_raymond = 2
+					name_berengar = 1
+					name_bernard = 1
+					name_peter = 2
+					name_aimeric = 5
+					name_ermengard = 1
+					name_amalric = 3
+				}
+
+				reforms = {
+					french_ducal_vassal_reform
+				}
+			}
+			tolerated_cultures = {
+				sephardi
+			}
+			capital = narbonne
+		}
+
 		#Orleans (Revolter) Becomes an appanage in 1344
 		ORL = {
 			our_cores_conquered_by_others = {
@@ -15534,6 +16558,46 @@ countries = {
 				ruler = random
 			}
 			capital = boulogne_sur_mer
+		}
+
+		#Toulouse (Revolter)
+		TOU = {
+			our_cores_conquered_by_others = {
+				toulouse lisle_jourdain narbonne lavaur castelnaudary saint_pons beziers agde lodeve melgueil
+				nimes uzes ales castres rodez villefranche figeac cahors agen peyrusse entraigues peyre mende
+				lectoure montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon pamiers foix
+				mirepoix limoux carcassonne fenouillet montpellier chateauneuf_de_randon st_affrique millau 
+				florac ales st_ambroix
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_not_present"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				regnal_numbers = {
+					#Corson = 1
+					name_william = 4
+					#Bégon = 1
+					name_berengar = 1
+					name_bernard = 3
+					#Acfred = 1
+					#Frédolon = 1
+					name_raymond = 7
+					name_otto = 1
+					name_hugh = 1
+					name_pontius = 1
+					name_bertrand = 1
+					name_philippa = 1
+					name_alphonse.name_jordan = 1
+					name_simeon = 1
+					name_joanna = 1
+				}
+			}
+			capital = toulouse
 		}
 
 		#Champagne (Revolter)
@@ -15639,6 +16703,42 @@ countries = {
 			country_rank = rank_county
 			capital = grenoble
 		}
+
+		#Orange
+		ORA = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ora_raymond_ii_orange
+
+				ruler_term = { character = ora_bertrand_i_orange start_date = 1173.5.10 end_date = 1180.10.31 regnal_number = 1 }
+				ruler_term = { character = ora_guillaume_i_orange start_date = 1180.10.31 end_date = 1218.1.1 regnal_number = 1 }
+				ruler_term = { character = ora_guillaume_ii_orange start_date = 1218.1.1 end_date = 1239.11.1 regnal_number = 2 }
+				ruler_term = { character = ora_raymond_i_orange start_date = 1239.11.1 end_date = 1282.1.1 regnal_number = 1 }
+				ruler_term = { character = ora_bertrand_ii_orange start_date = 1282.1.1 end_date = 1314.7.21 regnal_number = 2 }
+				ruler_term = { character = ora_raymond_ii_orange start_date = 1314.7.21 regnal_number = 2 }
+
+				regnal_numbers = {
+					name_bertrand = 2
+					name_william = 2
+					name_raymond = 2
+				}
+			}
+
+			tolerated_cultures = {
+				auvergnat
+			}
+
+			country_rank = rank_county
+			capital = orange
+		}
+
 
 		#Luxembourg
 		LUX = {
@@ -15977,6 +17077,35 @@ countries = {
 
 			country_rank = rank_duchy
 			capital = liege
+		}
+
+		#Bouillon
+		BLL = {
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_western_europe"
+			include = "catholic_monarchy_no_coast"
+			government = {
+				ruler = lie_adolf_ii_von_der_mark
+
+				ruler_term = { character = lie_adolf_ii_von_der_mark start_date = 1313.1.1 regnal_number = 3 }
+
+				regnal_numbers = {
+					name_adolf = 2
+					name_frederick = 1
+					name_godfrey = 5
+					name_henry = 2
+				}
+			}
+
+			tolerated_cultures = {
+				champenais
+			}
+
+			country_rank = rank_county
+			capital = bouillon
 		}
 
 		HAB = {	
@@ -16354,7 +17483,67 @@ countries = {
 			capital = targoviste
 		}
 
-		MOL = {	#Moldova
+		BIA = {	#Baia
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}		
+			liturgical_language = church_slavonic_language
+			capital = suceava
+		}
+
+		BLD = {	#Bârlad
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}		
+			liturgical_language = church_slavonic_language
+			capital = barlad
+		}
+
+		HSC = {	#Hansca
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}		
+			liturgical_language = church_slavonic_language
+			capital = chisinau
+		}
+
+		HTN = {	#Hotin
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}		
+			liturgical_language = church_slavonic_language
+			capital = hotin
+		}
+
+		MOL = {	#Iaşi
 			own_control_core = {
 				iasi bacau cotnari dorohoi harlau husi roman stefanesti tutova vaslui
 				suceava adjud focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici
@@ -16370,6 +17559,36 @@ countries = {
 			}		
 			liturgical_language = church_slavonic_language
 			capital = iasi
+		}
+
+		SRC = {	#Soroca
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}		
+			liturgical_language = church_slavonic_language
+			capital = soroca
+		}
+
+		SSI = {	#Străşineţ
+			own_control_core = {
+			}
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}		
+			liturgical_language = church_slavonic_language
+			capital = storozhynets
 		}
 
 		TRA = { #Transylvania
@@ -16390,6 +17609,327 @@ countries = {
 			}
 			country_rank = rank_duchy
 			capital = huedin
+		}
+
+		CLI = {	#Cilli
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "catholic_monarchy_no_coast"
+			include = "german_principality"
+			government = {
+
+				ruler = cli_friderik
+				consort = cli_diemut_walsee
+
+				laws = {
+					mining_law = nobles_mining_law
+				}
+			}
+
+			tolerated_cultures = {
+				southern_bavarian
+			}
+
+			country_rank = rank_county
+			capital = celje
+
+		}
+
+		ORT = {	#Ortenburg
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "catholic_monarchy_no_coast"
+			include = "german_principality"
+			government = {
+				ruler = random
+			}
+
+			tolerated_cultures = {
+				slovene
+			}
+
+			country_rank = rank_county
+			capital = spittal
+			dynasty = von_ortenburg_dynasty
+
+		}
+
+		NEO = {	#Neopatria
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ath_william
+				heir = sic_giovanni_sicily
+				designated_heir_reason = sibling_of_ruler
+
+				ruler_term = { character = ath_william start_date = 1319.1.1 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_william = 1
+				}
+			}
+
+			tolerated_cultures = {
+				greek_culture
+			}
+
+			country_rank = rank_duchy
+			court_language = catalan_dialect
+			capital = neopatras
+		}
+
+		BOD = {	#Bodonitsa
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = bod_niccolo_i_zorzi
+				consort = bod_guglielma_pallavicini # In fact co-ruler
+
+				ruler_term = { character = bod_guido_pallavicini start_date = 1204.10.1 end_date = 1237.1.1 regnal_number = 1 }
+				ruler_term = { character = bod_ubertino_pallavicini start_date = 1237.1.1 end_date = 1278.1.1 regnal_number = 1 }
+				ruler_term = {
+					character = bod_isabella_pallavicini start_date = 1278.1.1 end_date = 1286.1.1 regnal_number = 1
+					character = ach_anton_the_flemish start_date = 1278.1.1 end_date = 1286.1.1 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = bod_tommaso_pallavicini start_date = 1286.1.1 end_date = 1300.1.1 regnal_number = 1 }
+				ruler_term = { character = bod_alberto_pallavicini start_date = 1300.1.1 end_date = 1311.3.15 regnal_number = 1 }
+
+				ruler_term = { character = bod_guglielma_pallavicini start_date = 1311.3.15 end_date = 1327.1.1 regnal_number = 1 } # In fact she ruled until 1358 together with her husband and her son.
+				ruler_term = {
+					character = bod_guglielma_pallavicini start_date = 1327.1.1 end_date = 1334.1.11 regnal_number = 1
+					character = bod_bartolomeo_zaccaria start_date = 1327.1.1 end_date = 1334.1.1 regnal_number = 1 # Marital Co-Ruler
+				}
+				ruler_term = { character = bod_guglielma_pallavicini start_date = 1334.1.1 end_date = 1335.1.1 regnal_number = 1 }
+				ruler_term = { character = bod_niccolo_i_zorzi start_date = 1335.1.1 regnal_number = 1 }
+				regnal_numbers = {
+					name_wido = 1
+					name_hubert = 1
+					name_elizabeth = 1
+					name_anthony = 1
+					name_thomas = 1
+					name_albert = 1
+					name_mary = 1
+					name_andrew = 1
+					name_willelma = 1
+					name_bartholomew = 1
+					name_nicholas = 1
+				}
+			}
+
+			tolerated_cultures = {
+				greek_culture
+			}
+
+			court_language = venetian_dialect
+			capital = bodonitsa
+		}
+
+		ARO = { #Argos
+			own_control_core = {
+			}
+			our_cores_conquered_by_others = {
+				athens megara thebes atalanti livadeia gravia
+			}
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+
+				ruler = arg_gautier_vi_brienne
+				consort = arg_margherita_taranto
+
+				ruler_term = { character = ath_gautier_v_brienne start_date = 1308.10.5 end_date = 1311.3.15 regnal_number = 1 }
+
+				ruler_term = { character = arg_gautier_vi_brienne start_date = 1311.3.15 end_date = 1311.3.15 regnal_number = 2 }
+
+				regnal_numbers = {
+					name_otto = 2
+					name_wido = 2
+					name_john = 1
+					name_william = 1
+					name_walter = 2
+				}
+			}
+
+			tolerated_cultures = {
+				greek_culture
+			}
+
+			court_language = french_language
+			capital = argos
+			dynasty = enghien_dynasty
+		}
+
+		KNI = { #Knights Hospitaller
+			own_control_core = {
+			}
+
+			include = "catholic_military_order"
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+
+			government = {
+				ruler = kni_helion_de_villeneuve
+				ruler_term = { character = kni_helion_de_villeneuve start_date = 1319.6.18 }
+
+				reforms = {
+					crusade_sea_reform
+				}
+				laws = {
+					administrative_system = tongues_policy
+					divine_cause_law = safeguard_holy_sites_policy
+					holy_mission_law = mission_on_the_high_seas_policy
+					piracy_law = state_piracy_policy
+				}
+
+				land_vs_naval = 30
+
+			}
+
+			tolerated_cultures = {
+				greek_culture
+			}
+
+			capital = rodos
+			dynasty = villeneuve_dynasty
+		}
+
+		NEG = { #Negroponte https://en.wikipedia.org/wiki/Triarchy_of_Negroponte
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = neg_pietro_dalle_carceri
+
+				ruler_term = { character = neg_pietro_dalle_carceri start_date = 1323.1.1 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_richard = 1
+					name_carintana = 1
+					name_narzotto = 1
+					name_grapella = 1
+					name_cajetan = 1
+					name_grapozzo = 1
+					name_mary = 1
+					name_andrew = 1
+					name_gilbert = 2
+					name_raven = 1
+					name_william = 2
+					name_albert = 1
+					name_beatrix = 1
+					name_john = 1
+					name_peter = 1
+					name_elizabeth = 1
+					name_bertha = 1
+					name_marinus = 2
+					name_alice = 1
+					name_george = 1
+					name_bartholomew = 1
+				}
+			}
+
+			tolerated_cultures = {
+				greek_culture
+			}
+
+			court_language = venetian_dialect
+			capital = negroponte
+		}
+
+		SAO = { #Salona
+			own_control_core = {
+			}
+
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = sao_alfons_frederic_de_arago
+
+				ruler_term = { character = sao_alfons_frederic_de_arago start_date = 1318.1.1 regnal_number = 1 }
+
+				regnal_numbers = {
+					name_thomas = 3
+					name_william = 1
+					name_roger = 1
+					name_alphonse = 1
+				}
+			}
+
+			tolerated_cultures = {
+				greek_culture maltese
+			}
+
+			court_language = catalan_dialect
+			capital = salona
+		}
+
+		TRO = { #Travunija		
+			our_cores_conquered_by_others = {
+				trebinje
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "catholic_monarchy_not_present"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			capital = trebinje
 		}
 
 		#Maghreb
