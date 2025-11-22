@@ -9,6 +9,7 @@ colors = {
 	map_CSA_dominion1 = rgb { 180 26 74 }
 	map_CAN_dominion1 = rgb { 182 22 40 }
 	map_MEX = rgb { 173 242 175 }
+	map_UCA = rgb { 90 175 255 }
 	map_GUA = rgb { 174 206 203 }
 	map_HON = rgb { 166 72 57 }
 	map_ELS = rgb { 228 229 221 }
