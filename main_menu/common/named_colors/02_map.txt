@@ -101,6 +101,8 @@ colors = {
 	map_WAL_dominion0 = rgb { 175 201 175 }
 	map_URP = rgb { 200 190 126 }
 	map_BAL = rgb { 142 140 84 }
+	map_GRE = rgb { 122 180 210 }
+	map_ION = rgb { 153 141 117 }
 
 # Italy
 	map_SRP_SAV = rgb { 97 209 251 }

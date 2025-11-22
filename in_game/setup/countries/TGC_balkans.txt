@@ -43,3 +43,19 @@ TRA = {
 	culture_definition = hungarian
 	religion_definition = catholic
 }
+
+GRE = {
+	color = map_GRE
+	color2 = rgb { 211  207  173 }
+
+	culture_definition = hungarian
+	religion_definition = catholic
+}
+
+ION = {
+	color = map_ION
+	color2 = rgb { 211  207  173 }
+
+	culture_definition = hungarian
+	religion_definition = catholic
+}
