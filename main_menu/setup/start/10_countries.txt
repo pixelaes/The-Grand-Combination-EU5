@@ -4526,140 +4526,6 @@ countries = {
 			capital = parnu
 		}
 
-		ERM = { #Ermland / Warmia
-			own_control_core = {
-			}
-
-			include = "catholic_bishopric"
-			include = "expl_northern_europe"
-			include = "eastern_european_catholic"
-
-			government = {
-				type = theocracy
-
-				ruler = erm_hermann_of_prague
-				ruler_term = {	character = erm_hermann_of_prague start_date = 1337.1.1 regnal_number = 1	}
-				regnal_numbers = {
-					name_herman = 1
-				}
-			}
-			tolerated_cultures = { pruthenian }
-			capital = lidzbark
-		}
-
-		CLN = { #Kulm / Chełmno
-			own_control_core = {
-			}
-
-			include = "catholic_bishopric_no_coast"
-			include = "expl_northern_europe"
-			include = "eastern_european_catholic"
-
-			government = {
-				type = theocracy
-
-				ruler = klm_otto
-				ruler_term = {	character = klm_otto start_date = 1323.12.23 regnal_number = 1	}
-				regnal_numbers = {
-					name_otto = 1
-				}
-			}
-
-			tolerated_cultures = {
-				greater_polish
-			}
-
-			country_rank = rank_county
-			capital = lubawa
-		}
-
-		PMS = { #Pomesania
-			own_control_core = {
-			}
-
-			include = "catholic_bishopric_no_coast"
-			include = "expl_northern_europe"
-			include = "eastern_european_catholic"
-
-			government = {
-				type = theocracy
-
-				ruler = pms_bertold_von_riesenburg
-				ruler_term = {	character = pms_bertold_von_riesenburg start_date = 1332.1.1 regnal_number = 1	}
-				regnal_numbers = {
-					name_berthold = 1
-				}
-			}
-			country_rank = rank_county
-			capital = kwidzyn
-		}
-
-		SMD = { #Samland / Samia
-			own_control_core = {
-			}
-
-			include = "catholic_bishopric"
-			include = "expl_northern_europe"
-			include = "eastern_european_catholic"
-
-			government = {
-				type = theocracy
-
-				ruler = sms_johann_clare
-				ruler_term = {	character = sms_johann_clare start_date = 1320.1.1 regnal_number = 1	}
-				regnal_numbers = {
-					name_john = 1
-				}
-			}
-			tolerated_cultures = { pruthenian }
-			country_rank = rank_county
-			capital = fischhausen
-		}
-
-		RIG = { #Riga
-			own_control_core = {
-			}
-
-			include = "catholic_republic"
-			include = "expl_northern_europe"
-			government = {
-				type = republic
-				heir_selection = oligarchic_elective
-				ruler = random
-			}
-
-			tolerated_cultures = {
-				latvian liv
-			}
-
-			country_rank = rank_duchy
-			capital = riga
-		}
-
-		ARR = { #Archbishopric of Riga https://en.wikipedia.org/wiki/Archbishopric_of_Riga
-			own_control_core = {
-			}
-
-			include = "catholic_bishopric"
-			include = "expl_northern_europe"
-
-			government = {
-				type = theocracy
-
-				ruler = rig_friedrich_von_pernstein
-				ruler_term = {	character = rig_friedrich_von_pernstein start_date = 1304.1.1 regnal_number = 1	}
-				regnal_numbers = {
-					name_frederick = 1
-				}
-			}
-
-			tolerated_cultures = {
-				latvian
-			}
-
-			capital = limbazi
-		}
-
 		KUR = { #Courland
 			own_control_core = {
 			}
@@ -4684,54 +4550,6 @@ countries = {
 			}
 
 			capital = piltene
-		}
-
-		BIO = {
-			own_control_core = {
-			}
-
-			include = "catholic_bishopric"
-			include = "expl_northern_europe"
-
-			government = {
-				type = theocracy
-
-				ruler = bio_jakob_ii
-				ruler_term = {	character = bio_jakob_ii start_date = 1322.1.1 regnal_number = 2	}
-				regnal_numbers = {
-					name_james = 2
-				}
-			}
-
-			tolerated_cultures = {
-				estonian
-			}
-
-			capital = kuressaare
-		}
-
-		BID = {
-			own_control_core = {
-			}
-
-			include = "catholic_bishopric_no_coast"
-			include = "expl_northern_europe"
-
-			government = {
-				type = theocracy
-
-				ruler = bid_engelbert_von_dolen
-				ruler_term = {	character = bid_engelbert_von_dolen start_date = 1323.1.1 regnal_number = 1	}
-				regnal_numbers = {
-					name_engelbert = 1
-				}
-			}
-
-			tolerated_cultures = {
-				estonian
-			}
-
-			capital = tartu
 		}
 
 		HSA = {	#Hansa
@@ -4773,26 +4591,6 @@ countries = {
 
 			country_rank = rank_county
 
-		}
-
-		LBB = {	#Lübeck Bishopry
-			own_control_core = {
-			}
-
-			starting_technology_level = 3
-			government = {
-				ruler = lbb_heinrich_ii_bocholt
-			}
-
-			capital = eutin
-			include = "catholic_bishopric"
-			include = "expl_northern_europe"
-
-			tolerated_cultures = {
-				polabian
-			}
-
-			country_rank = rank_county
 		}
 
 		BRA = {	#Brandenburg
@@ -4926,90 +4724,7 @@ countries = {
 			dynasty = wittelsbach_dynasty
 		}
 
-		ALL = {	#Saxony-Allstedt
-			own_control_core = {
-			}
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-				ruler = bra_ludwig_v_wittelsbach
-				consort = bra_margrethe_estric
-
-
-				ruler_term = { character = gbh_heinrich_i_braunschweig_grubenhagen start_date = 1288.1.1 end_date = 1291.1.1 regnal_number = 1 }
-				ruler_term = {
-					character = bra_otto_iv_askanier start_date = 1291.1.1 end_date = 1308.11.27 regnal_number = 1
-					character = bra_heinrich_i_askanier start_date = 1291.1.1 end_date = 1308.11.27 regnal_number = 1
-				}
-				ruler_term = { character = bra_heinrich_i_askanier start_date = 1308.11.27 end_date = 1318.2.14 regnal_number = 1 }
-				ruler_term = { character = bra_agnes_wittelsbach start_date = 1318.2.14 end_date = 1319.8.14 regnal_number = 1 }
-				ruler_term = { character = bra_heinrich_ii_askanier start_date = 1319.8.14 end_date = 1320.7.1 regnal_number = 2 }
-				ruler_term = {	character = bra_ludwig_v_wittelsbach start_date = 1323.7.8 regnal_number = 1 }
-
-				regnal_numbers = {
-					name_henry = 2
-					name_louis = 1
-					name_otto = 1
-					name_agnes = 1
-				}
-			}
-
-			country_rank = rank_county
-			capital = sangerhausen
-			dynasty = wittelsbach_dynasty
-			tolerated_cultures = {
-				markish
-			}
-		}
-
-		LDB = { #Landsberg
-			own_control_core = {
-			}
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-
-				ruler = ldb_sophie_von_brandenburg
-				consort = bru_magnus_braunschweig_wolfenbuttel
-
-				ruler_term = { character = ldb_sophie_von_brandenburg start_date = 1320.1.1 end_date = 1327.1.1 regnal_number = 1 }
-				ruler_term = {
-					character = ldb_sophie_von_brandenburg start_date = 1327.1.1 regnal_number = 1
-					#character = bru_magnus_braunschweig_wolfenbuttel start_date = 1327.1.1 regnal_number = 1 # As Marital Co-Ruler
-				}
-
-				regnal_numbers = {
-					name_conrad = 1
-					name_henry = 2
-					name_otto = 4
-					name_waldemar = 1
-					name_magnus = 1
-				}
-
-				reforms = {
-					margraviate
-				}
-
-				offensive_vs_defensive = 10
-				belligerent_vs_conciliatory = 0
-				outward_vs_inward = 0
-
-
-			}
-			country_rank = rank_county
-			capital = weissenfels
-			dynasty = askanier_dynasty
-			tolerated_cultures = {
-				sorbian
-			}
-		}
-
-		SAX = { #Meissen
+		SAX = {
 			own_control_core = {
 				meissen sayda freiberg dresden
 				pirna annaburg
@@ -5084,8 +4799,6 @@ countries = {
 
 		THU = {	#Thuringia - PU under Meissen
 			own_control_core = {
-				   apolda
-				
 			}
 
 			starting_technology_level = 3
@@ -5107,6 +4820,7 @@ countries = {
 
 		BRE = {	#Bremen
 			own_control_core = {
+				bremen
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -5122,110 +4836,6 @@ countries = {
 			}
 
 			capital = bremervorde
-		}
-
-		BRM = {	#Free Imperial Bremen City
-			own_control_core = {
-				bremen
-			}
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "expl_northern_europe"
-			include = "catholic_free_city"
-			country_rank = rank_county
-			capital = bremen
-			government = {
-				ruler = random
-			}
-		}
-
-		NSA = {	#Nassau
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
-			include = "expl_northern_europe"
-			include = "german_principality_not_present"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-
-				ruler_term = {	character = nsa_henry_ii_nassau start_date = 1198.2.1 end_date = 1250.4.26 regnal_number = 2	}
-				ruler_term = {	character = nsa_otto_i_nassau start_date = 1250.4.26 end_date = 1289.1.1 regnal_number = 1	}
-
-				regnal_numbers = {
-					name_henry = 2
-					name_otto = 1
-				}
-			}
-
-			tolerated_cultures = {
-				moselle_franconian
-			}
-
-			country_rank = rank_county
-			capital = dillenburg
-			dynasty = nassau_dynasty
-		}
-
-		BRG = {	#Berg
-			own_control_core = {
-			}
-
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-
-				ruler = brg_adolf_ix_berg
-
-				ruler_term = {	character = brg_adolf_ix_berg start_date = 1334.1.1 regnal_number = 1	}
-
-				regnal_numbers = {
-					name_adolf = 9
-					name_engelbert = 2
-					name_henry = 4
-					name_william = 1
-				}
-			}
-
-			accepted_cultures = {
-				low_franconian
-			}
-
-			country_rank = rank_county
-			capital = dusseldorf
-			dynasty = limbourg_dynasty
-		}
-
-		MAI = {	#Mainz
-			own_control_core = {
-			}
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_bishopric_no_coast"
-			include = "expl_northern_europe"
-			country_rank = rank_duchy
-			government = {
-				ruler = mai_heinrich_iii_von_virneburg
-
-				ruler_term = { character = mai_konrad_i_wittelsbach start_date = 1161.1.1 end_date = 1165.1.1 regnal_number = 1 }
-				ruler_term = { character = mai_konrad_i_wittelsbach start_date = 1183.8.23 end_date = 1200.10.25 regnal_number = 1 } # Restored
-
-				regnal_numbers = {
-					name_conrad = 1
-					name_henry = 1
-				}
-			}
-
-			tolerated_cultures = {
-				east_franconian
-				saxon
-				angrian
-			}
-
-			capital = mainz
 		}
 
 		SAA = { #Saarbrücken
@@ -5256,78 +4866,6 @@ countries = {
 			country_rank = rank_county
 			capital = saarbrucken
 			dynasty = commercy_dynasty
-		}
-
-		STE = {	#Stettin
-			own_control_core = {
-			}
-
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			country_rank = rank_duchy
-			government = {
-
-				ruler = ste_otto_i_stettin
-
-				ruler_term = {	character = pom_barnim_i_the_good start_date = 1233.1.1 end_date = 1278.1.1 regnal_number = 1	}
-				ruler_term = {	character = ste_otto_i_stettin start_date = 1294.1.1 regnal_number = 1	}
-
-				regnal_numbers = {
-					Barnim = 1
-				}
-			}
-
-			tolerated_cultures = {
-				eastern_pomeranian
-				polabian
-				western_pomeranian
-			}
-
-			capital = stettin
-			dynasty = gryf_dynasty
-		}
-
-		SHL = { #Holstein-Plön
-			our_cores_conquered_by_others = {
-				kiel heiligenhafen plon
-				stormarn segeberg rendsburg steinburg
-				pinneberg
-				heide
-			}
-
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-
-				ruler = shl_johann_iii_holstein_kiel
-
-				ruler_term = {	character = shl_gerhard_ii_holstein_kiel start_date = 1290.1.1 end_date = 1312.10.28 regnal_number = 2	}
-				ruler_term = {
-					character = shl_gerhard_iv_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 4 #Yes, there is no Gerhard III, it skips from II to IV
-					character = shl_johann_iii_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 3
-				}
-				ruler_term = { character = shl_johann_iii_holstein_kiel start_date = 1314.6.7 regnal_number = 3 }
-
-				regnal_numbers = {
-					name_gerard = 4
-					name_john = 3
-					name_adolf = 6
-				}
-			}
-
-			tolerated_cultures = {
-				polabian
-			}
-
-			country_rank = rank_county
-			capital = plon
-			dynasty = schauenburg_dynasty
 		}
 
 		SWH = {
@@ -5370,34 +4908,6 @@ countries = {
 
 			country_rank = rank_county
 			capital = plon
-			dynasty = schauenburg_dynasty
-		}
-
-		HTR = { #Holstein-Rendsburg
-			own_control_core = {
-			}
-
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-
-				ruler = shl_gerhard_iii_holstein_rendsburg
-
-				ruler_term = {	character = shl_henry_i_holstein_rendsburg start_date = 1290.1.1 end_date = 1304.8.5 regnal_number = 1	}
-				ruler_term = {	character = shl_gerhard_iii_holstein_rendsburg start_date = 1304.8.5 regnal_number = 3	}
-
-				regnal_numbers = {
-					name_gerard = 3
-					name_henry = 1
-					name_adolf = 7
-				}
-			}
-
-			country_rank = rank_county
-			capital = rendsburg
 			dynasty = schauenburg_dynasty
 		}
 
@@ -5579,63 +5089,6 @@ countries = {
 			capital = olomouc
 			include = "catholic_monarchy_no_coast"
 			include = "expl_northern_europe"
-		}
-
-		DIT = {	#Dithmarschen
-			own_control_core = {
-			}
-
-			capital = heide
-
-			include = "expl_northern_europe"
-			starting_technology_level = 2
-
-
-			government = {
-				ruler = random
-
-				type = republic
-				heir_selection = oligarchic_elective
-
-				centralization_vs_decentralization = 100
-				traditionalist_vs_innovative = -70
-				spiritualist_vs_humanist = -50
-				aristocracy_vs_plutocracy = 80
-				serfdom_vs_free_subjects = 100
-				mercantilism_vs_free_trade = 0
-				belligerent_vs_conciliatory = -20
-				quality_vs_quantity = 100
-				offensive_vs_defensive = 100
-				land_vs_naval = 0
-				capital_economy_vs_traditional_economy = 100
-				individualism_vs_communalism = 100
-				outward_vs_inward = 50
-
-				parliament = {
-					parliament_type = estate_parliament
-				}
-
-				laws = {
-					censorship = limited_censorship
-					republican_foundation_law = republicanism_policy
-					education_masses_law = basic_religious_education
-					administrative_system = autonomous_councils
-					cultural_traditions_law = civil_society
-					marriage_law = monogamous_marriage
-					heir_religion_law = heir_same_religion
-					legal_code_law = civil_law_policy
-					maritime_law = protect_trade_routes
-					piracy_law = anti_piracy_policy
-					distribution_of_power_law = dop_traditional_distribution_of_power
-					immigration_law = open_borders_law
-				}
-			}
-
-			tolerated_cultures = {
-				frisian
-			}
-
-			country_rank = rank_county
 		}
 
 		#Novgorod
@@ -39360,7 +38813,7 @@ countries = {
 
 		SWM = {	#Weimar
 			own_control_core = {
-				weimar gera eisenach
+				weimar gera eisenach apolda
 			}
 
 			starting_technology_level = 3
