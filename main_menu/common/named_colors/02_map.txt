@@ -204,6 +204,9 @@ colors = {
 	map_SLV = rgb { 20 51 146 } # Slavic Union
 	map_USS = rgb { 90 150 90 }
 
+# China
+	map_RYU = rgb { 84 96 136 }
+
 # PLACEHOLDER
 
 	#eu4 map colors
