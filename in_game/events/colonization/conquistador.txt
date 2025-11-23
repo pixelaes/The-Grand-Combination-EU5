@@ -1,0 +1,217 @@
+﻿namespace = conquistador
+
+#conquistador arrives to start kicking ass
+conquistador.1 = {
+	hide_portraits = yes
+	type = country_event
+	#called from code when a conquistador construction is completed
+	orphan = yes
+
+	title = conquistador.1.title
+	desc = conquistador.1.desc
+	
+	image = "gfx/interface/illustrations/institutions/new_world.dds"
+
+	immediate = {
+		#create the conquistador
+		if = {
+			limit = {
+				scope:target_location = {
+					is_owned_or_owned_by_subjects_of = scope:actor
+				}
+			}
+
+			#already got this location, so just join them
+			scope:target_location = {
+				owner = {
+					save_scope_as = new_conquistador
+				}
+			}
+		}
+		else = {
+			scope:actor.capital = {
+				create_army_country_in_location = {
+					reforms = {
+						conquistador_country
+					}
+					save_scope_as = new_conquistador
+					set_capital  = scope:target_location
+					set_new_ruler = scope:target
+					make_subject_of = { target = scope:actor type = subject_type:conquistador }
+				}
+			}
+		}
+
+		scope:new_conquistador = {
+			#army them up
+			scope:target_location = {
+				if = {
+					limit = {
+						current_age_or_later = { age = age_3_discovery }
+					}
+					while =  {
+						count = 10
+						create_sub_unit_with_owner = {
+							type = a_discovery_conquistadors
+							owner = scope:new_conquistador
+							origin = scope:location
+							experience = 100
+						}
+					}
+				}
+				else = {
+					while =  {
+						count = 10
+						create_sub_unit_with_owner = {
+							type = a_renaissance_conquistadors
+							owner = scope:new_conquistador
+							origin = scope:location
+							experience = 100
+						}
+					}
+				}
+			}
+
+			#after giving them the army we need to recalc the country active status
+			force_recalc_country_active_status = scope:new_conquistador
+
+			#move the character into the new country
+			scope:target = {
+				move_country = scope:new_conquistador
+			}
+
+			random_army = {
+				limit = {
+					unit_has_leader = no
+				}
+				set_as_commander = scope:target
+			}
+
+			if = {
+				limit = {
+					scope:target_location = {
+						not = { is_owned_or_owned_by_subjects_of = scope:actor }
+					}
+				}
+				#time to kick some ass
+				add_casus_belli = {	
+					target = scope:target_location.owner
+					type = casus_belli:cb_conquer_province
+					province = scope:target_location.province
+				}
+				declare_war_with_cb = {
+					target = scope:target_location.owner
+					type = casus_belli:cb_conquer_province
+				}
+			}
+		}
+	}
+
+	# bueno!
+	option = {
+		name = conquistador.1.a
+	}
+}
+
+conquistador.10 = {
+	hide_portraits = yes
+	type = location_event	
+
+	title = conquistador.10.title
+	desc = conquistador.10.desc
+	
+	
+	image = "gfx/interface/illustrations/institutions/new_world.dds"
+	
+	
+	trigger = {
+		owner ?= {
+			has_reform = government_reform:conquistador_country
+		}
+	}
+	
+	immediate = {
+		owner = {
+			overlord = {
+				save_scope_as = former_overlord
+			}
+			save_scope_as = conquistador_country
+		}
+	}
+
+
+	# keep conquering
+	option = {
+		name = conquistador.10.a
+		owner = {
+			add_manpower = { value = root.monthly_manpower multiply = 3 }
+		}
+		
+		
+		
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = -1
+				owner.num_locations > 5
+			}			
+			modifier = {
+				factor = -1
+				owner.num_locations > 8
+			}	
+		}
+
+	}
+
+
+	option = {
+		name = conquistador.10.b
+		
+		scope:former_overlord = {
+			trigger_event_silently = conquistador.11
+		}
+		show_as_tooltip = {
+			owner = {
+				remove_reform = government_reform:conquistador_country
+				make_subject_of = { target = scope:former_overlord type = subject_type:colonial_nation }
+			}
+		}
+		
+		
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 1
+				owner.num_locations > 4
+			}			
+		}
+	}
+}
+
+
+
+conquistador.11 = {
+	type = country_event	
+
+	title = conquistador.11.title
+	desc = conquistador.11.desc
+	
+	image = "gfx/interface/illustrations/institutions/new_world.dds"
+	
+	
+	option = {
+		name = conquistador.11.a
+		scope:conquistador_country = {
+			remove_reform = government_reform:conquistador_country
+			make_subject_of = { target = root type = subject_type:colonial_nation }
+		}
+		
+		historical_option = yes
+	}
+	
+	option = {
+		name = conquistador.11.b
+		add_prestige = prestige_weak_penalty
+	}
+
+}
