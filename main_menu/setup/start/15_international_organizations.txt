@@ -192,6 +192,40 @@ international_organization_manager = {
 		ruler_term = { character = pap_john_xxii start_date = 1316.8.7 end_date = 1334.12.4 regnal_number = 22 regnal_name = name_john	}
 		ruler_term = { character = pap_benedetto_xii start_date = 1334.12.20 regnal_number = 12 regnal_name = name_benedict }
 	}
+	# German Confederation
+#	add_international_organization = {
+#		type = german_confederation
+#		creation_date = 1815.6.8
+
+#		map_color = rgb { 200 165 50 }
+
+#		members = {
+#			HAB PRU SHL HAN OLD BRE HAM LAU LUB MKL MST LPP SML WDE BSW AHD AHB AHK HSK HSD FRN NAS HEH SZS SWM SCG SMN SZR RLE SAB RAL SAX BAV WUR BDE HOH HOS LTS
+#		}
+
+#		leader = HAB
+#		areas = { 
+#			#North Germany
+#			holstein_area brandenburg_area rhineland_area
+#			hesse_area westphalia_area lower_saxony_area upper_saxony_area mecklenburg_area pomerania_area
+#			# South Germany
+#			austria_area upper_austria_area salzburg_area styria_area carinthia_area tirol_area upper_rhine_area swabia_area franconia_area bavaria_area bohemia_area moravia_area
+#			#Poland
+#			silesia_area
+#		}
+#		prasidialmacht = { HAB }
+#		member = {
+#			PRU SHL HAN OLD BRE HAM LAU LUB MKL MST LPP SML WDE BSW AHD AHB AHK HSK HSD FRN NAS HEH SZS SWM SCG SMN SZR RLE SAB RAL SAX BAV WUR BDE HOH HOS LTS
+#		}
+#		
+#		laws = {
+#		}
+#
+#		ruler_term = { character = hab_albrecht_ii_habsburg start_date = 1322.9.28 regnal_number = 4 }
+#
+#		variables = { 
+#		}
+#	}
 	
 	#################################################################
 	# 				Middle Kingdom									#

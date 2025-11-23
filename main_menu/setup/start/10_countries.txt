@@ -12039,6 +12039,34 @@ countries = {
 				capital = lucca
 			}
 
+			PAR = {
+				own_control_core = {
+					parma berceto sandonnino piacenza bardi fiorenzuola
+				}
+
+				starting_technology_level = 3
+				include = "expl_mediterranean"
+				include = "expl_silk_road_west"
+				include = "expl_silk_road_center"
+				include = "expl_silk_road_east"
+				include = "expl_indian_trade_route"
+				include = "catholic_republic_not_present"
+				government = {
+					type = republic
+					heir_selection = podesta_elective
+
+					reforms = {
+						signoria_reform
+					}
+
+					ruler_term = { character = pad_guglielmo_rossi start_date = 1281.1.1 end_date = 1282.1.1 regnal_number = 0 }
+
+					ruler_term = { character = fer_obizzo_ii_este start_date = 1288.1.1 end_date = 1293.2.13 regnal_number = 0 }
+					ruler_term = { character = fer_azzo_viii_este start_date = 1293.2.13 end_date = 1306.1.1 regnal_number = 0 }
+				}
+				capital = modena
+			}
+
 			MOD = {
 				own_control_core = {
 					frassinoro modena nonantola

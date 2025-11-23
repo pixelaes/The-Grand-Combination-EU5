@@ -236,6 +236,13 @@
  AVERAGE_GREAT_POWER_SCORE: "Average Great Power Score"
  GREAT_POWER_RATIO: "Ratio of Great Power Score"
 
+ german_confederation: "German Confederation"
+ hre_desc: "Born from the ashes of the mighty Holy Roman Empire, the $german_confederation$ stands as the single official symbol of unity between the German states."
+ german_confederation_land_ownership: "Confederal Land"
+ german_confederation_land_ownership_desc: "Land owned by the German Confederation."
+ german_confederation_leadership: "German Confederation"
+ prasidialmacht: "Präsidialmacht"
+ member: "Member"
  hre: "Holy Roman Empire"
  hre_desc: "The glory of the ancient Roman Empire lives in the memory of all in [ShowContinentName('europe')]. [GetCharacter('fra_charlemagne').GetName] was crowned Roman Emperor, but it was not until the coronation of [GetCharacter('ogk_otto_liudolfinger').GetName] that the current $hre$ was born, with the ambitions of forming a revived and unified European Empire."
  hre_land_ownership: "Imperial Land"
