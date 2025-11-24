@@ -88,10 +88,10 @@ hoborg = { topography = flatland vegetation = grasslands climate = continental r
 dalaborg = { topography = flatland vegetation = woods climate = continental religion = catholic culture = swedish raw_material = livestock}
 amal = { topography = wetlands vegetation = forest climate = continental religion = catholic culture = swedish raw_material = wild_game}
 vedbo = { topography = wetlands vegetation = woods climate = continental religion = catholic culture = swedish raw_material = wild_game}
-ribe = { topography = wetlands vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = fish natural_harbor_suitability = 0.00}
-haderslev = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = horses natural_harbor_suitability = 0.00}
-aabenraa = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = legumes natural_harbor_suitability = 0.00}
-tonder = { topography = wetlands vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = sand natural_harbor_suitability = 0.00}
+ribe = { topography = wetlands vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = fish natural_harbor_suitability = 0.00
+haderslev = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = horses natural_harbor_suitability = 0.00
+aabenraa = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = legumes natural_harbor_suitability = 0.00
+tonder = { topography = wetlands vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = sand natural_harbor_suitability = 0.00
 randers = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = horses natural_harbor_suitability = 0.00}
 viborg = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = danish raw_material = wheat}
 aalborg = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = danish raw_material = livestock natural_harbor_suitability = 0.50}
@@ -125,7 +125,7 @@ svendborg = { topography = flatland vegetation = grasslands climate = oceanic re
 slesvig = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = holsatian raw_material = clay natural_harbor_suitability = 0.00}
 flensburg = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = holsatian raw_material = livestock natural_harbor_suitability = 0.75}
 eckernforde = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = holsatian raw_material = lumber natural_harbor_suitability = 0.50}
-amrum_island_wasteland = { topography = wetlands vegetation = grasslands climate = oceanic}
+amrum_island_wasteland = { topography = wetlands vegetation = grasslands climate = oceanic
 husum = { topography = wetlands vegetation = grasslands climate = oceanic religion = catholic culture = frisian raw_material = millet natural_harbor_suitability = 0.00}
 helsingborg = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = danish raw_material = wheat natural_harbor_suitability = 0.25}
 lund = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = danish raw_material = wheat}
@@ -6061,7 +6061,7 @@ spartivento_cape = { topography = inland_sea climate = mediterranean}
 gulf_squillace = { topography = inland_sea climate = mediterranean}
 coast_cephalonia = { topography = inland_sea climate = mediterranean}
 kyparissia_gulf = { topography = inland_sea climate = mediterranean}
-messinia_gulf = { topography = inland_sea climate = mediterranean}
+messinia_gulf = { topography = inland_sea climate = mediterranean
 lakonikos_gulf = { topography = inland_sea climate = mediterranean}
 ionian_sea1 = { topography = inland_sea climate = mediterranean}
 ionian_sea2 = { topography = inland_sea climate = mediterranean}
