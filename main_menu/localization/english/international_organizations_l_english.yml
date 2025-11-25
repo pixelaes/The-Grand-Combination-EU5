@@ -237,7 +237,7 @@
  GREAT_POWER_RATIO: "Ratio of Great Power Score"
 
  german_confederation: "German Confederation"
- hre_desc: "Born from the ashes of the mighty Holy Roman Empire, the $german_confederation$ stands as the single official symbol of unity between the German states."
+ german_confederation_desc: "Born from the ashes of the mighty Holy Roman Empire, the $german_confederation$ stands as the single official symbol of unity between the German states."
  german_confederation_land_ownership: "Confederal Land"
  german_confederation_land_ownership_desc: "Land owned by the German Confederation."
  german_confederation_leadership: "German Confederation"
