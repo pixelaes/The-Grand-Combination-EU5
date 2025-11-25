@@ -63,6 +63,7 @@ colors = {
 	map_UUT = rgb { 0 0 0 }
 	map_UNV = rgb { 0 0 0 }
 	map_UNM_dominion1 = rgb { 121 143 210 }
+	map_HAI = rgb { 139 179 207 }
 
 # South American States
 	map_COL = rgb { 198 113 133 }
@@ -382,7 +383,7 @@ colors = {
 	map_ORL = rgb { 216 121 139 } #same as in EU4
 	map_PIC = rgb { 184 184 122 } #same as in EU4
 	map_CHP = rgb { 166 125 154 } #same as in EU4
-	map_HAI = rgb { 103 62 185 } #same as in EU4
+	map_HNT = rgb { 103 62 185 } #same as in EU4
 	map_LOR = rgb { 115 142 205 } #same as in EU4
 	map_BOU = rgb { 0 140 165 } #same as in EU4
 	map_AUV = rgb { 218 155 75 } #same as in EU4

@@ -15,6 +15,7 @@ current_age = age_1_traditions
 countries = {
 	countries = {
 		# North America
+
 			UCA = {
 				own_control_core = {
 					acasaguastlan chiquimula cuauhtemallan guazacapan itzalku
@@ -22,7 +23,7 @@ countries = {
 					jolom_konob zapaluta tzunun_kaab otzoya chinabajul pismachi
 					chama seacal kajyub nito toquegua
 					noh_peten namaan yax_mutal pachan wak_kabnal
-					ceibal ixtutz pusilha campin tzoite paliac
+					ceibal ixtutz pusilha 
 					talanga tecohtzincalpan comayagua maniani
 					tencoa ocotepec opoa cururu shalatenan
 					chinda naco yoro ticamaya
@@ -1071,8 +1072,6 @@ countries = {
 					aha_macav
 					hwalbay
 					havasubaaja
-					tu_dotlizh_ndee
-					grand_canyon
 					piipaash
 					akimel_oodham
 					sobaipuri
@@ -1186,6 +1185,7 @@ countries = {
 					timbisha
 					kuzedika
 					tumpisa
+					fish_lake
 					havasu
 					ivanpah
 					pah_rimpi
@@ -1203,7 +1203,6 @@ countries = {
 					unkagarit
 					pio_gwut
 					seuhubeogoi
-					pagayuat
 					kawich
 					akamba
 					tsaiduka
@@ -1213,20 +1212,16 @@ countries = {
 					kupadokado
 					winnemucca
 					humbokado
-					atsa_kudok_wa
 					tipatikka
 					tsogwiyuyugi
 					kuyatikka
 					mahaguatikka
 					watatikka
-					tosa_konoki
 					tanalelti
 					powalu
 					toedokado
 					tovusidokado
 					waitikka
-					reno
-					toyabe
 					agai_ticutta
 					koop_ticutta
 					cui_yui_ticutta
@@ -1256,7 +1251,6 @@ countries = {
 					so_so_goiw
 					randolph
 					boa_ogoi
-					yuttahih
 					hazelton
 					richfield
 					pohoko_ikkatee
@@ -1279,8 +1273,6 @@ countries = {
 					tondzaosha
 					kuccuntikka
 					teewinot
-					grand_teton
-					shoshonne
 					leadore
 					kamodika
 					doyahinee
@@ -1294,13 +1286,10 @@ countries = {
 					fremont
 					gazzllatin
 					ashalaho
-					dukundeka
 					kahpota
 					moghwachi
 					taviwac
 					na_isha
-					arapaho
-					colorado
 					moanunts
 					winimuc
 					to_aheedliinii
@@ -7646,7 +7635,7 @@ countries = {
 						cairiani alubera waitu_kubuli hewanorra ichirouganaim kamahuya youloumain
 
 					# Belize
-						tzunuun altun_ha lamanai xunantunich uxwitza
+						tzunuun altun_ha lamanai xunantunich uxwitza campin tzoite paliac
 
 					# Mosquito Coast
 						karawala awastara ahuya_yari

@@ -8879,7 +8879,7 @@ character_db={
 		mother = fra_margaret_anjou
 		spouse = hai_guillaume_de_hainault
 		dynasty = valois_dynasty
-		tag = HAI
+		tag = HNT
 		ruler_trait = fierce_negotiator
 	}
 
@@ -16733,7 +16733,7 @@ character_db={
 		mother = fra_jeanne_chatillon
 		spouse = arg_walter_de_enghien
 		dynasty = de_brienne_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	arg_gautier_vi_brienne = {	
@@ -19085,7 +19085,7 @@ character_db={
 		mother = nev_yolande_i_burgundian
 		#spouse = hai_gautier_ii_de_enghien
 		dynasty = dampierre_dynasty # Should be dynasty = dampierre_flanders_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	#Lords of Termonde
@@ -78529,7 +78529,7 @@ adm = 31 dip = 34 mil = 24
 		#father = Nicolas d'Avesnes
 		#mother = Mathilde de la Roche
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	hai_gautier_ii_avesnes = {
@@ -78544,7 +78544,7 @@ adm = 31 dip = 34 mil = 24
 		father = hai_jacques_ii_avesnes
 		#mother = Adeline de Guise
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	bls_marie_avesnes = {
@@ -78574,7 +78574,7 @@ adm = 31 dip = 34 mil = 24
 		father = hai_jacques_ii_avesnes
 		#mother = Adeline de Guise
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	# Grandfather of the Count of Hainaut, Holland & Zeeland
@@ -78590,7 +78590,7 @@ adm = 31 dip = 34 mil = 24
 		father = hai_bouchard_avesnes
 		#mother = Marguerite II of Flanders
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 	}
 	
 	# Father of the Count of Hainaut, Holland & Zeeland & Former Count
@@ -78606,7 +78606,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Aleid van Holland
 		birth = valenciennes
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 		ruler_trait = lawgiver
 		ruler_trait = charismatic_negotiator
 	}
@@ -78639,7 +78639,7 @@ adm = 31 dip = 34 mil = 24
 		mother = hai_philippa_luxembourg
 		birth = valenciennes
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 		ruler_trait = lawgiver
 		ruler_trait = charismatic_negotiator
 	}
@@ -78656,7 +78656,7 @@ adm = 31 dip = 34 mil = 24
 		father = hai_guillaume_de_hainault
 		mother = hai_jeanne_valois
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 		ruler_trait = zealot
 	}
 	
@@ -78723,7 +78723,7 @@ adm = 31 dip = 34 mil = 24
 		father = hai_guillaume_de_hainault
 		mother = hai_jeanne_valois
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 	}
 	
 	# Brother of the Count of Hainaut, Holland & Zeeland
@@ -78852,7 +78852,7 @@ adm = 31 dip = 34 mil = 24
 		father = hai_bouchard_avesnes
 		#mother = Marguerite II of Flanders
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	# Grandmother of the King of Bohemia & Count of Luxembourg & mother of the Archbishop-Elector of Trier
@@ -78869,7 +78869,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Felicité de Coucy
 		spouse = lux_henry_vi_luxembourg
 		dynasty = avesnes_dynasty
-		tag = HAI
+		tag = HNT
 	}
 	
 	# HOUSE OF LUXEMBOURG (Kings of Bohemia & Counts of Luxembourg)
@@ -79113,7 +79113,7 @@ adm = 31 dip = 34 mil = 24
 		mother = lux_marguerite_scarpone
 		spouse = hai_jean_ii_de_hainault
 		dynasty = luxembourg_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	# HOUSE OF HASBURG (Dukes of Austria, Styria & Carinthia)
@@ -81714,7 +81714,7 @@ adm = 31 dip = 34 mil = 24
 		mother = brb_marie_evreux
 		spouse = hai_guillaume_ii_de_hainault
 		dynasty = reginar_dynasty
-		tag = HAI
+		tag = HNT
 	}
 
 	brb_margaretha_van_brabant = {
