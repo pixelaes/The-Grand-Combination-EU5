@@ -1,0 +1,34 @@
+steel = { 	#Late Game Steel - Needs a purpose. How about railroads? Eh?
+	category = produced
+	color = goods_steel
+	default_market_price = 5
+	transport_cost = 2
+}
+
+cement = {
+	category = produced
+	color = goods_steel
+	default_market_price = 5
+	transport_cost = 2
+}
+
+machine_parts = {
+	category = produced
+	color = goods_steel
+	default_market_price = 5
+	transport_cost = 2
+}
+
+fuel = {
+	category = produced
+	color = goods_steel
+	default_market_price = 5
+	transport_cost = 2
+}
+
+electric_gear = {
+	category = produced
+	color = goods_steel
+	default_market_price = 5
+	transport_cost = 2
+}
