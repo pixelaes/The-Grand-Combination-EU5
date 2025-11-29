@@ -12,6 +12,13 @@ cement = {
 	transport_cost = 2
 }
 
+concrete = {
+	category = produced
+	color = goods_steel
+	default_market_price = 5
+	transport_cost = 2
+}
+
 machine_parts = {
 	category = produced
 	color = goods_steel
@@ -26,7 +33,7 @@ fuel = {
 	transport_cost = 2
 }
 
-electric_gear = {
+electronic_parts = {
 	category = produced
 	color = goods_steel
 	default_market_price = 5

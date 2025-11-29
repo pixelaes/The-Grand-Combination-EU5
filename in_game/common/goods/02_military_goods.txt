@@ -61,16 +61,3 @@ tanks = {
 
 }
 
-aeroplanes_military = {
-	category = produced
-	color = goods_firearms
-	default_market_price = 3
-	transport_cost = 1.0
-	
-	demand_add = {
-		nobles = 0.2
-		soldiers = 0.001
-	}
-
-}
-

@@ -238,7 +238,7 @@ automobiles = {
 	transport_cost = 2
 }
 
-aeroplanes_commercial = {
+aeroplanes = {
 	category = produced
 	color = goods_steel
 	default_market_price = 5

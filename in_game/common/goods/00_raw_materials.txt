@@ -19,6 +19,26 @@ sand = {
 	base_production = 0.2
 }
 
+gravel = {
+	method = gathering
+	category = raw_material
+	color = goods_sand
+	default_market_price = 0.5
+	
+	base_production = 0.2
+}
+
+limestone = {
+	method = gathering
+	category = raw_material
+	color = goods_clay
+	default_market_price = 0.5
+	
+	base_production = 0.4
+	
+	ai_rgo_expansion_priority = 0.025
+}
+
 coal = {
 	method = mining
 	category = raw_material
@@ -288,7 +308,7 @@ fiber_crops = {
 	default_market_price = 2
 }
 
-# change>
+# change
 medicaments = { #Medicinal plants, Pills, Opium, Mummy Powder, etc
 	method = gathering
 	category = raw_material
